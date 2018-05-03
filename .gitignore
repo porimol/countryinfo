@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/linux,python,pycharm
 
 ### Linux ###
@@ -80,6 +79,7 @@ fabric.properties
 .idea/sonarlint
 
 ### Python ###
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -125,7 +125,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*,cover
+*.cover
 .hypothesis/
 
 # Translations
@@ -184,3 +184,5 @@ ENV/
 # Custom ignore file(s)
 RnD/
 venvp3
+# mypy
+.mypy_cache/
