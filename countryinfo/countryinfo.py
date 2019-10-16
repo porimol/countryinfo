@@ -71,9 +71,9 @@ class CountryInfo:
             # pprint(_iso)
 
             if alpha == 2:
-                return _iso['alpha2']
+                return _iso.get('alpha2')
             elif alpha == 3:
-                return _iso['alpha3']
+                return _iso.get('alpha3')
 
             return _iso
 
