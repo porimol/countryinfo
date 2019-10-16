@@ -84,10 +84,13 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _alt_spellings = self.__countries[self.__country_name]['altSpellings']
-            # pprint(_alt_spellings)
+            try:
+                _alt_spellings = self.__countries[self.__country_name]['altSpellings']
+                # pprint(_alt_spellings)
 
-            return _alt_spellings
+                return _alt_spellings
+            except KeyError:
+                return []
     
     
     def area(self):
@@ -148,7 +151,8 @@ class CountryInfo:
             # pprint(_currencies)
 
             return _currencies
-    
+
+
     
     def demonym(self):
         """Returns the demonyms for a specified country
@@ -209,15 +213,21 @@ class CountryInfo:
             # pprint(_latlng)
 
             return _latlng
-    
-    
+
+    def name(self):
+        """Returns the english name of the country as registered in the library
+
+        :return: str
+        """
+        return self.__country_name
+
     def native_name(self):
         """Returns the name of the country in its native tongue
 
         :return: str
         """
         if self.__country_name:
-            _native_name = self.__countries[self.__country_name]['nativeName']
+            _native_name = self.__countries[self.__country_name].get('nativeName')
             # pprint(_native_name)
 
             return _native_name
@@ -289,10 +299,13 @@ class CountryInfo:
         :return: dict
         """
         if self.__country_name:
-            _translations = self.__countries[self.__country_name]['translations']
-            # pprint(_translations)
+            try:
+                _translations = self.__countries[self.__country_name]['translations']
+                # pprint(_translations)
 
-            return _translations
+                return _translations
+            except KeyError:
+                return []
     
     
     def wiki(self):
