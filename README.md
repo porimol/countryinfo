@@ -130,7 +130,7 @@ country.provinces()
 ['Singapore']
 ```
 
-### .alt_pellings()
+### .alt_spellings()
 
 Returns alternate spellings for the name of a specified country
 
