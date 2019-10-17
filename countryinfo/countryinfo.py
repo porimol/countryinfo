@@ -27,10 +27,11 @@ class CountryInfo:
         self.__countries = {}
         for file_path in __files_path:
             if isfile(file_path):
-                country_info = json.load(open(file_path))
-                # pprint(country_info)
-                if country_info.get('name', None):
-                    self.__countries[country_info['name'].lower()] = country_info
+                with open(file_path, encoding='utf-8') as file:
+                    country_info = json.load(file)
+                    # pprint(country_info)
+                    if country_info.get('name', None):
+                        self.__countries[country_info['name'].lower()] = country_info
 
 
     def info(self):
@@ -70,9 +71,9 @@ class CountryInfo:
             # pprint(_iso)
 
             if alpha == 2:
-                return _iso['alpha2']
+                return _iso.get('alpha2')
             elif alpha == 3:
-                return _iso['alpha3']
+                return _iso.get('alpha3')
 
             return _iso
 
@@ -83,10 +84,13 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _alt_spellings = self.__countries[self.__country_name]['altSpellings']
-            # pprint(_alt_spellings)
+            try:
+                _alt_spellings = self.__countries[self.__country_name]['altSpellings']
+                # pprint(_alt_spellings)
 
-            return _alt_spellings
+                return _alt_spellings
+            except KeyError:
+                return []
     
     
     def area(self):
@@ -147,7 +151,8 @@ class CountryInfo:
             # pprint(_currencies)
 
             return _currencies
-    
+
+
     
     def demonym(self):
         """Returns the demonyms for a specified country
@@ -208,15 +213,21 @@ class CountryInfo:
             # pprint(_latlng)
 
             return _latlng
-    
-    
+
+    def name(self):
+        """Returns the english name of the country as registered in the library
+
+        :return: str
+        """
+        return self.__country_name
+
     def native_name(self):
         """Returns the name of the country in its native tongue
 
         :return: str
         """
         if self.__country_name:
-            _native_name = self.__countries[self.__country_name]['nativeName']
+            _native_name = self.__countries[self.__country_name].get('nativeName')
             # pprint(_native_name)
 
             return _native_name
@@ -288,10 +299,13 @@ class CountryInfo:
         :return: dict
         """
         if self.__country_name:
-            _translations = self.__countries[self.__country_name]['translations']
-            # pprint(_translations)
+            try:
+                _translations = self.__countries[self.__country_name]['translations']
+                # pprint(_translations)
 
-            return _translations
+                return _translations
+            except KeyError:
+                return []
     
     
     def wiki(self):

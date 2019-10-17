@@ -23,6 +23,7 @@ setup(
         exclude='tests'
     ),
     include_package_data=True,
+    test_suite="tests.Tests",
     data_files=[("data", data_files)],  # package data files
     url='https://github.com/porimol/countryinfo',
     license='MIT License',
