@@ -114,6 +114,11 @@ country.info()
     },
     'wiki': 'http://en.wikipedia.org/wiki/singapore'
 }
+
+# Similar can also be achieved via country code or any
+# alternate name of a country. For example, Singapur
+# would be:
+country = CountryInfo('SG')
 ```
 
 ### .provinces()
