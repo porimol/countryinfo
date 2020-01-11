@@ -1,6 +1,7 @@
 import unittest
 from countryinfo import CountryInfo
 
+
 class Tests(unittest.TestCase):
 
     all_countries = {}
@@ -54,6 +55,11 @@ class Tests(unittest.TestCase):
                 country.translations()
             except KeyError as err:
                 self.fail("Country '{0}' key error: {1}".format(name, err))
+
+    def test_select_country_from_alt_name(self):
+        country = CountryInfo('PK')
+        assert country.name() == 'pakistan'
+
 
 if __name__ == '__main__':
     unittest.main()
