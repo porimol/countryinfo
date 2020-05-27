@@ -27,11 +27,14 @@ class CountryInfo:
         self.__countries = {}
         for file_path in __files_path:
             if isfile(file_path):
-                country_info = json.load(open(file_path))
-                # pprint(country_info)
-                if country_info.get('name', None):
-                    self.__countries[country_info['name'].lower()] = country_info
-
+                with open(file_path, encoding='utf-8') as file:
+                    country_info = json.load(file)
+                    # pprint(country_info)
+                    if country_info.get('name', None):
+                        self.__countries[country_info['name'].lower()] = country_info
+                        # Update country name if it is one of alt spellings.
+                        if self.__country_name in map(lambda an: an.lower(), country_info.get('altSpellings', [])):
+                            self.__country_name = country_info['name'].lower()
 
     def info(self):
         """Returns all available information for a specified country.
@@ -44,7 +47,6 @@ class CountryInfo:
 
             return _all
 
-
     def provinces(self):
         """return provinces list
 
@@ -55,7 +57,6 @@ class CountryInfo:
             # pprint(_provinces)
 
             return _provinces
-
 
     def iso(self, alpha=None):
         """Returns ISO codes for a specified country
@@ -70,25 +71,26 @@ class CountryInfo:
             # pprint(_iso)
 
             if alpha == 2:
-                return _iso['alpha2']
+                return _iso.get('alpha2')
             elif alpha == 3:
-                return _iso['alpha3']
+                return _iso.get('alpha3')
 
             return _iso
 
-    
     def alt_spellings(self):
         """Returns alternate spellings for the name of a specified country
 
         :return: list
         """
         if self.__country_name:
-            _alt_spellings = self.__countries[self.__country_name]['altSpellings']
-            # pprint(_alt_spellings)
+            try:
+                _alt_spellings = self.__countries[self.__country_name]['altSpellings']
+                # pprint(_alt_spellings)
 
-            return _alt_spellings
-    
-    
+                return _alt_spellings
+            except KeyError:
+                return []
+
     def area(self):
         """Returns area (km²) for a specified country
 
@@ -99,8 +101,7 @@ class CountryInfo:
             # pprint(_area)
 
             return _area
-    
-    
+
     def borders(self):
         """Returns bordering countries (ISO3) for a specified country
 
@@ -111,8 +112,7 @@ class CountryInfo:
             # pprint(_borders)
 
             return _borders
-    
-    
+
     def calling_codes(self):
         """Returns international calling codes for a specified country
 
@@ -124,7 +124,6 @@ class CountryInfo:
 
             return _calling_codes
 
-    
     def capital(self):
         """Returns capital city for a specified country
 
@@ -136,6 +135,16 @@ class CountryInfo:
 
             return _capital
 
+    def capital_latlng(self):
+        """Returns capital city latitude and longitude for a specified country
+
+        :return: str
+        """
+        if self.__country_name:
+            _capital_latlng = self.__countries[self.__country_name]['capital_latlng']
+            # pprint(_capital)
+
+            return _capital_latlng
 
     def currencies(self):
         """Returns official currencies for a specified country
@@ -147,8 +156,7 @@ class CountryInfo:
             # pprint(_currencies)
 
             return _currencies
-    
-    
+
     def demonym(self):
         """Returns the demonyms for a specified country
 
@@ -159,7 +167,6 @@ class CountryInfo:
             # pprint(_demonym)
 
             return _demonym
-
 
     def flag(self):
         """Returns SVG link of the official flag for a specified country
@@ -172,8 +179,7 @@ class CountryInfo:
             # pprint(_flag)
 
             return _flag
-    
-    
+
     def geo_json(self):
         """Returns geoJSON for a specified country
 
@@ -185,7 +191,6 @@ class CountryInfo:
 
             return _geo_json
 
-    
     def languages(self):
         """Returns official languages for a specified country
 
@@ -196,8 +201,7 @@ class CountryInfo:
             # pprint(_languages)
 
             return _languages
-    
-    
+
     def latlng(self):
         """Returns approx latitude and longitude for a specified country
 
@@ -208,19 +212,24 @@ class CountryInfo:
             # pprint(_latlng)
 
             return _latlng
-    
-    
+
+    def name(self):
+        """Returns the english name of the country as registered in the library
+
+        :return: str
+        """
+        return self.__country_name
+
     def native_name(self):
         """Returns the name of the country in its native tongue
 
         :return: str
         """
         if self.__country_name:
-            _native_name = self.__countries[self.__country_name]['nativeName']
+            _native_name = self.__countries[self.__country_name].get('nativeName')
             # pprint(_native_name)
 
             return _native_name
-
 
     def population(self):
         """Returns approximate population for a specified country
@@ -233,7 +242,6 @@ class CountryInfo:
 
             return _population
 
-
     def region(self):
         """Returns general region for a specified country
 
@@ -244,8 +252,7 @@ class CountryInfo:
             # pprint(_region)
 
             return _region
-    
-    
+
     def subregion(self):
         """Returns a more specific region for a specified country
 
@@ -256,8 +263,7 @@ class CountryInfo:
             # pprint(_subregion)
 
             return _subregion
-    
-    
+
     def timezones(self):
         """Returns all timezones for a specified country
 
@@ -268,8 +274,7 @@ class CountryInfo:
             # pprint(_timezones)
 
             return _timezones
-    
-    
+
     def tld(self):
         """Returns official top level domains for a specified country
 
@@ -280,20 +285,21 @@ class CountryInfo:
             # pprint(_tld)
 
             return _tld
-    
-    
+
     def translations(self):
         """Returns translations for a specified country name in popular languages
 
         :return: dict
         """
         if self.__country_name:
-            _translations = self.__countries[self.__country_name]['translations']
-            # pprint(_translations)
+            try:
+                _translations = self.__countries[self.__country_name]['translations']
+                # pprint(_translations)
 
-            return _translations
-    
-    
+                return _translations
+            except KeyError:
+                return []
+
     def wiki(self):
         """Returns link to wikipedia page for a specified country
 
@@ -306,7 +312,6 @@ class CountryInfo:
 
             return _wiki
 
-
     def all(self):
         """return all of the countries information
 
@@ -318,7 +323,7 @@ class CountryInfo:
         return _all
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     country = CountryInfo('Singapore')
     pprint(country.all())
 

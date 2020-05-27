@@ -16,13 +16,14 @@ data_files = ['countryinfo/data/'+file for file in listdir(data_dir) if file.end
 
 setup(
     name='countryinfo',
-    version='0.1.0',
+    version='0.1.2',
     python_requires='>3.0.0',
     packages = find_packages(
         include=['countryinfo'],
         exclude='tests'
     ),
     include_package_data=True,
+    test_suite="tests.Tests",
     data_files=[("data", data_files)],  # package data files
     url='https://github.com/porimol/countryinfo',
     license='MIT License',
