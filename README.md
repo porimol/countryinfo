@@ -14,6 +14,7 @@ A python module for returning data about countries, ISO info and states/province
 * [.borders()](#borders)
 * [.calling_codes()](#calling_codes)
 * [.capital()](#capital)
+* [.capital_latlng()](#capital_latlng)
 * [.currencies()](#currencies)
 * [.demonym()](#demonym)
 * [.geojson()`](#geo_json)
@@ -83,6 +84,10 @@ country.info()
     'borders': [],
     'callingCodes': ['65'],
     'capital': 'Singapore',
+    'capital_latlng': [
+        1.357107,
+        103.819499
+    ],
     'currencies': ['SGD'],
     'demonym': 'Singaporean',
     'flag': '',
@@ -208,6 +213,21 @@ country = CountryInfo('Singapore')
 country.capital()
 # returns string
 'Singapore'
+```
+
+### .capital_latlng()
+
+Returns capital city latitude and longitude for a specified country
+
+```python
+# coding=utf-8
+from countryinfo import CountryInfo
+
+
+country = CountryInfo('Singapore')
+country.capital_latlng()
+# returns array, approx latitude and longitude for country capital
+[1.357107, 103.819499]
 ```
 
 ### .currencies()
@@ -502,6 +522,7 @@ country.all()
               'borders': ['BWA', 'MOZ', 'ZAF', 'ZMB'],
               'callingCodes': ['263'],
               'capital': 'Harare',
+              'capital_latlng': [-17.831773, 31.045686],
               'currencies': ['USD'],
               'demonym': 'Zimbabwean',
               'flag': '',
@@ -647,7 +668,7 @@ If like to contribute in a good way, then follow the following guidelines.
 ## Disclaimer
 
 This is being maintained in the contributor's free time, and as such, may contain minor errors in regards to some countries.
-Most of the information included in this library is what is listed on Wikipedia. If there is an error, 
+Most of the information included in this library is what is listed on Wikipedia. If there is an error,
 please let me know and I will do my best to correct it.
 
 ## License
