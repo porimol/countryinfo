@@ -135,6 +135,17 @@ class CountryInfo:
 
             return _capital
 
+    def capital_latlng(self):
+        """Returns capital city latitude and longitude for a specified country
+
+        :return: str
+        """
+        if self.__country_name:
+            _capital_latlng = self.__countries[self.__country_name]['capital_latlng']
+            # pprint(_capital)
+
+            return _capital_latlng
+
     def currencies(self):
         """Returns official currencies for a specified country
 

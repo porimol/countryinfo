@@ -16,7 +16,7 @@ data_files = ['countryinfo/data/'+file for file in listdir(data_dir) if file.end
 
 setup(
     name='countryinfo',
-    version='0.1.1',
+    version='0.1.2',
     python_requires='>3.0.0',
     packages = find_packages(
         include=['countryinfo'],

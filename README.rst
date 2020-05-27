@@ -20,6 +20,7 @@ APIs
 -  `.borders() <#borders>`__
 -  `.calling\_codes() <#calling_codes>`__
 -  `.capital() <#capital>`__
+-  `.capital_latlng() <#capital_latlng>`__
 -  `.currencies() <#currencies>`__
 -  `.demonym() <#demonym>`__
 -  `.geojson()\` <#geo_json>`__
@@ -223,6 +224,22 @@ Returns capital city for a specified country
     country.capital()
     # returns string
     'Singapore'
+
+.capital_latlng()
+~~~~~~~~~~~~~~~~~
+
+Returns capital city latitude and longitude for a specified country
+
+.. code:: python
+
+    # coding=utf-8
+    from countryinfo import CountryInfo
+
+
+    country = CountryInfo('Singapore')
+    country.capital_latlng()
+    # returns array, approx latitude and longitude for country capital
+    [1.357107, 103.819499]
 
 .currencies()
 ~~~~~~~~~~~~~
@@ -536,6 +553,7 @@ countries. This will be super big. Not recommended.
                   'borders': ['BWA', 'MOZ', 'ZAF', 'ZMB'],
                   'callingCodes': ['263'],
                   'capital': 'Harare',
+                  'capital_latlng': [-17.831773, 31.045686],
                   'currencies': ['USD'],
                   'demonym': 'Zimbabwean',
                   'flag': '',
