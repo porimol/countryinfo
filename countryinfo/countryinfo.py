@@ -44,7 +44,7 @@ class CountryInfo:
         if self.__country_name:
             _all = self.__countries[self.__country_name]
             # pprint(_all)
-            _all["google"] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]["name"]
+            _all['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]["name"]
 
             return _all
 
