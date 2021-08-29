@@ -330,7 +330,11 @@ class CountryInfo:
 
         :return: dict
         """
-        _all = self.__countries
+        countries = self.__countries
+        _all = []
+        for country in countries:
+            country['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]['name']
+            _all.append(country)
         # pprint(_all)
 
         return _all
