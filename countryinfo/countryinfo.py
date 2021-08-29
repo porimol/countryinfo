@@ -313,6 +313,18 @@ class CountryInfo:
 
             return _wiki
 
+    def google(self):
+        """Returns link to google page for a specified country
+
+        :return: str
+            return google url if available
+        """
+        if self.__country_name:
+            _google = "https://www.google.com/search?q=" + self.__countries[self.__country_name]['name']
+            # pprint(_google)
+
+            return _google
+
     def all(self):
         """return all of the countries information
 
