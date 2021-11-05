@@ -29,6 +29,7 @@ A python module for returning data about countries, ISO info and states/province
 * [.tld()](#tld)
 * [.translations()](#translations)
 * [.wiki()](#wiki)
+* [.google()](#google)
 * [.all()](#all)
 
 
@@ -117,7 +118,8 @@ country.info()
         'it': 'Singapore',
         'ja': 'シンガポール'
     },
-    'wiki': 'http://en.wikipedia.org/wiki/singapore'
+    'wiki': 'http://en.wikipedia.org/wiki/singapore',
+    'google': 'https://www.google.com/search?q=Singapore'
 }
 
 # Similar can also be achieved via country code or any
@@ -503,6 +505,21 @@ country.wiki()
 'http://en.wikipedia.org/wiki/singapore'
 ```
 
+### .google()
+
+Returns link to google page for a specified country
+
+```python
+# coding=utf-8
+from countryinfo import CountryInfo
+
+
+country = CountryInfo('Singapore')
+country.google()
+# returns string URL of google page on country
+'https://www.google.com/search?q=Singapore'
+```
+
 ### .all()
 
 Returns array of objects containing all available data for all countries. This will be super big. Not recommended.
@@ -624,7 +641,8 @@ country.all()
                                'fr': 'Zimbabwe',
                                'it': 'Zimbabwe',
                                'ja': 'ジンバブエ'},
-              'wiki': 'http://en.wikipedia.org/wiki/zimbabwe'}
+              'wiki': 'http://en.wikipedia.org/wiki/zimbabwe',
+              'google': 'https://www.google.com/search?q=Zimbabwe'}
 }
 ```
 

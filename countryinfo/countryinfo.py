@@ -44,6 +44,7 @@ class CountryInfo:
         if self.__country_name:
             _all = self.__countries[self.__country_name]
             # pprint(_all)
+            _all['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]["name"]
 
             return _all
 
@@ -312,12 +313,26 @@ class CountryInfo:
 
             return _wiki
 
+    def google(self):
+        """Returns link to google page for a specified country
+
+        :return: str
+            return google url if available
+        """
+        if self.__country_name:
+            _google = "https://www.google.com/search?q=" + self.__countries[self.__country_name]['name']
+            # pprint(_google)
+
+            return _google
+
     def all(self):
         """return all of the countries information
 
         :return: dict
         """
         _all = self.__countries
+        for country in _all:
+            _all.country['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]['name']
         # pprint(_all)
 
         return _all
