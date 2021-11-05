@@ -332,8 +332,7 @@ class CountryInfo:
         """
         _all = self.__countries
         for country in _all:
-            _all.country['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]['name']
-        # pprint(_all)
+            _all[country]['google'] = "https://www.google.com/search?q=" + self.__countries[country]['name']
 
         return _all
 
