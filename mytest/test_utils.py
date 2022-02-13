@@ -115,27 +115,10 @@ def all_country( dry_run=True ):
           if file_path is None:
             file_path = country_info_file_from_name( iso3 )
             if file_path == None:
-#              file_name = f"{name.lower()}.json"
-#              file_name = file_name.replace(' ', '_' ) 
-#              file_name = file_name.replace(',', '' ) 
-#              file_name = file_name.replace('.', '' ) 
-#              file_name = file_name.replace('(', '' ) 
-#              file_name = file_name.replace(')', '' ) 
-#              file_name = file_name.replace('.', '' )
               file_name = file_name_from_country_name( name ) 
               print( f"creating a new file {file_name}" )
               file_path = join( country_file_dir, f"{file_name}" )
       country_info = load_country_info_from_file( file_path )
-##      if exists( file_path ) :   
-##        if getsize( file_path ) > 0:
-##          with open( file_path, 'rt', encoding='utf-8') as f:
-##            country_info = json.load( f )
-##        else:
-###          print( f"{file_path}: is void and can be removed" )
-##          country_info = {}
-##      else:
-##        country_info = {}
-      ## checking ISO
       iso_dict = { 'alpha2' : iso2, 'alpha3' : iso3 }
       if 'ISO' not in country_info.keys() :
         print( f"{file_path}: 'ISO' key not found -> "\
@@ -171,15 +154,38 @@ def all_country( dry_run=True ):
           with open( file_path, 'wt', encoding='utf-8') as f:
             json.dump( country_info, f, indent=2 )
 
-def check_icann_designation():
+def check_alt_designation( name_transformed=False ):
   """ ensures country lists used by ICANN enables a countryInfo lookup
 
   """
-  with open( 'icann_country_list_u.txt', 'rt', encoding='utf8' ) as f:
+
+  with open( 'country_list_u.txt', 'rt', encoding='utf8' ) as f:
     for country_name in f.readlines():
+      if name_transformed is True:
+        country_name = country_name.strip( )
+        ## it seems that (Republic of) is also used instead of the official ", Republic of" 
+        if ' (' in country_name.lower() and ')' in country_name.lower():
+          country_name = country_name.replace( ' (', ', ' )
+          country_name = country_name.replace( ')', '' )
+        if 'ivoire' in country_name.lower() :
+          country_name = "C\u00f4te d'Ivoire"
+        elif country_name.lower() == 'curacao' :
+          country_name = "Curaçao"
+        elif 'holy see' in country_name.lower() or \
+             'vatican' in country_name.lower():
+          country_name = "Holy See (Vatican City State)"
+        elif 'hong kong' in country_name.lower():
+          country_name = "Hong Kong"
+        ## korea is usually understood as replublic of korea
+        elif country_name.lower().strip() == 'korea' :
+#          ( 'korea' in country_name.lower() and 'republic' in country_name.lower()) :
+          country_name = "Republic of Korea"
+        elif 'northern' in country_name.lower() and 'ireland' in country_name.lower() :
+          country_name = "United Kingdom of Great Britain and Northern Ireland"
       try: 
-        country = CountryInfo( country_name )
-        country.info()
+        country = CountryInfo( country_name.strip() )
+        country.iso( )
+#        country.info()
       except Exception as e:
         print( f"Cannot find countryInfo for {country_name}" )
 
@@ -300,9 +306,9 @@ def capital_latlng(  dry_run=True ):
 
 ## Check all countries have an entry with name and country code. 
 ## All countries can be instantiated with name, country codes
-all_country( dry_run=False)
+#all_country( dry_run=False)
 ## Check designation used by ICANN are included
-#check_icann_designation()
+check_alt_designation( name_transformed=True )
 ## check most countries have there capital filled
 #most_capital( dry_run=True)
 ## check every country_info entry have a capital and associated latitude longitude
