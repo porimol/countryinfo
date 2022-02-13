@@ -1,1 +1,54 @@
-{"name":"Réunion","altSpellings":["RE","Reunion"],"area":null,"borders":[],"callingCodes":["262"],"capital":"Saint-Denis","capital_latlng":[48.935773,2.358023],"currencies":["EUR"],"demonym":"French","flag":"","geoJSON":{},"ISO":{"alpha2":"RE","alpha3":"REU"},"languages":["fr"],"latlng":[-21.15,55.5],"nativeName":"La Réunion","population":840974,"provinces":["Reunion"],"region":"Africa","subregion":"Eastern Africa","timezones":null,"tld":[".re"],"translations":{"de":"Réunion","es":"Reunión","fr":"Réunion","ja":"レユニオン","it":"Riunione"},"wiki":"http://en.wikipedia.org/wiki/reunion"}
+{
+  "name": "R\u00e9union",
+  "altSpellings": [
+    "RE",
+    "Reunion",
+    "REU"
+  ],
+  "area": null,
+  "borders": [],
+  "callingCodes": [
+    "262"
+  ],
+  "capital": "Saint-Denis",
+  "capital_latlng": [
+    48.935773,
+    2.358023
+  ],
+  "currencies": [
+    "EUR"
+  ],
+  "demonym": "French",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "RE",
+    "alpha3": "REU"
+  },
+  "languages": [
+    "fr"
+  ],
+  "latlng": [
+    -21.15,
+    55.5
+  ],
+  "nativeName": "La R\u00e9union",
+  "population": 840974,
+  "provinces": [
+    "Reunion"
+  ],
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "timezones": null,
+  "tld": [
+    ".re"
+  ],
+  "translations": {
+    "de": "R\u00e9union",
+    "es": "Reuni\u00f3n",
+    "fr": "R\u00e9union",
+    "ja": "\u30ec\u30e6\u30cb\u30aa\u30f3",
+    "it": "Riunione"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/reunion"
+}

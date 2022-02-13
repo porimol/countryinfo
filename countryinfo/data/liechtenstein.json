@@ -1,1 +1,70 @@
-{"name":"Liechtenstein","altSpellings":["LI","Principality of Liechtenstein","Fürstentum Liechtenstein"],"area":160,"borders":["AUT","CHE"],"callingCodes":["423"],"capital":"Vaduz","capital_latlng":[47.139286,9.522796],"currencies":["CHF"],"demonym":"Liechtensteiner","flag":"","geoJSON":{},"ISO":{"alpha2":"LI","alpha3":"LIE"},"languages":["de"],"latlng":[47.26666666,9.53333333],"nativeName":"Liechtenstein","population":37132,"provinces":["Balzers","Eschen","Gamprin","Mauren","Planken","Ruggell","Schaan","Schellenberg","Triesen","Triesenberg","Vaduz"],"region":"Europe","subregion":"Western Europe","timezones":["UTC+01:00"],"tld":[".li"],"translations":{"de":"Liechtenstein","es":"Liechtenstein","fr":"Liechtenstein","ja":"リヒテンシュタイン","it":"Liechtenstein"},"wiki":"http://en.wikipedia.org/wiki/liechtenstein"}
+{
+  "name": "Liechtenstein",
+  "altSpellings": [
+    "LI",
+    "Principality of Liechtenstein",
+    "F\u00fcrstentum Liechtenstein",
+    "LIE"
+  ],
+  "area": 160,
+  "borders": [
+    "AUT",
+    "CHE"
+  ],
+  "callingCodes": [
+    "423"
+  ],
+  "capital": "Vaduz",
+  "capital_latlng": [
+    47.139286,
+    9.522796
+  ],
+  "currencies": [
+    "CHF"
+  ],
+  "demonym": "Liechtensteiner",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "LI",
+    "alpha3": "LIE"
+  },
+  "languages": [
+    "de"
+  ],
+  "latlng": [
+    47.26666666,
+    9.53333333
+  ],
+  "nativeName": "Liechtenstein",
+  "population": 37132,
+  "provinces": [
+    "Balzers",
+    "Eschen",
+    "Gamprin",
+    "Mauren",
+    "Planken",
+    "Ruggell",
+    "Schaan",
+    "Schellenberg",
+    "Triesen",
+    "Triesenberg",
+    "Vaduz"
+  ],
+  "region": "Europe",
+  "subregion": "Western Europe",
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "tld": [
+    ".li"
+  ],
+  "translations": {
+    "de": "Liechtenstein",
+    "es": "Liechtenstein",
+    "fr": "Liechtenstein",
+    "ja": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3",
+    "it": "Liechtenstein"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/liechtenstein"
+}
