@@ -189,6 +189,75 @@ def check_alt_designation( name_transformed=False ):
       except Exception as e:
         print( f"Cannot find countryInfo for {country_name}" )
 
+def detect_empty_and_unexpected_files( ):
+  for file_name in listdir( country_file_dir ) :
+    file_path = join( country_file_dir, file_name )
+    if getsize( file_path ) == 0:
+      print( f"{file_name}: Empty file" )
+      continue
+    try: 
+      country_info = load_country_info_from_file( file_path )
+    except Exception as e:
+      print( f"{file_name} unable to load file." ) 
+      
+    for k in [ 'ISO', 'altSpellings', 'name' ] :
+      if k not in country_info.keys():
+        print( f"{file_path} : unexpected format no key {k} -- {country_info}" )
+
+def detecting_double_and_void_files( ):
+  """check files that are emtpy or that share (at least one) iso code
+
+  file with NO iso codes are ignored.
+  """
+
+  for file_name in listdir( country_file_dir ) :
+    if '.json' not in file_name:
+      continue
+    file_path = join( country_file_dir, file_name )
+    if getsize( file_path ) == 0:
+      print( f"Empty file {file_name}" )
+      continue
+    try: 
+      country_info = load_country_info_from_file( file_path )
+    except Exception as e:
+      print( f"{file_path} : unable to load country_info" )
+      continue
+    
+    try: 
+      iso2 = country_info[ 'ISO' ][ 'alpha2' ]
+    except KeyError:
+      iso2 = None
+    try: 
+      iso3 = country_info[ 'ISO' ][ 'alpha3' ]
+    except KeyError:
+      iso3 = None
+    if iso2 is None and iso3 is None:
+      continue
+    for file_name_bis in listdir( country_file_dir ) :
+      if file_name_bis == file_name :
+        continue
+      if '.json' not in file_name_bis:
+        continue
+      file_path_bis = join( country_file_dir, file_name_bis )
+      try:
+        country_info_bis = load_country_info_from_file( file_path_bis )
+      except Exception as e:
+        print( f"{file_path_bis} : unable to load country_info" )
+        continue
+      try: 
+        iso2_bis = country_info_bis[ 'ISO' ][ 'alpha2' ]
+      except KeyError:
+        iso2_bis = None
+      try: 
+        iso3_bis = country_info_bis[ 'ISO' ][ 'alpha3' ]
+      except KeyError:
+        iso3_bis = None
+      iso_bis = country_info_bis[ 'ISO' ][ 'alpha2' ]
+      if iso2_bis is None and iso3_bis is None:
+        continue
+      if iso2_bis == iso2 or iso3_bis == iso3 :
+        print( f"Check duplication:  {file_name} and {file_name_bis}" )
+
 
 def proposed_value( country_info, key, proposed_value ):
   """ check the presence of proposed_value under key
@@ -308,7 +377,11 @@ def capital_latlng(  dry_run=True ):
 ## All countries can be instantiated with name, country codes
 #all_country( dry_run=False)
 ## Check designation used by ICANN are included
-check_alt_designation( name_transformed=True )
+# check_alt_designation( name_transformed=True )
+## Detection of empty or unexpected files
+#detect_empty_and_unexpected_files( )
+## Check duplicated files /empty files
+detecting_double_and_void_files( )
 ## check most countries have there capital filled
 #most_capital( dry_run=True)
 ## check every country_info entry have a capital and associated latitude longitude

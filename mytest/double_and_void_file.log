@@ -1,0 +1,20 @@
+Check duplication:  congo.json and congo_republic_of_the.json
+Check duplication:  congo_republic_of_the.json and congo.json
+  +-> 
+>>> for k in c.keys():
+...   if cro[ k ] != c[ k ]:
+...     print( f"-- congo.json {c[k]}" )
+...     print( f"--congo_republic_of_the.json {cro[k] }" )
+...
+-- congo.json ['CD', 'DR Congo', 'Congo-Kinshasa', 'DRC', 'COD', 'Congo, The Democratic Republic of the', 'Congo, Democratic Republic of the']
+--congo_republic_of_the.json ['CD', 'DR Congo', 'Congo-Kinshasa', 'DRC']
+-- congo.json https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo
+--congo_republic_of_the.json http://en.wikipedia.org/wiki/congo_republic_of_the
+>>>
+congo.json is more complete so we keep congo.json and remoce congo_republic_of_the.json
+
+Check duplication:  hungary.json and howland_island.json
+Check duplication:  howland_island.json and hungary.json
+  +-> howland.json contained most of the hungary informations. Only the wikipedia link and the provinces 
+     fields were related to howland. hungary.json only contained ISO and a list of provinces. 
+     files have been merged, into hungary.json, howland has been removed. 
