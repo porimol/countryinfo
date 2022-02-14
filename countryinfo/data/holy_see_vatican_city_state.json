@@ -6,6 +6,44 @@
   "name": "Holy See (Vatican City State)",
   "altSpellings": [
     "VA",
-    "VAT"
-  ]
+    "VAT", 
+    "Holy See", 
+    "Holy See, Vatican City State"
+  ], 
+  "area": 0.49,
+  "borders": [
+    "ITA"
+  ],
+  "callingCodes": [
+    "379"
+  ],
+  "capital": "Vatican City State",
+  "capital_latlng": [
+    41.90244,
+    12.45389
+  ],
+  "currencies": [
+    "EUR"
+  ],
+  "demonym": "",
+  "languages": [
+    "it"
+  ],
+  "latlng": [
+    41.90244,
+    12.45389
+  ],
+  "nativeName": "Stato della Città del Vaticano",
+  "population": 453,
+  "provinces": [
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "tld": [
+    ".va"
+  ],  
+  "wiki": "http://en.wikipedia.org/wiki/Vatican_City"
 }

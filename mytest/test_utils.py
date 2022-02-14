@@ -32,22 +32,26 @@ def country_info_file_from_name( country_name ):
   for file_name in listdir( country_file_dir ) :
     file_path = join( country_file_dir, file_name )
     if isfile(file_path) and 'json' in file_name :
-      with open( file_path, 'rt', encoding='utf-8') as f:
-        country_info = json.load( f )
-        if 'name' in country_info.keys() :
-          if country_info[ 'name' ] is not None:
-            if country_name.lower()  == country_info[ 'name' ].lower() :
+      try: 
+        with open( file_path, 'rt', encoding='utf-8') as f:
+          country_info = json.load( f )
+          if 'name' in country_info.keys() :
+            if country_info[ 'name' ] is not None:
+              if country_name.lower()  == country_info[ 'name' ].lower() :
+                return file_path
+          if 'altSpellings' in country_info.keys() :
+            if country_name in country_info[ 'altSpellings' ] :
               return file_path
-        if 'altSpellings' in country_info.keys() :
-          if country_name in country_info[ 'altSpellings' ] :
-            return file_path
-        if 'ISO' in country_info.keys() :
-          if 'alpha2' in country_info[ 'ISO' ].keys() :
-            if  country_name == country_info[ 'ISO' ][ 'alpha2' ] :
-              return file_path
-          if 'alpha3' in country_info[ 'ISO' ].keys() :
-            if  country_name == country_info[ 'ISO' ][ 'alpha3' ] :
-              return file_path
+          if 'ISO' in country_info.keys() :
+            if 'alpha2' in country_info[ 'ISO' ].keys() :
+              if  country_name == country_info[ 'ISO' ][ 'alpha2' ] :
+                return file_path
+            if 'alpha3' in country_info[ 'ISO' ].keys() :
+              if  country_name == country_info[ 'ISO' ][ 'alpha3' ] :
+                return file_path
+      except Exception as e:
+        print( f" unable to load {file_path}" )
+        raise ValueError(e)
   return None
 
 
@@ -259,7 +263,7 @@ def detecting_double_and_void_files( ):
         print( f"Check duplication:  {file_name} and {file_name_bis}" )
 
 
-def proposed_value( country_info, key, proposed_value ):
+def proposed_value( country_info, key, proposed_value, dry_run=True):
   """ check the presence of proposed_value under key
 
   If the key does not exist or value is empty, creates country_info[ key ] = proposed_value.
@@ -269,15 +273,22 @@ def proposed_value( country_info, key, proposed_value ):
     if country_info[ key ] not in [ "", None ] and\
        country_info[ key ] != proposed_value :
       if dry_run is False :
-        confirmation = input( f"{file_path}: different capital -> "\
-               f"replacing {country_info[ 'capital' ]} by {name} ? y/n" )
+        confirmation = input( f"{country_info[ 'name' ]} : different value found -> "\
+               f"replacing {country_info[ key ]} by {proposed_value} ? y/n" )
         if confirmation == 'y':
           country_info[ key ] = proposed_value
-    else:
-      print( f"{file_path}: different capital -> "\
-             f"replacing {country_info[ 'capital' ]} by {name} ?" )
+      else:
+        print( f"{country_info[ 'name' ]} : different value found -> "\
+             f"replacing {country_info[ key ]} by {proposed_value} ?" )
   else: 
-    country_info[ 'capital' ] = capital
+    if dry_run is False :
+      confirmation = input( f"{country_info[ 'name' ]} :  {key} not found or empty value  -> adding "\
+        f"country_info[ {key} ] = {proposed_value} ? y/n" )
+      if confirmation == 'y':
+        country_info[ key ] = proposed_value
+    print( f"{country_info[ 'name' ]} : {key} not found or empty value  -> adding "\
+           f"country_info[ {key} ] = {proposed_value} ? " )
+    country_info[ key ] = proposed_value
   return country_info
 
 def most_capital( dry_run=True):
@@ -287,7 +298,7 @@ def most_capital( dry_run=True):
     https://gist.github.com/pamelafox/986163
 
   """
-  with open( file_path, 'rt', encoding='utf-8') as f:
+  with open( 'pamelafox_country_info.json', 'rt', encoding='utf-8') as f:
     country_list = json.load( f )
   for country in country_list:
     name = country[ 'name' ]
@@ -300,7 +311,9 @@ def most_capital( dry_run=True):
       file_name = file_name_from_country_name( country_name ) 
       print( f"creating a new file {file_name}" )
       file_path = join( country_file_dir, f"{file_name}" )
-    country_info = load_country_info_from_file( file_path )
+      country_info = {}
+    else:
+      country_info = load_country_info_from_file( file_path )
    
     if 'name' in country_info.keys() : 
       if country_info[ 'name' ] in [ None, "" ] :
@@ -324,8 +337,12 @@ def most_capital( dry_run=True):
         print( f"{file_path}: unknown designation {name} -> "\
                f"creating country_info[ 'altSpellings' ] = [ {name} ]" )
         country_info[ 'altSpellings' ] = [ name ]
-    country_info = proposed_value( country_info, 'capital', capital )
-    country_info = proposed_value( country_info, 'region', region )
+    country_info = proposed_value( country_info, 'capital', capital, dry_run=dry_run)
+    if 'region' in country_info.keys():
+      if country_info[ 'region' ] == 'Americas' :
+        country_info = proposed_value( country_info, 'subregion', region, dry_run=dry_run )
+    else:
+      country_info = proposed_value( country_info, 'region', region, dry_run=dry_run )
 
     if dry_run is False :
       confirmation = input( 'Confirm overwriting : y /[n]' )
@@ -375,15 +392,15 @@ def capital_latlng(  dry_run=True ):
 
 ## Check all countries have an entry with name and country code. 
 ## All countries can be instantiated with name, country codes
-#all_country( dry_run=False)
+## all_country( dry_run=True)
 ## Check designation used by ICANN are included
 # check_alt_designation( name_transformed=True )
 ## Detection of empty or unexpected files
 #detect_empty_and_unexpected_files( )
 ## Check duplicated files /empty files
-detecting_double_and_void_files( )
+# detecting_double_and_void_files( )
 ## check most countries have there capital filled
-#most_capital( dry_run=True)
+most_capital( dry_run=True)
 ## check every country_info entry have a capital and associated latitude longitude
 ## and check the value is appropriated.
 #capital_latlng(  dry_run=True ):
