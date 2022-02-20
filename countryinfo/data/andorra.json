@@ -45,5 +45,12 @@
   "tld": [
     ".ad"
   ],
-  "wiki": "https://en.wikipedia.org/wiki/Andorra"
+  "wiki": "https://en.wikipedia.org/wiki/Andorra",
+  "translations": {
+    "de": "Andorra",
+    "es": "Andorra",
+    "fr": "Andorre",
+    "ja": "\u30a2\u30f3\u30c9\u30e9",
+    "it": "Andorra"
+  }
 }

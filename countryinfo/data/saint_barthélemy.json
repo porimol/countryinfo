@@ -1,4 +1,6 @@
 {
+  "capital": "Gustavia",
+  "capital_latlng": [ 17.89827, -62.85274],
   "ISO": {
     "alpha2": "BL",
     "alpha3": "BLM"

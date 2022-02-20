@@ -3,6 +3,8 @@ from os.path import exists, join, isfile, getsize
 import sys
 import json 
 import pycountry
+from time import sleep
+
 sys.path.insert(0, './../countryinfo')
 from countryinfo import CountryInfo
 
@@ -263,7 +265,7 @@ def detecting_double_and_void_files( ):
         print( f"Check duplication:  {file_name} and {file_name_bis}" )
 
 
-def proposed_value( country_info, key, proposed_value, dry_run=True):
+def proposed_value( country_info, key, proposed_value, dry_run=True, file_path=""):
   """ check the presence of proposed_value under key
 
   If the key does not exist or value is empty, creates country_info[ key ] = proposed_value.
@@ -272,22 +274,23 @@ def proposed_value( country_info, key, proposed_value, dry_run=True):
   if key in country_info.keys() :
     if country_info[ key ] not in [ "", None ] and\
        country_info[ key ] != proposed_value :
+      txt = f"{file_path} : {country_info[ 'name' ]} : different value found for {key}-> "\
+            f"replacing {country_info[ key ]} by {proposed_value} ? y/n"
       if dry_run is False :
-        confirmation = input( f"{country_info[ 'name' ]} : different value found -> "\
-               f"replacing {country_info[ key ]} by {proposed_value} ? y/n" )
+        
+        confirmation = input( txt )
         if confirmation == 'y':
           country_info[ key ] = proposed_value
       else:
-        print( f"{country_info[ 'name' ]} : different value found -> "\
-             f"replacing {country_info[ key ]} by {proposed_value} ?" )
+        print( txt )
   else: 
+    txt = f"{file_path} : {country_info[ 'name' ]} :  {key} not found or empty value  -> adding "\
+          f"country_info[ {key} ] = {proposed_value} ? y/n"
     if dry_run is False :
-      confirmation = input( f"{country_info[ 'name' ]} :  {key} not found or empty value  -> adding "\
-        f"country_info[ {key} ] = {proposed_value} ? y/n" )
+      confirmation = input( txt )
       if confirmation == 'y':
         country_info[ key ] = proposed_value
-    print( f"{country_info[ 'name' ]} : {key} not found or empty value  -> adding "\
-           f"country_info[ {key} ] = {proposed_value} ? " )
+    print( txt )
     country_info[ key ] = proposed_value
   return country_info
 
@@ -351,44 +354,156 @@ def most_capital( dry_run=True):
           json.dump( country_info, f, indent=2 )
                      
 
+sleep_time = 1
 
-def capital_latlng(  dry_run=True ):
+
+def nominatim_capital_latgln_translations(  dry_run=True ):
   """
   Check / and fill with captial latitude coordinates
 
   It is expected that name and capital are provided
   """
+  skip = True
   geolocator = Nominatim( user_agent='country_info' )
   for file_name in listdir( country_file_dir ) :
+    print( file_name )
     file_path = join( country_file_dir, file_name )
-    if isfile(file_path) and 'json' in file_name :
+    if isfile(file_path) and file_name[-5:] == '.json':
       with open( file_path, 'rt', encoding='utf-8') as f:
         country_info = json.load( f )
-      key_list = country_info.keys()
-      if 'name' in  key_list and 'capital' in key_list:
-        search_string = f"{country_info[ 'name' ]} {country_info[ 'capital' ]}"
-        name, capital_latlng = geolocator.geocode( search_string )
-        if 'capital_latlng' in key_list:
-          if country_info[ 'capital_latlng' ] not in [ None, "" ] :
-            country_info[ 'capital_latlng' ] = list( coordinates )
-            distance = geodesic( country_info[ 'capital_latlng' ], capital_latlng ).km
-            if distance > 10:
-              print( f"{country_info[ 'name' ]} {country_info[ 'capital' ]}  " \
-                     f"current coordinates are : {country_info[ 'capital_latlng' ]} "\
-                     f"Nominatim provides {capital_latlng} for {name}. This "\
-                     f"represents a distance of {distance} km" )
-              country_info = proposed_value( country_info, 'capital_latlng', list( capital_latlng ) )
-          else:
-            print( f"{file_path}: {country_info[ 'name' ]} {country_info[ 'capital' ]} "\
-                   f" no 'capital_latlng' key -> creating entry with {name}" )
-            country_info = proposed_value( country_info, 'capital_latlng', list( capital_latlng ) )
-        else :
-          print( f"{file_path}: {country_info[ 'name' ]} {country_info[ 'capital' ]} "\
-                 f" no 'capital_latlng' key -> creating entry with {name}" )
-          country_info = proposed_value( country_info, 'capital_latlng', list( capital_latlng ) )
+    else:
+      continue
+    
+    if skip is True:
+      if file_name == "netherlands_antilles.json":
+        skip = False
+      continue
+    
+    key_list = country_info.keys()
+    confirmation = None
+    if 'name' not in  key_list :
+      print( f"ERROR: {file_path} : no name found for {country_info}.")
+      if dry_run is True:
+        continue
       else:
-        print( f"{file_path} : missing 'name' and 'capital' keys" )
+        name = input( f"Enter the name" )
+        country_info = proposed_value( country_info, 'name', name, dry_run=dry_run,\
+                       file_path=file_path)
+    if 'capital' not in key_list:
+      print( f"ERROR: {file_path} : no capital found for {country_info}.")
+      if dry_run is True:
+        continue
+      else:
+        capital = input( f"Enter the english capital name" )
+        country_info = proposed_value( country_info, 'capital', capital, dry_run=dry_run,\
+                       file_path=file_path)
+      
+    if 'capital_latlng' not in key_list :
+      country_info[ 'capital_latlng' ] = []
+    name = country_info[ 'name' ]
+    capital = country_info[ 'capital' ]
+    capital_latlng = country_info[ 'capital_latlng' ]
+    iso2 = country_info[ 'ISO' ] [ 'alpha2' ]
+    search_string = f"{name} {capital}"
+    try:
+      geo_capital, geo_capital_latlng = geolocator.geocode( search_string )
+      sleep(sleep_time)
+    except: 
+      print( f"ERROR: {file_path} : Unsuccessful Nominatim search  {search_string}" )
+      continue
+      ## native
+    reverse = geolocator.reverse( geo_capital_latlng )
+    geo_country = reverse.raw[ 'address' ][ 'country' ]
+    geo_iso2 = reverse.raw[ 'address' ][ 'country_code' ]
+    sleep(sleep_time)
+    ## en
+    try: 
+      reverse = geolocator.reverse( geo_capital_latlng, language='en')
+      en_geo_city = reverse.raw[ 'address' ][ 'city' ]
+      en_geo_country = reverse.raw[ 'address' ][ 'country' ]
+      sleep(sleep_time)
+    except: 
+      print( f"ERROR: {file_path} : Unsuccessful Nominatim reverse for {geo_capital_latlng}" )
+      continue
 
+    translations = {}
+    ## de
+    reverse = geolocator.reverse( geo_capital_latlng, language='de')
+    translations[ 'de' ] = reverse.raw[ 'address' ][ 'country' ]
+    sleep(sleep_time)
+    ## es
+    reverse = geolocator.reverse( geo_capital_latlng, language='es')
+    translations[ 'es' ] = reverse.raw[ 'address' ][ 'country' ]
+    sleep(sleep_time)
+    ## fr
+    reverse = geolocator.reverse( geo_capital_latlng, language='fr')
+    translations[ 'fr' ] = reverse.raw[ 'address' ][ 'country' ]
+    sleep(sleep_time)
+    ## ja
+    reverse = geolocator.reverse( geo_capital_latlng, language='ja')
+    translations[ 'ja' ] = reverse.raw[ 'address' ][ 'country' ]
+    sleep(sleep_time)
+    ## it
+    reverse = geolocator.reverse( geo_capital_latlng, language='it')
+    translations[ 'it' ] = reverse.raw[ 'address' ][ 'country' ]
+    sleep(sleep_time)
+    if geo_iso2.lower() != iso2.lower() :
+      print( f"ERROR: {file_path} : {name} {en_geo_country} : iso2 mismatch "\
+             f"between country_info ({iso2}) and Geo {geo_iso2})" )
+      continue
+    if 'altSpellings' not in country_info.keys() :
+      country_info[ 'altSpellings' ] = []
+    if en_geo_country != name and en_geo_country not in country_info[ 'altSpellings' ]:
+      txt = f"{file_path} : adding country name {en_geo_country} to 'altSpellings' ?"
+      if dry_run is True:
+        print( txt )
+      else: 
+        confirmation = input( txt )
+        if confirmation == 'y':
+          country_info[ 'altSpellings' ].append( en_geo_country )
+#    try: 
+#      native_name = country_info[ 'nativeName' ]
+#    except KeyError:
+#      native_name = None
+#      country_info[ 'nativeName' ] = native_name
+#    if geo_country !=  native_name:
+#      print( f"{file_path} : replacing nativeName {native_name} by {geo_country} ?" )
+    country_info = proposed_value( country_info, 'nativeName', geo_country, dry_run=dry_run)
+      
+##    if en_geo_city != capital:
+##      print( f"{file_path} : replacing capital name {capital} by {en_geo_city} ?" )
+    country_info = proposed_value( country_info, 'capital', en_geo_city, dry_run=dry_run)
+
+    distance = geodesic( capital_latlng, geo_capital_latlng ).km
+    if distance > 10 :
+      print( f"{file_path} : replacing capital latlng {capital_latlng} "\
+             f"by {geo_capital_latlng} - {distance} Km?" )
+      country_info = proposed_value( country_info, 'capital_latlng', geo_capital_latlng, dry_run=dry_run)
+    if 'translations' not in country_info.keys() :
+      country_info[ 'translations' ] = {}
+    for k in [ 'de', 'es', 'fr', 'ja', 'it' ]:
+      if k not in country_info[ 'translations' ].keys():
+        txt = f"{file_path} : no translation found for {k} -> setting to {translations[ k ]} y/n?"
+        if dry_run is True:
+          print( txt )
+        else :
+          confirmation = input( txt )
+          if confirmation == 'y':
+            country_info[ 'translations' ][ k ] = translations[ k ]
+      elif country_info[ 'translations' ][ k ] != translations[ k ]:
+        txt = f"{file_path} : current translation for {k} : {country_info[ 'translations' ][ k ]} -> replacing with {translations[ k ]} y/n?"
+        if dry_run is True:
+          print( txt )
+        else :
+          confirmation = input( txt )
+          if confirmation == 'y':
+            country_info[ 'translations' ][ k ] = translations[ k ]
+    if dry_run is False :
+      confirmation = input( 'Confirm overwriting : y /[n]' )
+      if confirmation == 'y':
+        with open( file_path, 'wt', encoding='utf-8') as f:
+          json.dump( country_info, f, indent=2 )
+        
 
 ## Check all countries have an entry with name and country code. 
 ## All countries can be instantiated with name, country codes
@@ -400,9 +515,9 @@ def capital_latlng(  dry_run=True ):
 ## Check duplicated files /empty files
 # detecting_double_and_void_files( )
 ## check most countries have there capital filled
-most_capital( dry_run=True)
+## most_capital( dry_run=True)
 ## check every country_info entry have a capital and associated latitude longitude
 ## and check the value is appropriated.
-#capital_latlng(  dry_run=True ):
+nominatim_capital_latgln_translations(  dry_run=False )
 
 

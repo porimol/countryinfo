@@ -1,4 +1,6 @@
 {
+  "capital": "Willemstad",
+  "capital_latlng": [ 12.116667, -68.933333 ], 
   "ISO": {
     "alpha2": "CW",
     "alpha3": "CUW"

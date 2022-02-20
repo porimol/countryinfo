@@ -7,11 +7,11 @@
   "altSpellings": [
     "JM",
     "JAM"
-  ], 
+  ],
   "area": 10991,
   "borders": [],
   "callingCodes": [
-    "1-876", 
+    "1-876",
     "1-658"
   ],
   "capital": "Kingston",
@@ -23,7 +23,7 @@
     "JMD"
   ],
   "demonym": "Jamaican",
-  "flag": "",  
+  "flag": "",
   "languages": [
     "en"
   ],
@@ -33,8 +33,7 @@
   ],
   "nativeName": "Jumieka",
   "population": 2726667,
-  "provinces": [
-  ],
+  "provinces": [],
   "region": "Americas",
   "subregion": "Caribbean",
   "timezones": [
@@ -43,5 +42,12 @@
   "tld": [
     ".jm"
   ],
-  "wiki": "http://en.wikipedia.org/wiki/Jamaica"
+  "wiki": "http://en.wikipedia.org/wiki/Jamaica",
+  "translations": {
+    "de": "Jamaika",
+    "es": "Jamaica",
+    "fr": "Jama\u00efque",
+    "ja": "\u30b8\u30e3\u30de\u30a4\u30ab",
+    "it": "Giamaica"
+  }
 }

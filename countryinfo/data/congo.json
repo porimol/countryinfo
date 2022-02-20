@@ -6,7 +6,7 @@
     "Congo-Kinshasa",
     "DRC",
     "COD",
-    "Congo, The Democratic Republic of the", 
+    "Congo, The Democratic Republic of the",
     "Congo, Democratic Republic of the"
   ],
   "area": 2344858,
@@ -580,11 +580,11 @@
     ".cd"
   ],
   "translations": {
-    "de": "Kongo (Dem. Rep.)",
-    "es": "Congo (Rep. Dem.)",
-    "fr": "Congo (R\u00e9p. d\u00e9m.)",
+    "de": "Demokratische Republik Kongo",
+    "es": "Rep\u00fablica Democr\u00e1tica del Congo",
+    "fr": "R\u00e9publique d\u00e9mocratique du Congo",
     "ja": "\u30b3\u30f3\u30b4\u6c11\u4e3b\u5171\u548c\u56fd",
-    "it": "Congo (Rep. Dem.)"
+    "it": "Repubblica Democratica del Congo"
   },
   "wiki": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
 }

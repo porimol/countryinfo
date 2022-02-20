@@ -48,5 +48,12 @@
   "tld": [
     ".mm"
   ],
-  "wiki": "http://en.wikipedia.org/wiki/Myanmar"
+  "wiki": "http://en.wikipedia.org/wiki/Myanmar",
+  "translations": {
+    "de": "Myanmar",
+    "es": "Myanmar",
+    "fr": "Birmanie",
+    "ja": "\u30df\u30e3\u30f3\u30de\u30fc",
+    "it": "Birmania"
+  }
 }

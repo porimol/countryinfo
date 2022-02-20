@@ -1,4 +1,6 @@
 {
+  "capital": "Jerusalem", 
+  "capital_latlng": [ 31.783333, 35.216667 ],
   "ISO": {
     "alpha2": "PS",
     "alpha3": "PSE"

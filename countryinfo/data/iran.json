@@ -360,7 +360,7 @@
     32,
     53
   ],
-  "nativeName": "Ir\u0101n",
+  "nativeName": "\u0627\u06cc\u0631\u0627\u0646",
   "population": 77966400,
   "provinces": [
     "Ardabil",
@@ -402,10 +402,10 @@
   ],
   "translations": {
     "de": "Iran",
-    "es": "Iran",
+    "es": "Ir\u00e1n",
     "fr": "Iran",
     "ja": "\u30a4\u30e9\u30f3\u30fb\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd",
-    "it": null
+    "it": "Iran"
   },
   "wiki": "http://en.wikipedia.org/wiki/iran"
 }

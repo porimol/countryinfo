@@ -1,4 +1,6 @@
 {
+  "capital" : "Road Town",
+  "capital_latlng" : [ 18.431389, -64.623056 ] ,
   "ISO": {
     "alpha2": "VG",
     "alpha3": "VGB"

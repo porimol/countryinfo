@@ -1,4 +1,6 @@
 {
+  "capital": "Cockburn Town", 
+  "capital_latlng": [ 21.459, -71.139 ],
   "ISO": {
     "alpha2": "TC",
     "alpha3": "TCA"

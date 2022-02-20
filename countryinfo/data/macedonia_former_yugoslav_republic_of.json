@@ -6,8 +6,8 @@
     "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
     "MKD",
     "North Macedonia",
-    "Republic of North Macedonia", 
-    "Macedonia", 
+    "Republic of North Macedonia",
+    "Macedonia",
     "Macedonia, Replublic of"
   ],
   "area": 25713,
@@ -129,7 +129,7 @@
     41.83333333,
     22
   ],
-  "nativeName": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
+  "nativeName": "\u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
   "population": 2058539,
   "provinces": [
     "Aracinovo",
@@ -265,11 +265,11 @@
     ".mk"
   ],
   "translations": {
-    "de": "Mazedonien",
-    "es": "Macedonia",
-    "fr": "Mac\u00e9doine",
-    "ja": "\u30de\u30b1\u30c9\u30cb\u30a2\u65e7\u30e6\u30fc\u30b4\u30b9\u30e9\u30d3\u30a2\u5171\u548c\u56fd",
-    "it": "Macedonia"
+    "de": "Nordmazedonien",
+    "es": "Macedonia del Norte",
+    "fr": "Mac\u00e9doine du Nord",
+    "ja": "\u5317\u30de\u30b1\u30c9\u30cb\u30a2",
+    "it": "Macedonia del Nord"
   },
   "wiki": "http://en.wikipedia.org/wiki/macedonia_former_yugoslav_republic_of"
 }
