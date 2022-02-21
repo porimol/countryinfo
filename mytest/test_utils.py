@@ -374,10 +374,10 @@ def nominatim_capital_latgln_translations(  dry_run=True ):
     else:
       continue
     
-    if skip is True:
-      if file_name == "netherlands_antilles.json":
-        skip = False
-      continue
+#    if skip is True:
+#      if file_name == "netherlands_antilles.json":
+#        skip = False
+#      continue
     
     key_list = country_info.keys()
     confirmation = None
@@ -505,6 +505,64 @@ def nominatim_capital_latgln_translations(  dry_run=True ):
           json.dump( country_info, f, indent=2 )
         
 
+def has_capital_and_latlng( ): 
+  geolocator = Nominatim( user_agent='country_info' )
+  for file_name in listdir( country_file_dir ) :
+    file_path = join( country_file_dir, file_name )
+    if isfile(file_path) and file_name[-5:] == '.json':
+      try:
+        with open( file_path, 'rt', encoding='utf-8') as f:
+          country_info = json.load( f )
+      except:
+         print( f"ERROR: unable to open {file_name}" )
+    else:
+      continue
+    for k in [ 'name', 'capital', 'capital_latlng' ]:
+      if k not in country_info.keys() :
+        print( f"{file_name} has no {k}" )
+    if 'capital' not in country_info.keys() or \
+       'capital_latlng' not in country_info.keys() or \
+       'name' not in country_info.keys():
+      continue
+    name = country_info[ 'name' ]
+    capital = country_info[ 'capital' ]
+    capital_latlng = country_info[ 'capital_latlng' ]
+    search_string = f"{name} {capital}"
+    if capital is None or capital_latlng is None:
+      print( f"{file_name} : {name} has its capital {capital} {capital_latlng}" )
+      continue 
+    continue
+    try: 
+      geo_capital, geo_capital_latlng = geolocator.geocode( search_string )
+    except:
+      print( f"{file_name} : Nominatim unable to find location for {search_string}" )
+     
+
+    if isinstance( capital_latlng[ 0 ], list ):
+      distance = []
+      for latlng  in capital_latlng:
+        distance.append( geodesic( latlng, geo_capital_latlng ).km )
+#      print( f"{file_name} : Nominatim( {name} - {capital} ) is {geo_capital} "\
+#             f"located a {distance} from country_info[ 'capital_latlng' ]" )   
+        
+    elif isinstance( capital_latlng[ 0 ], float) :
+      distance = geodesic( capital_latlng, geo_capital_latlng ).km
+#      if distance > 10 :
+#        print( f"{file_name} : Nominatim( {name} - {capital} ) is {geo_capital} "\
+#               f"located a {distance} from country_info[ 'capital_latlng' ]" )   
+    
+    else: 
+      print( f"{file_name} : unexpected format for {name} has its capital "\
+             f"{capital} {capital_latlng}" )
+
+#| name                                 |  ISO2 | capital/capital_lat_lgn | Comment 
+#|--------------------------------------|-------|-------------------------|----------
+#|United States Minor Outlying Islands | UM    | None / None             | redirect to Honolulu
+#|Bonaire, Sint Eustatius and Saba     | BQ    | 3 cities                | Kralendijk [ 12.144444, -68.265556 ] the largest city
+#|Bouvet Island                        | BV    | None / None             | uninhabited
+#|Antartica                            | AQ    | None / None             | (almost) uninhabited
+#|Heard Island and McDonald Islands    | HM    | None / None             | uninhabited
+
 ## Check all countries have an entry with name and country code. 
 ## All countries can be instantiated with name, country codes
 ## all_country( dry_run=True)
@@ -518,6 +576,7 @@ def nominatim_capital_latgln_translations(  dry_run=True ):
 ## most_capital( dry_run=True)
 ## check every country_info entry have a capital and associated latitude longitude
 ## and check the value is appropriated.
-nominatim_capital_latgln_translations(  dry_run=False )
+#nominatim_capital_latgln_translations(  dry_run=False )
+has_capital_and_latlng() 
 
 

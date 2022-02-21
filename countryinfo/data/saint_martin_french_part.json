@@ -1,4 +1,6 @@
 {
+  "capital": "Marigot", 
+  "capital_latlng": [ 18.0731, -63.0822 ], 
   "ISO": {
     "alpha2": "MF",
     "alpha3": "MAF"

@@ -17,7 +17,8 @@
   "callingCodes": [
     "853"
   ],
-  "capital": "",
+  "capital": "Macau",
+  "capital_latlng": [ 22.16564, 113.57582 ],
   "currencies": [
     "MOP"
   ],

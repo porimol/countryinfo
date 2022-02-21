@@ -1,4 +1,6 @@
 {
+  "capital": null, 
+  "capital_latlng": null, 
   "ISO": {
     "alpha2": "BV",
     "alpha3": "BVT"

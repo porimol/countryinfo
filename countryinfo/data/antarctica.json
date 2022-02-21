@@ -1,4 +1,6 @@
 {
+  "capital" : null,
+  "capital_latlng": null, 
   "flag": "",
   "geoJSON": {
     "type": "FeatureCollection",

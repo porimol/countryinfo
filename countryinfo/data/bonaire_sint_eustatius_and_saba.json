@@ -1,5 +1,6 @@
 {
   "capital" : "Kralendijk / Oranjestad / The Bottom",
+  "capital_latlng": [ [ 12.144444, -68.265556 ], [ 17.483333, -62.983333 ], [ 17.626111, -63.249167 ] ],
   "ISO": {
     "alpha2": "BQ",
     "alpha3": "BES"

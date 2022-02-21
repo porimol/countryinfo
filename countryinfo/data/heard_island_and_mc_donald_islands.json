@@ -1,4 +1,6 @@
 {
+  "capital" : null, 
+  "capital_latlng": null,
   "name": "Heard Island and McDonald Islands",
   "altSpellings": [
     "HM",

@@ -1,4 +1,6 @@
 {
+  "capital": null,
+  "capital_latlng": null, 
   "ISO": {
     "alpha2": "UM",
     "alpha3": "UMI"
