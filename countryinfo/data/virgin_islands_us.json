@@ -1,6 +1,6 @@
 {
   "capital": "Charlotte Amalie",
-  "capital_latlng": "[ 18.35, -64.933333 ]",
+  "capital_latlng": [ 18.35, -64.933333 ],
   "ISO": {
     "alpha2": "VI",
     "alpha3": "VIR"
