@@ -5,6 +5,15 @@ import json
 from pprint import pprint
 
 
+def update_name(name, file_path):
+    names = json.load(open(file_path, encoding='utf-8'))
+    if name in names:
+        new_name = names["name"]
+    else:
+        new_name = name
+    return new_name
+
+
 class CountryInfo:
     """To access one of the country properties available
 
@@ -22,6 +31,8 @@ class CountryInfo:
         self.__country_name = country_name.lower() if country_name else ''
         # get the files path
         __file_dir_path = dirname(realpath(__file__))
+        # update country name
+        self.__country_name = update_name(self.__country_name, __file_dir_path+'/redirect.json')
         __country_files = __file_dir_path + '/data/'
         __files_path = [files for files in glob(__country_files + '*.json')]
         self.__countries = {}
