@@ -1,5 +1,10 @@
 {
   "name": "Antilles n\u00e9erlandaises",
+  "altSpellings": [
+    "Antilles n\u00e9erlandaises",
+    "AN",
+    "ANT"
+  ],
   "capital": "Willemstad",
   "capital_latlng": [
     12.12206,
