@@ -312,7 +312,7 @@
     "Tandjile"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -326,5 +326,6 @@
     "ja": "\u30c1\u30e3\u30c9",
     "it": "Ciad"
   },
-  "wiki": "http://en.wikipedia.org/wiki/chad"
+  "wiki": "http://en.wikipedia.org/wiki/chad",
+  "intermediateregion": "Middle Africa"
 }

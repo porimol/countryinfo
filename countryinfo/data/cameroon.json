@@ -318,7 +318,7 @@
     "Sud-Ouest"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -332,5 +332,6 @@
     "ja": "\u30ab\u30e1\u30eb\u30fc\u30f3",
     "it": "Camerun"
   },
-  "wiki": "http://en.wikipedia.org/wiki/cameroon"
+  "wiki": "http://en.wikipedia.org/wiki/cameroon",
+  "intermediateregion": "Middle Africa"
 }

@@ -136,7 +136,7 @@
     "French Guiana"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": null,
   "tld": [
     ".gf"
@@ -148,5 +148,6 @@
     "ja": "\u30d5\u30e9\u30f3\u30b9\u9818\u30ae\u30a2\u30ca",
     "it": "Guyana francese"
   },
-  "wiki": "http://en.wikipedia.org/wiki/french_guiana"
+  "wiki": "http://en.wikipedia.org/wiki/french_guiana",
+  "intermediateregion": "South America"
 }

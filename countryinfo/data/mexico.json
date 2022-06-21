@@ -773,7 +773,7 @@
     "Zacatecas"
   ],
   "region": "Americas",
-  "subregion": "Central America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221208:00",
     "UTC\u221207:00",
@@ -789,5 +789,6 @@
     "ja": "\u30e1\u30ad\u30b7\u30b3",
     "it": "Messico"
   },
-  "wiki": "http://en.wikipedia.org/wiki/mexico"
+  "wiki": "http://en.wikipedia.org/wiki/mexico",
+  "intermediateregion": "Central America"
 }

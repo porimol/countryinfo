@@ -331,7 +331,7 @@
     "Zamfara"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -345,5 +345,6 @@
     "ja": "\u30ca\u30a4\u30b8\u30a7\u30ea\u30a2",
     "it": "Nigeria"
   },
-  "wiki": "http://en.wikipedia.org/wiki/nigeria"
+  "wiki": "http://en.wikipedia.org/wiki/nigeria",
+  "intermediateregion": "Western Africa"
 }

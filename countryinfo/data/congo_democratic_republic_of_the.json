@@ -270,7 +270,7 @@
     "Sud-Kivu"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -284,5 +284,6 @@
     "ja": "\u30b3\u30f3\u30b4\u5171\u548c\u56fd",
     "it": "Repubblica del Congo"
   },
-  "wiki": "http://en.wikipedia.org/wiki/congo_democratic_republic_of_the"
+  "wiki": "http://en.wikipedia.org/wiki/congo_democratic_republic_of_the",
+  "intermediateregion": "Middle Africa"
 }

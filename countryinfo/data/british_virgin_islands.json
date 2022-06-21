@@ -40,7 +40,7 @@
     "Virgin Gorda"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": null,
   "tld": [
     ".io"
@@ -52,5 +52,6 @@
     "ja": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df",
     "it": "Territorio britannico dell'oceano indiano"
   },
-  "wiki": "http://en.wikipedia.org/wiki/british_virgin_islands"
+  "wiki": "http://en.wikipedia.org/wiki/british_virgin_islands",
+  "intermediateregion": "Eastern Africa"
 }

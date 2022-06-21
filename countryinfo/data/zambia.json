@@ -317,7 +317,7 @@
     "Western"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -331,5 +331,6 @@
     "ja": "\u30b6\u30f3\u30d3\u30a2",
     "it": "Zambia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/zambia"
+  "wiki": "http://en.wikipedia.org/wiki/zambia",
+  "intermediateregion": "Eastern Africa"
 }

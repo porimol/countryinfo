@@ -142,7 +142,7 @@
     "Maritime"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -156,5 +156,6 @@
     "ja": "\u30c8\u30fc\u30b4",
     "it": "Togo"
   },
-  "wiki": "http://en.wikipedia.org/wiki/toga"
+  "wiki": "http://en.wikipedia.org/wiki/toga",
+  "intermediateregion": "Western Africa"
 }

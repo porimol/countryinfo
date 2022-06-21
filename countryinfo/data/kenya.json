@@ -219,7 +219,7 @@
     "Western"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -233,5 +233,6 @@
     "ja": "\u30b1\u30cb\u30a2",
     "it": "Kenya"
   },
-  "wiki": "http://en.wikipedia.org/wiki/kenya"
+  "wiki": "http://en.wikipedia.org/wiki/kenya",
+  "intermediateregion": "Eastern Africa"
 }

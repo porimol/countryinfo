@@ -97,7 +97,7 @@
     "Wele-Nzas"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -111,5 +111,6 @@
     "ja": "\u8d64\u9053\u30ae\u30cb\u30a2",
     "it": "Guinea Equatoriale"
   },
-  "wiki": "http://en.wikipedia.org/wiki/equatorial_guinea"
+  "wiki": "http://en.wikipedia.org/wiki/equatorial_guinea",
+  "intermediateregion": "Middle Africa"
 }

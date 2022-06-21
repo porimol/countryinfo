@@ -44,7 +44,7 @@
     "Singapore"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+08:00"
   ],
@@ -58,5 +58,6 @@
     "ja": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
     "it": "Singapore"
   },
-  "wiki": "http://en.wikipedia.org/wiki/singapore"
+  "wiki": "http://en.wikipedia.org/wiki/singapore",
+  "intermediateregion": ""
 }

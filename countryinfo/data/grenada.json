@@ -43,7 +43,7 @@
     "Saint Patrick"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -57,5 +57,6 @@
     "ja": "\u30b0\u30ec\u30ca\u30c0",
     "it": "Grenada"
   },
-  "wiki": "http://en.wikipedia.org/wiki/grenada"
+  "wiki": "http://en.wikipedia.org/wiki/grenada",
+  "intermediateregion": "Caribbean"
 }

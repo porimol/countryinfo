@@ -1,6 +1,6 @@
 {
-  "capital" : null,
-  "capital_latlng": null, 
+  "capital": null,
+  "capital_latlng": null,
   "flag": "",
   "geoJSON": {
     "type": "FeatureCollection",
@@ -2696,5 +2696,8 @@
   "altSpellings": [
     "AQ",
     "ATA"
-  ]
+  ],
+  "region": "",
+  "subregion": "",
+  "intermediateregion": ""
 }

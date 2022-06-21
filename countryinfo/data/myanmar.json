@@ -41,7 +41,7 @@
   "population": 53582855,
   "provinces": [],
   "region": "Asia",
-  "subregion": "Southern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+06:30"
   ],
@@ -55,5 +55,6 @@
     "fr": "Birmanie",
     "ja": "\u30df\u30e3\u30f3\u30de\u30fc",
     "it": "Birmania"
-  }
+  },
+  "intermediateregion": ""
 }

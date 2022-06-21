@@ -1,5 +1,5 @@
 {
-  "capital" : null, 
+  "capital": "",
   "capital_latlng": null,
   "name": "Heard Island and McDonald Islands",
   "altSpellings": [
@@ -11,7 +11,6 @@
   "callingCodes": [
     ""
   ],
-  "capital": "",
   "currencies": [
     "AUD"
   ],
@@ -34,8 +33,8 @@
   "provinces": [
     "Heard Island and McDonald Islands"
   ],
-  "region": "",
-  "subregion": "",
+  "region": "Oceania",
+  "subregion": "Australia and New Zealand",
   "timezones": null,
   "tld": [
     ".hm",
@@ -48,5 +47,6 @@
     "ja": "\u30cf\u30fc\u30c9\u5cf6\u3068\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u8af8\u5cf6",
     "it": "Isole Heard e McDonald"
   },
-  "wiki": "http://en.wikipedia.org/wiki/heard_island_and_mc_donald_islands"
+  "wiki": "http://en.wikipedia.org/wiki/heard_island_and_mc_donald_islands",
+  "intermediateregion": ""
 }

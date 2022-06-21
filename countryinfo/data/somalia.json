@@ -225,7 +225,7 @@
     "Woqooyi Galbeed"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -239,5 +239,6 @@
     "ja": "\u30bd\u30de\u30ea\u30a2",
     "it": "Somalia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/somalia"
+  "wiki": "http://en.wikipedia.org/wiki/somalia",
+  "intermediateregion": "Eastern Africa"
 }

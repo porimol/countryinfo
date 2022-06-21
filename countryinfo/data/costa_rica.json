@@ -210,7 +210,7 @@
     "San Jose"
   ],
   "region": "Americas",
-  "subregion": "Central America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221206:00"
   ],
@@ -224,5 +224,6 @@
     "ja": "\u30b3\u30b9\u30bf\u30ea\u30ab",
     "it": "Costa Rica"
   },
-  "wiki": "http://en.wikipedia.org/wiki/costa_rica"
+  "wiki": "http://en.wikipedia.org/wiki/costa_rica",
+  "intermediateregion": "Central America"
 }

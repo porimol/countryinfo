@@ -284,7 +284,7 @@
     "Rivas"
   ],
   "region": "Americas",
-  "subregion": "Central America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221206:00"
   ],
@@ -298,5 +298,6 @@
     "ja": "\u30cb\u30ab\u30e9\u30b0\u30a2",
     "it": "Nicaragua"
   },
-  "wiki": "http://en.wikipedia.org/wiki/nicaragua"
+  "wiki": "http://en.wikipedia.org/wiki/nicaragua",
+  "intermediateregion": "Central America"
 }

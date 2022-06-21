@@ -310,7 +310,7 @@
     "YeDebub Biheroch Bihereseboch na Hizboch"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -324,5 +324,6 @@
     "ja": "\u30a8\u30c1\u30aa\u30d4\u30a2",
     "it": "Etiopia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/ethiopia"
+  "wiki": "http://en.wikipedia.org/wiki/ethiopia",
+  "intermediateregion": "Eastern Africa"
 }

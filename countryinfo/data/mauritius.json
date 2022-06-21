@@ -50,7 +50,7 @@
     "Savanne"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+04:00"
   ],
@@ -64,5 +64,6 @@
     "ja": "\u30e2\u30fc\u30ea\u30b7\u30e3\u30b9",
     "it": "Mauritius"
   },
-  "wiki": "http://en.wikipedia.org/wiki/mauritius"
+  "wiki": "http://en.wikipedia.org/wiki/mauritius",
+  "intermediateregion": "Eastern Africa"
 }

@@ -154,7 +154,7 @@
     "Sud-Est"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221205:00"
   ],
@@ -168,5 +168,6 @@
     "ja": "\u30cf\u30a4\u30c1",
     "it": "Haiti"
   },
-  "wiki": "http://en.wikipedia.org/wiki/haiti"
+  "wiki": "http://en.wikipedia.org/wiki/haiti",
+  "intermediateregion": "Caribbean"
 }

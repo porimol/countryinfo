@@ -77,7 +77,7 @@
     "Prizren"
   ],
   "region": "Europe",
-  "subregion": "Eastern Europe",
+  "subregion": "Southern Europe",
   "timezones": [
     "UTC+01:00",
     "UTC+02:00"
@@ -92,5 +92,6 @@
     "ja": "\u30bb\u30eb\u30d3\u30a2",
     "it": "Serbia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/serbia"
+  "wiki": "http://en.wikipedia.org/wiki/serbia",
+  "intermediateregion": ""
 }

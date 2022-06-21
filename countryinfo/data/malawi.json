@@ -199,7 +199,7 @@
     "Zomba"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -213,5 +213,6 @@
     "ja": "\u30de\u30e9\u30a6\u30a4",
     "it": "Malawi"
   },
-  "wiki": "http://en.wikipedia.org/wiki/malawi"
+  "wiki": "http://en.wikipedia.org/wiki/malawi",
+  "intermediateregion": "Eastern Africa"
 }

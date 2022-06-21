@@ -325,7 +325,7 @@
     "Wilayah Persekutuan"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+08:00"
   ],
@@ -339,5 +339,6 @@
     "ja": "\u30de\u30ec\u30fc\u30b7\u30a2",
     "it": "Malesia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/malaysia"
+  "wiki": "http://en.wikipedia.org/wiki/malaysia",
+  "intermediateregion": ""
 }

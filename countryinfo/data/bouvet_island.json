@@ -1,6 +1,6 @@
 {
-  "capital": null, 
-  "capital_latlng": null, 
+  "capital": null,
+  "capital_latlng": null,
   "ISO": {
     "alpha2": "BV",
     "alpha3": "BVT"
@@ -9,5 +9,8 @@
   "altSpellings": [
     "BV",
     "BVT"
-  ]
+  ],
+  "region": "Americas",
+  "subregion": "Latin America and the Caribbean",
+  "intermediateregion": "South America"
 }

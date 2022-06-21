@@ -1,6 +1,9 @@
 {
-  "capital": "Marigot", 
-  "capital_latlng": [ 18.0731, -63.0822 ], 
+  "capital": "Marigot",
+  "capital_latlng": [
+    18.0731,
+    -63.0822
+  ],
   "ISO": {
     "alpha2": "MF",
     "alpha3": "MAF"
@@ -9,5 +12,8 @@
   "altSpellings": [
     "MF",
     "MAF"
-  ]
+  ],
+  "region": "Americas",
+  "subregion": "Latin America and the Caribbean",
+  "intermediateregion": "Caribbean"
 }

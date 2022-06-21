@@ -230,7 +230,7 @@
     "Upper Takutu-Upper Essequibo"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -244,5 +244,6 @@
     "ja": "\u30ac\u30a4\u30a2\u30ca",
     "it": "Guyana"
   },
-  "wiki": "http://en.wikipedia.org/wiki/guyana"
+  "wiki": "http://en.wikipedia.org/wiki/guyana",
+  "intermediateregion": "South America"
 }

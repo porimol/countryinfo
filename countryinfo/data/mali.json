@@ -376,7 +376,7 @@
     "Tombouctou"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -390,5 +390,6 @@
     "ja": "\u30de\u30ea\u5171\u548c\u56fd",
     "it": "Mali"
   },
-  "wiki": "http://en.wikipedia.org/wiki/mali"
+  "wiki": "http://en.wikipedia.org/wiki/mali",
+  "intermediateregion": "Western Africa"
 }

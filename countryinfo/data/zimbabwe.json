@@ -215,7 +215,7 @@
     "Mashonaland"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -229,5 +229,6 @@
     "ja": "\u30b8\u30f3\u30d0\u30d6\u30a8",
     "it": "Zimbabwe"
   },
-  "wiki": "http://en.wikipedia.org/wiki/zimbabwe"
+  "wiki": "http://en.wikipedia.org/wiki/zimbabwe",
+  "intermediateregion": "Eastern Africa"
 }

@@ -213,7 +213,7 @@
     "Zamora-Chinchipe"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221206:00",
     "UTC\u221205:00"
@@ -228,5 +228,6 @@
     "ja": "\u30a8\u30af\u30a2\u30c9\u30eb",
     "it": "Ecuador"
   },
-  "wiki": "http://en.wikipedia.org/wiki/ecuador"
+  "wiki": "http://en.wikipedia.org/wiki/ecuador",
+  "intermediateregion": "South America"
 }

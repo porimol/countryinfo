@@ -263,7 +263,7 @@
     "Zoundweogo"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -277,5 +277,6 @@
     "ja": "\u30d6\u30eb\u30ad\u30ca\u30d5\u30a1\u30bd",
     "it": "Burkina Faso"
   },
-  "wiki": "http://en.wikipedia.org/wiki/burkina_faso"
+  "wiki": "http://en.wikipedia.org/wiki/burkina_faso",
+  "intermediateregion": "Western Africa"
 }

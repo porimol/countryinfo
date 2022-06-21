@@ -38,7 +38,7 @@
     "Reunion"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": null,
   "tld": [
     ".re"
@@ -50,5 +50,6 @@
     "ja": "\u30ec\u30e6\u30cb\u30aa\u30f3",
     "it": "Riunione"
   },
-  "wiki": "http://en.wikipedia.org/wiki/reunion"
+  "wiki": "http://en.wikipedia.org/wiki/reunion",
+  "intermediateregion": "Eastern Africa"
 }

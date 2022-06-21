@@ -144,7 +144,7 @@
     "Toledo"
   ],
   "region": "Americas",
-  "subregion": "Central America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221206:00"
   ],
@@ -158,5 +158,6 @@
     "ja": "\u30d9\u30ea\u30fc\u30ba",
     "it": "Belize"
   },
-  "wiki": "http://en.wikipedia.org/wiki/belize"
+  "wiki": "http://en.wikipedia.org/wiki/belize",
+  "intermediateregion": "Central America"
 }

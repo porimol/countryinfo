@@ -1,6 +1,9 @@
 {
-  "capital" : "Mariehamn",
-  "capital_latlng": [60.116667, 19.9],
+  "capital": "Mariehamn",
+  "capital_latlng": [
+    60.116667,
+    19.9
+  ],
   "ISO": {
     "alpha2": "AX",
     "alpha3": "ALA"
@@ -9,5 +12,8 @@
   "altSpellings": [
     "AX",
     "ALA"
-  ]
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "intermediateregion": ""
 }

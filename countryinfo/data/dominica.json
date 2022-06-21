@@ -49,7 +49,7 @@
     "Saint Peter"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -63,5 +63,6 @@
     "ja": "\u30c9\u30df\u30cb\u30ab\u56fd",
     "it": "Dominica"
   },
-  "wiki": "http://en.wikipedia.org/wiki/dominica"
+  "wiki": "http://en.wikipedia.org/wiki/dominica",
+  "intermediateregion": "Caribbean"
 }

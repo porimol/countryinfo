@@ -212,7 +212,7 @@
     "San Pedro"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -226,5 +226,6 @@
     "ja": "\u30d1\u30e9\u30b0\u30a2\u30a4",
     "it": "Paraguay"
   },
-  "wiki": "http://en.wikipedia.org/wiki/paraguay"
+  "wiki": "http://en.wikipedia.org/wiki/paraguay",
+  "intermediateregion": "South America"
 }

@@ -51,7 +51,7 @@
     "Trinity Palmetto Point"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -65,5 +65,6 @@
     "ja": "\u30bb\u30f3\u30c8\u30af\u30ea\u30b9\u30c8\u30d5\u30a1\u30fc\u30fb\u30cd\u30a4\u30d3\u30b9",
     "it": "Saint Kitts e Nevis"
   },
-  "wiki": "http://en.wikipedia.org/wiki/saint_kitts_and_nevis"
+  "wiki": "http://en.wikipedia.org/wiki/saint_kitts_and_nevis",
+  "intermediateregion": "Caribbean"
 }

@@ -288,7 +288,7 @@
     "Zanzibar Urban/West"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -302,5 +302,6 @@
     "ja": "\u30bf\u30f3\u30b6\u30cb\u30a2",
     "it": "Tanzania"
   },
-  "wiki": "http://en.wikipedia.org/wiki/tanzania"
+  "wiki": "http://en.wikipedia.org/wiki/tanzania",
+  "intermediateregion": "Eastern Africa"
 }

@@ -18,7 +18,10 @@
     "853"
   ],
   "capital": "Macau",
-  "capital_latlng": [ 22.16564, 113.57582 ],
+  "capital_latlng": [
+    22.16564,
+    113.57582
+  ],
   "currencies": [
     "MOP"
   ],
@@ -57,5 +60,6 @@
     "ja": "\u30de\u30ab\u30aa",
     "it": "Macao"
   },
-  "wiki": "http://en.wikipedia.org/wiki/macau"
+  "wiki": "http://en.wikipedia.org/wiki/macau",
+  "intermediateregion": ""
 }

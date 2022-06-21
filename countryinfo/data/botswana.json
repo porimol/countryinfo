@@ -236,7 +236,7 @@
     "Southern"
   ],
   "region": "Africa",
-  "subregion": "Southern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -250,5 +250,6 @@
     "ja": "\u30dc\u30c4\u30ef\u30ca",
     "it": "Botswana"
   },
-  "wiki": "http://en.wikipedia.org/wiki/botswana"
+  "wiki": "http://en.wikipedia.org/wiki/botswana",
+  "intermediateregion": "Southern Africa"
 }

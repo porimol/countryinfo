@@ -40,7 +40,7 @@
     "Tristan da Cunha"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": null,
   "tld": [
     ".sh"
@@ -52,5 +52,6 @@
     "ja": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
     "it": "Sant'Elena"
   },
-  "wiki": "http://en.wikipedia.org/wiki/saint_helena"
+  "wiki": "http://en.wikipedia.org/wiki/saint_helena",
+  "intermediateregion": "Western Africa"
 }

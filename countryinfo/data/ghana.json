@@ -169,7 +169,7 @@
     "Western"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -183,5 +183,6 @@
     "ja": "\u30ac\u30fc\u30ca",
     "it": "Ghana"
   },
-  "wiki": "http://en.wikipedia.org/wiki/ghana"
+  "wiki": "http://en.wikipedia.org/wiki/ghana",
+  "intermediateregion": "Western Africa"
 }

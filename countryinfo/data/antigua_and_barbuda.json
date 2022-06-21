@@ -44,7 +44,7 @@
     "Saint Philip"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -58,5 +58,6 @@
     "ja": "\u30a2\u30f3\u30c6\u30a3\u30b0\u30a2\u30fb\u30d0\u30fc\u30d6\u30fc\u30c0",
     "it": "Antigua e Barbuda"
   },
-  "wiki": "http://en.wikipedia.org/wiki/antigua_and_barbuda"
+  "wiki": "http://en.wikipedia.org/wiki/antigua_and_barbuda",
+  "intermediateregion": "Caribbean"
 }

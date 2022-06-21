@@ -260,7 +260,7 @@
     "Toliara"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -274,5 +274,6 @@
     "ja": "\u30de\u30c0\u30ac\u30b9\u30ab\u30eb",
     "it": "Madagascar"
   },
-  "wiki": "http://en.wikipedia.org/wiki/madagascar"
+  "wiki": "http://en.wikipedia.org/wiki/madagascar",
+  "intermediateregion": "Eastern Africa"
 }

@@ -39,7 +39,7 @@
     "Mayotte"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": null,
   "tld": [
     ".yt"
@@ -51,5 +51,6 @@
     "ja": "\u30de\u30e8\u30c3\u30c8",
     "it": "Mayotte"
   },
-  "wiki": "http://en.wikipedia.org/wiki/mayotte"
+  "wiki": "http://en.wikipedia.org/wiki/mayotte",
+  "intermediateregion": "Eastern Africa"
 }

@@ -278,7 +278,7 @@
     "Veraguas"
   ],
   "region": "Americas",
-  "subregion": "Central America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221205:00"
   ],
@@ -292,5 +292,6 @@
     "ja": "\u30d1\u30ca\u30de",
     "it": "Panama"
   },
-  "wiki": "http://en.wikipedia.org/wiki/panama"
+  "wiki": "http://en.wikipedia.org/wiki/panama",
+  "intermediateregion": "Central America"
 }

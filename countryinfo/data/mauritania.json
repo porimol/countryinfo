@@ -230,7 +230,7 @@
     "Trarza"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -244,5 +244,6 @@
     "ja": "\u30e2\u30fc\u30ea\u30bf\u30cb\u30a2",
     "it": "Mauritania"
   },
-  "wiki": "http://en.wikipedia.org/wiki/mauritania"
+  "wiki": "http://en.wikipedia.org/wiki/mauritania",
+  "intermediateregion": "Western Africa"
 }

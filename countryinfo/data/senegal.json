@@ -248,7 +248,7 @@
     "Ziguinchor"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -262,5 +262,6 @@
     "ja": "\u30bb\u30cd\u30ac\u30eb",
     "it": "Senegal"
   },
-  "wiki": "http://en.wikipedia.org/wiki/senegal"
+  "wiki": "http://en.wikipedia.org/wiki/senegal",
+  "intermediateregion": "Western Africa"
 }

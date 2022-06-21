@@ -39,7 +39,7 @@
     "Saint Peter's"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": null,
   "tld": [
     ".ms"
@@ -51,5 +51,6 @@
     "ja": "\u30e2\u30f3\u30c8\u30bb\u30e9\u30c8",
     "it": "Montserrat"
   },
-  "wiki": "http://en.wikipedia.org/wiki/montserrat"
+  "wiki": "http://en.wikipedia.org/wiki/montserrat",
+  "intermediateregion": "Caribbean"
 }

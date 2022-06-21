@@ -378,7 +378,7 @@
     "Yomou"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -392,5 +392,6 @@
     "ja": "\u30ae\u30cb\u30a2",
     "it": "Guinea"
   },
-  "wiki": "http://en.wikipedia.org/wiki/guinea"
+  "wiki": "http://en.wikipedia.org/wiki/guinea",
+  "intermediateregion": "Western Africa"
 }

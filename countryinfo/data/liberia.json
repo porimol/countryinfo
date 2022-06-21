@@ -180,7 +180,7 @@
     "Sinoe"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -194,5 +194,6 @@
     "ja": "\u30ea\u30d9\u30ea\u30a2",
     "it": "Liberia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/liberia"
+  "wiki": "http://en.wikipedia.org/wiki/liberia",
+  "intermediateregion": "Western Africa"
 }

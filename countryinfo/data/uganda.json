@@ -216,7 +216,7 @@
     "Tororo"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -230,5 +230,6 @@
     "ja": "\u30a6\u30ac\u30f3\u30c0",
     "it": "Uganda"
   },
-  "wiki": "http://en.wikipedia.org/wiki/uganda"
+  "wiki": "http://en.wikipedia.org/wiki/uganda",
+  "intermediateregion": "Eastern Africa"
 }

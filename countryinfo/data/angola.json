@@ -393,7 +393,7 @@
     "Zaire"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -407,5 +407,6 @@
     "ja": "\u30a2\u30f3\u30b4\u30e9",
     "it": "Angola"
   },
-  "wiki": "http://en.wikipedia.org/wiki/angola"
+  "wiki": "http://en.wikipedia.org/wiki/angola",
+  "intermediateregion": "Middle Africa"
 }

@@ -655,7 +655,7 @@
     "Zamboanga del Sur"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+08:00"
   ],
@@ -669,5 +669,6 @@
     "ja": "\u30d5\u30a3\u30ea\u30d4\u30f3",
     "it": "Filippine"
   },
-  "wiki": "http://en.wikipedia.org/wiki/philippines"
+  "wiki": "http://en.wikipedia.org/wiki/philippines",
+  "intermediateregion": ""
 }

@@ -193,7 +193,7 @@
     "Woleu-Ntem"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -207,5 +207,6 @@
     "ja": "\u30ac\u30dc\u30f3",
     "it": "Gabon"
   },
-  "wiki": "http://en.wikipedia.org/wiki/gabon"
+  "wiki": "http://en.wikipedia.org/wiki/gabon",
+  "intermediateregion": "Middle Africa"
 }

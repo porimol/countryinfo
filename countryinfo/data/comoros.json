@@ -48,7 +48,7 @@
     "Moutsamoudou"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -62,5 +62,6 @@
     "ja": "\u30b3\u30e2\u30ed",
     "it": "Comore"
   },
-  "wiki": "http://en.wikipedia.org/wiki/comoros"
+  "wiki": "http://en.wikipedia.org/wiki/comoros",
+  "intermediateregion": "Eastern Africa"
 }

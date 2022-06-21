@@ -37,7 +37,7 @@
     "Anguilla"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": null,
   "tld": [
     ".ai"
@@ -49,5 +49,6 @@
     "ja": "\u30a2\u30f3\u30ae\u30e9",
     "it": "Anguilla"
   },
-  "wiki": "http://en.wikipedia.org/wiki/anguilla"
+  "wiki": "http://en.wikipedia.org/wiki/anguilla",
+  "intermediateregion": "Caribbean"
 }

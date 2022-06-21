@@ -222,7 +222,7 @@
     "Zacapa"
   ],
   "region": "Americas",
-  "subregion": "Central America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221206:00"
   ],
@@ -236,5 +236,6 @@
     "ja": "\u30b0\u30a2\u30c6\u30de\u30e9",
     "it": "Guatemala"
   },
-  "wiki": "http://en.wikipedia.org/wiki/guatemala"
+  "wiki": "http://en.wikipedia.org/wiki/guatemala",
+  "intermediateregion": "Central America"
 }

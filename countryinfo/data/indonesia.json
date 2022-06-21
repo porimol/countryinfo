@@ -1143,7 +1143,7 @@
     "Yogyakarta"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+07:00",
     "UTC+08:00",
@@ -1159,5 +1159,6 @@
     "ja": "\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2",
     "it": "Indonesia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/indonesia"
+  "wiki": "http://en.wikipedia.org/wiki/indonesia",
+  "intermediateregion": ""
 }

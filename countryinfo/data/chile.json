@@ -536,7 +536,7 @@
     "Valparaiso"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221206:00",
     "UTC\u221204:00"
@@ -551,5 +551,6 @@
     "ja": "\u30c1\u30ea",
     "it": "Cile"
   },
-  "wiki": "http://en.wikipedia.org/wiki/chile"
+  "wiki": "http://en.wikipedia.org/wiki/chile",
+  "intermediateregion": "South America"
 }

@@ -460,7 +460,7 @@
     "Western Cape"
   ],
   "region": "Africa",
-  "subregion": "Southern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -474,5 +474,6 @@
     "ja": "\u5357\u30a2\u30d5\u30ea\u30ab",
     "it": "Sud Africa"
   },
-  "wiki": "http://en.wikipedia.org/wiki/south_africa"
+  "wiki": "http://en.wikipedia.org/wiki/south_africa",
+  "intermediateregion": "Southern Africa"
 }

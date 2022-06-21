@@ -555,6 +555,83 @@ def has_capital_and_latlng( ):
       print( f"{file_name} : unexpected format for {name} has its capital "\
              f"{capital} {capital_latlng}" )
 
+
+def check_region( dry_run=True ):
+  ## this section considers the list of regions, subregions and intermediate-region.
+
+  ## Information is taken from 
+  ##https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
+  ## designation seems mor ein line with UN M49
+  ## https://unstats.un.org/unsd/methodology/m49/
+  ## building region/subregion list
+  file_path = '/home/emigdan/gitlab/ISO-3166-Countries-with-Regional-Codes/all/all.json'
+  try:
+    with open( file_path, 'rt', encoding='utf-8') as f:
+      region_list = json.load( f )
+  except:
+    print( f"ERROR: unable to open {file_path}" )
+
+  for file_name in listdir( country_file_dir ) :
+    file_path = join( country_file_dir, file_name )
+    if isfile(file_path) and file_name[-5:] == '.json':
+      try:
+        with open( file_path, 'rt', encoding='utf-8') as f:
+          country_info = json.load( f )
+          try:
+            region = country_info[ 'region' ]
+          except KeyError:
+            region = None
+          try:
+            subregion = country_info[ 'subregion' ]
+            ## adjustment
+            if subregion == 'South-Eastern Asia':
+              subregion = 'South-eastern Asia'
+          except KeyError:
+            subregion = None
+          alpha2 = country_info[ 'ISO' ][ 'alpha2' ]
+      except:
+         print( f"ERROR: unable to open {file_name}" )
+    else:
+      continue
+    ref_region = None
+    ## historic country code are not considered in all
+    ## the question remain on whether to consider thes ecountry codes or not.
+    if alpha2 == 'AN':
+      alpha2_match = 'BQ'
+    else:
+      alpha2_match = alpha2
+    for r in region_list:
+      if r[ 'alpha-2' ] == alpha2_match :
+        ref_region = r
+      
+    if ref_region is None:
+      print( f"ERROR: {alpha2}: unable to find country {alpha2} in region list for country_info {alpha2} [{file_name}]" )
+
+    if region != None and region != ref_region[ 'region' ]:
+      print( f"ERROR: {alpha2}: country_info region {region} mismatch value from region_list {ref_region[ 'region' ]}" )
+    if subregion != None and subregion != ref_region[ 'sub-region' ]:
+      print( f"ERROR: {alpha2}: country_info region {subregion} mismatch value from region_list {ref_region[ 'sub-region' ]}" )
+
+    if dry_run is False :
+      country_info[ 'region' ] = ref_region[ 'region' ]
+      country_info[ 'subregion' ] = ref_region[ 'sub-region' ]
+      country_info[ 'intermediateregion' ] = ref_region[ 'intermediate-region' ]
+    else:
+      print( f"replacing {alpha2} ")
+      print( f"  - region: {region}" )
+      print( f"  - subregion: {subregion}" )
+      print( f"by:" )
+      print( f"  - region: {ref_region[ 'region' ]}" )
+      print( f"  - sub-region: {ref_region[ 'sub-region' ]}" )
+      print( f"  - intermediary: {ref_region[ 'intermediate-region' ]}" )
+      country_info[ 'region' ] = ref_region[ 'region' ]
+      country_info[ 'subregion' ] = ref_region[ 'sub-region' ]
+      country_info[ 'intermediateregion' ] = ref_region[ 'intermediate-region' ]
+      confirmation = input( 'Confirm overwriting : y /[n]' )
+      if confirmation == 'y':
+        with open( file_path, 'wt', encoding='utf-8') as f:
+          json.dump( country_info, f, indent=2 )
+        
 #| name                                 |  ISO2 | capital/capital_lat_lgn | Comment 
 #|--------------------------------------|-------|-------------------------|----------
 #|United States Minor Outlying Islands | UM    | None / None             | redirect to Honolulu
@@ -577,6 +654,6 @@ def has_capital_and_latlng( ):
 ## check every country_info entry have a capital and associated latitude longitude
 ## and check the value is appropriated.
 #nominatim_capital_latgln_translations(  dry_run=False )
-has_capital_and_latlng() 
-
+## has_capital_and_latlng()
+check_region( dry_run=True )
 

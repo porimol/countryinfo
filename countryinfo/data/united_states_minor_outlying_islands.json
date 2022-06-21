@@ -1,6 +1,6 @@
 {
   "capital": null,
-  "capital_latlng": null, 
+  "capital_latlng": null,
   "ISO": {
     "alpha2": "UM",
     "alpha3": "UMI"
@@ -9,5 +9,8 @@
   "altSpellings": [
     "UM",
     "UMI"
-  ]
+  ],
+  "region": "Oceania",
+  "subregion": "Micronesia",
+  "intermediateregion": ""
 }

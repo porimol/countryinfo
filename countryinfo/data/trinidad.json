@@ -98,7 +98,7 @@
     "Victoria"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -112,5 +112,6 @@
     "ja": "\u30c8\u30ea\u30cb\u30c0\u30fc\u30c9\u30fb\u30c8\u30d0\u30b4",
     "it": "Trinidad e Tobago"
   },
-  "wiki": "http://en.wikipedia.org/wiki/trinidad"
+  "wiki": "http://en.wikipedia.org/wiki/trinidad",
+  "intermediateregion": "Caribbean"
 }

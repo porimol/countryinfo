@@ -106,7 +106,7 @@
     "Tobago"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+09:00"
   ],
@@ -120,5 +120,6 @@
     "ja": "\u6771\u30c6\u30a3\u30e2\u30fc\u30eb",
     "it": "Timor Est"
   },
-  "wiki": "http://en.wikipedia.org/wiki/tobago"
+  "wiki": "http://en.wikipedia.org/wiki/tobago",
+  "intermediateregion": ""
 }

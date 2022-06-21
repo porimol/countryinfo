@@ -396,7 +396,7 @@
     "Yasothon"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+07:00"
   ],
@@ -410,5 +410,6 @@
     "ja": "\u30bf\u30a4",
     "it": "Tailandia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/thailand"
+  "wiki": "http://en.wikipedia.org/wiki/thailand",
+  "intermediateregion": ""
 }

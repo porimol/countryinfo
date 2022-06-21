@@ -37,7 +37,7 @@
     "Martinique"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": null,
   "tld": [
     ".mq"
@@ -49,5 +49,6 @@
     "ja": "\u30de\u30eb\u30c6\u30a3\u30cb\u30fc\u30af",
     "it": "Martinica"
   },
-  "wiki": "http://en.wikipedia.org/wiki/martinique"
+  "wiki": "http://en.wikipedia.org/wiki/martinique",
+  "intermediateregion": "Caribbean"
 }

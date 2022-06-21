@@ -320,7 +320,7 @@
     "Tarija"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -334,5 +334,6 @@
     "ja": "\u30dc\u30ea\u30d3\u30a2\u591a\u6c11\u65cf\u56fd",
     "it": "Bolivia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/bolivia"
+  "wiki": "http://en.wikipedia.org/wiki/bolivia",
+  "intermediateregion": "South America"
 }

@@ -128,8 +128,8 @@
     "Nicosia",
     "Paphos"
   ],
-  "region": "Europe",
-  "subregion": "Southern Europe",
+  "region": "Asia",
+  "subregion": "Western Asia",
   "timezones": [
     "UTC+02:00"
   ],
@@ -143,5 +143,6 @@
     "ja": "\u30ad\u30d7\u30ed\u30b9",
     "it": "Cipro"
   },
-  "wiki": "http://en.wikipedia.org/wiki/cyprus"
+  "wiki": "http://en.wikipedia.org/wiki/cyprus",
+  "intermediateregion": ""
 }

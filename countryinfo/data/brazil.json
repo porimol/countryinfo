@@ -907,7 +907,7 @@
     "Tocantins"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221205:00",
     "UTC\u221204:00",
@@ -924,5 +924,6 @@
     "ja": "\u30d6\u30e9\u30b8\u30eb",
     "it": "Brasile"
   },
-  "wiki": "http://en.wikipedia.org/wiki/brazil"
+  "wiki": "http://en.wikipedia.org/wiki/brazil",
+  "intermediateregion": "South America"
 }

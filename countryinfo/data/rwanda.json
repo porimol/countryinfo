@@ -129,7 +129,7 @@
     "Umutara"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -143,5 +143,6 @@
     "ja": "\u30eb\u30ef\u30f3\u30c0",
     "it": "Ruanda"
   },
-  "wiki": "http://en.wikipedia.org/wiki/rwanda"
+  "wiki": "http://en.wikipedia.org/wiki/rwanda",
+  "intermediateregion": "Eastern Africa"
 }

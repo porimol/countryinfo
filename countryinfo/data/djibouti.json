@@ -130,7 +130,7 @@
     "Tadjoura"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -144,5 +144,6 @@
     "ja": "\u30b8\u30d6\u30c1",
     "it": "Gibuti"
   },
-  "wiki": "http://en.wikipedia.org/wiki/djibouti"
+  "wiki": "http://en.wikipedia.org/wiki/djibouti",
+  "intermediateregion": "Eastern Africa"
 }

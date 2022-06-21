@@ -113,7 +113,7 @@
     "Shiselweni"
   ],
   "region": "Africa",
-  "subregion": "Southern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -127,5 +127,6 @@
     "ja": "\u30b9\u30ef\u30b8\u30e9\u30f3\u30c9",
     "it": "Swaziland"
   },
-  "wiki": "http://en.wikipedia.org/wiki/swaziland"
+  "wiki": "http://en.wikipedia.org/wiki/swaziland",
+  "intermediateregion": "Southern Africa"
 }

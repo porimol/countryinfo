@@ -571,7 +571,7 @@
     "Sangha"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00",
     "UTC+02:00"
@@ -586,5 +586,6 @@
     "ja": "\u30b3\u30f3\u30b4\u6c11\u4e3b\u5171\u548c\u56fd",
     "it": "Repubblica Democratica del Congo"
   },
-  "wiki": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
+  "wiki": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+  "intermediateregion": "Middle Africa"
 }

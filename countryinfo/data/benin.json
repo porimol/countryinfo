@@ -173,7 +173,7 @@
     "Zou"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -187,5 +187,6 @@
     "ja": "\u30d9\u30ca\u30f3",
     "it": "Benin"
   },
-  "wiki": "http://en.wikipedia.org/wiki/benin"
+  "wiki": "http://en.wikipedia.org/wiki/benin",
+  "intermediateregion": "Western Africa"
 }

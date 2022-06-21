@@ -4,7 +4,7 @@
     "HK",
     "\u9999\u6e2f",
     "HKG",
-    "Hong Kong Special Administrative Region of China", 
+    "Hong Kong Special Administrative Region of China",
     "Homg Kong, China"
   ],
   "area": 1104,
@@ -57,5 +57,6 @@
     "ja": "\u9999\u6e2f",
     "it": "Hong Kong"
   },
-  "wiki": "http://en.wikipedia.org/wiki/hong_kong"
+  "wiki": "http://en.wikipedia.org/wiki/hong_kong",
+  "intermediateregion": ""
 }

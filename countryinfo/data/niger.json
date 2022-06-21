@@ -306,7 +306,7 @@
     "Zinder"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -320,5 +320,6 @@
     "ja": "\u30cb\u30b8\u30a7\u30fc\u30eb",
     "it": "Niger"
   },
-  "wiki": "http://en.wikipedia.org/wiki/niger"
+  "wiki": "http://en.wikipedia.org/wiki/niger",
+  "intermediateregion": "Western Africa"
 }

@@ -55,7 +55,7 @@
     "Tarrafal"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC\u221201:00"
   ],
@@ -69,5 +69,6 @@
     "ja": "\u30ab\u30fc\u30dc\u30d9\u30eb\u30c7",
     "it": "Capo Verde"
   },
-  "wiki": "http://en.wikipedia.org/wiki/cape_verde"
+  "wiki": "http://en.wikipedia.org/wiki/cape_verde",
+  "intermediateregion": "Western Africa"
 }

@@ -95,7 +95,7 @@
     "Tutong"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+08:00"
   ],
@@ -109,5 +109,6 @@
     "ja": "\u30d6\u30eb\u30cd\u30a4\u30fb\u30c0\u30eb\u30b5\u30e9\u30fc\u30e0",
     "it": "Brunei"
   },
-  "wiki": "http://en.wikipedia.org/wiki/brunei"
+  "wiki": "http://en.wikipedia.org/wiki/brunei",
+  "intermediateregion": ""
 }

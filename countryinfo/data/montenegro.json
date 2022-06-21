@@ -41,7 +41,7 @@
   "nativeName": "Crna Gora / \u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430",
   "population": 621873,
   "region": "Europe",
-  "subregion": "Eastern Europe",
+  "subregion": "Southern Europe",
   "timezones": [
     "UTC+01:00"
   ],
@@ -56,5 +56,6 @@
     "ja": "\u30e2\u30f3\u30c6\u30cd\u30b0\u30ed",
     "en": "Montenegrin"
   },
-  "wiki": "https://en.wikipedia.org/wiki/Montenegro"
+  "wiki": "https://en.wikipedia.org/wiki/Montenegro",
+  "intermediateregion": ""
 }

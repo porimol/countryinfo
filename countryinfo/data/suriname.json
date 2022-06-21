@@ -177,7 +177,7 @@
     "Wanica"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221203:00"
   ],
@@ -191,5 +191,6 @@
     "ja": "\u30b9\u30ea\u30ca\u30e0",
     "it": "Suriname"
   },
-  "wiki": "http://en.wikipedia.org/wiki/suriname"
+  "wiki": "http://en.wikipedia.org/wiki/suriname",
+  "intermediateregion": "South America"
 }

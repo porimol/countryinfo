@@ -201,13 +201,15 @@
     "Heves",
     "Hodmezovasarhely",
     "Jasz-Nagykun-Szolnok",
-    "Kaposvar","Kecskemet",
+    "Kaposvar",
+    "Kecskemet",
     "Komarom-Esztergom",
     "Miskolc",
     "Nagykanizsa",
     "Nograd",
     "Nyiregyhaza",
-    "Pecs","Pest",
+    "Pecs",
+    "Pest",
     "Somogy",
     "Sopron",
     "Szabolcs-Szatmar-Bereg",
@@ -231,7 +233,6 @@
   "tld": [
     ".hu"
   ],
-  
   "translations": {
     "de": "Ungarn",
     "es": "Hungr\u00eda",
@@ -239,5 +240,6 @@
     "ja": "\u30cf\u30f3\u30ac\u30ea\u30fc",
     "it": "Ungheria"
   },
-  "wiki": "https://en.wikipedia.org/wiki/Hungary"
+  "wiki": "https://en.wikipedia.org/wiki/Hungary",
+  "intermediateregion": ""
 }

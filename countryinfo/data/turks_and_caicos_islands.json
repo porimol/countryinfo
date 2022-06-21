@@ -1,6 +1,9 @@
 {
-  "capital": "Cockburn Town", 
-  "capital_latlng": [ 21.459, -71.139 ],
+  "capital": "Cockburn Town",
+  "capital_latlng": [
+    21.459,
+    -71.139
+  ],
   "ISO": {
     "alpha2": "TC",
     "alpha3": "TCA"
@@ -9,5 +12,8 @@
   "altSpellings": [
     "TC",
     "TCA"
-  ]
+  ],
+  "region": "Americas",
+  "subregion": "Latin America and the Caribbean",
+  "intermediateregion": "Caribbean"
 }

@@ -2,7 +2,7 @@
   "name": "Saint Vincent and the Grenadines",
   "altSpellings": [
     "VC",
-    "VCT", 
+    "VCT",
     "St. Vincent and the Grenadines"
   ],
   "area": 389,
@@ -43,7 +43,7 @@
     "Saint Patrick"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": [
     "UTC\u221204:00"
   ],
@@ -57,5 +57,6 @@
     "ja": "\u30bb\u30f3\u30c8\u30d3\u30f3\u30bb\u30f3\u30c8\u304a\u3088\u3073\u30b0\u30ec\u30ca\u30c7\u30a3\u30fc\u30f3\u8af8\u5cf6",
     "it": "Saint Vincent e Grenadine"
   },
-  "wiki": "http://en.wikipedia.org/wiki/saint_vincent_and_the_grenadines"
+  "wiki": "http://en.wikipedia.org/wiki/saint_vincent_and_the_grenadines",
+  "intermediateregion": "Caribbean"
 }

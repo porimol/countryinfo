@@ -172,7 +172,7 @@
     "Yauco"
   ],
   "region": "Americas",
-  "subregion": "Caribbean",
+  "subregion": "Latin America and the Caribbean",
   "timezones": null,
   "tld": [
     ".pr"
@@ -184,5 +184,6 @@
     "ja": "\u30d7\u30a8\u30eb\u30c8\u30ea\u30b3",
     "it": "Porto Rico"
   },
-  "wiki": "http://en.wikipedia.org/wiki/puerto_rico"
+  "wiki": "http://en.wikipedia.org/wiki/puerto_rico",
+  "intermediateregion": "Caribbean"
 }

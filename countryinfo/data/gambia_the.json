@@ -128,7 +128,7 @@
     "Western"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": null,
   "tld": [
     ".gm"
@@ -140,5 +140,6 @@
     "ja": "\u30ac\u30f3\u30d3\u30a2",
     "it": "Gambia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/gambia_the"
+  "wiki": "http://en.wikipedia.org/wiki/gambia_the",
+  "intermediateregion": "Western Africa"
 }

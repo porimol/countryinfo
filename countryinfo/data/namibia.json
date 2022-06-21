@@ -252,7 +252,7 @@
     "Otjozondjupa"
   ],
   "region": "Africa",
-  "subregion": "Southern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+01:00"
   ],
@@ -266,5 +266,6 @@
     "ja": "\u30ca\u30df\u30d3\u30a2",
     "it": "Namibia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/namibia"
+  "wiki": "http://en.wikipedia.org/wiki/namibia",
+  "intermediateregion": "Southern Africa"
 }

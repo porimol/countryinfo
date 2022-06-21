@@ -144,7 +144,7 @@
     "Tombali"
   ],
   "region": "Africa",
-  "subregion": "Western Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC"
   ],
@@ -158,5 +158,6 @@
     "ja": "\u30ae\u30cb\u30a2\u30d3\u30b5\u30a6",
     "it": "Guinea-Bissau"
   },
-  "wiki": "http://en.wikipedia.org/wiki/guinea_bissau"
+  "wiki": "http://en.wikipedia.org/wiki/guinea_bissau",
+  "intermediateregion": "Western Africa"
 }

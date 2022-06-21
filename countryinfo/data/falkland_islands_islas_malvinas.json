@@ -97,7 +97,7 @@
     "Falkland Islands (Islas Malvinas)"
   ],
   "region": "Americas",
-  "subregion": "South America",
+  "subregion": "Latin America and the Caribbean",
   "timezones": null,
   "tld": [
     ".fk"
@@ -109,5 +109,6 @@
     "ja": "\u30d5\u30a9\u30fc\u30af\u30e9\u30f3\u30c9\uff08\u30de\u30eb\u30d3\u30ca\u30b9\uff09\u8af8\u5cf6",
     "it": "Isole Falkland o Isole Malvine"
   },
-  "wiki": "http://en.wikipedia.org/wiki/falkland_islands_islas_malvinas"
+  "wiki": "http://en.wikipedia.org/wiki/falkland_islands_islas_malvinas",
+  "intermediateregion": "South America"
 }

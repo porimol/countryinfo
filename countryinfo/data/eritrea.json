@@ -187,7 +187,7 @@
     "Seraye"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -201,5 +201,6 @@
     "ja": "\u30a8\u30ea\u30c8\u30ea\u30a2",
     "it": "Eritrea"
   },
-  "wiki": "http://en.wikipedia.org/wiki/eritrea"
+  "wiki": "http://en.wikipedia.org/wiki/eritrea",
+  "intermediateregion": "Eastern Africa"
 }

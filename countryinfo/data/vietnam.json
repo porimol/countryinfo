@@ -299,7 +299,7 @@
     "Yen Bai"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+07:00"
   ],
@@ -313,5 +313,6 @@
     "ja": "\u30d9\u30c8\u30ca\u30e0",
     "it": "Vietnam"
   },
-  "wiki": "http://en.wikipedia.org/wiki/vietnam"
+  "wiki": "http://en.wikipedia.org/wiki/vietnam",
+  "intermediateregion": ""
 }

@@ -38,7 +38,7 @@
   "population": 77543,
   "provinces": [],
   "region": "Europe",
-  "subregion": "Western Europe",
+  "subregion": "Southern Europe",
   "timezones": [
     "UTC+01:00"
   ],
@@ -52,5 +52,6 @@
     "fr": "Andorre",
     "ja": "\u30a2\u30f3\u30c9\u30e9",
     "it": "Andorra"
-  }
+  },
+  "intermediateregion": ""
 }

@@ -336,7 +336,7 @@
     "Penon de Velez de la Gomera"
   ],
   "region": "Africa",
-  "subregion": "Middle Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+03:00"
   ],
@@ -350,5 +350,6 @@
     "ja": "\u5357\u30b9\u30fc\u30c0\u30f3",
     "it": "Sudan del Sud"
   },
-  "wiki": "http://en.wikipedia.org/wiki/spain"
+  "wiki": "http://en.wikipedia.org/wiki/spain",
+  "intermediateregion": "Eastern Africa"
 }

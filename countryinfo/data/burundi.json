@@ -130,7 +130,7 @@
     "Ruyigi"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -144,5 +144,6 @@
     "ja": "\u30d6\u30eb\u30f3\u30b8",
     "it": "Burundi"
   },
-  "wiki": "http://en.wikipedia.org/wiki/burundi"
+  "wiki": "http://en.wikipedia.org/wiki/burundi",
+  "intermediateregion": "Eastern Africa"
 }

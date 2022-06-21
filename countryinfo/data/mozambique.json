@@ -381,7 +381,7 @@
     "Zambezia"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+02:00"
   ],
@@ -395,5 +395,6 @@
     "ja": "\u30e2\u30b6\u30f3\u30d3\u30fc\u30af",
     "it": "Mozambico"
   },
-  "wiki": "http://en.wikipedia.org/wiki/mozambique"
+  "wiki": "http://en.wikipedia.org/wiki/mozambique",
+  "intermediateregion": "Eastern Africa"
 }

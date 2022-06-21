@@ -151,7 +151,7 @@
     "Takev"
   ],
   "region": "Asia",
-  "subregion": "South-Eastern Asia",
+  "subregion": "South-eastern Asia",
   "timezones": [
     "UTC+07:00"
   ],
@@ -165,5 +165,6 @@
     "ja": "\u30ab\u30f3\u30dc\u30b8\u30a2",
     "it": "Cambogia"
   },
-  "wiki": "http://en.wikipedia.org/wiki/cambodia"
+  "wiki": "http://en.wikipedia.org/wiki/cambodia",
+  "intermediateregion": ""
 }

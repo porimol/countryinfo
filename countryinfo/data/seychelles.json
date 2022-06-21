@@ -63,7 +63,7 @@
     "Takamaka"
   ],
   "region": "Africa",
-  "subregion": "Eastern Africa",
+  "subregion": "Sub-Saharan Africa",
   "timezones": [
     "UTC+04:00"
   ],
@@ -77,5 +77,6 @@
     "ja": "\u30bb\u30fc\u30b7\u30a7\u30eb",
     "it": "Seychelles"
   },
-  "wiki": "http://en.wikipedia.org/wiki/seychelles"
+  "wiki": "http://en.wikipedia.org/wiki/seychelles",
+  "intermediateregion": "Eastern Africa"
 }
