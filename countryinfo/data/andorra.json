@@ -1,0 +1,57 @@
+{
+  "ISO": {
+    "alpha2": "AD",
+    "alpha3": "AND"
+  },
+  "name": "Andorra",
+  "altSpellings": [
+    "AD",
+    "AND",
+    "Principality of Andorra"
+  ],
+  "area": 467.63,
+  "border": [
+    "FRA",
+    "ESP"
+  ],
+  "callingCodes": [
+    "376"
+  ],
+  "capital": "Andorra la Vella",
+  "capital_latlng": [
+    42.5,
+    1.516667
+  ],
+  "currencies": [
+    "EUR"
+  ],
+  "demonym": "Andorran",
+  "flag": "",
+  "languages": [
+    "ca"
+  ],
+  "latlng": [
+    42.5,
+    1.516667
+  ],
+  "nativeName": "Andorra",
+  "population": 77543,
+  "provinces": [],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "tld": [
+    ".ad"
+  ],
+  "wiki": "https://en.wikipedia.org/wiki/Andorra",
+  "translations": {
+    "de": "Andorra",
+    "es": "Andorra",
+    "fr": "Andorre",
+    "ja": "\u30a2\u30f3\u30c9\u30e9",
+    "it": "Andorra"
+  },
+  "intermediateregion": ""
+}

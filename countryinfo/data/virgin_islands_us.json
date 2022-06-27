@@ -1,0 +1,21 @@
+{
+  "capital": "Charlotte Amalie",
+  "capital_latlng": [
+    18.35,
+    -64.933333
+  ],
+  "ISO": {
+    "alpha2": "VI",
+    "alpha3": "VIR"
+  },
+  "name": "Virgin Islands, U.S.",
+  "altSpellings": [
+    "VI",
+    "VIR",
+    "Virgin Islands of the United States",
+    "U.S. Virgin Islands"
+  ],
+  "region": "Americas",
+  "subregion": "Latin America and the Caribbean",
+  "intermediateregion": "Caribbean"
+}

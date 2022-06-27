@@ -1,1 +1,70 @@
-{"name":"Cook Islands","altSpellings":["CK","Kūki 'Āirani"],"area":236,"borders":[],"callingCodes":["682"],"capital":"Avarua","capital_latlng":[-21.207474,-159.770814],"currencies":["NZD"],"demonym":"Cook Islander","flag":"","geoJSON":{},"ISO":{"alpha2":"CK","alpha3":"COK"},"languages":["en"],"latlng":[-21.23333333,-159.76666666],"nativeName":"Cook Islands","population":14974,"provinces":["Aitutaki","Atiu","Avarua","Mangaia","Manihiki","Manuae","Mauke","Mitiaro","Nassau Island","Palmerston","Penrhyn","Pukapuka","Rakahanga","Rarotonga","Suwarrow","Takutea"],"region":"Oceania","subregion":"Polynesia","timezones":null,"tld":[".ck"],"translations":{"de":"Cookinseln","es":"Islas Cook","fr":"Îles Cook","ja":"クック諸島","it":"Isole Cook"},"wiki":"http://en.wikipedia.org/wiki/cook_islands"}
+{
+  "name": "Cook Islands",
+  "altSpellings": [
+    "CK",
+    "K\u016bki '\u0100irani",
+    "COK"
+  ],
+  "area": 236,
+  "borders": [],
+  "callingCodes": [
+    "682"
+  ],
+  "capital": "Avarua",
+  "capital_latlng": [
+    -21.207474,
+    -159.770814
+  ],
+  "currencies": [
+    "NZD"
+  ],
+  "demonym": "Cook Islander",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "CK",
+    "alpha3": "COK"
+  },
+  "languages": [
+    "en"
+  ],
+  "latlng": [
+    -21.23333333,
+    -159.76666666
+  ],
+  "nativeName": "K\u016bki '\u0100irani",
+  "population": 14974,
+  "provinces": [
+    "Aitutaki",
+    "Atiu",
+    "Avarua",
+    "Mangaia",
+    "Manihiki",
+    "Manuae",
+    "Mauke",
+    "Mitiaro",
+    "Nassau Island",
+    "Palmerston",
+    "Penrhyn",
+    "Pukapuka",
+    "Rakahanga",
+    "Rarotonga",
+    "Suwarrow",
+    "Takutea"
+  ],
+  "region": "Oceania",
+  "subregion": "Polynesia",
+  "timezones": null,
+  "tld": [
+    ".ck"
+  ],
+  "translations": {
+    "de": "Cookinseln",
+    "es": "Islas Cook",
+    "fr": "\u00celes Cook",
+    "ja": "\u30af\u30c3\u30af\u8af8\u5cf6",
+    "it": "Isole Cook"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/cook_islands",
+  "intermediateregion": ""
+}

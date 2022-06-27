@@ -1,1 +1,61 @@
-{"name":"São Tomé and Príncipe","altSpellings":["ST","Democratic Republic of São Tomé and Príncipe","República Democrática de São Tomé e Príncipe"],"area":964,"borders":[],"callingCodes":["239"],"capital":"São Tomé","capital_latlng":[0.338924,6.731303],"currencies":["STD"],"demonym":"Sao Tomean","flag":"","geoJSON":{},"ISO":{"alpha2":"ST","alpha3":"STP"},"languages":["pt"],"latlng":[1,7],"nativeName":"São Tomé e Príncipe","population":187356,"provinces":["Principe","Sao Tome"],"region":"Africa","subregion":"Middle Africa","timezones":["UTC"],"tld":[".st"],"translations":{"de":"São Tomé und Príncipe","es":"Santo Tomé y Príncipe","fr":"Sao Tomé-et-Principe","ja":"サントメ・プリンシペ","it":"São Tomé e Príncipe"},"wiki":"http://en.wikipedia.org/wiki/sao_tome_and_principe"}
+{
+  "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+  "altSpellings": [
+    "ST",
+    "Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "Rep\u00fablica Democr\u00e1tica de S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+    "STP",
+    "Sao Tome and Principe",
+    "Democratic Republic of Sao Tome and Principe"
+  ],
+  "area": 964,
+  "borders": [],
+  "callingCodes": [
+    "239"
+  ],
+  "capital": "S\u00e3o Tom\u00e9",
+  "capital_latlng": [
+    0.338924,
+    6.731303
+  ],
+  "currencies": [
+    "STD"
+  ],
+  "demonym": "Sao Tomean",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "ST",
+    "alpha3": "STP"
+  },
+  "languages": [
+    "pt"
+  ],
+  "latlng": [
+    1,
+    7
+  ],
+  "nativeName": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+  "population": 187356,
+  "provinces": [
+    "Principe",
+    "Sao Tome"
+  ],
+  "region": "Africa",
+  "subregion": "Sub-Saharan Africa",
+  "timezones": [
+    "UTC"
+  ],
+  "tld": [
+    ".st"
+  ],
+  "translations": {
+    "de": "S\u00e3o Tom\u00e9 und Pr\u00edncipe",
+    "es": "Santo Tom\u00e9 y Pr\u00edncipe",
+    "fr": "Sao Tom\u00e9-et-Principe",
+    "ja": "\u30b5\u30f3\u30c8\u30e1\u30fb\u30d7\u30ea\u30f3\u30b7\u30da",
+    "it": "S\u00e3o Tom\u00e9 e Pr\u00edncipe"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/sao_tome_and_principe",
+  "intermediateregion": "Middle Africa"
+}

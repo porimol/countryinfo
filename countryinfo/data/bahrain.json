@@ -1,1 +1,69 @@
-{"name":"Bahrain","altSpellings":["BH","Kingdom of Bahrain","Mamlakat al-Baḥrayn"],"area":765,"borders":[],"callingCodes":["973"],"capital":"Manama","capital_latlng":[26.223504,50.582244],"currencies":["BHD"],"demonym":"Bahraini","flag":"","geoJSON":{},"ISO":{"alpha2":"BH","alpha3":"BHR"},"languages":["ar"],"latlng":[26,50.55],"nativeName":"‏البحرين","population":1316500,"provinces":["Al Hadd","Al Manamah","Al Mintaqah al Gharbiyah","Al Mintaqah al Wusta","Al Mintaqah ash Shamaliyah","Al Muharraq","Ar Rifa' wa al Mintaqah al Janubiyah","Jidd Hafs","Juzur Hawar","Madinat 'Isa","Madinat Hamad","Sitrah"],"region":"Asia","subregion":"Western Asia","timezones":["UTC+03:00"],"tld":[".bh"],"translations":{"de":"Bahrain","es":"Bahrein","fr":"Bahreïn","ja":"バーレーン","it":"Bahrein"},"wiki":"http://en.wikipedia.org/wiki/bahrain"}
+{
+  "name": "Bahrain",
+  "altSpellings": [
+    "BH",
+    "Kingdom of Bahrain",
+    "Mamlakat al-Ba\u1e25rayn",
+    "BHR"
+  ],
+  "area": 765,
+  "borders": [],
+  "callingCodes": [
+    "973"
+  ],
+  "capital": "Manama",
+  "capital_latlng": [
+    26.223504,
+    50.582244
+  ],
+  "currencies": [
+    "BHD"
+  ],
+  "demonym": "Bahraini",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "BH",
+    "alpha3": "BHR"
+  },
+  "languages": [
+    "ar"
+  ],
+  "latlng": [
+    26,
+    50.55
+  ],
+  "nativeName": "\u200f\u0627\u0644\u0628\u062d\u0631\u064a\u0646",
+  "population": 1316500,
+  "provinces": [
+    "Al Hadd",
+    "Al Manamah",
+    "Al Mintaqah al Gharbiyah",
+    "Al Mintaqah al Wusta",
+    "Al Mintaqah ash Shamaliyah",
+    "Al Muharraq",
+    "Ar Rifa' wa al Mintaqah al Janubiyah",
+    "Jidd Hafs",
+    "Juzur Hawar",
+    "Madinat 'Isa",
+    "Madinat Hamad",
+    "Sitrah"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "timezones": [
+    "UTC+03:00"
+  ],
+  "tld": [
+    ".bh"
+  ],
+  "translations": {
+    "de": "Bahrain",
+    "es": "Bar\u00e9in",
+    "fr": "Bahre\u00efn",
+    "ja": "\u30d0\u30fc\u30ec\u30fc\u30f3",
+    "it": "Bahrein"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/bahrain",
+  "intermediateregion": ""
+}

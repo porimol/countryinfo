@@ -1,21 +1,61 @@
-{"name":"Montenegro",
-  "altSpellings":["ME","Montenegro", "Montenegrin"],
-  "area":13812,
-  "borders":["SRB", "ALB", "XKX", "BIH", "HRV"],
-  "callingCodes":["382"],
-  "capital":"Podgorica",
-  "capital_latlng":[42.783333, 19.466667],
-  "currencies":["EUR"],
-  "demonym":"Montenegrin",
-  "flag":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/960px-Flag_of_Montenegro.svg.png",
-  "ISO":{"alpha2":"ME","alpha3":"MNE"},
-  "languages":["cnr"],
-  "latlng":[42.7044223, 19.3957785],
-  "nativeName":"Crna Gora",
-  "population":621873,
-  "region":"Europe",
-  "subregion":"Eastern Europe",
-  "timezones":["UTC+01:00"],
-  "tld":[".me"],
-  "translations":{"it": "Montenegro", "de":"Montenegro","es":"Montenegro","fr":"Monténégro","ja":"モンテネグロ", "en":"Montenegrin"},
-  "wiki":"https://en.wikipedia.org/wiki/Montenegro"}
+{
+  "name": "Montenegro",
+  "altSpellings": [
+    "ME",
+    "Montenegro",
+    "Montenegrin",
+    "MNE"
+  ],
+  "area": 13812,
+  "borders": [
+    "SRB",
+    "ALB",
+    "XKX",
+    "BIH",
+    "HRV"
+  ],
+  "callingCodes": [
+    "382"
+  ],
+  "capital": "Podgorica",
+  "capital_latlng": [
+    42.783333,
+    19.466667
+  ],
+  "currencies": [
+    "EUR"
+  ],
+  "demonym": "Montenegrin",
+  "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/960px-Flag_of_Montenegro.svg.png",
+  "ISO": {
+    "alpha2": "ME",
+    "alpha3": "MNE"
+  },
+  "languages": [
+    "cnr"
+  ],
+  "latlng": [
+    42.7044223,
+    19.3957785
+  ],
+  "nativeName": "Crna Gora / \u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430",
+  "population": 621873,
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "tld": [
+    ".me"
+  ],
+  "translations": {
+    "it": "Montenegro",
+    "de": "Montenegro",
+    "es": "Montenegro",
+    "fr": "Mont\u00e9n\u00e9gro",
+    "ja": "\u30e2\u30f3\u30c6\u30cd\u30b0\u30ed",
+    "en": "Montenegrin"
+  },
+  "wiki": "https://en.wikipedia.org/wiki/Montenegro",
+  "intermediateregion": ""
+}

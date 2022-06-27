@@ -1,0 +1,22 @@
+{
+  "capital": "Jerusalem",
+  "capital_latlng": [
+    31.783333,
+    35.216667
+  ],
+  "ISO": {
+    "alpha2": "PS",
+    "alpha3": "PSE"
+  },
+  "name": "Palestine, State of",
+  "altSpellings": [
+    "PS",
+    "PSE",
+    "the State of Palestine",
+    "Palestine, State of",
+    "Palestine"
+  ],
+  "region": "Asia",
+  "subregion": "Western Asia",
+  "intermediateregion": ""
+}

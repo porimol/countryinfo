@@ -1,0 +1,6 @@
+Andorra : capital not found or empty value  -> adding country_info[ capital ] = Andorra la Vella ? 
+Andorra : region not found or empty value  -> adding country_info[ region ] = Europe ? 
+Jamaica : capital not found or empty value  -> adding country_info[ capital ] = Kingston ? 
+Jamaica : region not found or empty value  -> adding country_info[ region ] = North America ? 
+Holy See (Vatican City State) : capital not found or empty value  -> adding country_info[ capital ] = Vatican City ? 
+Holy See (Vatican City State) : region not found or empty value  -> adding country_info[ region ] = Europe ? 
