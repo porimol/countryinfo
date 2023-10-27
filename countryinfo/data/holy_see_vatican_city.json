@@ -1,1 +1,25 @@
-{"flag":"","geoJSON":{},"ISO":{},"provinces":["Holy See (Vatican City)"],"tld":[],"wiki":"http://en.wikipedia.org/wiki/holy_see_vatican_city"}
+{   
+    "name":"Vatican City State",
+    "alt":["Vatican City","Vatican","The Vatican"],
+    "area":0.49,
+    "borders":["IT"],
+    "callingCode":["379"],
+    "capital":["Vatican City"],
+    "capital_latlng":[41.904755,12.454628],
+    "currencies":["EUR"],
+    "demonym":"Vaticanian",
+    "flag":"https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_the_Vatican_City_%282023%E2%80%93present%29.svg",
+    "geoJSON":{},
+    "ISO":{
+        "alpha2":"VA",
+        "alpha3":"VAT"
+    },
+    "languages":["la","it"],
+    "latlng":[41.904755,12.454628],
+    "nativeName":"Vaticano",
+    "population":764,
+    "provinces":["Holy See (Vatican City)"],
+    "timezones":["UTC+01:00"],
+    "region":"Europe",
+    "tld":[".va"],
+    "wiki":"http://en.wikipedia.org/wiki/holy_see_vatican_city"}
