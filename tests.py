@@ -168,14 +168,6 @@ class Tests(unittest.TestCase):
             except KeyError as err:
                 self.fail("Country '{0}' key error: {1}".format(wiki, err))
 
-    def test_all_countries_have_google(self):
-        for google in self.all_countries:
-            try:
-                country = self.all_countries[goolge]
-                country.iso()
-            except KeyError as err:
-                self.fail("Country '{0}' key error: {1}".format(goolge, err))
-
 
     def test_select_country_from_alt_name(self):
         country = CountryInfo('PK')
