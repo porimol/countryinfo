@@ -21,5 +21,6 @@
     "provinces":["Holy See (Vatican City)"],
     "timezones":["UTC+01:00"],
     "region":"Europe",
+    "subregion":"Southern Europe",
     "tld":[".va"],
     "wiki":"http://en.wikipedia.org/wiki/holy_see_vatican_city"}
