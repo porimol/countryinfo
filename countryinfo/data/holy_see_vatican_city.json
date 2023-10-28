@@ -3,7 +3,7 @@
     "alt":["Vatican City","Vatican","The Vatican"],
     "area":0.49,
     "borders":["IT"],
-    "callingCode":["379"],
+    "callingCodes":["379"],
     "capital":["Vatican City"],
     "capital_latlng":[41.904755,12.454628],
     "currencies":["EUR"],

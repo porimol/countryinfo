@@ -2,6 +2,7 @@
     "altSpellings":["Myanmar","Republic of the Union of Myanmar","Pyidaunzu Thanmăda Myăma Nainngandaw"],
     "area":676570,
     "borders":["BGD","CHN","IND","LAO","THA"],
+    "callingCodes":["95"],
     "capital":"Naypyidaw",
     "capital_latlng":[19.75,96.1],
     "currencies":["MMK"],

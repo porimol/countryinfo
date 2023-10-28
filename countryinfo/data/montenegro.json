@@ -13,6 +13,7 @@
   "latlng":[42.7044223, 19.3957785],
   "nativeName":"Crna Gora",
   "population":621873,
+  "provinces":["Podgorica", "Nikšić", "Pljevlja", "Bijelo Polje", "Cetinje", "Bar", "Herceg Novi", "Berane", "Budva", "Ulcinj", "Tivat", "Kotor", "Danilovgrad", "Gusinje", "Petnjica", "Rožaje", "Šavnik", "Žabljak", "Kolašin", "Mojkovac", "Plav", "Andrijevica", "Plužine", "Šušan"],
   "region":"Europe",
   "subregion":"Eastern Europe",
   "timezones":["UTC+01:00"],

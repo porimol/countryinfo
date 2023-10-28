@@ -3,7 +3,7 @@
     "altSpellings": [],
     "area":80231,
     "borders": [],
-    "callingCode": ["+44"],
+    "callingCodes": ["+44"],
     "capital": "Edinburgh",
     "capital_latlng": [55.953252, -3.188267],
     "currencies": ["GBP"],
