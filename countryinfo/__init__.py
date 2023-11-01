@@ -1,2 +1,2 @@
 # coding=utf-8
-from countryinfo.countryinfo import CountryInfo
+from countryinfo.countryinfo import CountryInfo as CountryInfo
