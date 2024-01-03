@@ -22,6 +22,7 @@ setup(
         include=['countryinfo'],
         exclude='tests'
     ),
+    package_data={'countryinfo': ['py.typed']},
     include_package_data=True,
     test_suite="tests.Tests",
     data_files=[("data", data_files)],  # package data files
