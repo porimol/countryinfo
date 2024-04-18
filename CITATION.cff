@@ -1,0 +1,12 @@
+# This CITATION.cff file was generated with cffinit.
+
+cff-version: 1.2.0
+title: Country Info
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Porimol
+    family-names: Chandro
+    email: porimolchandroroy@gmail.com
