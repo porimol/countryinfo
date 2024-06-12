@@ -1,13 +1,28 @@
 {
     "name": "Scotland",
-    "flag": "",
-    "geoJSON": {},
+    "altSpellings": [],
+    "area":80231,
+    "borders": [],
+    "callingCodes": ["+44"],
+    "capital": "Edinburgh",
+    "capital_latlng": [55.953252, -3.188267],
+    "currencies": ["GBP"],
     "demonym": "Scottish",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
     "ISO": {
         "alpha2": "",
         "alpha3": ""
     },
+    "languages": ["English", "Scots", "Scottish Gaelic", "British Sign Language"],
+    "latlng": [56.4906712, -4.2026458],
+    "nativeName": "Alba",
+    "population": 5295000,
     "provinces": ["Aberdeen City", "Aberdeenshire", "Angus", "Argyll and Bute", "City of Edinburgh", "Clackmannanshire", "Dumfries and Galloway", "Dundee City", "East Ayrshire", "East Dunbartonshire", "East Lothian", "East Renfrewshire", "Eilean Siar (Western Isles)", "Falkirk", "Fife", "Glasgow City", "Highland", "Inverclyde", "Midlothian", "Moray", "North Ayrshire", "North Lanarkshire", "Orkney Islands", "Perth and Kinross", "Renfrewshire", "Shetland Islands", "South Ayrshire", "South Lanarkshire", "Stirling", "The Scottish Borders", "West Dunbartonshire", "West Lothian"],
-    "tld": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "timezones": ["UTC+00:00"],
+    "tld": [".scot"],
+    "geoJSON": {},
+    "tranlations":{"de":"Schottland","es":"Escocia","fr":"Écosse","ja":"スコットランド","it":"Scozia"},
     "wiki": "http://en.wikipedia.org/wiki/scotland"
 }
