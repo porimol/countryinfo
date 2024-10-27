@@ -1,1 +1,69 @@
+<<<<<<< HEAD
 {"name":"Macau","altSpellings":["MO","Macao","澳门","Macao Special Administrative Region of the People's Republic of China","中華人民共和國澳門特別行政區","Região Administrativa Especial de Macau da República Popular da China"],"area":30,"borders":["CHN"],"callingCodes":["853"],"capital":"","currencies":["MOP"],"demonym":"Chinese","flag":"","geoJSON":{},"ISO":{"alpha2":"MO","alpha3":"MAC"},"languages":["zh","pt"],"latlng":[22.16666666,113.55],"nativeName":"澳門","population":631000,"provinces":["Macau"],"region":"Asia","subregion":"Eastern Asia","timezones":["UTC+08:00"],"tld":[".mo"],"translations":{"de":"Macao","es":"Macao","fr":"Macao","ja":"マカオ","it":"Macao"},"wiki":"http://en.wikipedia.org/wiki/macau"}
+=======
+{
+  "name": "Macau",
+  "altSpellings": [
+    "MO",
+    "\u6fb3\u95e8",
+    "Macao Special Administrative Region of the People's Republic of China",
+    "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u570b\u6fb3\u9580\u7279\u5225\u884c\u653f\u5340",
+    "Regi\u00e3o Administrativa Especial de Macau da Rep\u00fablica Popular da China",
+    "MAC",
+    "Macao",
+    "Macao Special Administrative Region of China"
+  ],
+  "area": 30,
+  "borders": [
+    "CHN"
+  ],
+  "callingCodes": [
+    "853"
+  ],
+  "capital": "Macau",
+  "capital_latlng": [
+    22.16564,
+    113.57582
+  ],
+  "currencies": [
+    "MOP"
+  ],
+  "demonym": "Chinese",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "MO",
+    "alpha3": "MAC"
+  },
+  "languages": [
+    "zh",
+    "pt"
+  ],
+  "latlng": [
+    22.16666666,
+    113.55
+  ],
+  "nativeName": "\u6fb3\u9580",
+  "population": 631000,
+  "provinces": [
+    "Macau"
+  ],
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "timezones": [
+    "UTC+08:00"
+  ],
+  "tld": [
+    ".mo"
+  ],
+  "translations": {
+    "de": "Macao",
+    "es": "Macao",
+    "fr": "Macao",
+    "ja": "\u30de\u30ab\u30aa",
+    "it": "Macao"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/macau",
+  "intermediateregion": ""
+}
+>>>>>>> eaff00f42afda8f47756f69a041d9585509253a2
