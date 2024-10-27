@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "countryinfo"
+version = "1.0.0"
+description = "A python module for returning data about countries, ISO info and states/provinces within them."
+authors = ["Porimol Chandro <porimolchandroroy@gmail.com>"]
+license = "The MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
