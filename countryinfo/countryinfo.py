@@ -3,6 +3,38 @@ from glob import glob
 from os.path import isfile, realpath, dirname
 import json
 from pprint import pprint
+from typing import Any, Dict, Literal, Optional, overload, Sequence, TypedDict, Union
+
+
+class IsoDict(TypedDict):
+    alpha2: str
+    alpha3: str
+
+
+class CountryInfoDict(TypedDict):
+    ISO: IsoDict
+    altSpellings: Sequence[str]
+    area: int
+    borders: Sequence[str]
+    callingCodes: Sequence[str]
+    capital: str
+    capital_latlng: Sequence[float]
+    currencies: Sequence[str]
+    demonym: str
+    flag: str
+    geoJSON: Dict[str, Any]
+    languages: Sequence[str]
+    latlng: Sequence[float]
+    name: str
+    nativeName: str
+    population: int
+    provinces: Sequence[str]
+    region: str
+    subregion: str
+    timezones: Sequence[str]
+    tld: Sequence[str]
+    translations: Dict[str, str]
+    wiki: str
 
 
 class CountryInfo:
@@ -13,7 +45,7 @@ class CountryInfo:
         pprint(country.info())
     """
 
-    def __init__(self, country_name=None):
+    def __init__(self, country_name: Optional[str] = None) -> None:
         """constructor method
 
         :param country_name: str
@@ -36,7 +68,7 @@ class CountryInfo:
                         if self.__country_name in map(lambda an: an.lower(), country_info.get('altSpellings', [])):
                             self.__country_name = country_info['name'].lower()
 
-    def info(self):
+    def info(self) -> Optional[CountryInfoDict]:
         """Returns all available information for a specified country.
 
         :return: dict
@@ -47,8 +79,9 @@ class CountryInfo:
             _all['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]["name"]
 
             return _all
+        return None
 
-    def provinces(self):
+    def provinces(self) -> Optional[Sequence[str]]:
         """return provinces list
 
         :return: list
@@ -58,8 +91,15 @@ class CountryInfo:
             # pprint(_provinces)
 
             return _provinces
+        return None
 
-    def iso(self, alpha=None):
+    @overload
+    def iso(self, alpha: Literal[2, 3]) -> str:
+        ...
+    @overload
+    def iso(self, alpha: None = ...) -> IsoDict:
+        ...
+    def iso(self, alpha: Literal[2, 3, None] = None) -> Union[str, IsoDict, None]:
         """Returns ISO codes for a specified country
 
         :param alpha: int
@@ -77,8 +117,9 @@ class CountryInfo:
                 return _iso.get('alpha3')
 
             return _iso
+        return None
 
-    def alt_spellings(self):
+    def alt_spellings(self) -> Optional[Sequence[str]]:
         """Returns alternate spellings for the name of a specified country
 
         :return: list
@@ -91,8 +132,9 @@ class CountryInfo:
                 return _alt_spellings
             except KeyError:
                 return []
+        return None
 
-    def area(self):
+    def area(self) -> Optional[int]:
         """Returns area (km²) for a specified country
 
         :return: int
@@ -102,8 +144,9 @@ class CountryInfo:
             # pprint(_area)
 
             return _area
+        return None
 
-    def borders(self):
+    def borders(self) -> Optional[Sequence[str]]:
         """Returns bordering countries (ISO3) for a specified country
 
         :return: list
@@ -113,8 +156,9 @@ class CountryInfo:
             # pprint(_borders)
 
             return _borders
+        return None
 
-    def calling_codes(self):
+    def calling_codes(self) -> Optional[Sequence[str]]:
         """Returns international calling codes for a specified country
 
         :return: list
@@ -124,8 +168,9 @@ class CountryInfo:
             # pprint(_calling_codes)
 
             return _calling_codes
+        return None
 
-    def capital(self):
+    def capital(self) -> Optional[str]:
         """Returns capital city for a specified country
 
         :return: str
@@ -135,8 +180,9 @@ class CountryInfo:
             # pprint(_capital)
 
             return _capital
+        return None
 
-    def capital_latlng(self):
+    def capital_latlng(self) -> Optional[Sequence[float]]:
         """Returns capital city latitude and longitude for a specified country
 
         :return: str
@@ -146,8 +192,9 @@ class CountryInfo:
             # pprint(_capital)
 
             return _capital_latlng
+        return None
 
-    def currencies(self):
+    def currencies(self) -> Optional[Sequence[str]]:
         """Returns official currencies for a specified country
 
         :return: list
@@ -157,8 +204,9 @@ class CountryInfo:
             # pprint(_currencies)
 
             return _currencies
+        return None
 
-    def demonym(self):
+    def demonym(self) -> Optional[str]:
         """Returns the demonyms for a specified country
 
         :return: str
@@ -168,8 +216,9 @@ class CountryInfo:
             # pprint(_demonym)
 
             return _demonym
+        return None
 
-    def flag(self):
+    def flag(self) -> Optional[str]:
         """Returns SVG link of the official flag for a specified country
 
         :return: str
@@ -180,8 +229,9 @@ class CountryInfo:
             # pprint(_flag)
 
             return _flag
+        return None
 
-    def geo_json(self):
+    def geo_json(self) -> Optional[Dict[str, Any]]:
         """Returns geoJSON for a specified country
 
         :return: dict
@@ -191,8 +241,9 @@ class CountryInfo:
             # pprint(_geo_json)
 
             return _geo_json
+        return None
 
-    def languages(self):
+    def languages(self) -> Optional[Sequence[str]]:
         """Returns official languages for a specified country
 
         :return: list
@@ -202,8 +253,9 @@ class CountryInfo:
             # pprint(_languages)
 
             return _languages
+        return None
 
-    def latlng(self):
+    def latlng(self) -> Optional[Sequence[float]]:
         """Returns approx latitude and longitude for a specified country
 
         :return: list
@@ -213,15 +265,16 @@ class CountryInfo:
             # pprint(_latlng)
 
             return _latlng
+        return None
 
-    def name(self):
+    def name(self) -> Optional[str]:
         """Returns the english name of the country as registered in the library
 
         :return: str
         """
         return self.__country_name
 
-    def native_name(self):
+    def native_name(self) -> Optional[str]:
         """Returns the name of the country in its native tongue
 
         :return: str
@@ -231,8 +284,9 @@ class CountryInfo:
             # pprint(_native_name)
 
             return _native_name
+        return None
 
-    def population(self):
+    def population(self) -> Optional[int]:
         """Returns approximate population for a specified country
 
         :return: int
@@ -242,8 +296,9 @@ class CountryInfo:
             # pprint(_population)
 
             return _population
+        return None
 
-    def region(self):
+    def region(self) -> Optional[str]:
         """Returns general region for a specified country
 
         :return: str
@@ -253,8 +308,9 @@ class CountryInfo:
             # pprint(_region)
 
             return _region
+        return None
 
-    def subregion(self):
+    def subregion(self) -> Optional[str]:
         """Returns a more specific region for a specified country
 
         :return: str
@@ -264,8 +320,9 @@ class CountryInfo:
             # pprint(_subregion)
 
             return _subregion
+        return None
 
-    def timezones(self):
+    def timezones(self) -> Optional[Sequence[str]]:
         """Returns all timezones for a specified country
 
         :return: list
@@ -275,8 +332,9 @@ class CountryInfo:
             # pprint(_timezones)
 
             return _timezones
+        return None
 
-    def tld(self):
+    def tld(self) -> Optional[Sequence[str]]:
         """Returns official top level domains for a specified country
 
         :return: list
@@ -286,8 +344,9 @@ class CountryInfo:
             # pprint(_tld)
 
             return _tld
+        return None
 
-    def translations(self):
+    def translations(self) -> Optional[Dict[str, str]]:
         """Returns translations for a specified country name in popular languages
 
         :return: dict
@@ -299,9 +358,10 @@ class CountryInfo:
 
                 return _translations
             except KeyError:
-                return []
+                return {}
+        return None
 
-    def wiki(self):
+    def wiki(self) -> Optional[str]:
         """Returns link to wikipedia page for a specified country
 
         :return: str
@@ -312,8 +372,9 @@ class CountryInfo:
             # pprint(_wiki)
 
             return _wiki
+        return None
 
-    def google(self):
+    def google(self) -> Optional[str]:
         """Returns link to google page for a specified country
 
         :return: str
@@ -324,8 +385,9 @@ class CountryInfo:
             # pprint(_google)
 
             return _google
+        return None
 
-    def all(self):
+    def all(self) -> Optional[Dict[str, CountryInfoDict]]:
         """return all of the countries information
 
         :return: dict
