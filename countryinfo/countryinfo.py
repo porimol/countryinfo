@@ -56,11 +56,18 @@ class CountryInfo:
         __file_dir_path = dirname(realpath(__file__))
         __country_files = __file_dir_path + '/data/'
         __files_path = [files for files in glob(__country_files + '*.json')]
+        # __files_path = list(glob(__country_files + '*.json'))
         self.__countries = {}
         for file_path in __files_path:
             if isfile(file_path):
                 with open(file_path, encoding='utf-8') as file:
-                    country_info = json.load(file)
+                    try:
+                        country_info = json.load(file)
+                        # Process JSON data here
+                    except json.JSONDecodeError:
+                        print(f"Skipping invalid JSON in file: {file_path}")
+                        continue
+                    # country_info = json.load(file)
                     # pprint(country_info)
                     if country_info.get('name', None):
                         self.__countries[country_info['name'].lower()] = country_info
