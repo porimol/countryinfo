@@ -1,9 +1,9 @@
 # coding=utf-8
-from glob import glob
-from os.path import isfile, realpath, dirname
 import json
+from glob import glob
+from os.path import dirname, isfile, realpath
 from pprint import pprint
-from typing import Any, Dict, Literal, Optional, overload, Sequence, TypedDict, Union
+from typing import Any, Dict, Literal, Optional, Sequence, TypedDict, Union, overload
 
 
 class IsoDict(TypedDict):
@@ -51,16 +51,16 @@ class CountryInfo:
         :param country_name: str
             pass country name
         """
-        self.__country_name = country_name.lower() if country_name else ''
+        self.__country_name = country_name.lower() if country_name else ""
         # get the files path
         __file_dir_path = dirname(realpath(__file__))
-        __country_files = __file_dir_path + '/data/'
-        __files_path = [files for files in glob(__country_files + '*.json')]
+        __country_files = __file_dir_path + "/data/"
+        __files_path = [files for files in glob(__country_files + "*.json")]
         # __files_path = list(glob(__country_files + '*.json'))
         self.__countries = {}
         for file_path in __files_path:
             if isfile(file_path):
-                with open(file_path, encoding='utf-8') as file:
+                with open(file_path, encoding="utf-8") as file:
                     try:
                         country_info = json.load(file)
                         # Process JSON data here
@@ -69,11 +69,13 @@ class CountryInfo:
                         continue
                     # country_info = json.load(file)
                     # pprint(country_info)
-                    if country_info.get('name', None):
-                        self.__countries[country_info['name'].lower()] = country_info
+                    if country_info.get("name", None):
+                        self.__countries[country_info["name"].lower()] = country_info
                         # Update country name if it is one of alt spellings.
-                        if self.__country_name in map(lambda an: an.lower(), country_info.get('altSpellings', [])):
-                            self.__country_name = country_info['name'].lower()
+                        if self.__country_name in map(
+                            lambda an: an.lower(), country_info.get("altSpellings", [])
+                        ):
+                            self.__country_name = country_info["name"].lower()
 
     def info(self) -> Optional[CountryInfoDict]:
         """Returns all available information for a specified country.
@@ -83,7 +85,10 @@ class CountryInfo:
         if self.__country_name:
             _all = self.__countries[self.__country_name]
             # pprint(_all)
-            _all['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]["name"]
+            _all["google"] = (
+                "https://www.google.com/search?q="
+                + self.__countries[self.__country_name]["name"]
+            )
 
             return _all
         return None
@@ -94,7 +99,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _provinces = self.__countries[self.__country_name]['provinces']
+            _provinces = self.__countries[self.__country_name]["provinces"]
             # pprint(_provinces)
 
             return _provinces
@@ -103,9 +108,11 @@ class CountryInfo:
     @overload
     def iso(self, alpha: Literal[2, 3]) -> str:
         ...
+
     @overload
     def iso(self, alpha: None = ...) -> IsoDict:
         ...
+
     def iso(self, alpha: Literal[2, 3, None] = None) -> Union[str, IsoDict, None]:
         """Returns ISO codes for a specified country
 
@@ -115,13 +122,13 @@ class CountryInfo:
             based on param
         """
         if self.__country_name:
-            _iso = self.__countries[self.__country_name]['ISO']
+            _iso = self.__countries[self.__country_name]["ISO"]
             # pprint(_iso)
 
             if alpha == 2:
-                return _iso.get('alpha2')
+                return _iso.get("alpha2")
             elif alpha == 3:
-                return _iso.get('alpha3')
+                return _iso.get("alpha3")
 
             return _iso
         return None
@@ -133,7 +140,7 @@ class CountryInfo:
         """
         if self.__country_name:
             try:
-                _alt_spellings = self.__countries[self.__country_name]['altSpellings']
+                _alt_spellings = self.__countries[self.__country_name]["altSpellings"]
                 # pprint(_alt_spellings)
 
                 return _alt_spellings
@@ -147,7 +154,7 @@ class CountryInfo:
         :return: int
         """
         if self.__country_name:
-            _area = self.__countries[self.__country_name]['area']
+            _area = self.__countries[self.__country_name]["area"]
             # pprint(_area)
 
             return _area
@@ -159,7 +166,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _borders = self.__countries[self.__country_name]['borders']
+            _borders = self.__countries[self.__country_name]["borders"]
             # pprint(_borders)
 
             return _borders
@@ -171,7 +178,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _calling_codes = self.__countries[self.__country_name]['callingCodes']
+            _calling_codes = self.__countries[self.__country_name]["callingCodes"]
             # pprint(_calling_codes)
 
             return _calling_codes
@@ -183,7 +190,7 @@ class CountryInfo:
         :return: str
         """
         if self.__country_name:
-            _capital = self.__countries[self.__country_name]['capital']
+            _capital = self.__countries[self.__country_name]["capital"]
             # pprint(_capital)
 
             return _capital
@@ -195,7 +202,7 @@ class CountryInfo:
         :return: str
         """
         if self.__country_name:
-            _capital_latlng = self.__countries[self.__country_name]['capital_latlng']
+            _capital_latlng = self.__countries[self.__country_name]["capital_latlng"]
             # pprint(_capital)
 
             return _capital_latlng
@@ -207,7 +214,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _currencies = self.__countries[self.__country_name]['currencies']
+            _currencies = self.__countries[self.__country_name]["currencies"]
             # pprint(_currencies)
 
             return _currencies
@@ -219,7 +226,7 @@ class CountryInfo:
         :return: str
         """
         if self.__country_name:
-            _demonym = self.__countries[self.__country_name]['demonym']
+            _demonym = self.__countries[self.__country_name]["demonym"]
             # pprint(_demonym)
 
             return _demonym
@@ -232,7 +239,7 @@ class CountryInfo:
             it will return an URL if available
         """
         if self.__country_name:
-            _flag = self.__countries[self.__country_name]['flag']
+            _flag = self.__countries[self.__country_name]["flag"]
             # pprint(_flag)
 
             return _flag
@@ -244,7 +251,7 @@ class CountryInfo:
         :return: dict
         """
         if self.__country_name:
-            _geo_json = self.__countries[self.__country_name]['geoJSON']
+            _geo_json = self.__countries[self.__country_name]["geoJSON"]
             # pprint(_geo_json)
 
             return _geo_json
@@ -256,7 +263,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _languages = self.__countries[self.__country_name]['languages']
+            _languages = self.__countries[self.__country_name]["languages"]
             # pprint(_languages)
 
             return _languages
@@ -268,7 +275,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _latlng = self.__countries[self.__country_name]['latlng']
+            _latlng = self.__countries[self.__country_name]["latlng"]
             # pprint(_latlng)
 
             return _latlng
@@ -287,7 +294,7 @@ class CountryInfo:
         :return: str
         """
         if self.__country_name:
-            _native_name = self.__countries[self.__country_name].get('nativeName')
+            _native_name = self.__countries[self.__country_name].get("nativeName")
             # pprint(_native_name)
 
             return _native_name
@@ -299,7 +306,7 @@ class CountryInfo:
         :return: int
         """
         if self.__country_name:
-            _population = self.__countries[self.__country_name]['population']
+            _population = self.__countries[self.__country_name]["population"]
             # pprint(_population)
 
             return _population
@@ -311,7 +318,7 @@ class CountryInfo:
         :return: str
         """
         if self.__country_name:
-            _region = self.__countries[self.__country_name]['region']
+            _region = self.__countries[self.__country_name]["region"]
             # pprint(_region)
 
             return _region
@@ -323,7 +330,7 @@ class CountryInfo:
         :return: str
         """
         if self.__country_name:
-            _subregion = self.__countries[self.__country_name]['subregion']
+            _subregion = self.__countries[self.__country_name]["subregion"]
             # pprint(_subregion)
 
             return _subregion
@@ -335,7 +342,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _timezones = self.__countries[self.__country_name]['timezones']
+            _timezones = self.__countries[self.__country_name]["timezones"]
             # pprint(_timezones)
 
             return _timezones
@@ -347,7 +354,7 @@ class CountryInfo:
         :return: list
         """
         if self.__country_name:
-            _tld = self.__countries[self.__country_name]['tld']
+            _tld = self.__countries[self.__country_name]["tld"]
             # pprint(_tld)
 
             return _tld
@@ -360,7 +367,7 @@ class CountryInfo:
         """
         if self.__country_name:
             try:
-                _translations = self.__countries[self.__country_name]['translations']
+                _translations = self.__countries[self.__country_name]["translations"]
                 # pprint(_translations)
 
                 return _translations
@@ -375,7 +382,7 @@ class CountryInfo:
             return wiki url if available
         """
         if self.__country_name:
-            _wiki = self.__countries[self.__country_name]['wiki']
+            _wiki = self.__countries[self.__country_name]["wiki"]
             # pprint(_wiki)
 
             return _wiki
@@ -388,7 +395,10 @@ class CountryInfo:
             return google url if available
         """
         if self.__country_name:
-            _google = "https://www.google.com/search?q=" + self.__countries[self.__country_name]['name']
+            _google = (
+                "https://www.google.com/search?q="
+                + self.__countries[self.__country_name]["name"]
+            )
             # pprint(_google)
 
             return _google
@@ -401,12 +411,13 @@ class CountryInfo:
         """
         _all = self.__countries
         for country in _all:
-            _all[country]['google'] = "https://www.google.com/search?q=" + self.__countries[country]['name']
+            _all[country]["google"] = (
+                "https://www.google.com/search?q=" + self.__countries[country]["name"]
+            )
 
         return _all
 
 
-if __name__ == '__main__':
-    country = CountryInfo('Singapore')
+if __name__ == "__main__":
+    country = CountryInfo("Singapore")
     pprint(country.all())
-

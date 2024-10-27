@@ -8,8 +8,44 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
+pydantic = "^2.9.2"
+typer = "^0.12.5"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+mypy = "^1.13.0"
+black = "^24.10.0"
+isort = "^5.13.2"
+pre-commit = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+exclude = [
+  ".git",
+  ".gitignore",
+  ".gitlab-ci.yml",
+  "__pycache__",
+  ".pytest_cache",
+  ".mypy_cache",
+  "RnD",
+]
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+no_namespace_packages = true
+ignore_missing_imports = true
+
+[tool.flake8]
+exclude = [
+  ".git",
+  ".gitignore",
+  ".gitlab-ci.yml",
+  "__pycache__",
+  ".pytest_cache",
+  ".mypy_cache",
+  "RnD",
+]
+max-line-length = 120
