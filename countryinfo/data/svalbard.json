@@ -1,1 +1,62 @@
-{"name":"Svalbard and Jan Mayen","altSpellings":["SJ","Svalbard and Jan Mayen Islands"],"area":null,"borders":[],"callingCodes":["4779"],"capital":"Longyearbyen","capital_latlng":[78.223156,15.646366],"currencies":["NOK"],"demonym":"Norwegian","flag":"","geoJSON":{},"ISO":{"alpha2":"SJ","alpha3":"SJM"},"languages":["no"],"latlng":[78,20],"nativeName":"Svalbard og Jan Mayen","population":2562,"provinces":["Barentsoya","Bjornoya","Edgeoya","Hopen","Kvitoya","Nordaustandet","Prins Karls Forland","Spitsbergen"],"region":"Europe","subregion":"Northern Europe","timezones":null,"tld":[".sj"],"translations":{"de":"Svalbard und Jan Mayen","es":"Islas Svalbard y Jan Mayen","fr":"Svalbard et Jan Mayen","ja":"スヴァールバル諸島およびヤンマイエン島","it":"Svalbard e Jan Mayen"},"wiki":"http://en.wikipedia.org/wiki/svalbard"}
+{
+  "name": "Svalbard and Jan Mayen",
+  "altSpellings": [
+    "SJ",
+    "Svalbard and Jan Mayen Islands",
+    "SJM"
+  ],
+  "area": null,
+  "borders": [],
+  "callingCodes": [
+    "4779"
+  ],
+  "capital": "Longyearbyen",
+  "capital_latlng": [
+    78.223156,
+    15.646366
+  ],
+  "currencies": [
+    "NOK"
+  ],
+  "demonym": "Norwegian",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "SJ",
+    "alpha3": "SJM"
+  },
+  "languages": [
+    "no"
+  ],
+  "latlng": [
+    78,
+    20
+  ],
+  "nativeName": "Svalbard og Jan Mayen",
+  "population": 2562,
+  "provinces": [
+    "Barentsoya",
+    "Bjornoya",
+    "Edgeoya",
+    "Hopen",
+    "Kvitoya",
+    "Nordaustandet",
+    "Prins Karls Forland",
+    "Spitsbergen"
+  ],
+  "region": "Europe",
+  "subregion": "Northern Europe",
+  "timezones": null,
+  "tld": [
+    ".sj"
+  ],
+  "translations": {
+    "de": "Svalbard und Jan Mayen",
+    "es": "Islas Svalbard y Jan Mayen",
+    "fr": "Svalbard et Jan Mayen",
+    "ja": "\u30b9\u30f4\u30a1\u30fc\u30eb\u30d0\u30eb\u8af8\u5cf6\u304a\u3088\u3073\u30e4\u30f3\u30de\u30a4\u30a8\u30f3\u5cf6",
+    "it": "Svalbard e Jan Mayen"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/svalbard",
+  "intermediateregion": ""
+}

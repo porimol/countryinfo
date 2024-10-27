@@ -1,0 +1,54 @@
+{
+  "ISO": {
+    "alpha2": "JM",
+    "alpha3": "JAM"
+  },
+  "name": "Jamaica",
+  "altSpellings": [
+    "JM",
+    "JAM"
+  ],
+  "area": 10991,
+  "borders": [],
+  "callingCodes": [
+    "1-876",
+    "1-658"
+  ],
+  "capital": "Kingston",
+  "capital_latlng": [
+    17.971389,
+    -76.793056
+  ],
+  "currencies": [
+    "JMD"
+  ],
+  "demonym": "Jamaican",
+  "flag": "",
+  "languages": [
+    "en"
+  ],
+  "latlng": [
+    17.971389,
+    -76.793056
+  ],
+  "nativeName": "Jumieka",
+  "population": 2726667,
+  "provinces": [],
+  "region": "Americas",
+  "subregion": "Latin America and the Caribbean",
+  "timezones": [
+    "UTC\u221205:00"
+  ],
+  "tld": [
+    ".jm"
+  ],
+  "wiki": "http://en.wikipedia.org/wiki/Jamaica",
+  "translations": {
+    "de": "Jamaika",
+    "es": "Jamaica",
+    "fr": "Jama\u00efque",
+    "ja": "\u30b8\u30e3\u30de\u30a4\u30ab",
+    "it": "Giamaica"
+  },
+  "intermediateregion": "Caribbean"
+}
