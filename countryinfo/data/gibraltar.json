@@ -1,1 +1,56 @@
-{"name":"Gibraltar","altSpellings":["GI"],"area":6,"borders":["ESP"],"callingCodes":["350"],"capital":"Gibraltar","capital_latlng":[36.140807,-5.35413],"currencies":["GIP"],"demonym":"Gibraltar","flag":"","geoJSON":{},"ISO":{"alpha2":"GI","alpha3":"GIB"},"languages":["en"],"latlng":[36.13333333,-5.35],"nativeName":"Gibraltar","population":30001,"provinces":["Gibraltar"],"region":"Europe","subregion":"Southern Europe","timezones":null,"tld":[".gi"],"translations":{"de":"Gibraltar","es":"Gibraltar","fr":"Gibraltar","ja":"ジブラルタル","it":"Gibilterra"},"wiki":"http://en.wikipedia.org/wiki/gibraltar"}
+{
+  "name": "Gibraltar",
+  "altSpellings": [
+    "GI",
+    "GIB"
+  ],
+  "area": 6,
+  "borders": [
+    "ESP"
+  ],
+  "callingCodes": [
+    "350"
+  ],
+  "capital": "Gibraltar",
+  "capital_latlng": [
+    36.140807,
+    -5.35413
+  ],
+  "currencies": [
+    "GIP"
+  ],
+  "demonym": "Gibraltar",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "GI",
+    "alpha3": "GIB"
+  },
+  "languages": [
+    "en"
+  ],
+  "latlng": [
+    36.13333333,
+    -5.35
+  ],
+  "nativeName": "Gibraltar",
+  "population": 30001,
+  "provinces": [
+    "Gibraltar"
+  ],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "timezones": null,
+  "tld": [
+    ".gi"
+  ],
+  "translations": {
+    "de": "Gibraltar",
+    "es": "Gibraltar",
+    "fr": "Gibraltar",
+    "ja": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb",
+    "it": "Gibilterra"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/gibraltar",
+  "intermediateregion": ""
+}

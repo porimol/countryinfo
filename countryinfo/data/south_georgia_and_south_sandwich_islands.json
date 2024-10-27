@@ -1,1 +1,62 @@
-{"name":"South Georgia","altSpellings":["GS","South Georgia and the South Sandwich Islands"],"area":null,"borders":[],"callingCodes":["500"],"capital":"King Edward Point","capital_latlng":[-54.283545,-36.494636],"currencies":["GBP"],"demonym":"South Georgia and the South Sandwich Islander","flag":"","geoJSON":{},"ISO":{"alpha2":"GS","alpha3":"SGS"},"languages":["en"],"latlng":[-54.5,-37],"nativeName":"South Georgia","population":30,"provinces":["Bird Island","Bristol Island","Clerke Rocks","Montagu Island","Saunders Island","South Georgia","Southern Thule","Traversay Islands"],"region":"Americas","subregion":"South America","timezones":null,"tld":[".gs"],"translations":{"de":"Südgeorgien und die Südlichen Sandwichinseln","es":"Islas Georgias del Sur y Sandwich del Sur","fr":"Géorgie du Sud-et-les Îles Sandwich du Sud","ja":"サウスジョージア・サウスサンドウィッチ諸島","it":"Georgia del Sud e Isole Sandwich Meridionali"},"wiki":"http://en.wikipedia.org/wiki/south_georgia_and_south_sandwich_islands"}
+{
+  "name": "South Georgia",
+  "altSpellings": [
+    "GS",
+    "South Georgia and the South Sandwich Islands",
+    "SGS"
+  ],
+  "area": null,
+  "borders": [],
+  "callingCodes": [
+    "500"
+  ],
+  "capital": "King Edward Point",
+  "capital_latlng": [
+    -54.283545,
+    -36.494636
+  ],
+  "currencies": [
+    "GBP"
+  ],
+  "demonym": "South Georgia and the South Sandwich Islander",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "GS",
+    "alpha3": "SGS"
+  },
+  "languages": [
+    "en"
+  ],
+  "latlng": [
+    -54.5,
+    -37
+  ],
+  "nativeName": "South Georgia",
+  "population": 30,
+  "provinces": [
+    "Bird Island",
+    "Bristol Island",
+    "Clerke Rocks",
+    "Montagu Island",
+    "Saunders Island",
+    "South Georgia",
+    "Southern Thule",
+    "Traversay Islands"
+  ],
+  "region": "Americas",
+  "subregion": "Latin America and the Caribbean",
+  "timezones": null,
+  "tld": [
+    ".gs"
+  ],
+  "translations": {
+    "de": "S\u00fcdgeorgien und die S\u00fcdlichen Sandwichinseln",
+    "es": "Islas Georgias del Sur y Sandwich del Sur",
+    "fr": "G\u00e9orgie du Sud-et-les \u00celes Sandwich du Sud",
+    "ja": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u30fb\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6",
+    "it": "Georgia del Sud e Isole Sandwich Meridionali"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/south_georgia_and_south_sandwich_islands",
+  "intermediateregion": "South America"
+}

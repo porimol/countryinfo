@@ -1,0 +1,19 @@
+{
+  "capital": "Willemstad",
+  "capital_latlng": [
+    12.116667,
+    -68.933333
+  ],
+  "ISO": {
+    "alpha2": "CW",
+    "alpha3": "CUW"
+  },
+  "name": "Cura\u00e7ao",
+  "altSpellings": [
+    "CW",
+    "CUW"
+  ],
+  "region": "Americas",
+  "subregion": "Latin America and the Caribbean",
+  "intermediateregion": "Caribbean"
+}

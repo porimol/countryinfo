@@ -1,1 +1,79 @@
-{"name":"Maldives","altSpellings":["MV","Maldive Islands","Republic of the Maldives","Dhivehi Raajjeyge Jumhooriyya"],"area":300,"borders":[],"callingCodes":["960"],"capital":"Malé","capital_latlng":[16.370036,-2.290024],"currencies":["MVR"],"demonym":"Maldivan","flag":"","geoJSON":{},"ISO":{"alpha2":"MV","alpha3":"MDV"},"languages":["dv"],"latlng":[3.25,73],"nativeName":"Maldives","population":341256,"provinces":["Alifu","Baa","Dhaalu","Faafu","Gaafu Alifu","Gaafu Dhaalu","Gnaviyani","Haa Alifu","Haa Dhaalu","Kaafu","Laamu","Lhaviyani","Maale","Meemu","Noonu","Raa","Seenu","Shaviyani","Thaa","Vaavu"],"region":"Asia","subregion":"Southern Asia","timezones":["UTC+05:00"],"tld":[".mv"],"translations":{"de":"Malediven","es":"Maldivas","fr":"Maldives","ja":"モルディブ","it":"Maldive"},"wiki":"http://en.wikipedia.org/wiki/maldives"}
+{
+  "name": "Maldives",
+  "altSpellings": [
+    "MV",
+    "Maldive Islands",
+    "Republic of the Maldives",
+    "Dhivehi Raajjeyge Jumhooriyya",
+    "MDV",
+    "Republic of Maldives"
+  ],
+  "area": 300,
+  "borders": [],
+  "callingCodes": [
+    "960"
+  ],
+  "capital": "Mal\u00e9",
+  "capital_latlng": [
+    4.1779879,
+    73.5107387
+  ],
+  "currencies": [
+    "MVR"
+  ],
+  "demonym": "Maldivan",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "MV",
+    "alpha3": "MDV"
+  },
+  "languages": [
+    "dv"
+  ],
+  "latlng": [
+    3.25,
+    73
+  ],
+  "nativeName": "\u078b\u07a8\u0788\u07ac\u0780\u07a8\u0783\u07a7\u0787\u07b0\u0796\u07ac",
+  "population": 341256,
+  "provinces": [
+    "Alifu",
+    "Baa",
+    "Dhaalu",
+    "Faafu",
+    "Gaafu Alifu",
+    "Gaafu Dhaalu",
+    "Gnaviyani",
+    "Haa Alifu",
+    "Haa Dhaalu",
+    "Kaafu",
+    "Laamu",
+    "Lhaviyani",
+    "Maale",
+    "Meemu",
+    "Noonu",
+    "Raa",
+    "Seenu",
+    "Shaviyani",
+    "Thaa",
+    "Vaavu"
+  ],
+  "region": "Asia",
+  "subregion": "Southern Asia",
+  "timezones": [
+    "UTC+05:00"
+  ],
+  "tld": [
+    ".mv"
+  ],
+  "translations": {
+    "de": "Malediven",
+    "es": "Maldivas",
+    "fr": "Maldives",
+    "ja": "\u30e2\u30eb\u30c7\u30a3\u30d6",
+    "it": "Maldive"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/maldives",
+  "intermediateregion": ""
+}

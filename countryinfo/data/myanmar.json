@@ -1,1 +1,64 @@
+<<<<<<< HEAD
 {"name":"Myanmar","altSpellings":["MM","Burma","Republic of the Union of Myanmar"],"capital":"Naypyidaw","capital_latlng":[19.7475,96.115],"currencies":["MMK"],"flag":"","geoJSON":{},"ISO":{"alpha2":"MM","alpha3":"MMR"},"languages":["my"],"latlng":[21.91,95.95],"provinces":["Ayeyarwady","Bago","Chin State","Kachin State","Kayah State","Kayin State","Magway","Mandalay","Mon State","Rakhine State","Sagaing","Shan State","Tanintharyi","Yangon"],"tld":[".mm"],"wiki":"https://en.wikipedia.org/wiki/Myanmar"}
+=======
+{
+  "ISO": {
+    "alpha2": "MM",
+    "alpha3": "MMR"
+  },
+  "name": "Myanmar",
+  "altSpellings": [
+    "MM",
+    "MMR",
+    "Republic of Myanmar"
+  ],
+  "area": 676578,
+  "borders": [
+    "BGD",
+    "BTN",
+    "CHN",
+    "THA",
+    "LAO"
+  ],
+  "callingCodes": [
+    "95"
+  ],
+  "capital": "  Naypyidaw",
+  "capital_latlng": [
+    19.75,
+    96.1
+  ],
+  "currencies": [
+    "MMK"
+  ],
+  "demonym": "Burmese",
+  "flag": "",
+  "languages": [
+    "my"
+  ],
+  "latlng": [
+    19.75,
+    96.1
+  ],
+  "nativeName": "\u1015\u103c\u100a\u103a\u1011\u1031\u102c\u1004\u103a\u1005\u102f \u101e\u1019\u1039\u1019\u1010 \u1019\u103c\u1014\u103a\u1019\u102c\u1014\u102d\u102f\u1004\u103a\u1004\u1036\u1010\u1031",
+  "population": 53582855,
+  "provinces": [],
+  "region": "Asia",
+  "subregion": "South-eastern Asia",
+  "timezones": [
+    "UTC+06:30"
+  ],
+  "tld": [
+    ".mm"
+  ],
+  "wiki": "http://en.wikipedia.org/wiki/Myanmar",
+  "translations": {
+    "de": "Myanmar",
+    "es": "Myanmar",
+    "fr": "Birmanie",
+    "ja": "\u30df\u30e3\u30f3\u30de\u30fc",
+    "it": "Birmania"
+  },
+  "intermediateregion": ""
+}
+>>>>>>> eaff00f42afda8f47756f69a041d9585509253a2
