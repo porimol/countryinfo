@@ -3,9 +3,10 @@ from typing import Any, Dict, Optional, Sequence
 
 class GeneralInfo:
     """General information about a country."""
+
     def __init__(self, country_data: Dict[str, Any]):
         self.__country_data = country_data
-    
+
     def name(self) -> Optional[str]:
         """Get the name of a country.
 
@@ -22,7 +23,9 @@ class GeneralInfo:
         """
         country_info = self.__country_data
         if country_info:
-            country_info["google"] = f"https://www.google.com/search?q={country_info['name']}"
+            country_info[
+                "google"
+            ] = f"https://www.google.com/search?q={country_info['name']}"
         return country_info
 
     def alt_spellings(self) -> Optional[Sequence[str]]:
@@ -53,7 +56,7 @@ class GeneralInfo:
         :return: list
         """
         return self.__country_data.get("currencies")
-    
+
     def languages(self) -> Optional[Sequence[Dict[str, Any]]]:
         """Returns languages for a specified country
 
@@ -67,7 +70,7 @@ class GeneralInfo:
         :return: list
         """
         return self.__country_data.get("timezones")
-    
+
     def wiki(self) -> Optional[str]:
         """Returns link to wikipedia page for a specified country
 
@@ -75,7 +78,7 @@ class GeneralInfo:
             return wiki url if available
         """
         return self.__country_data.get("wiki")
-    
+
     def google(self) -> Optional[str]:
         """Returns link to google page for a specified country
 
@@ -86,7 +89,7 @@ class GeneralInfo:
         if country_name:
             return f"https://www.google.com/search?q={country_name}"
         return None
-    
+
     def all(self) -> Dict[str, Any]:
         """Returns all general information for a specified country
 

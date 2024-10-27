@@ -1,8 +1,9 @@
-from typing import Optional, Sequence, Dict, Any
+from typing import Any, Dict, Optional, Sequence
 
 
 class LocationInfo:
     """Location information about a country."""
+
     def __init__(self, country_data: Dict[str, Any]):
         self.__country_data = country_data
 
@@ -36,7 +37,7 @@ class LocationInfo:
         Returns:
             Optional[Sequence[float]]: _description_
         """
-        return self.__country_data.get("latlng") 
+        return self.__country_data.get("latlng")
 
     def borders(self) -> Optional[Sequence[str]]:
         """Returns bordering countries for a specified country

@@ -1,12 +1,14 @@
-from typing import Literal, Union, Optional, Sequence, Dict, Any
+from typing import Any, Dict, Literal, Optional, Sequence, Union
+
 from countryinfo.schemas.countryinfo import IsoDict
 
 
 class IdentityInfo:
     """Identity information about a country."""
+
     def __init__(self, country_data: Dict[str, Any]):
         self.__country_data = country_data
-    
+
     def iso(self, alpha: Literal[2, 3, None] = None) -> Union[str, IsoDict, None]:
         """Returns ISO codes for a specified country
 

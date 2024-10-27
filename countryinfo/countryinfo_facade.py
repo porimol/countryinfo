@@ -1,10 +1,11 @@
 from os.path import dirname, realpath
 from typing import Any, Dict, Optional
+
 from countryinfo.dataloader import DataLoader
+from countryinfo.digital import DigitalInfo
 from countryinfo.general import GeneralInfo
 from countryinfo.identity import IdentityInfo
 from countryinfo.location import LocationInfo
-from countryinfo.digital import DigitalInfo
 
 
 class CountryInfoFacade:
@@ -40,7 +41,7 @@ class CountryInfoFacade:
             IdentityInfo: _description_
         """
         return IdentityInfo(self.country_data)
-    
+
     def get_location_info(self) -> LocationInfo:
         """Get location information about a country.
 
@@ -48,7 +49,7 @@ class CountryInfoFacade:
             LocationInfo: _description_
         """
         return LocationInfo(self.country_data)
-    
+
     def get_digital_info(self) -> DigitalInfo:
         """Get digital information about a country.
 
@@ -56,4 +57,3 @@ class CountryInfoFacade:
             DigitalInfo: _description_
         """
         return DigitalInfo(self.country_data)
-    

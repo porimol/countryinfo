@@ -7,6 +7,7 @@ class IsoDict(TypedDict):
     Args:
         TypedDict (_type_): _description_
     """
+
     alpha2: str
     alpha3: str
 
@@ -17,6 +18,7 @@ class CountryInfoDict(TypedDict):
     Args:
         TypedDict (_type_): _description_
     """
+
     ISO: IsoDict
     altSpellings: Sequence[str]
     area: int

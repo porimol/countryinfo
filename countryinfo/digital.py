@@ -3,6 +3,7 @@ from typing import Any, Dict, Optional, Sequence
 
 class DigitalInfo:
     """Digital information about a country"""
+
     def __init__(self, country_data: Dict[str, Any]):
         self.__country_data = country_data
 

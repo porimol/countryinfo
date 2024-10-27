@@ -1,11 +1,12 @@
 import json
-from os.path import isfile
 from glob import glob
+from os.path import isfile
 from typing import Any, Dict
 
 
 class DataLoader:
     """Class to load country data from JSON files in a directory."""
+
     def __init__(self, path: str):
         self.path = path
 
@@ -16,7 +17,7 @@ class DataLoader:
             Dict[str, Any]: _description_
         """
         countries = {}
-        files_path = list(glob(self.path + '/*.json'))
+        files_path = list(glob(self.path + "/*.json"))
         for file_path in files_path:
             if isfile(file_path):
                 with open(file_path, encoding="utf-8") as file:

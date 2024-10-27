@@ -23,6 +23,9 @@ pre-commit = "^4.0.1"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry.scripts]
+countryinfo = "countryinfo.countryinfo:CountryInfo"
+
 [tool.mypy]
 exclude = [
   ".git",
