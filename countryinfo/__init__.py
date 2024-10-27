@@ -1,2 +1,3 @@
-# coding=utf-8
-from countryinfo.countryinfo import CountryInfo as CountryInfo
+from countryinfo.countryinfo import CountryInfo
+
+__all__ = ["CountryInfo"]
