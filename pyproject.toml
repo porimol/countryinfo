@@ -7,11 +7,8 @@ license = "MIT"
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
@@ -63,9 +60,6 @@ exclude = [
   "RnD",
 ]
 max-line-length = 120
-
-[tool.poetry.package]
-include = ["countryinfo/**/*.py", "README.md", "LICENSE"]
 
 [project.urls]
 Homepage = "https://github.com/porimol/countryinfo"
