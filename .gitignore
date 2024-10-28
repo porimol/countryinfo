@@ -186,3 +186,4 @@ RnD/
 venvp3
 # mypy
 .mypy_cache/
+.pytest_cache/

@@ -3,8 +3,19 @@ name = "countryinfo"
 version = "1.0.0"
 description = "A python module for returning data about countries, ISO info and states/provinces within them."
 authors = ["Porimol Chandro <porimolchandroroy@gmail.com>"]
-license = "The MIT License"
+license = "MIT"
 readme = "README.md"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["countryinfo", "countries", "ISO", "data", "geography"]
 
 [tool.poetry.dependencies]
 python = "^3.13"
@@ -52,3 +63,12 @@ exclude = [
   "RnD",
 ]
 max-line-length = 120
+
+[tool.poetry.package]
+include = ["countryinfo/**/*.py", "README.md", "LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/porimol/countryinfo"
+Documentation = "https://github.com/porimol/countryinfo"
+Repository = "https://github.com/porimol/countryinfo.git"
+"Bug Tracker" = "https://github.com/porimol/countryinfo/issues"
