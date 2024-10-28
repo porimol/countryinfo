@@ -117,16 +117,21 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
-        cd ${{ github.workspace }}
         pip install poetry
+        cd ${{ github.workspace }}
+        ls -la
+        poetry config virtualenvs.create true
         poetry install
     
     - name: Run code quality checks
       run: |
+        cd ${{ github.workspace }}
         poetry run pre-commit run --all-files
     
     - name: Run pytest unit tests
-      run: poetry run pytest tests $([[ "${DEBUG}" == "true" ]] && echo "-vv")
+      run: |
+        cd ${{ github.workspace }}
+        poetry run pytest tests $([[ "${DEBUG}" == "true" ]] && echo "-vv")
     
     - name: Download all the dists
       uses: actions/download-artifact@v4
