@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/<package-name>  # Replace <package-name> with your PyPI project name
+      url: https://pypi.org/p/countryinfo  # Replace <package-name> with your PyPI project name
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -98,9 +98,9 @@ jobs:
     - build
     runs-on: ubuntu-latest
 
-    environment:
-      name: testpypi
-      url: https://test.pypi.org/p/<package-name>
+    # environment:
+    #   name: testpypi
+    #   url: https://test.pypi.org/p/countryinfo
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
@@ -115,3 +115,4 @@ jobs:
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
         repository-url: https://test.pypi.org/legacy/
+        password: ${{ secrets.TEST_PYPI }}
