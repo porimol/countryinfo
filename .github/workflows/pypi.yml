@@ -28,12 +28,12 @@ jobs:
       run: |
         # cd ${{ github.workspace }}
         poetry run pre-commit run --all-files
-    
+
     - name: Run pytest unit tests
       run: |
         # cd ${{ github.workspace }}
         poetry run pytest tests $([[ "${DEBUG}" == "true" ]] && echo "-vv")
-  
+
   build:
     name: Build distribution 📦
     needs:

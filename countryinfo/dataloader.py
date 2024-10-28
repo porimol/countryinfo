@@ -17,12 +17,14 @@ class DataLoader:
             Dict[str, Any]: _description_
         """
         countries = {}
+        print("self.path", self.path)
         files_path = list(glob(self.path + "/*.json"))
         for file_path in files_path:
             if isfile(file_path):
                 with open(file_path, encoding="utf-8") as file:
                     try:
                         country_info = json.load(file)
+                        print("country_info", country_info)
                     except json.JSONDecodeError:
                         print(f"Skipping invalid JSON in file: {file_path}")
                         continue
