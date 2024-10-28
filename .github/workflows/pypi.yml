@@ -117,6 +117,7 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
+        cd ${{ github.workspace }}
         pip install poetry
         poetry install
     
