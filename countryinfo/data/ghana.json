@@ -158,15 +158,21 @@
   "population": 27043093,
   "provinces": [
     "Ashanti",
-    "Brong-Ahafo",
+    "Ahafo",
+    "Bono",
+    "Bono East",
     "Central",
     "Eastern",
     "Greater Accra",
     "Northern",
+    "North East",
+    "Oti",
+    "Savannah",
     "Upper East",
     "Upper West",
     "Volta",
-    "Western"
+    "Western",
+    "Western North"
   ],
   "region": "Africa",
   "subregion": "Sub-Saharan Africa",
