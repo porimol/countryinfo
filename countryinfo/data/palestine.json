@@ -1,1 +1,111 @@
-{ "name": "Palestine", "altSpellings": ["PS", "State of Palestine", "Dawlat Filasṭin"], "area": 5655, "borders": ["ISR", "EGY", "JOR"], "callingCodes": ["970"], "capital": "Ramallah", "capital_latlng": [31.898043, 35.204271], "currencies": ["ILS"], "demonym": "Palestinian", "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png", "geoJSON": { "type": "FeatureCollection", "features": [ { "type": "Feature", "id": "PSE", "properties": {"name": "Palestine"}, "geometry": { "type": "Polygon", "coordinates": [[ [35.545665, 32.393992], [35.545665, 31.216093], [34.265433, 31.216093], [34.265433, 32.393992], [35.545665, 32.393992] ]] } } ] }, "ISO": {"alpha2": "PS", "alpha3": "PSE"}, "languages": ["ar"], "latlng": [31.9, 35.2], "nativeName": "فلسطين", "population": 5483450, "provinces": ["Nablus", "Qalqilya", "Tubas", "Salfit", "Tulkarm", "Jenin", "Jericho and the Jordan Valley", "Ramallah and al-Bireh", "Bethlehem", "Hebron and Jerusalem", "North Gaza", "Gaza", "Deir al-Balah", "Khan Yunis and Rafah"], "region": "Asia", "subregion": "Western Asia", "timezones": ["UTC+02:00"], "tld": [".ps"], "translations": {"de": "Palästina", "es": "Palestina", "fr": "Palestine", "ja": "パレスチナ", "it": "Palestina"}, "wiki": "https://en.wikipedia.org/wiki/Palestine" }
+{
+    "name": "Palestine",
+    "altSpellings": [
+        "PS",
+        "State of Palestine",
+        "Dawlat Filas\u1e6din"
+    ],
+    "area": 5655,
+    "borders": [
+        "ISR",
+        "EGY",
+        "JOR"
+    ],
+    "callingCodes": [
+        "970"
+    ],
+    "capital": "Ramallah",
+    "capital_latlng": [
+        31.898043,
+        35.204271
+    ],
+    "currencies": [
+        "ILS"
+    ],
+    "demonym": "Palestinian",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png",
+    "geoJSON": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "id": "PSE",
+                "properties": {
+                    "name": "Palestine"
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                35.545665,
+                                32.393992
+                            ],
+                            [
+                                35.545665,
+                                31.216093
+                            ],
+                            [
+                                34.265433,
+                                31.216093
+                            ],
+                            [
+                                34.265433,
+                                32.393992
+                            ],
+                            [
+                                35.545665,
+                                32.393992
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
+    },
+    "ISO": {
+        "alpha2": "PS",
+        "alpha3": "PSE"
+    },
+    "languages": [
+        "ar"
+    ],
+    "latlng": [
+        31.9,
+        35.2
+    ],
+    "nativeName": "\u0641\u0644\u0633\u0637\u064a\u0646",
+    "population": 5483450,
+    "provinces": [
+        "Nablus",
+        "Qalqilya",
+        "Tubas",
+        "Salfit",
+        "Tulkarm",
+        "Jenin",
+        "Jericho and the Jordan Valley",
+        "Ramallah and al-Bireh",
+        "Bethlehem",
+        "Hebron and Jerusalem",
+        "North Gaza",
+        "Gaza",
+        "Deir al-Balah",
+        "Khan Yunis and Rafah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "timezones": [
+        "UTC+02:00"
+    ],
+    "tld": [
+        ".ps"
+    ],
+    "translations": {
+        "de": "Pal\u00e4stina",
+        "es": "Palestina",
+        "fr": "Palestine",
+        "ja": "\u30d1\u30ec\u30b9\u30c1\u30ca",
+        "it": "Palestina"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Palestine"
+}
