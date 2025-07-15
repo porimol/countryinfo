@@ -1,0 +1,58 @@
+{
+  "name": "Curaçao",
+  "altSpellings": ["CW", "Curacao", "Country of Curaçao", "Land Curaçao"],
+  "area": 444,
+  "borders": [],
+  "callingCodes": ["599"],
+  "capital": "Willemstad",
+  "capital_latlng": [12.1084, -68.935],
+  "currencies": ["Caribbean guilder"],
+  "demonym": "Dutch",
+  "flag": "",
+  "geoJSON": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "CUW",
+        "properties": {
+          "name": "Curaçao"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-69.137, 12.327],
+              [-69.084, 12.255],
+              [-68.888, 12.098],
+              [-68.835, 12.139],
+              [-68.920, 12.209],
+              [-69.137, 12.327]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "ISO": {
+    "alpha2": "CW",
+    "alpha3": "CUW"
+  },
+  "languages": ["nl", "pa", "en"],
+  "latlng": [12.1696, -68.99],
+  "nativeName": "Curaçao",
+  "population": 158665,
+  "provinces": [],
+  "region": "Americas",
+  "subregion": "Caribbean",
+  "timezones": ["UTC−04:00"],
+  "tld": [".cw"],
+  "translations": {
+    "de": "Curaçao",
+    "es": "Curazao",
+    "fr": "Curaçao",
+    "ja": "キュラソー",
+    "it": "Curaçao"
+  },
+  "wiki": "http://en.wikipedia.org/wiki/Curaçao"
+}
