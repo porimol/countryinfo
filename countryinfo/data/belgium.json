@@ -2,14 +2,14 @@
   "name": "Belgium",
   "altSpellings": [
     "BE",
-    "Belgi\u00eb",
+    "België",
     "Belgie",
     "Belgien",
     "Belgique",
     "Kingdom of Belgium",
-    "Koninkrijk Belgi\u00eb",
+    "Koninkrijk België",
     "Royaume de Belgique",
-    "K\u00f6nigreich Belgien",
+    "Königreich Belgien",
     "BEL"
   ],
   "area": 30528,
@@ -113,7 +113,8 @@
   },
   "ISO": {
     "alpha2": "BE",
-    "alpha3": "BEL"
+    "alpha3": "BEL",
+    "numeric": "056"
   },
   "languages": [
     "nl",
@@ -124,7 +125,7 @@
     50.83333333,
     4
   ],
-  "nativeName": "Belgi\u00eb / Belgique / Belgien",
+  "nativeName": "België / Belgique / Belgien",
   "population": 11225469,
   "provinces": [
     "Antwerpen",
@@ -149,11 +150,14 @@
   ],
   "translations": {
     "de": "Belgien",
-    "es": "B\u00e9lgica",
+    "es": "Bélgica",
     "fr": "Belgique",
-    "ja": "\u30d9\u30eb\u30ae\u30fc",
+    "ja": "ベルギー",
     "it": "Belgio"
   },
   "wiki": "http://en.wikipedia.org/wiki/belgium",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Brussels"
+  ]
 }

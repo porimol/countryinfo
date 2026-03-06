@@ -3,10 +3,10 @@
   "altSpellings": [
     "ER",
     "State of Eritrea",
-    "\u1203\u1308\u1228 \u12a4\u122d\u1275\u122b",
-    "Dawlat Iritriy\u00e1",
-    "\u02beErtr\u0101",
-    "Iritriy\u0101",
+    "ሃገረ ኤርትራ",
+    "Dawlat Iritriyá",
+    "ʾErtrā",
+    "Iritriyā",
     "",
     "ERI",
     "the State of Eritrea"
@@ -163,7 +163,8 @@
   },
   "ISO": {
     "alpha2": "ER",
-    "alpha3": "ERI"
+    "alpha3": "ERI",
+    "numeric": "232"
   },
   "languages": [
     "ti",
@@ -174,7 +175,7 @@
     15,
     39
   ],
-  "nativeName": "\u12a4\u122d\u1275\u122b Eritrea \u0625\u0631\u062a\u0631\u064a\u0627",
+  "nativeName": "ኤርትራ Eritrea إرتريا",
   "population": 6536000,
   "provinces": [
     "Akale Guzay",
@@ -197,10 +198,13 @@
   "translations": {
     "de": "Eritrea",
     "es": "Eritrea",
-    "fr": "\u00c9rythr\u00e9e",
-    "ja": "\u30a8\u30ea\u30c8\u30ea\u30a2",
+    "fr": "Érythrée",
+    "ja": "エリトリア",
     "it": "Eritrea"
   },
   "wiki": "http://en.wikipedia.org/wiki/eritrea",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Asmara"
+  ]
 }

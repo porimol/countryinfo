@@ -3,7 +3,7 @@
   "altSpellings": [
     "MU",
     "Republic of Mauritius",
-    "R\u00e9publique de Maurice",
+    "République de Maurice",
     "MUS"
   ],
   "area": 2040,
@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "MU",
-    "alpha3": "MUS"
+    "alpha3": "MUS",
+    "numeric": "480"
   },
   "languages": [
     "en"
@@ -60,10 +61,13 @@
   "translations": {
     "de": "Mauritius",
     "es": "Mauricio",
-    "fr": "\u00cele Maurice",
-    "ja": "\u30e2\u30fc\u30ea\u30b7\u30e3\u30b9",
+    "fr": "Île Maurice",
+    "ja": "モーリシャス",
     "it": "Mauritius"
   },
   "wiki": "http://en.wikipedia.org/wiki/mauritius",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Indian/Mauritius"
+  ]
 }

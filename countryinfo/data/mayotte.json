@@ -3,7 +3,7 @@
   "altSpellings": [
     "YT",
     "Department of Mayotte",
-    "D\u00e9partement de Mayotte",
+    "Département de Mayotte",
     "MYT"
   ],
   "area": null,
@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "YT",
-    "alpha3": "MYT"
+    "alpha3": "MYT",
+    "numeric": "175"
   },
   "languages": [
     "fr"
@@ -48,9 +49,12 @@
     "de": "Mayotte",
     "es": "Mayotte",
     "fr": "Mayotte",
-    "ja": "\u30de\u30e8\u30c3\u30c8",
+    "ja": "マヨット",
     "it": "Mayotte"
   },
   "wiki": "http://en.wikipedia.org/wiki/mayotte",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Indian/Mayotte"
+  ]
 }

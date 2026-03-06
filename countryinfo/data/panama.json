@@ -3,7 +3,7 @@
   "altSpellings": [
     "PA",
     "Republic of Panama",
-    "Rep\u00fablica de Panam\u00e1",
+    "República de Panamá",
     "PAN"
   ],
   "area": 75417,
@@ -254,7 +254,8 @@
   },
   "ISO": {
     "alpha2": "PA",
-    "alpha3": "PAN"
+    "alpha3": "PAN",
+    "numeric": "591"
   },
   "languages": [
     "es"
@@ -263,7 +264,7 @@
     9,
     -80
   ],
-  "nativeName": "Panam\u00e1",
+  "nativeName": "Panamá",
   "population": 3713312,
   "provinces": [
     "Bocas del Toro",
@@ -280,18 +281,21 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221205:00"
+    "UTC−05:00"
   ],
   "tld": [
     ".pa"
   ],
   "translations": {
     "de": "Panama",
-    "es": "Panam\u00e1",
+    "es": "Panamá",
     "fr": "Panama",
-    "ja": "\u30d1\u30ca\u30de",
+    "ja": "パナマ",
     "it": "Panama"
   },
   "wiki": "http://en.wikipedia.org/wiki/panama",
-  "intermediateregion": "Central America"
+  "intermediateregion": "Central America",
+  "timezoneNames": [
+    "America/Panama"
+  ]
 }

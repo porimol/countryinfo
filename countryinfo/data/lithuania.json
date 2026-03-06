@@ -123,7 +123,8 @@
   },
   "ISO": {
     "alpha2": "LT",
-    "alpha3": "LTU"
+    "alpha3": "LTU",
+    "numeric": "440"
   },
   "languages": [
     "lt"
@@ -202,9 +203,12 @@
     "de": "Litauen",
     "es": "Lituania",
     "fr": "Lituanie",
-    "ja": "\u30ea\u30c8\u30a2\u30cb\u30a2",
+    "ja": "リトアニア",
     "it": "Lituania"
   },
   "wiki": "http://en.wikipedia.org/wiki/lithuania",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Vilnius"
+  ]
 }

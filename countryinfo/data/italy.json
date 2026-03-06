@@ -407,7 +407,8 @@
   },
   "ISO": {
     "alpha2": "IT",
-    "alpha3": "ITA"
+    "alpha3": "ITA",
+    "numeric": "380"
   },
   "languages": [
     "it"
@@ -452,9 +453,12 @@
     "de": "Italien",
     "es": "Italia",
     "fr": "Italie",
-    "ja": "\u30a4\u30bf\u30ea\u30a2",
+    "ja": "イタリア",
     "it": "Italia"
   },
   "wiki": "http://en.wikipedia.org/wiki/italy",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Rome"
+  ]
 }

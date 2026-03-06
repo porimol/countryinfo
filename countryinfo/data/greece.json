@@ -2,9 +2,9 @@
   "name": "Greece",
   "altSpellings": [
     "GR",
-    "Ell\u00e1da",
+    "Elláda",
     "Hellenic Republic",
-    "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1",
+    "Ελληνική Δημοκρατία",
     "GRC"
   ],
   "area": 131990,
@@ -270,7 +270,8 @@
   },
   "ISO": {
     "alpha2": "GR",
-    "alpha3": "GRC"
+    "alpha3": "GRC",
+    "numeric": "300"
   },
   "languages": [
     "el"
@@ -279,7 +280,7 @@
     39,
     22
   ],
-  "nativeName": "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+  "nativeName": "Ελλάδα",
   "population": 10992589,
   "provinces": [
     "Aitolia kai Akarnania",
@@ -346,10 +347,13 @@
   "translations": {
     "de": "Griechenland",
     "es": "Grecia",
-    "fr": "Gr\u00e8ce",
-    "ja": "\u30ae\u30ea\u30b7\u30e3",
+    "fr": "Grèce",
+    "ja": "ギリシャ",
     "it": "Grecia"
   },
   "wiki": "http://en.wikipedia.org/wiki/greece",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Athens"
+  ]
 }

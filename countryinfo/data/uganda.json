@@ -156,7 +156,8 @@
   },
   "ISO": {
     "alpha2": "UG",
-    "alpha3": "UGA"
+    "alpha3": "UGA",
+    "numeric": "800"
   },
   "languages": [
     "en",
@@ -227,9 +228,12 @@
     "de": "Uganda",
     "es": "Uganda",
     "fr": "Ouganda",
-    "ja": "\u30a6\u30ac\u30f3\u30c0",
+    "ja": "ウガンダ",
     "it": "Uganda"
   },
   "wiki": "http://en.wikipedia.org/wiki/uganda",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Kampala"
+  ]
 }

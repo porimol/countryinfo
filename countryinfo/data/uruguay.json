@@ -3,7 +3,7 @@
   "altSpellings": [
     "UY",
     "Oriental Republic of Uruguay",
-    "Rep\u00fablica Oriental del Uruguay",
+    "República Oriental del Uruguay",
     "URY",
     "Eastern Republic of Uruguay"
   ],
@@ -131,7 +131,8 @@
   },
   "ISO": {
     "alpha2": "UY",
-    "alpha3": "URY"
+    "alpha3": "URY",
+    "numeric": "858"
   },
   "languages": [
     "es"
@@ -166,7 +167,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221203:00"
+    "UTC−03:00"
   ],
   "tld": [
     ".uy"
@@ -175,9 +176,12 @@
     "de": "Uruguay",
     "es": "Uruguay",
     "fr": "Uruguay",
-    "ja": "\u30a6\u30eb\u30b0\u30a2\u30a4",
+    "ja": "ウルグアイ",
     "it": "Uruguay"
   },
   "wiki": "http://en.wikipedia.org/wiki/uruguay",
-  "intermediateregion": "South America"
+  "intermediateregion": "South America",
+  "timezoneNames": [
+    "America/Montevideo"
+  ]
 }

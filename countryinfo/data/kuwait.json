@@ -81,7 +81,8 @@
   },
   "ISO": {
     "alpha2": "KW",
-    "alpha3": "KWT"
+    "alpha3": "KWT",
+    "numeric": "414"
   },
   "languages": [
     "ar"
@@ -90,7 +91,7 @@
     29.5,
     45.75
   ],
-  "nativeName": "\u0627\u0644\u0643\u0648\u064a\u062a",
+  "nativeName": "الكويت",
   "population": 3268431,
   "provinces": [
     "Al 'Asimah",
@@ -110,10 +111,13 @@
   "translations": {
     "de": "Kuwait",
     "es": "Kuwait",
-    "fr": "Kowe\u00eft",
-    "ja": "\u30af\u30a6\u30a7\u30fc\u30c8",
+    "fr": "Koweït",
+    "ja": "クウェート",
     "it": "Kuwait"
   },
   "wiki": "http://en.wikipedia.org/wiki/kuwait",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Kuwait"
+  ]
 }

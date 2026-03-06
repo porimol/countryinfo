@@ -206,7 +206,8 @@
   },
   "ISO": {
     "alpha2": "GY",
-    "alpha3": "GUY"
+    "alpha3": "GUY",
+    "numeric": "328"
   },
   "languages": [
     "en"
@@ -232,7 +233,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221204:00"
+    "UTC−04:00"
   ],
   "tld": [
     ".gy"
@@ -241,9 +242,12 @@
     "de": "Guyana",
     "es": "Guyana",
     "fr": "Guyane",
-    "ja": "\u30ac\u30a4\u30a2\u30ca",
+    "ja": "ガイアナ",
     "it": "Guyana"
   },
   "wiki": "http://en.wikipedia.org/wiki/guyana",
-  "intermediateregion": "South America"
+  "intermediateregion": "South America",
+  "timezoneNames": [
+    "America/Guyana"
+  ]
 }

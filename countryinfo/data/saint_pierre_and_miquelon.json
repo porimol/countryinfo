@@ -2,7 +2,7 @@
   "name": "Saint Pierre and Miquelon",
   "altSpellings": [
     "PM",
-    "Collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon",
+    "Collectivité territoriale de Saint-Pierre-et-Miquelon",
     "SPM"
   ],
   "area": 242,
@@ -23,7 +23,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "PM",
-    "alpha3": "SPM"
+    "alpha3": "SPM",
+    "numeric": "666"
   },
   "languages": [
     "fr"
@@ -46,11 +47,14 @@
   ],
   "translations": {
     "de": "Saint-Pierre und Miquelon",
-    "es": "San Pedro y Miquel\u00f3n",
+    "es": "San Pedro y Miquelón",
     "fr": "Saint-Pierre-et-Miquelon",
-    "ja": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u30fb\u30df\u30af\u30ed\u30f3\u5cf6",
+    "ja": "サンピエール島・ミクロン島",
     "it": "Saint-Pierre e Miquelon"
   },
   "wiki": "http://en.wikipedia.org/wiki/saint_pierre_and_miquelon",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "America/Miquelon"
+  ]
 }

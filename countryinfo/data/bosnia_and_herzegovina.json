@@ -3,7 +3,7 @@
   "altSpellings": [
     "BA",
     "Bosnia-Herzegovina",
-    "\u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+    "Босна и Херцеговина",
     "BIH",
     "Republic of Bosnia and Herzegovina"
   ],
@@ -135,7 +135,8 @@
   },
   "ISO": {
     "alpha2": "BA",
-    "alpha3": "BIH"
+    "alpha3": "BIH",
+    "numeric": "070"
   },
   "languages": [
     "bs",
@@ -146,7 +147,7 @@
     44,
     18
   ],
-  "nativeName": "Bosna i Hercegovina / \u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+  "nativeName": "Bosna i Hercegovina / Босна и Херцеговина",
   "population": 3791622,
   "provinces": [
     "Federation of Bosnia and Herzegovina",
@@ -163,10 +164,13 @@
   "translations": {
     "de": "Bosnien und Herzegowina",
     "es": "Bosnia y Herzegovina",
-    "fr": "Bosnie-Herz\u00e9govine",
-    "ja": "\u30dc\u30b9\u30cb\u30a2\u30fb\u30d8\u30eb\u30c4\u30a7\u30b4\u30d3\u30ca",
+    "fr": "Bosnie-Herzégovine",
+    "ja": "ボスニア・ヘルツェゴビナ",
     "it": "Bosnia ed Erzegovina"
   },
   "wiki": "http://en.wikipedia.org/wiki/bosnia_and_herzegovina",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Sarajevo"
+  ]
 }

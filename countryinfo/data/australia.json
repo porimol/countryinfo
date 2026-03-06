@@ -1010,7 +1010,8 @@
   },
   "ISO": {
     "alpha2": "AU",
-    "alpha3": "AUS"
+    "alpha3": "AUS",
+    "numeric": "036"
   },
   "languages": [
     "en"
@@ -1050,9 +1051,23 @@
     "de": "Australien",
     "es": "Australia",
     "fr": "Australie",
-    "ja": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2",
+    "ja": "オーストラリア",
     "it": "Australia"
   },
   "wiki": "http://en.wikipedia.org/wiki/australia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Australia/Lord_Howe",
+    "Antarctica/Macquarie",
+    "Australia/Hobart",
+    "Australia/Melbourne",
+    "Australia/Sydney",
+    "Australia/Broken_Hill",
+    "Australia/Brisbane",
+    "Australia/Lindeman",
+    "Australia/Adelaide",
+    "Australia/Darwin",
+    "Australia/Perth",
+    "Australia/Eucla"
+  ]
 }

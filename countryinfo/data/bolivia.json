@@ -8,7 +8,7 @@
     "Estado Plurinacional de Bolivia",
     "Buliwya Mamallaqta",
     "Wuliwya Suyu",
-    "Tet\u00e3 Vol\u00edvia",
+    "Tetã Volívia",
     "BOL",
     "Bolivia, Plurinational State of"
   ],
@@ -295,7 +295,8 @@
   },
   "ISO": {
     "alpha2": "BO",
-    "alpha3": "BOL"
+    "alpha3": "BOL",
+    "numeric": "068"
   },
   "languages": [
     "es",
@@ -322,7 +323,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221204:00"
+    "UTC−04:00"
   ],
   "tld": [
     ".bo"
@@ -331,9 +332,12 @@
     "de": "Bolivien",
     "es": "Bolivia",
     "fr": "Bolivie",
-    "ja": "\u30dc\u30ea\u30d3\u30a2\u591a\u6c11\u65cf\u56fd",
+    "ja": "ボリビア多民族国",
     "it": "Bolivia"
   },
   "wiki": "http://en.wikipedia.org/wiki/bolivia",
-  "intermediateregion": "South America"
+  "intermediateregion": "South America",
+  "timezoneNames": [
+    "America/La_Paz"
+  ]
 }

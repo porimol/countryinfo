@@ -157,7 +157,8 @@
   },
   "ISO": {
     "alpha2": "MW",
-    "alpha3": "MWI"
+    "alpha3": "MWI",
+    "numeric": "454"
   },
   "languages": [
     "en",
@@ -210,9 +211,12 @@
     "de": "Malawi",
     "es": "Malawi",
     "fr": "Malawi",
-    "ja": "\u30de\u30e9\u30a6\u30a4",
+    "ja": "マラウイ",
     "it": "Malawi"
   },
   "wiki": "http://en.wikipedia.org/wiki/malawi",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Blantyre"
+  ]
 }

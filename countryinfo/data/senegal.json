@@ -3,7 +3,7 @@
   "altSpellings": [
     "SN",
     "Republic of Senegal",
-    "R\u00e9publique du S\u00e9n\u00e9gal",
+    "République du Sénégal",
     "SEN"
   ],
   "area": 196722,
@@ -224,7 +224,8 @@
   },
   "ISO": {
     "alpha2": "SN",
-    "alpha3": "SEN"
+    "alpha3": "SEN",
+    "numeric": "686"
   },
   "languages": [
     "fr"
@@ -233,7 +234,7 @@
     14,
     -14
   ],
-  "nativeName": "S\u00e9n\u00e9gal",
+  "nativeName": "Sénégal",
   "population": 13508715,
   "provinces": [
     "Dakar",
@@ -258,10 +259,13 @@
   "translations": {
     "de": "Senegal",
     "es": "Senegal",
-    "fr": "S\u00e9n\u00e9gal",
-    "ja": "\u30bb\u30cd\u30ac\u30eb",
+    "fr": "Sénégal",
+    "ja": "セネガル",
     "it": "Senegal"
   },
   "wiki": "http://en.wikipedia.org/wiki/senegal",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Dakar"
+  ]
 }

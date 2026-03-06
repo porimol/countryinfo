@@ -3,7 +3,7 @@
   "altSpellings": [
     "WF",
     "Territory of the Wallis and Futuna Islands",
-    "Territoire des \u00eeles Wallis et Futuna",
+    "Territoire des îles Wallis et Futuna",
     "WLF"
   ],
   "area": 142,
@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "WF",
-    "alpha3": "WLF"
+    "alpha3": "WLF",
+    "numeric": "876"
   },
   "languages": [
     "fr"
@@ -50,9 +51,12 @@
     "de": "Wallis und Futuna",
     "es": "Wallis y Futuna",
     "fr": "Wallis-et-Futuna",
-    "ja": "\u30a6\u30a9\u30ea\u30b9\u30fb\u30d5\u30c4\u30ca",
+    "ja": "ウォリス・フツナ",
     "it": "Wallis e Futuna"
   },
   "wiki": "http://en.wikipedia.org/wiki/wallis_and_futuna",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Wallis"
+  ]
 }

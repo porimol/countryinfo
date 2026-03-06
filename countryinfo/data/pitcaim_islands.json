@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "PN",
-    "alpha3": "PCN"
+    "alpha3": "PCN",
+    "numeric": "612"
   },
   "languages": [
     "en"
@@ -47,10 +48,13 @@
   "translations": {
     "de": "Pitcairn",
     "es": "Islas Pitcairn",
-    "fr": "\u00celes Pitcairn",
-    "ja": "\u30d4\u30c8\u30b1\u30a2\u30f3",
+    "fr": "Îles Pitcairn",
+    "ja": "ピトケアン",
     "it": "Isole Pitcairn"
   },
   "wiki": "http://en.wikipedia.org/wiki/pitcaim_islands",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Pitcairn"
+  ]
 }

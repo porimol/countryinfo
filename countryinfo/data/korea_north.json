@@ -3,8 +3,8 @@
   "altSpellings": [
     "KP",
     "Democratic People's Republic of Korea",
-    "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
-    "Chos\u014fn Minjuju\u016di Inmin Konghwaguk",
+    "조선민주주의인민공화국",
+    "Chosŏn Minjujuŭi Inmin Konghwaguk",
     "PRK",
     "Korea, Democratic People's Republic of"
   ],
@@ -220,7 +220,8 @@
   },
   "ISO": {
     "alpha2": "KP",
-    "alpha3": "PRK"
+    "alpha3": "PRK",
+    "numeric": "408"
   },
   "languages": [
     "ko"
@@ -229,7 +230,7 @@
     40,
     127
   ],
-  "nativeName": "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
+  "nativeName": "조선민주주의인민공화국",
   "population": 25027000,
   "provinces": [
     "Chagang-do (Chagang Province)",
@@ -256,10 +257,13 @@
   "translations": {
     "de": "Nordkorea",
     "es": "Corea del Norte",
-    "fr": "Cor\u00e9e du Nord",
-    "ja": "\u671d\u9bae\u6c11\u4e3b\u4e3b\u7fa9\u4eba\u6c11\u5171\u548c\u56fd",
+    "fr": "Corée du Nord",
+    "ja": "朝鮮民主主義人民共和国",
     "it": "Corea del Nord"
   },
   "wiki": "http://en.wikipedia.org/wiki/korea_north",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Pyongyang"
+  ]
 }

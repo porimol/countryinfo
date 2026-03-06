@@ -77,7 +77,8 @@
   },
   "ISO": {
     "alpha2": "BN",
-    "alpha3": "BRN"
+    "alpha3": "BRN",
+    "numeric": "096"
   },
   "languages": [
     "ms"
@@ -106,9 +107,12 @@
     "de": "Brunei",
     "es": "Brunei",
     "fr": "Brunei",
-    "ja": "\u30d6\u30eb\u30cd\u30a4\u30fb\u30c0\u30eb\u30b5\u30e9\u30fc\u30e0",
+    "ja": "ブルネイ・ダルサラーム",
     "it": "Brunei"
   },
   "wiki": "http://en.wikipedia.org/wiki/brunei",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Brunei"
+  ]
 }

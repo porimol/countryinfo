@@ -196,7 +196,8 @@
   },
   "ISO": {
     "alpha2": "KE",
-    "alpha3": "KEN"
+    "alpha3": "KEN",
+    "numeric": "404"
   },
   "languages": [
     "en",
@@ -230,9 +231,12 @@
     "de": "Kenia",
     "es": "Kenia",
     "fr": "Kenya",
-    "ja": "\u30b1\u30cb\u30a2",
+    "ja": "ケニア",
     "it": "Kenya"
   },
   "wiki": "http://en.wikipedia.org/wiki/kenya",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Nairobi"
+  ]
 }

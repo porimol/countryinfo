@@ -248,7 +248,8 @@
   },
   "ISO": {
     "alpha2": "TZ",
-    "alpha3": "TZA"
+    "alpha3": "TZA",
+    "numeric": "834"
   },
   "languages": [
     "sw",
@@ -299,9 +300,12 @@
     "de": "Tansania",
     "es": "Tanzania",
     "fr": "Tanzanie",
-    "ja": "\u30bf\u30f3\u30b6\u30cb\u30a2",
+    "ja": "タンザニア",
     "it": "Tanzania"
   },
   "wiki": "http://en.wikipedia.org/wiki/tanzania",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Dar_es_Salaam"
+  ]
 }

@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "GG",
-    "alpha3": "GGY"
+    "alpha3": "GGY",
+    "numeric": "831"
   },
   "languages": [
     "en",
@@ -58,9 +59,12 @@
     "de": "Guernsey",
     "es": "Guernsey",
     "fr": "Guernesey",
-    "ja": "\u30ac\u30fc\u30f3\u30b8\u30fc",
+    "ja": "ガーンジー",
     "it": "Guernsey"
   },
   "wiki": "http://en.wikipedia.org/wiki/guernsey",
-  "intermediateregion": "Channel Islands"
+  "intermediateregion": "Channel Islands",
+  "timezoneNames": [
+    "Europe/Guernsey"
+  ]
 }

@@ -108,7 +108,8 @@
   },
   "ISO": {
     "alpha2": "GM",
-    "alpha3": "GMB"
+    "alpha3": "GMB",
+    "numeric": "270"
   },
   "languages": [
     "en"
@@ -137,9 +138,12 @@
     "de": "Gambia",
     "es": "Gambia",
     "fr": "Gambie",
-    "ja": "\u30ac\u30f3\u30d3\u30a2",
+    "ja": "ガンビア",
     "it": "Gambia"
   },
   "wiki": "http://en.wikipedia.org/wiki/gambia_the",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Banjul"
+  ]
 }

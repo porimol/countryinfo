@@ -3,7 +3,7 @@
   "altSpellings": [
     "MH",
     "Republic of the Marshall Islands",
-    "Aolep\u0101n Aor\u014dkin M\u0327aje\u013c",
+    "Aolepān Aorōkin M̧ajeļ",
     "MHL"
   ],
   "area": 181,
@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "MH",
-    "alpha3": "MHL"
+    "alpha3": "MHL",
+    "numeric": "584"
   },
   "languages": [
     "en",
@@ -34,7 +35,7 @@
     9,
     168
   ],
-  "nativeName": "M\u0327aje\u013c",
+  "nativeName": "M̧ajeļ",
   "population": 56086,
   "provinces": [
     "Ailinginae",
@@ -82,10 +83,14 @@
   "translations": {
     "de": "Marshallinseln",
     "es": "Islas Marshall",
-    "fr": "\u00celes Marshall",
-    "ja": "\u30de\u30fc\u30b7\u30e3\u30eb\u8af8\u5cf6",
+    "fr": "Îles Marshall",
+    "ja": "マーシャル諸島",
     "it": "Isole Marshall"
   },
   "wiki": "http://en.wikipedia.org/wiki/marshall_islands",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Majuro",
+    "Pacific/Kwajalein"
+  ]
 }

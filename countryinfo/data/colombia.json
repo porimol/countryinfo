@@ -3,7 +3,7 @@
   "altSpellings": [
     "CO",
     "Republic of Colombia",
-    "Rep\u00fablica de Colombia",
+    "República de Colombia",
     "COL"
   ],
   "area": 1141748,
@@ -17,7 +17,7 @@
   "callingCodes": [
     "57"
   ],
-  "capital": "Bogot\u00e1",
+  "capital": "Bogotá",
   "capital_latlng": [
     4.59808,
     -74.076044
@@ -448,7 +448,8 @@
   },
   "ISO": {
     "alpha2": "CO",
-    "alpha3": "COL"
+    "alpha3": "COL",
+    "numeric": "170"
   },
   "languages": [
     "es"
@@ -497,7 +498,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221205:00"
+    "UTC−05:00"
   ],
   "tld": [
     ".co"
@@ -506,9 +507,12 @@
     "de": "Kolumbien",
     "es": "Colombia",
     "fr": "Colombie",
-    "ja": "\u30b3\u30ed\u30f3\u30d3\u30a2",
+    "ja": "コロンビア",
     "it": "Colombia"
   },
   "wiki": "http://en.wikipedia.org/wiki/colombia",
-  "intermediateregion": "South America"
+  "intermediateregion": "South America",
+  "timezoneNames": [
+    "America/Bogota"
+  ]
 }

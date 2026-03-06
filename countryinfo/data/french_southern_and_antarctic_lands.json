@@ -10,7 +10,7 @@
   "callingCodes": [
     ""
   ],
-  "capital": "Port-aux-Fran\u00e7ais",
+  "capital": "Port-aux-Français",
   "capital_latlng": [
     -49.353677,
     70.243567
@@ -77,7 +77,8 @@
   },
   "ISO": {
     "alpha2": "TF",
-    "alpha3": "ATF"
+    "alpha3": "ATF",
+    "numeric": "260"
   },
   "languages": [
     "fr"
@@ -86,7 +87,7 @@
     -49.25,
     69.167
   ],
-  "nativeName": "Territoire des Terres australes et antarctiques fran\u00e7aises",
+  "nativeName": "Territoire des Terres australes et antarctiques françaises",
   "population": 140,
   "provinces": [
     "Adelie Land",
@@ -101,12 +102,15 @@
     ".tf"
   ],
   "translations": {
-    "de": "Franz\u00f6sische S\u00fcd- und Antarktisgebiete",
-    "es": "Tierras Australes y Ant\u00e1rticas Francesas",
-    "fr": "Terres australes et antarctiques fran\u00e7aises",
-    "ja": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
+    "de": "Französische Süd- und Antarktisgebiete",
+    "es": "Tierras Australes y Antárticas Francesas",
+    "fr": "Terres australes et antarctiques françaises",
+    "ja": "フランス領南方・南極地域",
     "it": "Territori Francesi del Sud"
   },
   "wiki": "http://en.wikipedia.org/wiki/french_southern_and_antarctic_lands",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Indian/Kerguelen"
+  ]
 }

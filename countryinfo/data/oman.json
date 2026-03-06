@@ -3,7 +3,7 @@
   "altSpellings": [
     "OM",
     "Sultanate of Oman",
-    "Sal\u1e6danat \u02bbUm\u0101n",
+    "Salṭanat ʻUmān",
     "OMN"
   ],
   "area": 309500,
@@ -240,7 +240,8 @@
   },
   "ISO": {
     "alpha2": "OM",
-    "alpha3": "OMN"
+    "alpha3": "OMN",
+    "numeric": "512"
   },
   "languages": [
     "ar"
@@ -249,7 +250,7 @@
     21,
     57
   ],
-  "nativeName": "\u0639\u0645\u0627\u0646",
+  "nativeName": "عمان",
   "population": 4089076,
   "provinces": [
     "Ad Dakhiliyah",
@@ -271,11 +272,14 @@
   ],
   "translations": {
     "de": "Oman",
-    "es": "Om\u00e1n",
+    "es": "Omán",
     "fr": "Oman",
-    "ja": "\u30aa\u30de\u30fc\u30f3",
+    "ja": "オマーン",
     "it": "Oman"
   },
   "wiki": "http://en.wikipedia.org/wiki/oman",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Muscat"
+  ]
 }

@@ -4,7 +4,7 @@
     "SC",
     "Republic of Seychelles",
     "Repiblik Sesel",
-    "R\u00e9publique des Seychelles",
+    "République des Seychelles",
     "SYC"
   ],
   "area": 452,
@@ -25,7 +25,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "SC",
-    "alpha3": "SYC"
+    "alpha3": "SYC",
+    "numeric": "690"
   },
   "languages": [
     "fr",
@@ -74,9 +75,12 @@
     "de": "Seychellen",
     "es": "Seychelles",
     "fr": "Seychelles",
-    "ja": "\u30bb\u30fc\u30b7\u30a7\u30eb",
+    "ja": "セーシェル",
     "it": "Seychelles"
   },
   "wiki": "http://en.wikipedia.org/wiki/seychelles",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Indian/Mahe"
+  ]
 }

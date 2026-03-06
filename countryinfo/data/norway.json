@@ -415,7 +415,8 @@
   },
   "ISO": {
     "alpha2": "NO",
-    "alpha3": "NOR"
+    "alpha3": "NOR",
+    "numeric": "578"
   },
   "languages": [
     "no",
@@ -460,10 +461,13 @@
   "translations": {
     "de": "Norwegen",
     "es": "Noruega",
-    "fr": "Norv\u00e8ge",
-    "ja": "\u30ce\u30eb\u30a6\u30a7\u30fc",
+    "fr": "Norvège",
+    "ja": "ノルウェー",
     "it": "Norvegia"
   },
   "wiki": "http://en.wikipedia.org/wiki/norway",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Oslo"
+  ]
 }

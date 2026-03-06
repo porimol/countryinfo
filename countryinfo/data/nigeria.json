@@ -3,7 +3,7 @@
   "altSpellings": [
     "NG",
     "Nijeriya",
-    "Na\u00edj\u00edr\u00ed\u00e0",
+    "Naíjíríà",
     "Federal Republic of Nigeria",
     "NGA"
   ],
@@ -280,7 +280,8 @@
   },
   "ISO": {
     "alpha2": "NG",
-    "alpha3": "NGA"
+    "alpha3": "NGA",
+    "numeric": "566"
   },
   "languages": [
     "en"
@@ -341,10 +342,13 @@
   "translations": {
     "de": "Nigeria",
     "es": "Nigeria",
-    "fr": "Nig\u00e9ria",
-    "ja": "\u30ca\u30a4\u30b8\u30a7\u30ea\u30a2",
+    "fr": "Nigéria",
+    "ja": "ナイジェリア",
     "it": "Nigeria"
   },
   "wiki": "http://en.wikipedia.org/wiki/nigeria",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Lagos"
+  ]
 }

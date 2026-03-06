@@ -1,7 +1,8 @@
 {
   "ISO": {
     "alpha2": "VA",
-    "alpha3": "VAT"
+    "alpha3": "VAT",
+    "numeric": "336"
   },
   "name": "Holy See (Vatican City State)",
   "altSpellings": [
@@ -33,7 +34,7 @@
     41.90244,
     12.45389
   ],
-  "nativeName": "Stato della Citt\u00e0 del Vaticano",
+  "nativeName": "Stato della Città del Vaticano",
   "population": 453,
   "provinces": [],
   "region": "Europe",
@@ -45,5 +46,8 @@
     ".va"
   ],
   "wiki": "http://en.wikipedia.org/wiki/Vatican_City",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Vatican"
+  ]
 }

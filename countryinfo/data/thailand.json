@@ -5,7 +5,7 @@
     "Prathet",
     "Thai",
     "Kingdom of Thailand",
-    "\u0e23\u0e32\u0e0a\u0e2d\u0e32\u0e13\u0e32\u0e08\u0e31\u0e01\u0e23\u0e44\u0e17\u0e22",
+    "ราชอาณาจักรไทย",
     "Ratcha Anachak Thai",
     "THA"
   ],
@@ -306,7 +306,8 @@
   },
   "ISO": {
     "alpha2": "TH",
-    "alpha3": "THA"
+    "alpha3": "THA",
+    "numeric": "764"
   },
   "languages": [
     "th"
@@ -315,7 +316,7 @@
     15,
     100
   ],
-  "nativeName": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+  "nativeName": "ประเทศไทย",
   "population": 64871000,
   "provinces": [
     "Amnat Charoen",
@@ -406,10 +407,13 @@
   "translations": {
     "de": "Thailand",
     "es": "Tailandia",
-    "fr": "Tha\u00eflande",
-    "ja": "\u30bf\u30a4",
+    "fr": "Thaïlande",
+    "ja": "タイ",
     "it": "Tailandia"
   },
   "wiki": "http://en.wikipedia.org/wiki/thailand",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Bangkok"
+  ]
 }

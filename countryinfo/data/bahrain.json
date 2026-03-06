@@ -3,7 +3,7 @@
   "altSpellings": [
     "BH",
     "Kingdom of Bahrain",
-    "Mamlakat al-Ba\u1e25rayn",
+    "Mamlakat al-Baḥrayn",
     "BHR"
   ],
   "area": 765,
@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "BH",
-    "alpha3": "BHR"
+    "alpha3": "BHR",
+    "numeric": "048"
   },
   "languages": [
     "ar"
@@ -33,7 +34,7 @@
     26,
     50.55
   ],
-  "nativeName": "\u200f\u0627\u0644\u0628\u062d\u0631\u064a\u0646",
+  "nativeName": "‏البحرين",
   "population": 1316500,
   "provinces": [
     "Al Hadd",
@@ -59,11 +60,14 @@
   ],
   "translations": {
     "de": "Bahrain",
-    "es": "Bar\u00e9in",
-    "fr": "Bahre\u00efn",
-    "ja": "\u30d0\u30fc\u30ec\u30fc\u30f3",
+    "es": "Baréin",
+    "fr": "Bahreïn",
+    "ja": "バーレーン",
     "it": "Bahrein"
   },
   "wiki": "http://en.wikipedia.org/wiki/bahrain",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Bahrain"
+  ]
 }

@@ -3,7 +3,7 @@
   "altSpellings": [
     "SD",
     "Republic of the Sudan",
-    "Jumh\u016br\u012byat as-S\u016bd\u0101n",
+    "Jumhūrīyat as-Sūdān",
     "SDN"
   ],
   "area": 1886068,
@@ -366,7 +366,8 @@
   },
   "ISO": {
     "alpha2": "SD",
-    "alpha3": "SDN"
+    "alpha3": "SDN",
+    "numeric": "729"
   },
   "languages": [
     "ar",
@@ -376,7 +377,7 @@
     15,
     30
   ],
-  "nativeName": "\u0627\u0644\u0633\u0648\u062f\u0627\u0646",
+  "nativeName": "السودان",
   "population": 37289406,
   "provinces": [
     "A'ali an Nil",
@@ -416,11 +417,14 @@
   ],
   "translations": {
     "de": "Sudan",
-    "es": "Sud\u00e1n",
+    "es": "Sudán",
     "fr": "Soudan",
-    "ja": "\u30b9\u30fc\u30c0\u30f3",
+    "ja": "スーダン",
     "it": "Sudan"
   },
   "wiki": "http://en.wikipedia.org/wiki/sudan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Africa/Khartoum"
+  ]
 }

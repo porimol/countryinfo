@@ -97,7 +97,8 @@
   },
   "ISO": {
     "alpha2": "BT",
-    "alpha3": "BTN"
+    "alpha3": "BTN",
+    "numeric": "064"
   },
   "languages": [
     "dz"
@@ -106,7 +107,7 @@
     27.5,
     90.5
   ],
-  "nativeName": "\u0f60\u0f56\u0fb2\u0f74\u0f42\u0f61\u0f74\u0f63\u0f0b",
+  "nativeName": "འབྲུགཡུལ་",
   "population": 755030,
   "provinces": [
     "Bumthang",
@@ -138,11 +139,14 @@
   ],
   "translations": {
     "de": "Bhutan",
-    "es": "But\u00e1n",
+    "es": "Bután",
     "fr": "Bhoutan",
-    "ja": "\u30d6\u30fc\u30bf\u30f3",
+    "ja": "ブータン",
     "it": "Bhutan"
   },
   "wiki": "http://en.wikipedia.org/wiki/bhutan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Thimphu"
+  ]
 }

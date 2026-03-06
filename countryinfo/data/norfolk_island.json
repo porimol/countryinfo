@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "NF",
-    "alpha3": "NFK"
+    "alpha3": "NFK",
+    "numeric": "574"
   },
   "languages": [
     "en"
@@ -47,10 +48,13 @@
   "translations": {
     "de": "Norfolkinsel",
     "es": "Isla de Norfolk",
-    "fr": "\u00cele de Norfolk",
-    "ja": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
+    "fr": "Île de Norfolk",
+    "ja": "ノーフォーク島",
     "it": "Isola Norfolk"
   },
   "wiki": "http://en.wikipedia.org/wiki/norfolk_island",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Norfolk"
+  ]
 }

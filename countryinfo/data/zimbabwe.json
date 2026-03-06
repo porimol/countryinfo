@@ -194,7 +194,8 @@
   },
   "ISO": {
     "alpha2": "ZW",
-    "alpha3": "ZWE"
+    "alpha3": "ZWE",
+    "numeric": "716"
   },
   "languages": [
     "en",
@@ -226,9 +227,12 @@
     "de": "Simbabwe",
     "es": "Zimbabue",
     "fr": "Zimbabwe",
-    "ja": "\u30b8\u30f3\u30d0\u30d6\u30a8",
+    "ja": "ジンバブエ",
     "it": "Zimbabwe"
   },
   "wiki": "http://en.wikipedia.org/wiki/zimbabwe",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Harare"
+  ]
 }

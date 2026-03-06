@@ -93,7 +93,8 @@
   },
   "ISO": {
     "alpha2": "LS",
-    "alpha3": "LSO"
+    "alpha3": "LSO",
+    "numeric": "426"
   },
   "languages": [
     "en",
@@ -129,9 +130,12 @@
     "de": "Lesotho",
     "es": "Lesoto",
     "fr": "Lesotho",
-    "ja": "\u30ec\u30bd\u30c8",
+    "ja": "レソト",
     "it": "Lesotho"
   },
   "wiki": "http://en.wikipedia.org/wiki/lesotho",
-  "intermediateregion": "Southern Africa"
+  "intermediateregion": "Southern Africa",
+  "timezoneNames": [
+    "Africa/Maseru"
+  ]
 }

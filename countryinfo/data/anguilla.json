@@ -22,7 +22,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "AI",
-    "alpha3": "AIA"
+    "alpha3": "AIA",
+    "numeric": "660"
   },
   "languages": [
     "en"
@@ -46,9 +47,12 @@
     "de": "Anguilla",
     "es": "Anguilla",
     "fr": "Anguilla",
-    "ja": "\u30a2\u30f3\u30ae\u30e9",
+    "ja": "アンギラ",
     "it": "Anguilla"
   },
   "wiki": "http://en.wikipedia.org/wiki/anguilla",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Anguilla"
+  ]
 }

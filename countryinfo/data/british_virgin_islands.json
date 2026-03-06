@@ -22,7 +22,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "IO",
-    "alpha3": "IOT"
+    "alpha3": "IOT",
+    "numeric": "086"
   },
   "languages": [
     "en"
@@ -47,11 +48,14 @@
   ],
   "translations": {
     "de": "Britisches Territorium im Indischen Ozean",
-    "es": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico",
-    "fr": "Territoire britannique de l'oc\u00e9an Indien",
-    "ja": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df",
+    "es": "Territorio Británico del Océano Índico",
+    "fr": "Territoire britannique de l'océan Indien",
+    "ja": "イギリス領インド洋地域",
     "it": "Territorio britannico dell'oceano indiano"
   },
   "wiki": "http://en.wikipedia.org/wiki/british_virgin_islands",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Indian/Chagos"
+  ]
 }

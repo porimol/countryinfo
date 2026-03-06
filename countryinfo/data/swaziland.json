@@ -94,7 +94,8 @@
   },
   "ISO": {
     "alpha2": "SZ",
-    "alpha3": "SWZ"
+    "alpha3": "SWZ",
+    "numeric": "748"
   },
   "languages": [
     "en",
@@ -124,9 +125,12 @@
     "de": "Swasiland",
     "es": "Suazilandia",
     "fr": "Swaziland",
-    "ja": "\u30b9\u30ef\u30b8\u30e9\u30f3\u30c9",
+    "ja": "スワジランド",
     "it": "Swaziland"
   },
   "wiki": "http://en.wikipedia.org/wiki/swaziland",
-  "intermediateregion": "Southern Africa"
+  "intermediateregion": "Southern Africa",
+  "timezoneNames": [
+    "Africa/Mbabane"
+  ]
 }

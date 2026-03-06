@@ -4,7 +4,7 @@
     "RW",
     "Republic of Rwanda",
     "Repubulika y'u Rwanda",
-    "R\u00e9publique du Rwanda",
+    "République du Rwanda",
     "RWA",
     "Rwandese Republic"
   ],
@@ -101,7 +101,8 @@
   },
   "ISO": {
     "alpha2": "RW",
-    "alpha3": "RWA"
+    "alpha3": "RWA",
+    "numeric": "646"
   },
   "languages": [
     "rw",
@@ -140,9 +141,12 @@
     "de": "Ruanda",
     "es": "Ruanda",
     "fr": "Rwanda",
-    "ja": "\u30eb\u30ef\u30f3\u30c0",
+    "ja": "ルワンダ",
     "it": "Ruanda"
   },
   "wiki": "http://en.wikipedia.org/wiki/rwanda",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Kigali"
+  ]
 }

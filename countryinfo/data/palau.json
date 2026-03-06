@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "PW",
-    "alpha3": "PLW"
+    "alpha3": "PLW",
+    "numeric": "585"
   },
   "languages": [
     "en"
@@ -67,9 +68,12 @@
     "de": "Palau",
     "es": "Palau",
     "fr": "Palaos",
-    "ja": "\u30d1\u30e9\u30aa",
+    "ja": "パラオ",
     "it": "Palau"
   },
   "wiki": "http://en.wikipedia.org/wiki/palau",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Palau"
+  ]
 }

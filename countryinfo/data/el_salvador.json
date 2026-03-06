@@ -3,7 +3,7 @@
   "altSpellings": [
     "SV",
     "Republic of El Salvador",
-    "Rep\u00fablica de El Salvador",
+    "República de El Salvador",
     "SLV"
   ],
   "area": 21041,
@@ -126,7 +126,8 @@
   },
   "ISO": {
     "alpha2": "SV",
-    "alpha3": "SLV"
+    "alpha3": "SLV",
+    "numeric": "222"
   },
   "languages": [
     "es"
@@ -156,18 +157,21 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221206:00"
+    "UTC−06:00"
   ],
   "tld": [
     ".sv"
   ],
   "translations": {
     "de": "El Salvador",
-    "es": "Rep\u00fablica de El Salvador",
+    "es": "República de El Salvador",
     "fr": "Salvador",
-    "ja": "\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb",
+    "ja": "エルサルバドル",
     "it": "El Salvador"
   },
   "wiki": "http://en.wikipedia.org/wiki/el_salvador",
-  "intermediateregion": "Central America"
+  "intermediateregion": "Central America",
+  "timezoneNames": [
+    "America/El_Salvador"
+  ]
 }

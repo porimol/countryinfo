@@ -3,8 +3,8 @@
   "altSpellings": [
     "UZ",
     "Republic of Uzbekistan",
-    "O\u2018zbekiston Respublikasi",
-    "\u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438",
+    "O‘zbekiston Respublikasi",
+    "Ўзбекистон Республикаси",
     "UZB"
   ],
   "area": 447400,
@@ -265,7 +265,8 @@
   },
   "ISO": {
     "alpha2": "UZ",
-    "alpha3": "UZB"
+    "alpha3": "UZB",
+    "numeric": "860"
   },
   "languages": [
     "uz",
@@ -275,7 +276,7 @@
     41,
     64
   ],
-  "nativeName": "O\u2018zbekiston",
+  "nativeName": "O‘zbekiston",
   "population": 30492800,
   "provinces": [
     "Andijon Wiloyati",
@@ -303,11 +304,15 @@
   ],
   "translations": {
     "de": "Usbekistan",
-    "es": "Uzbekist\u00e1n",
-    "fr": "Ouzb\u00e9kistan",
-    "ja": "\u30a6\u30ba\u30d9\u30ad\u30b9\u30bf\u30f3",
+    "es": "Uzbekistán",
+    "fr": "Ouzbékistan",
+    "ja": "ウズベキスタン",
     "it": "Uzbekistan"
   },
   "wiki": "http://en.wikipedia.org/wiki/uzbekistan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Samarkand",
+    "Asia/Tashkent"
+  ]
 }

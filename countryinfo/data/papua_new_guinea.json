@@ -382,7 +382,8 @@
   },
   "ISO": {
     "alpha2": "PG",
-    "alpha3": "PNG"
+    "alpha3": "PNG",
+    "numeric": "598"
   },
   "languages": [
     "en"
@@ -425,11 +426,15 @@
   ],
   "translations": {
     "de": "Papua-Neuguinea",
-    "es": "Pap\u00faa Nueva Guinea",
-    "fr": "Papouasie-Nouvelle-Guin\u00e9e",
-    "ja": "\u30d1\u30d7\u30a2\u30cb\u30e5\u30fc\u30ae\u30cb\u30a2",
+    "es": "Papúa Nueva Guinea",
+    "fr": "Papouasie-Nouvelle-Guinée",
+    "ja": "パプアニューギニア",
     "it": "Papua Nuova Guinea"
   },
   "wiki": "http://en.wikipedia.org/wiki/papua_new_guinea",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Port_Moresby",
+    "Pacific/Bougainville"
+  ]
 }

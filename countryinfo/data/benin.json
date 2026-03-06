@@ -3,7 +3,7 @@
   "altSpellings": [
     "BJ",
     "Republic of Benin",
-    "R\u00e9publique du B\u00e9nin",
+    "République du Bénin",
     "BEN"
   ],
   "area": 112622,
@@ -147,7 +147,8 @@
   },
   "ISO": {
     "alpha2": "BJ",
-    "alpha3": "BEN"
+    "alpha3": "BEN",
+    "numeric": "204"
   },
   "languages": [
     "fr"
@@ -156,7 +157,7 @@
     9.5,
     2.25
   ],
-  "nativeName": "B\u00e9nin",
+  "nativeName": "Bénin",
   "population": 9988068,
   "provinces": [
     "Alibori",
@@ -182,11 +183,14 @@
   ],
   "translations": {
     "de": "Benin",
-    "es": "Ben\u00edn",
-    "fr": "B\u00e9nin",
-    "ja": "\u30d9\u30ca\u30f3",
+    "es": "Benín",
+    "fr": "Bénin",
+    "ja": "ベナン",
     "it": "Benin"
   },
   "wiki": "http://en.wikipedia.org/wiki/benin",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Porto-Novo"
+  ]
 }

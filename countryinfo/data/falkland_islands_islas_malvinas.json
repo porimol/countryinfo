@@ -82,7 +82,8 @@
   },
   "ISO": {
     "alpha2": "FK",
-    "alpha3": "FLK"
+    "alpha3": "FLK",
+    "numeric": "238"
   },
   "languages": [
     "en"
@@ -105,10 +106,13 @@
   "translations": {
     "de": "Falklandinseln",
     "es": "Islas Malvinas",
-    "fr": "\u00celes Malouines",
-    "ja": "\u30d5\u30a9\u30fc\u30af\u30e9\u30f3\u30c9\uff08\u30de\u30eb\u30d3\u30ca\u30b9\uff09\u8af8\u5cf6",
+    "fr": "Îles Malouines",
+    "ja": "フォークランド（マルビナス）諸島",
     "it": "Isole Falkland o Isole Malvine"
   },
   "wiki": "http://en.wikipedia.org/wiki/falkland_islands_islas_malvinas",
-  "intermediateregion": "South America"
+  "intermediateregion": "South America",
+  "timezoneNames": [
+    "Atlantic/Stanley"
+  ]
 }

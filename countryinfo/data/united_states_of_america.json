@@ -1856,7 +1856,8 @@
   },
   "ISO": {
     "alpha2": "US",
-    "alpha3": "USA"
+    "alpha3": "USA",
+    "numeric": "840"
   },
   "languages": [
     "en"
@@ -1923,15 +1924,15 @@
   "region": "Americas",
   "subregion": "Northern America",
   "timezones": [
-    "UTC\u221212:00",
-    "UTC\u221211:00",
-    "UTC\u221210:00",
-    "UTC\u221209:00",
-    "UTC\u221208:00",
-    "UTC\u221207:00",
-    "UTC\u221206:00",
-    "UTC\u221205:00",
-    "UTC\u221204:00",
+    "UTC−12:00",
+    "UTC−11:00",
+    "UTC−10:00",
+    "UTC−09:00",
+    "UTC−08:00",
+    "UTC−07:00",
+    "UTC−06:00",
+    "UTC−05:00",
+    "UTC−04:00",
     "UTC+10:00",
     "UTC+12:00"
   ],
@@ -1940,11 +1941,42 @@
   ],
   "translations": {
     "de": "Vereinigte Staaten von Amerika",
-    "es": "Estados Unidos de Am\u00e9rica",
-    "fr": "\u00c9tats-Unis d'Am\u00e9rique",
-    "ja": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd",
+    "es": "Estados Unidos de América",
+    "fr": "États-Unis d'Amérique",
+    "ja": "アメリカ合衆国",
     "it": "Stati Uniti d'America"
   },
   "wiki": "http://en.wikipedia.org/wiki/united_states_of_america",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "America/New_York",
+    "America/Detroit",
+    "America/Kentucky/Louisville",
+    "America/Kentucky/Monticello",
+    "America/Indiana/Indianapolis",
+    "America/Indiana/Vincennes",
+    "America/Indiana/Winamac",
+    "America/Indiana/Marengo",
+    "America/Indiana/Petersburg",
+    "America/Indiana/Vevay",
+    "America/Chicago",
+    "America/Indiana/Tell_City",
+    "America/Indiana/Knox",
+    "America/Menominee",
+    "America/North_Dakota/Center",
+    "America/North_Dakota/New_Salem",
+    "America/North_Dakota/Beulah",
+    "America/Denver",
+    "America/Boise",
+    "America/Phoenix",
+    "America/Los_Angeles",
+    "America/Anchorage",
+    "America/Juneau",
+    "America/Sitka",
+    "America/Metlakatla",
+    "America/Yakutat",
+    "America/Nome",
+    "America/Adak",
+    "Pacific/Honolulu"
+  ]
 }

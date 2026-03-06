@@ -4,7 +4,7 @@
     "MG",
     "Republic of Madagascar",
     "Repoblikan'i Madagasikara",
-    "R\u00e9publique de Madagascar",
+    "République de Madagascar",
     "MDG"
   ],
   "area": 587041,
@@ -239,7 +239,8 @@
   },
   "ISO": {
     "alpha2": "MG",
-    "alpha3": "MDG"
+    "alpha3": "MDG",
+    "numeric": "450"
   },
   "languages": [
     "fr",
@@ -271,9 +272,12 @@
     "de": "Madagaskar",
     "es": "Madagascar",
     "fr": "Madagascar",
-    "ja": "\u30de\u30c0\u30ac\u30b9\u30ab\u30eb",
+    "ja": "マダガスカル",
     "it": "Madagascar"
   },
   "wiki": "http://en.wikipedia.org/wiki/madagascar",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Indian/Antananarivo"
+  ]
 }

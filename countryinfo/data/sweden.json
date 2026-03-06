@@ -341,7 +341,8 @@
   },
   "ISO": {
     "alpha2": "SE",
-    "alpha3": "SWE"
+    "alpha3": "SWE",
+    "numeric": "752"
   },
   "languages": [
     "sv"
@@ -386,10 +387,13 @@
   "translations": {
     "de": "Schweden",
     "es": "Suecia",
-    "fr": "Su\u00e8de",
-    "ja": "\u30b9\u30a6\u30a7\u30fc\u30c7\u30f3",
+    "fr": "Suède",
+    "ja": "スウェーデン",
     "it": "Svezia"
   },
   "wiki": "http://en.wikipedia.org/wiki/sweden",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Stockholm"
+  ]
 }

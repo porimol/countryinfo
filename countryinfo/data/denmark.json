@@ -147,7 +147,8 @@
   },
   "ISO": {
     "alpha2": "DK",
-    "alpha3": "DNK"
+    "alpha3": "DNK",
+    "numeric": "208"
   },
   "languages": [
     "da"
@@ -179,9 +180,9 @@
   "region": "Europe",
   "subregion": "Northern Europe",
   "timezones": [
-    "UTC\u221204:00",
-    "UTC\u221203:00",
-    "UTC\u221201:00",
+    "UTC−04:00",
+    "UTC−03:00",
+    "UTC−01:00",
     "UTC",
     "UTC+01:00"
   ],
@@ -189,12 +190,15 @@
     ".dk"
   ],
   "translations": {
-    "de": "D\u00e4nemark",
+    "de": "Dänemark",
     "es": "Dinamarca",
     "fr": "Danemark",
-    "ja": "\u30c7\u30f3\u30de\u30fc\u30af",
+    "ja": "デンマーク",
     "it": "Danimarca"
   },
   "wiki": "http://en.wikipedia.org/wiki/denmark",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Copenhagen"
+  ]
 }

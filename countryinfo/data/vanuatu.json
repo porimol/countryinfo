@@ -4,7 +4,7 @@
     "VU",
     "Republic of Vanuatu",
     "Ripablik blong Vanuatu",
-    "R\u00e9publique de Vanuatu",
+    "République de Vanuatu",
     "VUT"
   ],
   "area": 12189,
@@ -97,7 +97,8 @@
   },
   "ISO": {
     "alpha2": "VU",
-    "alpha3": "VUT"
+    "alpha3": "VUT",
+    "numeric": "548"
   },
   "languages": [
     "bi",
@@ -130,9 +131,12 @@
     "de": "Vanuatu",
     "es": "Vanuatu",
     "fr": "Vanuatu",
-    "ja": "\u30d0\u30cc\u30a2\u30c4",
+    "ja": "バヌアツ",
     "it": "Vanuatu"
   },
   "wiki": "http://en.wikipedia.org/wiki/vanuatu",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Efate"
+  ]
 }

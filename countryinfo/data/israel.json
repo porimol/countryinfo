@@ -3,7 +3,7 @@
   "altSpellings": [
     "IL",
     "State of Israel",
-    "Med\u012bnat Yisr\u0101'el",
+    "Medīnat Yisrā'el",
     "ISR"
   ],
   "area": 20770,
@@ -139,7 +139,8 @@
   },
   "ISO": {
     "alpha2": "IL",
-    "alpha3": "ISR"
+    "alpha3": "ISR",
+    "numeric": "376"
   },
   "languages": [
     "he",
@@ -149,7 +150,7 @@
     31.5,
     34.75
   ],
-  "nativeName": "\u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc",
+  "nativeName": "יִשְׂרָאֵל",
   "population": 8268400,
   "provinces": [
     "Central",
@@ -170,10 +171,13 @@
   "translations": {
     "de": "Israel",
     "es": "Israel",
-    "fr": "Isra\u00ebl",
-    "ja": "\u30a4\u30b9\u30e9\u30a8\u30eb",
+    "fr": "Israël",
+    "ja": "イスラエル",
     "it": "Israele"
   },
   "wiki": "http://en.wikipedia.org/wiki/israel",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Jerusalem"
+  ]
 }

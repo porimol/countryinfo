@@ -3,7 +3,7 @@
   "altSpellings": [
     "QA",
     "State of Qatar",
-    "Dawlat Qa\u1e6dar",
+    "Dawlat Qaṭar",
     "QAT"
   ],
   "area": 11586,
@@ -80,7 +80,8 @@
   },
   "ISO": {
     "alpha2": "QA",
-    "alpha3": "QAT"
+    "alpha3": "QAT",
+    "numeric": "634"
   },
   "languages": [
     "ar"
@@ -89,7 +90,7 @@
     25.5,
     51.25
   ],
-  "nativeName": "\u0642\u0637\u0631",
+  "nativeName": "قطر",
   "population": 2269672,
   "provinces": [
     "Ad Dawhah",
@@ -114,9 +115,12 @@
     "de": "Katar",
     "es": "Catar",
     "fr": "Qatar",
-    "ja": "\u30ab\u30bf\u30fc\u30eb",
+    "ja": "カタール",
     "it": "Qatar"
   },
   "wiki": "http://en.wikipedia.org/wiki/qatar",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Qatar"
+  ]
 }

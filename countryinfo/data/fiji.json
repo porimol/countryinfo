@@ -5,7 +5,7 @@
     "Viti",
     "Republic of Fiji",
     "Matanitu ko Viti",
-    "Fij\u012b Ga\u1e47ar\u0101jya",
+    "Fijī Gaṇarājya",
     "FJI"
   ],
   "area": 18272,
@@ -142,7 +142,8 @@
   },
   "ISO": {
     "alpha2": "FJ",
-    "alpha3": "FJI"
+    "alpha3": "FJI",
+    "numeric": "242"
   },
   "languages": [
     "en",
@@ -175,9 +176,12 @@
     "de": "Fidschi",
     "es": "Fiyi",
     "fr": "Fidji",
-    "ja": "\u30d5\u30a3\u30b8\u30fc",
+    "ja": "フィジー",
     "it": "Figi"
   },
   "wiki": "http://en.wikipedia.org/wiki/fiji",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Fiji"
+  ]
 }

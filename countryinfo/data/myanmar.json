@@ -1,7 +1,8 @@
 {
   "ISO": {
     "alpha2": "MM",
-    "alpha3": "MMR"
+    "alpha3": "MMR",
+    "numeric": "104"
   },
   "name": "Myanmar",
   "altSpellings": [
@@ -20,7 +21,7 @@
   "callingCodes": [
     "95"
   ],
-  "capital": "  Naypyidaw",
+  "capital": "Naypyidaw",
   "capital_latlng": [
     19.75,
     96.1
@@ -37,7 +38,7 @@
     19.75,
     96.1
   ],
-  "nativeName": "\u1015\u103c\u100a\u103a\u1011\u1031\u102c\u1004\u103a\u1005\u102f \u101e\u1019\u1039\u1019\u1010 \u1019\u103c\u1014\u103a\u1019\u102c\u1014\u102d\u102f\u1004\u103a\u1004\u1036\u1010\u1031",
+  "nativeName": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတေ",
   "population": 53582855,
   "provinces": [],
   "region": "Asia",
@@ -53,8 +54,11 @@
     "de": "Myanmar",
     "es": "Myanmar",
     "fr": "Birmanie",
-    "ja": "\u30df\u30e3\u30f3\u30de\u30fc",
+    "ja": "ミャンマー",
     "it": "Birmania"
   },
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Rangoon"
+  ]
 }

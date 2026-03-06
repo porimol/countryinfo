@@ -2,7 +2,7 @@
   "name": "Guam",
   "altSpellings": [
     "GU",
-    "Gu\u00e5h\u00e5n",
+    "Guåhån",
     "GUM"
   ],
   "area": 549,
@@ -10,7 +10,7 @@
   "callingCodes": [
     "1671"
   ],
-  "capital": "Hag\u00e5t\u00f1a",
+  "capital": "Hagåtña",
   "capital_latlng": [
     13.472745,
     144.752018
@@ -23,7 +23,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "GU",
-    "alpha3": "GUM"
+    "alpha3": "GUM",
+    "numeric": "316"
   },
   "languages": [
     "en",
@@ -49,9 +50,12 @@
     "de": "Guam",
     "es": "Guam",
     "fr": "Guam",
-    "ja": "\u30b0\u30a2\u30e0",
+    "ja": "グアム",
     "it": "Guam"
   },
   "wiki": "http://en.wikipedia.org/wiki/guam",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Guam"
+  ]
 }

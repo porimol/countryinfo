@@ -4,7 +4,8 @@
     "LA",
     "Lao",
     "Lao People's Democratic Republic",
-    "Sathalanalat Paxathipatai Paxaxon Lao"
+    "Sathalanalat Paxathipatai Paxaxon Lao",
+    "LAO"
   ],
   "area": 236800,
   "borders": [
@@ -196,7 +197,8 @@
   },
   "ISO": {
     "alpha2": "LA",
-    "alpha3": "LAO"
+    "alpha3": "LAO",
+    "numeric": "418"
   },
   "languages": [
     "lo"
@@ -205,7 +207,7 @@
     18,
     105
   ],
-  "nativeName": "\u0eaa\u0e9b\u0e9b\u0ea5\u0eb2\u0ea7",
+  "nativeName": "ສປປລາວ",
   "population": 6693300,
   "provinces": [
     "Attapu",
@@ -239,9 +241,12 @@
     "de": "Laos",
     "es": "Laos",
     "fr": "Laos",
-    "ja": "\u30e9\u30aa\u30b9\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
+    "ja": "ラオス人民民主共和国",
     "it": "Laos"
   },
   "wiki": "http://en.wikipedia.org/wiki/laos",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Vientiane"
+  ]
 }

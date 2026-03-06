@@ -2,11 +2,11 @@
   "name": "Cyprus",
   "altSpellings": [
     "CY",
-    "K\u00fdpros",
-    "K\u0131br\u0131s",
+    "Kýpros",
+    "Kıbrıs",
     "Republic of Cyprus",
-    "\u039a\u03c5\u03c0\u03c1\u03b9\u03b1\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1",
-    "K\u0131br\u0131s Cumhuriyeti",
+    "Κυπριακή Δημοκρατία",
+    "Kıbrıs Cumhuriyeti",
     "CYP"
   ],
   "area": 9251,
@@ -107,7 +107,8 @@
   },
   "ISO": {
     "alpha2": "CY",
-    "alpha3": "CYP"
+    "alpha3": "CYP",
+    "numeric": "196"
   },
   "languages": [
     "el",
@@ -118,7 +119,7 @@
     35,
     33
   ],
-  "nativeName": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 - K\u0131br\u0131s",
+  "nativeName": "Κύπρος - Kıbrıs",
   "population": 858000,
   "provinces": [
     "Famagusta",
@@ -140,9 +141,13 @@
     "de": "Zypern",
     "es": "Chipre",
     "fr": "Chypre",
-    "ja": "\u30ad\u30d7\u30ed\u30b9",
+    "ja": "キプロス",
     "it": "Cipro"
   },
   "wiki": "http://en.wikipedia.org/wiki/cyprus",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Nicosia",
+    "Asia/Famagusta"
+  ]
 }

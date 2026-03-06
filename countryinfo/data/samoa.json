@@ -3,7 +3,7 @@
   "altSpellings": [
     "WS",
     "Independent State of Samoa",
-    "Malo Sa\u02bboloto Tuto\u02bbatasi o S\u0101moa",
+    "Malo Saʻoloto Tutoʻatasi o Sāmoa",
     "WSM"
   ],
   "area": 2842,
@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "WS",
-    "alpha3": "WSM"
+    "alpha3": "WSM",
+    "numeric": "882"
   },
   "languages": [
     "sm",
@@ -61,9 +62,12 @@
     "de": "Samoa",
     "es": "Samoa",
     "fr": "Samoa",
-    "ja": "\u30b5\u30e2\u30a2",
+    "ja": "サモア",
     "it": "Samoa"
   },
   "wiki": "http://en.wikipedia.org/wiki/samoa",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Apia"
+  ]
 }

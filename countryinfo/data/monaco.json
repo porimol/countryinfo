@@ -3,7 +3,7 @@
   "altSpellings": [
     "MC",
     "Principality of Monaco",
-    "Principaut\u00e9 de Monaco",
+    "Principauté de Monaco",
     "MCO"
   ],
   "area": 2.02,
@@ -26,7 +26,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "MC",
-    "alpha3": "MCO"
+    "alpha3": "MCO",
+    "numeric": "492"
   },
   "languages": [
     "fr"
@@ -53,11 +54,14 @@
   ],
   "translations": {
     "de": "Monaco",
-    "es": "M\u00f3naco",
+    "es": "Mónaco",
     "fr": "Monaco",
-    "ja": "\u30e2\u30ca\u30b3",
+    "ja": "モナコ",
     "it": "Principato di Monaco"
   },
   "wiki": "http://en.wikipedia.org/wiki/monaco",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Monaco"
+  ]
 }

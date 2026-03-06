@@ -113,7 +113,8 @@
   },
   "ISO": {
     "alpha2": "KH",
-    "alpha3": "KHM"
+    "alpha3": "KHM",
+    "numeric": "116"
   },
   "languages": [
     "km"
@@ -122,7 +123,7 @@
     13,
     105
   ],
-  "nativeName": "K\u00e2mp\u016dch\u00e9a",
+  "nativeName": "Kâmpŭchéa",
   "population": 15184116,
   "provinces": [
     "Banteay Mean Cheay",
@@ -162,9 +163,12 @@
     "de": "Kambodscha",
     "es": "Camboya",
     "fr": "Cambodge",
-    "ja": "\u30ab\u30f3\u30dc\u30b8\u30a2",
+    "ja": "カンボジア",
     "it": "Cambogia"
   },
   "wiki": "http://en.wikipedia.org/wiki/cambodia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Phnom_Penh"
+  ]
 }

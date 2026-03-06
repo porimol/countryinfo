@@ -3,10 +3,10 @@
   "altSpellings": [
     "CI",
     "Ivory Coast",
-    "Republic of C\u00f4te d'Ivoire",
-    "R\u00e9publique de C\u00f4te d'Ivoire",
+    "Republic of Côte d'Ivoire",
+    "République de Côte d'Ivoire",
     "CIV",
-    "C\u00f4te d'Ivoire"
+    "Côte d'Ivoire"
   ],
   "area": 322463,
   "borders": [
@@ -234,7 +234,8 @@
   },
   "ISO": {
     "alpha2": "CI",
-    "alpha3": "CIV"
+    "alpha3": "CIV",
+    "numeric": "384"
   },
   "languages": [
     "fr"
@@ -243,7 +244,7 @@
     8,
     -5
   ],
-  "nativeName": "C\u00f4te d'Ivoire",
+  "nativeName": "Côte d'Ivoire",
   "population": 23821000,
   "provinces": [
     "Abengourou",
@@ -314,12 +315,15 @@
     ".ci"
   ],
   "translations": {
-    "de": "Elfenbeink\u00fcste",
+    "de": "Elfenbeinküste",
     "es": "Costa de Marfil",
-    "fr": "C\u00f4te d'Ivoire",
-    "ja": "\u30b3\u30fc\u30c8\u30b8\u30dc\u30ef\u30fc\u30eb",
+    "fr": "Côte d'Ivoire",
+    "ja": "コートジボワール",
     "it": "Costa d'Avorio"
   },
   "wiki": "http://en.wikipedia.org/wiki/cote_d_ivoire",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Abidjan"
+  ]
 }

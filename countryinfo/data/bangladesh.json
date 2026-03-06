@@ -3,7 +3,7 @@
   "altSpellings": [
     "BD",
     "People's Republic of Bangladesh",
-    "G\u00f4n\u00f4pr\u00f4jat\u00f4ntri Bangladesh",
+    "Gônôprôjatôntri Bangladesh",
     "BGD"
   ],
   "area": 147570,
@@ -189,7 +189,8 @@
   },
   "ISO": {
     "alpha2": "BD",
-    "alpha3": "BGD"
+    "alpha3": "BGD",
+    "numeric": "050"
   },
   "languages": [
     "bn"
@@ -198,7 +199,7 @@
     24,
     90
   ],
-  "nativeName": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+  "nativeName": "বাংলাদেশ",
   "population": 157486000,
   "provinces": [
     "Barisal",
@@ -220,11 +221,14 @@
   ],
   "translations": {
     "de": "Bangladesch",
-    "es": "Banglad\u00e9s",
+    "es": "Bangladés",
     "fr": "Bangladesh",
-    "ja": "\u30d0\u30f3\u30b0\u30e9\u30c7\u30b7\u30e5",
+    "ja": "バングラデシュ",
     "it": "Bangladesh"
   },
   "wiki": "http://en.wikipedia.org/wiki/bangladesh",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Dhaka"
+  ]
 }

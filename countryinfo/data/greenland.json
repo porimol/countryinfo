@@ -2,7 +2,7 @@
   "name": "Greenland",
   "altSpellings": [
     "GL",
-    "Gr\u00f8nland",
+    "Grønland",
     "GRL"
   ],
   "area": 2166086,
@@ -569,7 +569,8 @@
   },
   "ISO": {
     "alpha2": "GL",
-    "alpha3": "GRL"
+    "alpha3": "GRL",
+    "numeric": "304"
   },
   "languages": [
     "kl"
@@ -592,12 +593,18 @@
     ".gl"
   ],
   "translations": {
-    "de": "Gr\u00f6nland",
+    "de": "Grönland",
     "es": "Groenlandia",
     "fr": "Groenland",
-    "ja": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
+    "ja": "グリーンランド",
     "it": "Groenlandia"
   },
   "wiki": "http://en.wikipedia.org/wiki/greenland",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "America/Godthab",
+    "America/Danmarkshavn",
+    "America/Scoresbysund",
+    "America/Thule"
+  ]
 }

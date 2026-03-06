@@ -2,7 +2,7 @@
   "name": "Austria",
   "altSpellings": [
     "AT",
-    "\u00d6sterreich",
+    "Österreich",
     "Osterreich",
     "Oesterreich",
     "AUT",
@@ -201,7 +201,8 @@
   },
   "ISO": {
     "alpha2": "AT",
-    "alpha3": "AUT"
+    "alpha3": "AUT",
+    "numeric": "040"
   },
   "languages": [
     "de"
@@ -210,7 +211,7 @@
     47.33333333,
     13.33333333
   ],
-  "nativeName": "\u00d6sterreich",
+  "nativeName": "Österreich",
   "population": 8527230,
   "provinces": [
     "Burgenland",
@@ -232,12 +233,15 @@
     ".at"
   ],
   "translations": {
-    "de": "\u00d6sterreich",
+    "de": "Österreich",
     "es": "Austria",
     "fr": "Autriche",
-    "ja": "\u30aa\u30fc\u30b9\u30c8\u30ea\u30a2",
+    "ja": "オーストリア",
     "it": "Austria"
   },
   "wiki": "http://en.wikipedia.org/wiki/austria",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Vienna"
+  ]
 }

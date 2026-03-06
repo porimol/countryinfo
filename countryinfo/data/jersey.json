@@ -4,7 +4,7 @@
     "JE",
     "Bailiwick of Jersey",
     "Bailliage de Jersey",
-    "Bailliage d\u00e9 J\u00e8rri",
+    "Bailliage dé Jèrri",
     "JEY"
   ],
   "area": 116,
@@ -25,7 +25,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "JE",
-    "alpha3": "JEY"
+    "alpha3": "JEY",
+    "numeric": "832"
   },
   "languages": [
     "en",
@@ -50,9 +51,12 @@
     "de": "Jersey",
     "es": "Jersey",
     "fr": "Jersey",
-    "ja": "\u30b8\u30e3\u30fc\u30b8\u30fc",
+    "ja": "ジャージー",
     "it": "Isola di Jersey"
   },
   "wiki": "http://en.wikipedia.org/wiki/jersey",
-  "intermediateregion": "Channel Islands"
+  "intermediateregion": "Channel Islands",
+  "timezoneNames": [
+    "Europe/Jersey"
+  ]
 }

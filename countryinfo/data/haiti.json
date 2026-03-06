@@ -3,7 +3,7 @@
   "altSpellings": [
     "HT",
     "Republic of Haiti",
-    "R\u00e9publique d'Ha\u00efti",
+    "République d'Haïti",
     "Repiblik Ayiti",
     "HTI"
   ],
@@ -130,7 +130,8 @@
   },
   "ISO": {
     "alpha2": "HT",
-    "alpha3": "HTI"
+    "alpha3": "HTI",
+    "numeric": "332"
   },
   "languages": [
     "fr",
@@ -140,7 +141,7 @@
     19,
     -72.41666666
   ],
-  "nativeName": "Ha\u00efti",
+  "nativeName": "Haïti",
   "population": 10745665,
   "provinces": [
     "Artibonite",
@@ -156,18 +157,21 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221205:00"
+    "UTC−05:00"
   ],
   "tld": [
     ".ht"
   ],
   "translations": {
     "de": "Haiti",
-    "es": "Hait\u00ed",
-    "fr": "Ha\u00efti",
-    "ja": "\u30cf\u30a4\u30c1",
+    "es": "Haití",
+    "fr": "Haïti",
+    "ja": "ハイチ",
     "it": "Haiti"
   },
   "wiki": "http://en.wikipedia.org/wiki/haiti",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Port-au-Prince"
+  ]
 }

@@ -2,7 +2,7 @@
   "name": "Sri Lanka",
   "altSpellings": [
     "LK",
-    "ila\u1e45kai",
+    "ilaṅkai",
     "Democratic Socialist Republic of Sri Lanka",
     "LKA"
   ],
@@ -84,7 +84,8 @@
   },
   "ISO": {
     "alpha2": "LK",
-    "alpha3": "LKA"
+    "alpha3": "LKA",
+    "numeric": "144"
   },
   "languages": [
     "si",
@@ -94,7 +95,7 @@
     7,
     81
   ],
-  "nativeName": "\u015br\u012b la\u1e43k\u0101va",
+  "nativeName": "śrī laṃkāva",
   "population": 20277597,
   "provinces": [
     "Central",
@@ -120,9 +121,12 @@
     "de": "Sri Lanka",
     "es": "Sri Lanka",
     "fr": "Sri Lanka",
-    "ja": "\u30b9\u30ea\u30e9\u30f3\u30ab",
+    "ja": "スリランカ",
     "it": "Sri Lanka"
   },
   "wiki": "http://en.wikipedia.org/wiki/sri_lanka",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Colombo"
+  ]
 }

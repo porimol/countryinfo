@@ -22,7 +22,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "TK",
-    "alpha3": "TKL"
+    "alpha3": "TKL",
+    "numeric": "772"
   },
   "languages": [
     "en"
@@ -48,9 +49,12 @@
     "de": "Tokelau",
     "es": "Islas Tokelau",
     "fr": "Tokelau",
-    "ja": "\u30c8\u30b1\u30e9\u30a6",
+    "ja": "トケラウ",
     "it": "Isole Tokelau"
   },
   "wiki": "http://en.wikipedia.org/wiki/tokelau",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Fakaofo"
+  ]
 }

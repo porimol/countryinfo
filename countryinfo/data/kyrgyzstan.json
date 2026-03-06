@@ -2,9 +2,9 @@
   "name": "Kyrgyzstan",
   "altSpellings": [
     "KG",
-    "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f",
+    "Киргизия",
     "Kyrgyz Republic",
-    "\u041a\u044b\u0440\u0433\u044b\u0437 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
+    "Кыргыз Республикасы",
     "Kyrgyz Respublikasy",
     "KGZ"
   ],
@@ -189,7 +189,8 @@
   },
   "ISO": {
     "alpha2": "KG",
-    "alpha3": "KGZ"
+    "alpha3": "KGZ",
+    "numeric": "417"
   },
   "languages": [
     "ky",
@@ -199,7 +200,7 @@
     41,
     75
   ],
-  "nativeName": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+  "nativeName": "Кыргызстан",
   "population": 5776570,
   "provinces": [
     "Batken Oblasty",
@@ -221,11 +222,14 @@
   ],
   "translations": {
     "de": "Kirgisistan",
-    "es": "Kirguizist\u00e1n",
+    "es": "Kirguizistán",
     "fr": "Kirghizistan",
-    "ja": "\u30ad\u30eb\u30ae\u30b9",
+    "ja": "キルギス",
     "it": "Kirghizistan"
   },
   "wiki": "http://en.wikipedia.org/wiki/kyrgyzstan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Bishkek"
+  ]
 }

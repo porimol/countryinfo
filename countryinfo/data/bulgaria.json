@@ -3,7 +3,7 @@
   "altSpellings": [
     "BG",
     "Republic of Bulgaria",
-    "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f",
+    "Република България",
     "BGR"
   ],
   "area": 110879,
@@ -160,7 +160,8 @@
   },
   "ISO": {
     "alpha2": "BG",
-    "alpha3": "BGR"
+    "alpha3": "BGR",
+    "numeric": "100"
   },
   "languages": [
     "bg"
@@ -169,7 +170,7 @@
     43,
     25
   ],
-  "nativeName": "\u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f",
+  "nativeName": "България",
   "population": 7245677,
   "provinces": [
     "Blagoevgrad",
@@ -213,9 +214,12 @@
     "de": "Bulgarien",
     "es": "Bulgaria",
     "fr": "Bulgarie",
-    "ja": "\u30d6\u30eb\u30ac\u30ea\u30a2",
+    "ja": "ブルガリア",
     "it": "Bulgaria"
   },
   "wiki": "http://en.wikipedia.org/wiki/bulgaria",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Sofia"
+  ]
 }

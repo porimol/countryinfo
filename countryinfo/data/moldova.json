@@ -15,7 +15,7 @@
   "callingCodes": [
     "373"
   ],
-  "capital": "Chi\u0219in\u0103u",
+  "capital": "Chișinău",
   "capital_latlng": [
     47.024471,
     28.832253
@@ -154,7 +154,8 @@
   },
   "ISO": {
     "alpha2": "MD",
-    "alpha3": "MDA"
+    "alpha3": "MDA",
+    "numeric": "498"
   },
   "languages": [
     "ro"
@@ -191,9 +192,12 @@
     "de": "Moldawie",
     "es": "Moldavia",
     "fr": "Moldavie",
-    "ja": "\u30e2\u30eb\u30c9\u30d0\u5171\u548c\u56fd",
+    "ja": "モルドバ共和国",
     "it": "Moldavia"
   },
   "wiki": "http://en.wikipedia.org/wiki/moldova",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Chisinau"
+  ]
 }

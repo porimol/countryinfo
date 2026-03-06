@@ -3,7 +3,7 @@
   "altSpellings": [
     "YE",
     "Yemeni Republic",
-    "al-Jumh\u016briyyah al-Yamaniyyah",
+    "al-Jumhūriyyah al-Yamaniyyah",
     "YEM",
     "Republic of Yemen"
   ],
@@ -222,7 +222,8 @@
   },
   "ISO": {
     "alpha2": "YE",
-    "alpha3": "YEM"
+    "alpha3": "YEM",
+    "numeric": "887"
   },
   "languages": [
     "ar"
@@ -231,7 +232,7 @@
     15,
     48
   ],
-  "nativeName": "\u0627\u0644\u064a\u064e\u0645\u064e\u0646",
+  "nativeName": "اليَمَن",
   "population": 25956000,
   "provinces": [
     "'Adan",
@@ -263,10 +264,13 @@
   "translations": {
     "de": "Jemen",
     "es": "Yemen",
-    "fr": "Y\u00e9men",
-    "ja": "\u30a4\u30a8\u30e1\u30f3",
+    "fr": "Yémen",
+    "ja": "イエメン",
     "it": "Yemen"
   },
   "wiki": "http://en.wikipedia.org/wiki/yemen",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Aden"
+  ]
 }

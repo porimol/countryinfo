@@ -3,7 +3,7 @@
   "altSpellings": [
     "AZ",
     "Republic of Azerbaijan",
-    "Az\u0259rbaycan Respublikas\u0131",
+    "Azərbaycan Respublikası",
     "AZE"
   ],
   "area": 86600,
@@ -230,7 +230,8 @@
   },
   "ISO": {
     "alpha2": "AZ",
-    "alpha3": "AZE"
+    "alpha3": "AZE",
+    "numeric": "031"
   },
   "languages": [
     "az",
@@ -240,7 +241,7 @@
     40.5,
     47.5
   ],
-  "nativeName": "Az\u0259rbaycan",
+  "nativeName": "Azərbaycan",
   "population": 9552500,
   "provinces": [
     "Abseron Rayonu",
@@ -325,11 +326,14 @@
   ],
   "translations": {
     "de": "Aserbaidschan",
-    "es": "Azerbaiy\u00e1n",
-    "fr": "Azerba\u00efdjan",
-    "ja": "\u30a2\u30bc\u30eb\u30d0\u30a4\u30b8\u30e3\u30f3",
+    "es": "Azerbaiyán",
+    "fr": "Azerbaïdjan",
+    "ja": "アゼルバイジャン",
     "it": "Azerbaijan"
   },
   "wiki": "http://en.wikipedia.org/wiki/azerbaijan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Baku"
+  ]
 }

@@ -2,9 +2,9 @@
   "name": "Ethiopia",
   "altSpellings": [
     "ET",
-    "\u02be\u012aty\u014d\u1e57\u1e57y\u0101",
+    "ʾĪtyōṗṗyā",
     "Federal Democratic Republic of Ethiopia",
-    "\u12e8\u12a2\u1275\u12ee\u1335\u12eb \u134c\u12f4\u122b\u120b\u12ca \u12f2\u121e\u12ad\u122b\u1232\u12eb\u12ca \u122a\u1350\u1265\u120a\u12ad",
+    "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
     "ETH"
   ],
   "area": 1104300,
@@ -286,7 +286,8 @@
   },
   "ISO": {
     "alpha2": "ET",
-    "alpha3": "ETH"
+    "alpha3": "ETH",
+    "numeric": "231"
   },
   "languages": [
     "am"
@@ -295,7 +296,7 @@
     8,
     38
   ],
-  "nativeName": "\u12a2\u1275\u12ee\u1335\u12eb",
+  "nativeName": "ኢትዮጵያ",
   "population": 87952991,
   "provinces": [
     "Adis Abeba (Addis Ababa)",
@@ -318,12 +319,15 @@
     ".et"
   ],
   "translations": {
-    "de": "\u00c4thiopien",
-    "es": "Etiop\u00eda",
-    "fr": "\u00c9thiopie",
-    "ja": "\u30a8\u30c1\u30aa\u30d4\u30a2",
+    "de": "Äthiopien",
+    "es": "Etiopía",
+    "fr": "Éthiopie",
+    "ja": "エチオピア",
     "it": "Etiopia"
   },
   "wiki": "http://en.wikipedia.org/wiki/ethiopia",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Addis_Ababa"
+  ]
 }

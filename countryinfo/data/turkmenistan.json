@@ -261,7 +261,8 @@
   },
   "ISO": {
     "alpha2": "TM",
-    "alpha3": "TKM"
+    "alpha3": "TKM",
+    "numeric": "795"
   },
   "languages": [
     "tk",
@@ -271,7 +272,7 @@
     40,
     60
   ],
-  "nativeName": "T\u00fcrkmenistan",
+  "nativeName": "Türkmenistan",
   "population": 5838064,
   "provinces": [
     "Ahal Welayaty",
@@ -290,11 +291,14 @@
   ],
   "translations": {
     "de": "Turkmenistan",
-    "es": "Turkmenist\u00e1n",
-    "fr": "Turkm\u00e9nistan",
-    "ja": "\u30c8\u30eb\u30af\u30e1\u30cb\u30b9\u30bf\u30f3",
+    "es": "Turkmenistán",
+    "fr": "Turkménistan",
+    "ja": "トルクメニスタン",
     "it": "Turkmenistan"
   },
   "wiki": "http://en.wikipedia.org/wiki/turkmenistan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Ashgabat"
+  ]
 }

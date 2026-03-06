@@ -132,7 +132,8 @@
   },
   "ISO": {
     "alpha2": "SL",
-    "alpha3": "SLE"
+    "alpha3": "SLE",
+    "numeric": "694"
   },
   "languages": [
     "en"
@@ -161,9 +162,12 @@
     "de": "Sierra Leone",
     "es": "Sierra Leone",
     "fr": "Sierra Leone",
-    "ja": "\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd",
+    "ja": "シエラレオネ",
     "it": "Sierra Leone"
   },
   "wiki": "http://en.wikipedia.org/wiki/sierra_leone",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Freetown"
+  ]
 }

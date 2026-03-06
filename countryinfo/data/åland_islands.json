@@ -6,14 +6,18 @@
   ],
   "ISO": {
     "alpha2": "AX",
-    "alpha3": "ALA"
+    "alpha3": "ALA",
+    "numeric": "248"
   },
-  "name": "\u00c5land Islands",
+  "name": "Åland Islands",
   "altSpellings": [
     "AX",
     "ALA"
   ],
   "region": "Europe",
   "subregion": "Northern Europe",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Mariehamn"
+  ]
 }

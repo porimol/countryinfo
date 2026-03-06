@@ -13,7 +13,7 @@
   "callingCodes": [
     "960"
   ],
-  "capital": "Mal\u00e9",
+  "capital": "Malé",
   "capital_latlng": [
     4.1779879,
     73.5107387
@@ -26,7 +26,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "MV",
-    "alpha3": "MDV"
+    "alpha3": "MDV",
+    "numeric": "462"
   },
   "languages": [
     "dv"
@@ -35,7 +36,7 @@
     3.25,
     73
   ],
-  "nativeName": "\u078b\u07a8\u0788\u07ac\u0780\u07a8\u0783\u07a7\u0787\u07b0\u0796\u07ac",
+  "nativeName": "ދިވެހިރާއްޖެ",
   "population": 341256,
   "provinces": [
     "Alifu",
@@ -71,9 +72,12 @@
     "de": "Malediven",
     "es": "Maldivas",
     "fr": "Maldives",
-    "ja": "\u30e2\u30eb\u30c7\u30a3\u30d6",
+    "ja": "モルディブ",
     "it": "Maldive"
   },
   "wiki": "http://en.wikipedia.org/wiki/maldives",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Indian/Maldives"
+  ]
 }

@@ -6,7 +6,8 @@
   ],
   "ISO": {
     "alpha2": "PS",
-    "alpha3": "PSE"
+    "alpha3": "PSE",
+    "numeric": "275"
   },
   "name": "Palestine, State of",
   "altSpellings": [
@@ -18,5 +19,9 @@
   ],
   "region": "Asia",
   "subregion": "Western Asia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Gaza",
+    "Asia/Hebron"
+  ]
 }

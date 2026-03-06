@@ -2,7 +2,7 @@
   "name": "Afghanistan",
   "altSpellings": [
     "AF",
-    "Af\u0121\u0101nist\u0101n",
+    "Afġānistān",
     "AFG",
     "Islamic Republic of Afghanistan"
   ],
@@ -325,7 +325,8 @@
   },
   "ISO": {
     "alpha2": "AF",
-    "alpha3": "AFG"
+    "alpha3": "AFG",
+    "numeric": "004"
   },
   "languages": [
     "ps",
@@ -336,7 +337,7 @@
     33,
     65
   ],
-  "nativeName": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+  "nativeName": "افغانستان",
   "population": 26023100,
   "provinces": [
     "Badakhshan",
@@ -377,15 +378,18 @@
   ],
   "tld": [
     ".af",
-    "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646."
+    "افغانستان."
   ],
   "translations": {
     "de": "Afghanistan",
-    "es": "Afganist\u00e1n",
+    "es": "Afganistán",
     "fr": "Afghanistan",
-    "ja": "\u30a2\u30d5\u30ac\u30cb\u30b9\u30bf\u30f3",
+    "ja": "アフガニスタン",
     "it": "Afghanistan"
   },
   "wiki": "http://en.wikipedia.org/wiki/afghanistan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Kabul"
+  ]
 }

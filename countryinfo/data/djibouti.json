@@ -5,7 +5,7 @@
     "Jabuuti",
     "Gabuuti",
     "Republic of Djibouti",
-    "R\u00e9publique de Djibouti",
+    "République de Djibouti",
     "Gabuutih Ummuuno",
     "Jamhuuriyadda Jabuuti",
     "DJI"
@@ -110,7 +110,8 @@
   },
   "ISO": {
     "alpha2": "DJ",
-    "alpha3": "DJI"
+    "alpha3": "DJI",
+    "numeric": "262"
   },
   "languages": [
     "fr",
@@ -141,9 +142,12 @@
     "de": "Dschibuti",
     "es": "Yibuti",
     "fr": "Djibouti",
-    "ja": "\u30b8\u30d6\u30c1",
+    "ja": "ジブチ",
     "it": "Gibuti"
   },
   "wiki": "http://en.wikipedia.org/wiki/djibouti",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Djibouti"
+  ]
 }

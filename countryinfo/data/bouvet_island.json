@@ -3,7 +3,8 @@
   "capital_latlng": null,
   "ISO": {
     "alpha2": "BV",
-    "alpha3": "BVT"
+    "alpha3": "BVT",
+    "numeric": "074"
   },
   "name": "Bouvet Island",
   "altSpellings": [

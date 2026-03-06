@@ -26,7 +26,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "SM",
-    "alpha3": "SMR"
+    "alpha3": "SMR",
+    "numeric": "674"
   },
   "languages": [
     "it"
@@ -60,9 +61,12 @@
     "de": "San Marino",
     "es": "San Marino",
     "fr": "Saint-Marin",
-    "ja": "\u30b5\u30f3\u30de\u30ea\u30ce",
+    "ja": "サンマリノ",
     "it": "San Marino"
   },
   "wiki": "http://en.wikipedia.org/wiki/san_marino",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/San_Marino"
+  ]
 }

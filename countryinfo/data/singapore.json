@@ -4,7 +4,7 @@
     "SG",
     "Singapura",
     "Republik Singapura",
-    "\u65b0\u52a0\u5761\u5171\u548c\u56fd",
+    "新加坡共和国",
     "SGP",
     "Republic of Singapore"
   ],
@@ -26,7 +26,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "SG",
-    "alpha3": "SGP"
+    "alpha3": "SGP",
+    "numeric": "702"
   },
   "languages": [
     "en",
@@ -55,9 +56,12 @@
     "de": "Singapur",
     "es": "Singapur",
     "fr": "Singapour",
-    "ja": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+    "ja": "シンガポール",
     "it": "Singapore"
   },
   "wiki": "http://en.wikipedia.org/wiki/singapore",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Singapore"
+  ]
 }

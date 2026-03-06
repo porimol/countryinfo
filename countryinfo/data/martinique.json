@@ -22,7 +22,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "MQ",
-    "alpha3": "MTQ"
+    "alpha3": "MTQ",
+    "numeric": "474"
   },
   "languages": [
     "fr"
@@ -46,9 +47,12 @@
     "de": "Martinique",
     "es": "Martinica",
     "fr": "Martinique",
-    "ja": "\u30de\u30eb\u30c6\u30a3\u30cb\u30fc\u30af",
+    "ja": "マルティニーク",
     "it": "Martinica"
   },
   "wiki": "http://en.wikipedia.org/wiki/martinique",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Martinique"
+  ]
 }

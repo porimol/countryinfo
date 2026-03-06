@@ -3,7 +3,7 @@
   "altSpellings": [
     "GW",
     "Republic of Guinea-Bissau",
-    "Rep\u00fablica da Guin\u00e9-Bissau",
+    "República da Guiné-Bissau",
     "GNB"
   ],
   "area": 36125,
@@ -121,7 +121,8 @@
   },
   "ISO": {
     "alpha2": "GW",
-    "alpha3": "GNB"
+    "alpha3": "GNB",
+    "numeric": "624"
   },
   "languages": [
     "pt"
@@ -130,7 +131,7 @@
     12,
     -15
   ],
-  "nativeName": "Guin\u00e9-Bissau",
+  "nativeName": "Guiné-Bissau",
   "population": 1746000,
   "provinces": [
     "Bafata",
@@ -153,11 +154,14 @@
   ],
   "translations": {
     "de": "Guinea-Bissau",
-    "es": "Guinea-Bis\u00e1u",
-    "fr": "Guin\u00e9e-Bissau",
-    "ja": "\u30ae\u30cb\u30a2\u30d3\u30b5\u30a6",
+    "es": "Guinea-Bisáu",
+    "fr": "Guinée-Bissau",
+    "ja": "ギニアビサウ",
     "it": "Guinea-Bissau"
   },
   "wiki": "http://en.wikipedia.org/wiki/guinea_bissau",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Bissau"
+  ]
 }

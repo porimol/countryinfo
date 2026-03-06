@@ -4,8 +4,8 @@
     "TL",
     "East Timor",
     "Democratic Republic of Timor-Leste",
-    "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
-    "Rep\u00fablika Demokr\u00e1tika Tim\u00f3r-Leste",
+    "República Democrática de Timor-Leste",
+    "Repúblika Demokrátika Timór-Leste",
     "TLS",
     "Timor-Leste"
   ],
@@ -91,7 +91,8 @@
   },
   "ISO": {
     "alpha2": "TL",
-    "alpha3": "TLS"
+    "alpha3": "TLS",
+    "numeric": "626"
   },
   "languages": [
     "pt"
@@ -117,9 +118,12 @@
     "de": "Timor-Leste",
     "es": "Timor Oriental",
     "fr": "Timor oriental",
-    "ja": "\u6771\u30c6\u30a3\u30e2\u30fc\u30eb",
+    "ja": "東ティモール",
     "it": "Timor Est"
   },
   "wiki": "http://en.wikipedia.org/wiki/tobago",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Dili"
+  ]
 }

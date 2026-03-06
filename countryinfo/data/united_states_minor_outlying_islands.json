@@ -3,7 +3,8 @@
   "capital_latlng": null,
   "ISO": {
     "alpha2": "UM",
-    "alpha3": "UMI"
+    "alpha3": "UMI",
+    "numeric": "581"
   },
   "name": "United States Minor Outlying Islands",
   "altSpellings": [
@@ -12,5 +13,10 @@
   ],
   "region": "Oceania",
   "subregion": "Micronesia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Johnston",
+    "Pacific/Midway",
+    "Pacific/Wake"
+  ]
 }

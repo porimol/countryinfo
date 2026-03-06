@@ -135,7 +135,8 @@
   },
   "ISO": {
     "alpha2": "LV",
-    "alpha3": "LVA"
+    "alpha3": "LVA",
+    "numeric": "428"
   },
   "languages": [
     "lv"
@@ -193,9 +194,12 @@
     "de": "Lettland",
     "es": "Letonia",
     "fr": "Lettonie",
-    "ja": "\u30e9\u30c8\u30d3\u30a2",
+    "ja": "ラトビア",
     "it": "Lettonia"
   },
   "wiki": "http://en.wikipedia.org/wiki/latvia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Riga"
+  ]
 }

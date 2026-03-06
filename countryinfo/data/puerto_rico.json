@@ -79,7 +79,8 @@
   },
   "ISO": {
     "alpha2": "PR",
-    "alpha3": "PRI"
+    "alpha3": "PRI",
+    "numeric": "630"
   },
   "languages": [
     "es",
@@ -181,9 +182,12 @@
     "de": "Puerto Rico",
     "es": "Puerto Rico",
     "fr": "Porto Rico",
-    "ja": "\u30d7\u30a8\u30eb\u30c8\u30ea\u30b3",
+    "ja": "プエルトリコ",
     "it": "Porto Rico"
   },
   "wiki": "http://en.wikipedia.org/wiki/puerto_rico",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Puerto_Rico"
+  ]
 }

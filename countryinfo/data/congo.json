@@ -543,7 +543,8 @@
   },
   "ISO": {
     "alpha2": "CD",
-    "alpha3": "COD"
+    "alpha3": "COD",
+    "numeric": "180"
   },
   "languages": [
     "fr",
@@ -556,7 +557,7 @@
     0,
     25
   ],
-  "nativeName": "R\u00e9publique d\u00e9mocratique du Congo",
+  "nativeName": "République démocratique du Congo",
   "population": 69360000,
   "provinces": [
     "Bouenza",
@@ -581,11 +582,15 @@
   ],
   "translations": {
     "de": "Demokratische Republik Kongo",
-    "es": "Rep\u00fablica Democr\u00e1tica del Congo",
-    "fr": "R\u00e9publique d\u00e9mocratique du Congo",
-    "ja": "\u30b3\u30f3\u30b4\u6c11\u4e3b\u5171\u548c\u56fd",
+    "es": "República Democrática del Congo",
+    "fr": "République démocratique du Congo",
+    "ja": "コンゴ民主共和国",
     "it": "Repubblica Democratica del Congo"
   },
   "wiki": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Kinshasa",
+    "Africa/Lubumbashi"
+  ]
 }

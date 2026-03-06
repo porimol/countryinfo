@@ -4,7 +4,7 @@
     "BI",
     "Republic of Burundi",
     "Republika y'Uburundi",
-    "R\u00e9publique du Burundi",
+    "République du Burundi",
     "BDI"
   ],
   "area": 27834,
@@ -99,7 +99,8 @@
   },
   "ISO": {
     "alpha2": "BI",
-    "alpha3": "BDI"
+    "alpha3": "BDI",
+    "numeric": "108"
   },
   "languages": [
     "fr",
@@ -141,9 +142,12 @@
     "de": "Burundi",
     "es": "Burundi",
     "fr": "Burundi",
-    "ja": "\u30d6\u30eb\u30f3\u30b8",
+    "ja": "ブルンジ",
     "it": "Burundi"
   },
   "wiki": "http://en.wikipedia.org/wiki/burundi",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Bujumbura"
+  ]
 }
