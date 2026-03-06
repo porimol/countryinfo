@@ -3,7 +3,7 @@
   "altSpellings": [
     "MA",
     "Kingdom of Morocco",
-    "Al-Mamlakah al-Ma\u0121ribiyah",
+    "Al-Mamlakah al-Maġribiyah",
     "MAR"
   ],
   "area": 446550,
@@ -302,7 +302,8 @@
   },
   "ISO": {
     "alpha2": "MA",
-    "alpha3": "MAR"
+    "alpha3": "MAR",
+    "numeric": "504"
   },
   "languages": [
     "ar"
@@ -311,7 +312,7 @@
     32,
     -5
   ],
-  "nativeName": "Maroc / \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31 / \u0627\u0644\u0645\u063a\u0631\u0628",
+  "nativeName": "Maroc / ⵍⵎⵖⵔⵉⴱ / المغرب",
   "population": 33465000,
   "provinces": [
     "Agadir",
@@ -366,9 +367,12 @@
     "de": "Marokko",
     "es": "Marruecos",
     "fr": "Maroc",
-    "ja": "\u30e2\u30ed\u30c3\u30b3",
+    "ja": "モロッコ",
     "it": "Marocco"
   },
   "wiki": "http://en.wikipedia.org/wiki/morocco",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Africa/Casablanca"
+  ]
 }

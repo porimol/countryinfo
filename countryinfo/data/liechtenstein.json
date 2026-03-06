@@ -3,7 +3,7 @@
   "altSpellings": [
     "LI",
     "Principality of Liechtenstein",
-    "F\u00fcrstentum Liechtenstein",
+    "Fürstentum Liechtenstein",
     "LIE"
   ],
   "area": 160,
@@ -27,7 +27,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "LI",
-    "alpha3": "LIE"
+    "alpha3": "LIE",
+    "numeric": "438"
   },
   "languages": [
     "de"
@@ -63,9 +64,12 @@
     "de": "Liechtenstein",
     "es": "Liechtenstein",
     "fr": "Liechtenstein",
-    "ja": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3",
+    "ja": "リヒテンシュタイン",
     "it": "Liechtenstein"
   },
   "wiki": "http://en.wikipedia.org/wiki/liechtenstein",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Vaduz"
+  ]
 }

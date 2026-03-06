@@ -3,8 +3,8 @@
   "altSpellings": [
     "PY",
     "Republic of Paraguay",
-    "Rep\u00fablica del Paraguay",
-    "Tet\u00e3 Paragu\u00e1i",
+    "República del Paraguay",
+    "Tetã Paraguái",
     "PRY"
   ],
   "area": 406752,
@@ -16,7 +16,7 @@
   "callingCodes": [
     "595"
   ],
-  "capital": "Asunci\u00f3n",
+  "capital": "Asunción",
   "capital_latlng": [
     -25.280046,
     -57.634381
@@ -179,7 +179,8 @@
   },
   "ISO": {
     "alpha2": "PY",
-    "alpha3": "PRY"
+    "alpha3": "PRY",
+    "numeric": "600"
   },
   "languages": [
     "es",
@@ -214,7 +215,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221204:00"
+    "UTC−04:00"
   ],
   "tld": [
     ".py"
@@ -223,9 +224,12 @@
     "de": "Paraguay",
     "es": "Paraguay",
     "fr": "Paraguay",
-    "ja": "\u30d1\u30e9\u30b0\u30a2\u30a4",
+    "ja": "パラグアイ",
     "it": "Paraguay"
   },
   "wiki": "http://en.wikipedia.org/wiki/paraguay",
-  "intermediateregion": "South America"
+  "intermediateregion": "South America",
+  "timezoneNames": [
+    "America/Asuncion"
+  ]
 }

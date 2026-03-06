@@ -3,7 +3,7 @@
   "altSpellings": [
     "NP",
     "Federal Democratic Republic of Nepal",
-    "Lokt\u0101ntrik Ganatantra Nep\u0101l",
+    "Loktāntrik Ganatantra Nepāl",
     "NPL"
   ],
   "area": 147181,
@@ -137,7 +137,8 @@
   },
   "ISO": {
     "alpha2": "NP",
-    "alpha3": "NPL"
+    "alpha3": "NPL",
+    "numeric": "524"
   },
   "languages": [
     "ne"
@@ -146,7 +147,7 @@
     28,
     84
   ],
-  "nativeName": "\u0928\u0947\u092a\u093e\u0932",
+  "nativeName": "नेपाल",
   "population": 27646053,
   "provinces": [
     "Bagmati",
@@ -175,10 +176,13 @@
   "translations": {
     "de": "Nepal",
     "es": "Nepal",
-    "fr": "N\u00e9pal",
-    "ja": "\u30cd\u30d1\u30fc\u30eb",
+    "fr": "Népal",
+    "ja": "ネパール",
     "it": "Nepal"
   },
   "wiki": "http://en.wikipedia.org/wiki/nepal",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Kathmandu"
+  ]
 }

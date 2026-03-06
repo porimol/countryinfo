@@ -4,7 +4,7 @@
     "TG",
     "Togolese",
     "Togolese Republic",
-    "R\u00e9publique Togolaise",
+    "République Togolaise",
     "TGO"
   ],
   "area": 56785,
@@ -16,7 +16,7 @@
   "callingCodes": [
     "228"
   ],
-  "capital": "Lom\u00e9",
+  "capital": "Lomé",
   "capital_latlng": [
     6.130419,
     1.215829
@@ -123,7 +123,8 @@
   },
   "ISO": {
     "alpha2": "TG",
-    "alpha3": "TGO"
+    "alpha3": "TGO",
+    "numeric": "768"
   },
   "languages": [
     "fr"
@@ -153,9 +154,12 @@
     "de": "Togo",
     "es": "Togo",
     "fr": "Togo",
-    "ja": "\u30c8\u30fc\u30b4",
+    "ja": "トーゴ",
     "it": "Togo"
   },
   "wiki": "http://en.wikipedia.org/wiki/toga",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Lome"
+  ]
 }

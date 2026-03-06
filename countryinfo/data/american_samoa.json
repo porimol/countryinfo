@@ -2,9 +2,9 @@
   "name": "American Samoa",
   "altSpellings": [
     "AS",
-    "Amerika S\u0101moa",
-    "Amelika S\u0101moa",
-    "S\u0101moa Amelika",
+    "Amerika Sāmoa",
+    "Amelika Sāmoa",
+    "Sāmoa Amelika",
     "ASM"
   ],
   "area": 199,
@@ -25,7 +25,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "AS",
-    "alpha3": "ASM"
+    "alpha3": "ASM",
+    "numeric": "016"
   },
   "languages": [
     "en",
@@ -53,10 +54,13 @@
   "translations": {
     "de": "Amerikanisch-Samoa",
     "es": "Samoa Americana",
-    "fr": "Samoa am\u00e9ricaines",
-    "ja": "\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2",
+    "fr": "Samoa américaines",
+    "ja": "アメリカ領サモア",
     "it": "Samoa Americane"
   },
   "wiki": "http://en.wikipedia.org/wiki/american_samoa",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Pago_Pago"
+  ]
 }

@@ -387,7 +387,8 @@
   },
   "ISO": {
     "alpha2": "BM",
-    "alpha3": "BMU"
+    "alpha3": "BMU",
+    "numeric": "060"
   },
   "languages": [
     "en"
@@ -421,9 +422,12 @@
     "de": "Bermuda",
     "es": "Bermudas",
     "fr": "Bermudes",
-    "ja": "\u30d0\u30df\u30e5\u30fc\u30c0",
+    "ja": "バミューダ",
     "it": "Bermuda"
   },
   "wiki": "http://en.wikipedia.org/wiki/bermuda",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Atlantic/Bermuda"
+  ]
 }

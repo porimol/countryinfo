@@ -3,7 +3,7 @@
   "altSpellings": [
     "GA",
     "Gabonese Republic",
-    "R\u00e9publique Gabonaise",
+    "République Gabonaise",
     "GAB"
   ],
   "area": 267668,
@@ -170,7 +170,8 @@
   },
   "ISO": {
     "alpha2": "GA",
-    "alpha3": "GAB"
+    "alpha3": "GAB",
+    "numeric": "266"
   },
   "languages": [
     "fr"
@@ -202,11 +203,14 @@
   ],
   "translations": {
     "de": "Gabun",
-    "es": "Gab\u00f3n",
+    "es": "Gabón",
     "fr": "Gabon",
-    "ja": "\u30ac\u30dc\u30f3",
+    "ja": "ガボン",
     "it": "Gabon"
   },
   "wiki": "http://en.wikipedia.org/wiki/gabon",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Libreville"
+  ]
 }

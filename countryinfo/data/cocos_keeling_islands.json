@@ -24,7 +24,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "CC",
-    "alpha3": "CCK"
+    "alpha3": "CCK",
+    "numeric": "166"
   },
   "languages": [
     "en"
@@ -52,10 +53,13 @@
   "translations": {
     "de": "Kokosinseln",
     "es": "Islas Cocos o Islas Keeling",
-    "fr": "\u00celes Cocos",
-    "ja": "\u30b3\u30b3\u30b9\uff08\u30ad\u30fc\u30ea\u30f3\u30b0\uff09\u8af8\u5cf6",
+    "fr": "Îles Cocos",
+    "ja": "ココス（キーリング）諸島",
     "it": "Isole Cocos e Keeling"
   },
   "wiki": "http://en.wikipedia.org/wiki/cocos_keeling_islands",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Indian/Cocos"
+  ]
 }

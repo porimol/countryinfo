@@ -1096,7 +1096,8 @@
   },
   "ISO": {
     "alpha2": "ID",
-    "alpha3": "IDN"
+    "alpha3": "IDN",
+    "numeric": "360"
   },
   "languages": [
     "id"
@@ -1155,10 +1156,16 @@
   "translations": {
     "de": "Indonesien",
     "es": "Indonesia",
-    "fr": "Indon\u00e9sie",
-    "ja": "\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2",
+    "fr": "Indonésie",
+    "ja": "インドネシア",
     "it": "Indonesia"
   },
   "wiki": "http://en.wikipedia.org/wiki/indonesia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Jakarta",
+    "Asia/Pontianak",
+    "Asia/Makassar",
+    "Asia/Jayapura"
+  ]
 }

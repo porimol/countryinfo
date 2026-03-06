@@ -121,7 +121,8 @@
   },
   "ISO": {
     "alpha2": "GF",
-    "alpha3": "GUF"
+    "alpha3": "GUF",
+    "numeric": "254"
   },
   "languages": [
     "fr"
@@ -130,7 +131,7 @@
     4,
     -53
   ],
-  "nativeName": "Guyane fran\u00e7aise",
+  "nativeName": "Guyane française",
   "population": 237549,
   "provinces": [
     "French Guiana"
@@ -142,12 +143,15 @@
     ".gf"
   ],
   "translations": {
-    "de": "Franz\u00f6sisch Guyana",
+    "de": "Französisch Guyana",
     "es": "Guayana Francesa",
     "fr": "Guayane",
-    "ja": "\u30d5\u30e9\u30f3\u30b9\u9818\u30ae\u30a2\u30ca",
+    "ja": "フランス領ギアナ",
     "it": "Guyana francese"
   },
   "wiki": "http://en.wikipedia.org/wiki/french_guiana",
-  "intermediateregion": "South America"
+  "intermediateregion": "South America",
+  "timezoneNames": [
+    "America/Cayenne"
+  ]
 }

@@ -3,7 +3,7 @@
   "altSpellings": [
     "ML",
     "Republic of Mali",
-    "R\u00e9publique du Mali",
+    "République du Mali",
     "MLI"
   ],
   "area": 1240192,
@@ -354,7 +354,8 @@
   },
   "ISO": {
     "alpha2": "ML",
-    "alpha3": "MLI"
+    "alpha3": "MLI",
+    "numeric": "466"
   },
   "languages": [
     "fr"
@@ -387,9 +388,12 @@
     "de": "Mali",
     "es": "Mali",
     "fr": "Mali",
-    "ja": "\u30de\u30ea\u5171\u548c\u56fd",
+    "ja": "マリ共和国",
     "it": "Mali"
   },
   "wiki": "http://en.wikipedia.org/wiki/mali",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Bamako"
+  ]
 }

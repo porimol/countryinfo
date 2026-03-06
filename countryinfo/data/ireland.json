@@ -2,9 +2,9 @@
   "name": "Ireland",
   "altSpellings": [
     "IE",
-    "\u00c9ire",
+    "Éire",
     "Republic of Ireland",
-    "Poblacht na h\u00c9ireann",
+    "Poblacht na hÉireann",
     "IRL"
   ],
   "area": 70273,
@@ -97,7 +97,8 @@
   },
   "ISO": {
     "alpha2": "IE",
-    "alpha3": "IRL"
+    "alpha3": "IRL",
+    "numeric": "372"
   },
   "languages": [
     "ga",
@@ -107,7 +108,7 @@
     53,
     -8
   ],
-  "nativeName": "\u00c9ire / Ireland",
+  "nativeName": "Éire / Ireland",
   "population": 6378000,
   "provinces": [
     "Carlow",
@@ -149,9 +150,12 @@
     "de": "Irland",
     "es": "Irlanda",
     "fr": "Irlande",
-    "ja": "\u30a2\u30a4\u30eb\u30e9\u30f3\u30c9",
+    "ja": "アイルランド",
     "it": "Irlanda"
   },
   "wiki": "http://en.wikipedia.org/wiki/ireland",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Dublin"
+  ]
 }

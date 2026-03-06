@@ -2,12 +2,12 @@
   "name": "China",
   "altSpellings": [
     "CN",
-    "Zh\u014dnggu\u00f3",
+    "Zhōngguó",
     "Zhongguo",
     "Zhonghua",
     "People's Republic of China",
-    "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd",
-    "Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3",
+    "中华人民共和国",
+    "Zhōnghuá Rénmín Gònghéguó",
     "CHN"
   ],
   "area": 9640011,
@@ -1028,7 +1028,8 @@
   },
   "ISO": {
     "alpha2": "CN",
-    "alpha3": "CHN"
+    "alpha3": "CHN",
+    "numeric": "156"
   },
   "languages": [
     "zh"
@@ -1037,7 +1038,7 @@
     35,
     105
   ],
-  "nativeName": "\u4e2d\u56fd",
+  "nativeName": "中国",
   "population": 1367110000,
   "provinces": [
     "Anhui",
@@ -1084,9 +1085,13 @@
     "de": "China",
     "es": "China",
     "fr": "Chine",
-    "ja": "\u4e2d\u56fd",
+    "ja": "中国",
     "it": "Cina"
   },
   "wiki": "http://en.wikipedia.org/wiki/china",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Shanghai",
+    "Asia/Urumqi"
+  ]
 }

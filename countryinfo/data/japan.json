@@ -312,7 +312,8 @@
   },
   "ISO": {
     "alpha2": "JP",
-    "alpha3": "JPN"
+    "alpha3": "JPN",
+    "numeric": "392"
   },
   "languages": [
     "ja"
@@ -321,7 +322,7 @@
     36,
     138
   ],
-  "nativeName": "\u65e5\u672c",
+  "nativeName": "日本",
   "population": 127080000,
   "provinces": [
     "Aichi",
@@ -382,11 +383,14 @@
   ],
   "translations": {
     "de": "Japan",
-    "es": "Jap\u00f3n",
+    "es": "Japón",
     "fr": "Japon",
-    "ja": "\u65e5\u672c",
+    "ja": "日本",
     "it": "Giappone"
   },
   "wiki": "http://en.wikipedia.org/wiki/japan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Tokyo"
+  ]
 }

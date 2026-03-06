@@ -3,7 +3,7 @@
   "altSpellings": [
     "GN",
     "Republic of Guinea",
-    "R\u00e9publique de Guin\u00e9e",
+    "République de Guinée",
     "GIN"
   ],
   "area": 245857,
@@ -329,7 +329,8 @@
   },
   "ISO": {
     "alpha2": "GN",
-    "alpha3": "GIN"
+    "alpha3": "GIN",
+    "numeric": "324"
   },
   "languages": [
     "fr",
@@ -339,7 +340,7 @@
     11,
     -10
   ],
-  "nativeName": "Guin\u00e9e",
+  "nativeName": "Guinée",
   "population": 10628972,
   "provinces": [
     "Beyla",
@@ -388,10 +389,13 @@
   "translations": {
     "de": "Guinea",
     "es": "Guinea",
-    "fr": "Guin\u00e9e",
-    "ja": "\u30ae\u30cb\u30a2",
+    "fr": "Guinée",
+    "ja": "ギニア",
     "it": "Guinea"
   },
   "wiki": "http://en.wikipedia.org/wiki/guinea",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Conakry"
+  ]
 }

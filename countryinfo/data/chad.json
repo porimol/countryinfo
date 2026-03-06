@@ -4,7 +4,7 @@
     "TD",
     "Tchad",
     "Republic of Chad",
-    "R\u00e9publique du Tchad",
+    "République du Tchad",
     "TCD",
     "Chad, Republic of"
   ],
@@ -283,7 +283,8 @@
   },
   "ISO": {
     "alpha2": "TD",
-    "alpha3": "TCD"
+    "alpha3": "TCD",
+    "numeric": "148"
   },
   "languages": [
     "fr",
@@ -293,7 +294,7 @@
     15,
     19
   ],
-  "nativeName": "Tchad \u062a\u0634\u0627\u062f",
+  "nativeName": "Tchad تشاد",
   "population": 13211000,
   "provinces": [
     "Batha",
@@ -323,9 +324,12 @@
     "de": "Tschad",
     "es": "Chad",
     "fr": "Tchad",
-    "ja": "\u30c1\u30e3\u30c9",
+    "ja": "チャド",
     "it": "Ciad"
   },
   "wiki": "http://en.wikipedia.org/wiki/chad",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Ndjamena"
+  ]
 }

@@ -2,12 +2,12 @@
   "name": "Belarus",
   "altSpellings": [
     "BY",
-    "Bielaru\u015b",
+    "Bielaruś",
     "Republic of Belarus",
-    "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
-    "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+    "Белоруссия",
+    "Республика Беларусь",
     "Belorussiya",
-    "Respublika Belarus\u2019",
+    "Respublika Belarus’",
     "BLR"
   ],
   "area": 207600,
@@ -228,7 +228,8 @@
   },
   "ISO": {
     "alpha2": "BY",
-    "alpha3": "BLR"
+    "alpha3": "BLR",
+    "numeric": "112"
   },
   "languages": [
     "be",
@@ -238,7 +239,7 @@
     53,
     28
   ],
-  "nativeName": "\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+  "nativeName": "Белару́сь",
   "population": 9475100,
   "provinces": [
     "Brestskaya (Brest)",
@@ -258,12 +259,15 @@
     ".by"
   ],
   "translations": {
-    "de": "Wei\u00dfrussland",
+    "de": "Weißrussland",
     "es": "Bielorrusia",
-    "fr": "Bi\u00e9lorussie",
-    "ja": "\u30d9\u30e9\u30eb\u30fc\u30b7",
+    "fr": "Biélorussie",
+    "ja": "ベラルーシ",
     "it": "Bielorussia"
   },
   "wiki": "http://en.wikipedia.org/wiki/belarus",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Minsk"
+  ]
 }

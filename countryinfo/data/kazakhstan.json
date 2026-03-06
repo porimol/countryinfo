@@ -3,11 +3,11 @@
   "altSpellings": [
     "KZ",
     "Qazaqstan",
-    "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+    "Казахстан",
     "Republic of Kazakhstan",
-    "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
-    "Qazaqstan Respubl\u00efkas\u0131",
-    "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+    "Қазақстан Республикасы",
+    "Qazaqstan Respublïkası",
+    "Республика Казахстан",
     "Respublika Kazakhstan",
     "KAZ"
   ],
@@ -502,7 +502,8 @@
   },
   "ISO": {
     "alpha2": "KZ",
-    "alpha3": "KAZ"
+    "alpha3": "KAZ",
+    "numeric": "398"
   },
   "languages": [
     "kk",
@@ -512,7 +513,7 @@
     48,
     68
   ],
-  "nativeName": "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d",
+  "nativeName": "Қазақстан",
   "population": 17377800,
   "provinces": [
     "Almaty",
@@ -540,15 +541,23 @@
   ],
   "tld": [
     ".kz",
-    ".\u049b\u0430\u0437"
+    ".қаз"
   ],
   "translations": {
     "de": "Kasachstan",
-    "es": "Kazajist\u00e1n",
+    "es": "Kazajistán",
     "fr": "Kazakhstan",
-    "ja": "\u30ab\u30b6\u30d5\u30b9\u30bf\u30f3",
+    "ja": "カザフスタン",
     "it": "Kazakistan"
   },
   "wiki": "http://en.wikipedia.org/wiki/kazakhstan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Almaty",
+    "Asia/Qyzylorda",
+    "Asia/Aqtau",
+    "Asia/Aqtobe",
+    "Asia/Atyrau",
+    "Asia/Oral"
+  ]
 }

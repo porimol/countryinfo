@@ -3,7 +3,7 @@
   "altSpellings": [
     "VN",
     "Socialist Republic of Vietnam",
-    "C\u1ed9ng h\u00f2a X\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
+    "Cộng hòa Xã hội chủ nghĩa Việt Nam",
     "VNM",
     "Viet Nam",
     "Socialist Republic of Viet Nam"
@@ -224,7 +224,8 @@
   },
   "ISO": {
     "alpha2": "VN",
-    "alpha3": "VNM"
+    "alpha3": "VNM",
+    "numeric": "704"
   },
   "languages": [
     "vi"
@@ -233,7 +234,7 @@
     16.16666666,
     107.83333333
   ],
-  "nativeName": "Vi\u1ec7t Nam",
+  "nativeName": "Việt Nam",
   "population": 89708900,
   "provinces": [
     "An Giang",
@@ -309,10 +310,13 @@
   "translations": {
     "de": "Vietnam",
     "es": "Vietnam",
-    "fr": "Vi\u00eat Nam",
-    "ja": "\u30d9\u30c8\u30ca\u30e0",
+    "fr": "Viêt Nam",
+    "ja": "ベトナム",
     "it": "Vietnam"
   },
   "wiki": "http://en.wikipedia.org/wiki/vietnam",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Ho_Chi_Minh"
+  ]
 }

@@ -3,7 +3,7 @@
   "altSpellings": [
     "ES",
     "Kingdom of Spain",
-    "Reino de Espa\u00f1a",
+    "Reino de España",
     "ESP"
   ],
   "area": 505992,
@@ -252,7 +252,8 @@
   },
   "ISO": {
     "alpha2": "ES",
-    "alpha3": "ESP"
+    "alpha3": "ESP",
+    "numeric": "724"
   },
   "languages": [
     "es"
@@ -261,27 +262,27 @@
     40,
     -4
   ],
-  "nativeName": "Espa\u00f1a",
+  "nativeName": "España",
   "population": 46507760,
   "provinces": [
-    "A Coru\u00f1a",
-    "\u00c1lava",
+    "A Coruña",
+    "Álava",
     "Albacete",
     "Alicante",
-    "Almer\u00eda",
+    "Almería",
     "Asturias",
-    "\u00c1vila",
+    "Ávila",
     "Badajoz",
     "Balearic Islands",
     "Barcelona",
     "Biscay",
     "Burgos",
-    "C\u00e1ceres",
-    "C\u00e1diz",
+    "Cáceres",
+    "Cádiz",
     "Cantabria",
-    "Castell\u00f3n",
+    "Castellón",
     "Ciudad Real",
-    "C\u00f3rdoba",
+    "Córdoba",
     "Cuenca",
     "Gipuzkoa",
     "Girona",
@@ -289,14 +290,14 @@
     "Guadalajara",
     "Huelva",
     "Huesca",
-    "Ja\u00e9n",
+    "Jaén",
     "La Rioja",
     "Las Palmas",
-    "Le\u00f3n",
+    "León",
     "Lleida",
     "Lugo",
     "Madrid",
-    "M\u00e1laga",
+    "Málaga",
     "Murcia",
     "Navarre",
     "Ourense",
@@ -326,11 +327,16 @@
   ],
   "translations": {
     "de": "Spanien",
-    "es": "Espa\u00f1a",
+    "es": "España",
     "fr": "Espagne",
-    "ja": "\u30b9\u30da\u30a4\u30f3",
+    "ja": "スペイン",
     "it": "Spagna"
   },
   "wiki": "http://en.wikipedia.org/wiki/spratly_islands",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Madrid",
+    "Africa/Ceuta",
+    "Atlantic/Canary"
+  ]
 }

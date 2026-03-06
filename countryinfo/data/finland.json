@@ -200,7 +200,8 @@
   },
   "ISO": {
     "alpha2": "FI",
-    "alpha3": "FIN"
+    "alpha3": "FIN",
+    "numeric": "246"
   },
   "languages": [
     "fi",
@@ -232,9 +233,12 @@
     "de": "Finnland",
     "es": "Finlandia",
     "fr": "Finlande",
-    "ja": "\u30d5\u30a3\u30f3\u30e9\u30f3\u30c9",
+    "ja": "フィンランド",
     "it": "Finlandia"
   },
   "wiki": "http://en.wikipedia.org/wiki/finland",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Helsinki"
+  ]
 }

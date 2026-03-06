@@ -145,7 +145,8 @@
   },
   "ISO": {
     "alpha2": "GH",
-    "alpha3": "GHA"
+    "alpha3": "GHA",
+    "numeric": "288"
   },
   "languages": [
     "en"
@@ -186,9 +187,12 @@
     "de": "Ghana",
     "es": "Ghana",
     "fr": "Ghana",
-    "ja": "\u30ac\u30fc\u30ca",
+    "ja": "ガーナ",
     "it": "Ghana"
   },
   "wiki": "http://en.wikipedia.org/wiki/ghana",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Accra"
+  ]
 }

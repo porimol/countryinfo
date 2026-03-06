@@ -2,7 +2,7 @@
   "name": "Cook Islands",
   "altSpellings": [
     "CK",
-    "K\u016bki '\u0100irani",
+    "Kūki 'Āirani",
     "COK"
   ],
   "area": 236,
@@ -23,7 +23,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "CK",
-    "alpha3": "COK"
+    "alpha3": "COK",
+    "numeric": "184"
   },
   "languages": [
     "en"
@@ -32,7 +33,7 @@
     -21.23333333,
     -159.76666666
   ],
-  "nativeName": "K\u016bki '\u0100irani",
+  "nativeName": "Kūki 'Āirani",
   "population": 14974,
   "provinces": [
     "Aitutaki",
@@ -61,10 +62,13 @@
   "translations": {
     "de": "Cookinseln",
     "es": "Islas Cook",
-    "fr": "\u00celes Cook",
-    "ja": "\u30af\u30c3\u30af\u8af8\u5cf6",
+    "fr": "Îles Cook",
+    "ja": "クック諸島",
     "it": "Isole Cook"
   },
   "wiki": "http://en.wikipedia.org/wiki/cook_islands",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Rarotonga"
+  ]
 }

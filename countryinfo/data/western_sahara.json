@@ -2,7 +2,7 @@
   "name": "Western Sahara",
   "altSpellings": [
     "EH",
-    "Tane\u1e93roft Tutrimt",
+    "Taneẓroft Tutrimt",
     "ESH"
   ],
   "area": 266000,
@@ -14,7 +14,7 @@
   "callingCodes": [
     "212"
   ],
-  "capital": "El Aai\u00fan",
+  "capital": "El Aaiún",
   "capital_latlng": [
     27.154512,
     -13.195392
@@ -159,7 +159,8 @@
   },
   "ISO": {
     "alpha2": "EH",
-    "alpha3": "ESH"
+    "alpha3": "ESH",
+    "numeric": "732"
   },
   "languages": [
     "es"
@@ -168,7 +169,7 @@
     24.5,
     -13
   ],
-  "nativeName": "\u0627\u0644\u0635\u062d\u0631\u0627\u0621 \u0627\u0644\u063a\u0631\u0628\u064a\u0629",
+  "nativeName": "الصحراء الغربية",
   "population": 586000,
   "provinces": [
     "Western Sahara"
@@ -183,9 +184,12 @@
     "de": "Westsahara",
     "es": "Sahara Occidental",
     "fr": "Sahara Occidental",
-    "ja": "\u897f\u30b5\u30cf\u30e9",
+    "ja": "西サハラ",
     "it": "Sahara Occidentale"
   },
   "wiki": "http://en.wikipedia.org/wiki/western_sahara",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Africa/El_Aaiun"
+  ]
 }

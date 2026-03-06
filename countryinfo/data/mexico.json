@@ -727,7 +727,8 @@
   },
   "ISO": {
     "alpha2": "MX",
-    "alpha3": "MEX"
+    "alpha3": "MEX",
+    "numeric": "484"
   },
   "languages": [
     "es"
@@ -736,7 +737,7 @@
     23,
     -102
   ],
-  "nativeName": "M\u00e9xico",
+  "nativeName": "México",
   "population": 119713203,
   "provinces": [
     "Aguascalientes",
@@ -775,20 +776,33 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221208:00",
-    "UTC\u221207:00",
-    "UTC\u221206:00"
+    "UTC−08:00",
+    "UTC−07:00",
+    "UTC−06:00"
   ],
   "tld": [
     ".mx"
   ],
   "translations": {
     "de": "Mexiko",
-    "es": "M\u00e9xico",
+    "es": "México",
     "fr": "Mexique",
-    "ja": "\u30e1\u30ad\u30b7\u30b3",
+    "ja": "メキシコ",
     "it": "Messico"
   },
   "wiki": "http://en.wikipedia.org/wiki/mexico",
-  "intermediateregion": "Central America"
+  "intermediateregion": "Central America",
+  "timezoneNames": [
+    "America/Mexico_City",
+    "America/Cancun",
+    "America/Merida",
+    "America/Monterrey",
+    "America/Matamoros",
+    "America/Mazatlan",
+    "America/Chihuahua",
+    "America/Ojinaga",
+    "America/Hermosillo",
+    "America/Tijuana",
+    "America/Bahia_Banderas"
+  ]
 }

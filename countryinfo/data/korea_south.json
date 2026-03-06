@@ -120,7 +120,8 @@
   },
   "ISO": {
     "alpha2": "KR",
-    "alpha3": "KOR"
+    "alpha3": "KOR",
+    "numeric": "410"
   },
   "languages": [
     "ko"
@@ -129,7 +130,7 @@
     37,
     127.5
   ],
-  "nativeName": "\ub300\ud55c\ubbfc\uad6d",
+  "nativeName": "대한민국",
   "population": 50423955,
   "provinces": [
     "Ch'ungch'ong-bukto",
@@ -158,12 +159,15 @@
     ".kr"
   ],
   "translations": {
-    "de": "S\u00fcdkorea",
+    "de": "Südkorea",
     "es": "Corea del Sur",
-    "fr": "Cor\u00e9e du Sud",
-    "ja": "\u5927\u97d3\u6c11\u56fd",
+    "fr": "Corée du Sud",
+    "ja": "大韓民国",
     "it": "Corea del Sud"
   },
   "wiki": "http://en.wikipedia.org/wiki/korea_south",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Seoul"
+  ]
 }

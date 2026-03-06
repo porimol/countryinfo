@@ -2,10 +2,10 @@
   "name": "Taiwan",
   "altSpellings": [
     "TW",
-    "T\u00e1iw\u0101n",
+    "Táiwān",
     "Republic of China",
-    "\u4e2d\u83ef\u6c11\u570b",
-    "Zh\u014dnghu\u00e1 M\u00edngu\u00f3",
+    "中華民國",
+    "Zhōnghuá Mínguó",
     "TWN",
     "Taiwan, Province of China"
   ],
@@ -81,7 +81,8 @@
   },
   "ISO": {
     "alpha2": "TW",
-    "alpha3": "TWN"
+    "alpha3": "TWN",
+    "numeric": "158"
   },
   "languages": [
     "zh"
@@ -90,7 +91,7 @@
     23.5,
     121
   ],
-  "nativeName": "\u81fa\u7063",
+  "nativeName": "臺灣",
   "population": 23424615,
   "provinces": [
     "Chang-hua",
@@ -128,11 +129,14 @@
   ],
   "translations": {
     "de": "Taiwan",
-    "es": "Taiw\u00e1n",
-    "fr": "Ta\u00efwan",
-    "ja": "\u53f0\u6e7e\uff08\u53f0\u6e7e\u7701/\u4e2d\u83ef\u6c11\u56fd\uff09",
+    "es": "Taiwán",
+    "fr": "Taïwan",
+    "ja": "台湾（台湾省/中華民国）",
     "it": "Taiwan"
   },
   "wiki": "http://en.wikipedia.org/wiki/taiwan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Taipei"
+  ]
 }

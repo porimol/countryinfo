@@ -22,7 +22,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "KY",
-    "alpha3": "CYM"
+    "alpha3": "CYM",
+    "numeric": "136"
   },
   "languages": [
     "en"
@@ -51,11 +52,14 @@
   ],
   "translations": {
     "de": "Kaimaninseln",
-    "es": "Islas Caim\u00e1n",
-    "fr": "\u00celes Ca\u00efmans",
-    "ja": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
+    "es": "Islas Caimán",
+    "fr": "Îles Caïmans",
+    "ja": "ケイマン諸島",
     "it": "Isole Cayman"
   },
   "wiki": "http://en.wikipedia.org/wiki/cayman_islands",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Cayman"
+  ]
 }

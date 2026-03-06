@@ -119,7 +119,8 @@
   },
   "ISO": {
     "alpha2": "SI",
-    "alpha3": "SVN"
+    "alpha3": "SVN",
+    "numeric": "705"
   },
   "languages": [
     "sl"
@@ -290,10 +291,13 @@
   "translations": {
     "de": "Slowenien",
     "es": "Eslovenia",
-    "fr": "Slov\u00e9nie",
-    "ja": "\u30b9\u30ed\u30d9\u30cb\u30a2",
+    "fr": "Slovénie",
+    "ja": "スロベニア",
     "it": "Slovenia"
   },
   "wiki": "http://en.wikipedia.org/wiki/slovenia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Ljubljana"
+  ]
 }

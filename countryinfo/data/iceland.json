@@ -4,7 +4,7 @@
     "IS",
     "Island",
     "Republic of Iceland",
-    "L\u00fd\u00f0veldi\u00f0 \u00cdsland",
+    "Lýðveldið Ísland",
     "ISL"
   ],
   "area": 103000,
@@ -123,7 +123,8 @@
   },
   "ISO": {
     "alpha2": "IS",
-    "alpha3": "ISL"
+    "alpha3": "ISL",
+    "numeric": "352"
   },
   "languages": [
     "is"
@@ -132,7 +133,7 @@
     65,
     -18
   ],
-  "nativeName": "\u00cdsland",
+  "nativeName": "Ísland",
   "population": 328170,
   "provinces": [
     "Akranes",
@@ -185,9 +186,12 @@
     "de": "Island",
     "es": "Islandia",
     "fr": "Islande",
-    "ja": "\u30a2\u30a4\u30b9\u30e9\u30f3\u30c9",
+    "ja": "アイスランド",
     "it": "Islanda"
   },
   "wiki": "http://en.wikipedia.org/wiki/iceland",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Atlantic/Reykjavik"
+  ]
 }

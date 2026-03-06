@@ -2,8 +2,8 @@
   "name": "Albania",
   "altSpellings": [
     "AL",
-    "Shqip\u00ebri",
-    "Shqip\u00ebria",
+    "Shqipëri",
+    "Shqipëria",
     "Shqipnia",
     "ALB",
     "Republic of Albania"
@@ -137,7 +137,8 @@
   },
   "ISO": {
     "alpha2": "AL",
-    "alpha3": "ALB"
+    "alpha3": "ALB",
+    "numeric": "008"
   },
   "languages": [
     "sq"
@@ -146,7 +147,7 @@
     41,
     20
   ],
-  "nativeName": "Shqip\u00ebria",
+  "nativeName": "Shqipëria",
   "population": 2895947,
   "provinces": [
     "Berat",
@@ -199,9 +200,12 @@
     "de": "Albanien",
     "es": "Albania",
     "fr": "Albanie",
-    "ja": "\u30a2\u30eb\u30d0\u30cb\u30a2",
+    "ja": "アルバニア",
     "it": "Albania"
   },
   "wiki": "http://en.wikipedia.org/wiki/albania",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Tirane"
+  ]
 }

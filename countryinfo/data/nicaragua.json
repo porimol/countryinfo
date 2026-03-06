@@ -3,7 +3,7 @@
   "altSpellings": [
     "NI",
     "Republic of Nicaragua",
-    "Rep\u00fablica de Nicaragua",
+    "República de Nicaragua",
     "NIC"
   ],
   "area": 130373,
@@ -253,7 +253,8 @@
   },
   "ISO": {
     "alpha2": "NI",
-    "alpha3": "NIC"
+    "alpha3": "NIC",
+    "numeric": "558"
   },
   "languages": [
     "es"
@@ -286,7 +287,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221206:00"
+    "UTC−06:00"
   ],
   "tld": [
     ".ni"
@@ -295,9 +296,12 @@
     "de": "Nicaragua",
     "es": "Nicaragua",
     "fr": "Nicaragua",
-    "ja": "\u30cb\u30ab\u30e9\u30b0\u30a2",
+    "ja": "ニカラグア",
     "it": "Nicaragua"
   },
   "wiki": "http://en.wikipedia.org/wiki/nicaragua",
-  "intermediateregion": "Central America"
+  "intermediateregion": "Central America",
+  "timezoneNames": [
+    "America/Managua"
+  ]
 }

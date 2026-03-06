@@ -343,7 +343,8 @@
   },
   "ISO": {
     "alpha2": "MN",
-    "alpha3": "MNG"
+    "alpha3": "MNG",
+    "numeric": "496"
   },
   "languages": [
     "mn"
@@ -352,7 +353,7 @@
     46,
     105
   ],
-  "nativeName": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441 \u182e\u1824\u1829\u182d\u1824\u182f \u1824\u182f\u1824\u1830",
+  "nativeName": "Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ",
   "population": 2987733,
   "provinces": [
     "Arhangay",
@@ -390,9 +391,14 @@
     "de": "Mongolei",
     "es": "Mongolia",
     "fr": "Mongolie",
-    "ja": "\u30e2\u30f3\u30b4\u30eb\u56fd",
+    "ja": "モンゴル国",
     "it": "Mongolia"
   },
   "wiki": "http://en.wikipedia.org/wiki/mongolia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Ulaanbaatar",
+    "Asia/Hovd",
+    "Asia/Choibalsan"
+  ]
 }

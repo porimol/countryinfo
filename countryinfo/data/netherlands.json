@@ -5,7 +5,8 @@
     "Holland",
     "Nederland",
     "NLD",
-    "Kingdom of the Netherlands"
+    "Kingdom of the Netherlands",
+    "The Netherlands"
   ],
   "area": 41850,
   "borders": [
@@ -102,7 +103,8 @@
   },
   "ISO": {
     "alpha2": "NL",
-    "alpha3": "NLD"
+    "alpha3": "NLD",
+    "numeric": "528"
   },
   "languages": [
     "nl"
@@ -135,11 +137,14 @@
   ],
   "translations": {
     "de": "Niederlande",
-    "es": "Pa\u00edses Bajos",
+    "es": "Países Bajos",
     "fr": "Pays-Bas",
-    "ja": "\u30aa\u30e9\u30f3\u30c0",
+    "ja": "オランダ",
     "it": "Paesi Bassi"
   },
   "wiki": "http://en.wikipedia.org/wiki/netherlands",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Amsterdam"
+  ]
 }

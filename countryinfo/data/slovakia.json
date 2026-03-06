@@ -3,7 +3,7 @@
   "altSpellings": [
     "SK",
     "Slovak Republic",
-    "Slovensk\u00e1 republika",
+    "Slovenská republika",
     "SVK"
   ],
   "area": 49037,
@@ -180,7 +180,8 @@
   },
   "ISO": {
     "alpha2": "SK",
-    "alpha3": "SVK"
+    "alpha3": "SVK",
+    "numeric": "703"
   },
   "languages": [
     "sk"
@@ -211,11 +212,14 @@
   ],
   "translations": {
     "de": "Slowakei",
-    "es": "Rep\u00fablica Eslovaca",
+    "es": "República Eslovaca",
     "fr": "Slovaquie",
-    "ja": "\u30b9\u30ed\u30d0\u30ad\u30a2",
+    "ja": "スロバキア",
     "it": "Slovacchia"
   },
   "wiki": "http://en.wikipedia.org/wiki/slovakia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Bratislava"
+  ]
 }

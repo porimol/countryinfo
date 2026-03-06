@@ -2,7 +2,7 @@
   "name": "India",
   "altSpellings": [
     "IN",
-    "Bh\u0101rat",
+    "Bhārat",
     "Republic of India",
     "Bharat Ganrajya",
     "IND"
@@ -596,7 +596,8 @@
   },
   "ISO": {
     "alpha2": "IN",
-    "alpha3": "IND"
+    "alpha3": "IND",
+    "numeric": "356"
   },
   "languages": [
     "hi",
@@ -606,7 +607,7 @@
     20,
     77
   ],
-  "nativeName": "\u092d\u093e\u0930\u0924",
+  "nativeName": "भारत",
   "population": 1263930000,
   "provinces": [
     "Andaman and Nicobar Islands",
@@ -658,9 +659,12 @@
     "de": "Indien",
     "es": "India",
     "fr": "Inde",
-    "ja": "\u30a4\u30f3\u30c9",
+    "ja": "インド",
     "it": "India"
   },
   "wiki": "http://en.wikipedia.org/wiki/india",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Kolkata"
+  ]
 }

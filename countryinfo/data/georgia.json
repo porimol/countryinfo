@@ -142,7 +142,8 @@
   },
   "ISO": {
     "alpha2": "GE",
-    "alpha3": "GEO"
+    "alpha3": "GEO",
+    "numeric": "268"
   },
   "languages": [
     "ka"
@@ -151,7 +152,7 @@
     42,
     43.5
   ],
-  "nativeName": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd",
+  "nativeName": "საქართველო",
   "population": 4490500,
   "provinces": [
     "Abashis",
@@ -228,10 +229,13 @@
   "translations": {
     "de": "Georgien",
     "es": "Georgia",
-    "fr": "G\u00e9orgie",
-    "ja": "\u30b0\u30eb\u30b8\u30a2",
+    "fr": "Géorgie",
+    "ja": "グルジア",
     "it": "Georgia"
   },
   "wiki": "http://en.wikipedia.org/wiki/georgia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Tbilisi"
+  ]
 }

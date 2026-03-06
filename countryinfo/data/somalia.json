@@ -2,10 +2,10 @@
   "name": "Somalia",
   "altSpellings": [
     "SO",
-    "a\u1e63-\u1e62\u016bm\u0101l",
+    "aṣ-Ṣūmāl",
     "Federal Republic of Somalia",
     "Jamhuuriyadda Federaalka Soomaaliya",
-    "Jumh\u016briyyat a\u1e63-\u1e62\u016bm\u0101l al-Fider\u0101liyya",
+    "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya",
     "SOM"
   ],
   "area": 637657,
@@ -192,7 +192,8 @@
   },
   "ISO": {
     "alpha2": "SO",
-    "alpha3": "SOM"
+    "alpha3": "SOM",
+    "numeric": "706"
   },
   "languages": [
     "so",
@@ -202,7 +203,7 @@
     10,
     49
   ],
-  "nativeName": "Soomaaliya \u0627\u0644\u0635\u0648\u0645\u0627\u0644",
+  "nativeName": "Soomaaliya الصومال",
   "population": 10806000,
   "provinces": [
     "Awdal",
@@ -236,9 +237,12 @@
     "de": "Somalia",
     "es": "Somalia",
     "fr": "Somalie",
-    "ja": "\u30bd\u30de\u30ea\u30a2",
+    "ja": "ソマリア",
     "it": "Somalia"
   },
   "wiki": "http://en.wikipedia.org/wiki/somalia",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Mogadishu"
+  ]
 }

@@ -2,7 +2,7 @@
   "name": "Namibia",
   "altSpellings": [
     "NA",
-    "Namibi\u00eb",
+    "Namibië",
     "Republic of Namibia",
     "NAM"
   ],
@@ -224,7 +224,8 @@
   },
   "ISO": {
     "alpha2": "NA",
-    "alpha3": "NAM"
+    "alpha3": "NAM",
+    "numeric": "516"
   },
   "languages": [
     "en",
@@ -263,9 +264,12 @@
     "de": "Namibia",
     "es": "Namibia",
     "fr": "Namibie",
-    "ja": "\u30ca\u30df\u30d3\u30a2",
+    "ja": "ナミビア",
     "it": "Namibia"
   },
   "wiki": "http://en.wikipedia.org/wiki/namibia",
-  "intermediateregion": "Southern Africa"
+  "intermediateregion": "Southern Africa",
+  "timezoneNames": [
+    "Africa/Windhoek"
+  ]
 }

@@ -2,8 +2,8 @@
   "name": "Angola",
   "altSpellings": [
     "AO",
-    "Rep\u00fablica de Angola",
-    "\u0281\u025bpublika de an'\u0261\u0254la",
+    "República de Angola",
+    "ʁɛpublika de an'ɡɔla",
     "AGO",
     "Republic of Angola"
   ],
@@ -354,7 +354,8 @@
   },
   "ISO": {
     "alpha2": "AO",
-    "alpha3": "AGO"
+    "alpha3": "AGO",
+    "numeric": "024"
   },
   "languages": [
     "pt"
@@ -404,9 +405,12 @@
     "de": "Angola",
     "es": "Angola",
     "fr": "Angola",
-    "ja": "\u30a2\u30f3\u30b4\u30e9",
+    "ja": "アンゴラ",
     "it": "Angola"
   },
   "wiki": "http://en.wikipedia.org/wiki/angola",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Luanda"
+  ]
 }

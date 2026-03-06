@@ -3,7 +3,7 @@
   "altSpellings": [
     "MR",
     "Islamic Republic of Mauritania",
-    "al-Jumh\u016briyyah al-\u02beIsl\u0101miyyah al-M\u016br\u012bt\u0101niyyah",
+    "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah",
     "MRT"
   ],
   "area": 1030700,
@@ -203,7 +203,8 @@
   },
   "ISO": {
     "alpha2": "MR",
-    "alpha3": "MRT"
+    "alpha3": "MRT",
+    "numeric": "478"
   },
   "languages": [
     "ar"
@@ -212,7 +213,7 @@
     20,
     -12
   ],
-  "nativeName": "\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627",
+  "nativeName": "موريتانيا",
   "population": 3545620,
   "provinces": [
     "Adrar",
@@ -241,9 +242,12 @@
     "de": "Mauretanien",
     "es": "Mauritania",
     "fr": "Mauritanie",
-    "ja": "\u30e2\u30fc\u30ea\u30bf\u30cb\u30a2",
+    "ja": "モーリタニア",
     "it": "Mauritania"
   },
   "wiki": "http://en.wikipedia.org/wiki/mauritania",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Nouakchott"
+  ]
 }

@@ -3,7 +3,7 @@
   "altSpellings": [
     "DZ",
     "Dzayer",
-    "Alg\u00e9rie",
+    "Algérie",
     "DZA",
     "People's Democratic Republic of Algeria"
   ],
@@ -299,7 +299,8 @@
   },
   "ISO": {
     "alpha2": "DZ",
-    "alpha3": "DZA"
+    "alpha3": "DZA",
+    "numeric": "012"
   },
   "languages": [
     "ar"
@@ -308,7 +309,7 @@
     28,
     3
   ],
-  "nativeName": "Alg\u00e9rie / \u2d4d\u2d63\u2d63\u2d30\u2d62\u2d3b\u2d54 / \u0627\u0644\u062c\u0632\u0627\u0626\u0631",
+  "nativeName": "Algérie / ⵍⵣⵣⴰⵢⴻⵔ / الجزائر",
   "population": 38700000,
   "provinces": [
     "Adrar",
@@ -367,15 +368,18 @@
   ],
   "tld": [
     ".dz",
-    "\u0627\u0644\u062c\u0632\u0627\u0626\u0631."
+    "الجزائر."
   ],
   "translations": {
     "de": "Algerien",
     "es": "Argelia",
-    "fr": "Alg\u00e9rie",
-    "ja": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30a2",
+    "fr": "Algérie",
+    "ja": "アルジェリア",
     "it": "Algeria"
   },
   "wiki": "http://en.wikipedia.org/wiki/algeria",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Africa/Algiers"
+  ]
 }

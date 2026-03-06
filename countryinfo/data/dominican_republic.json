@@ -148,7 +148,8 @@
   },
   "ISO": {
     "alpha2": "DO",
-    "alpha3": "DOM"
+    "alpha3": "DOM",
+    "numeric": "214"
   },
   "languages": [
     "es"
@@ -157,7 +158,7 @@
     19,
     -70.66666666
   ],
-  "nativeName": "Rep\u00fablica Dominicana",
+  "nativeName": "República Dominicana",
   "population": 10378267,
   "provinces": [
     "Azua",
@@ -194,18 +195,21 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221204:00"
+    "UTC−04:00"
   ],
   "tld": [
     ".do"
   ],
   "translations": {
     "de": "Dominikanische Republik",
-    "es": "Rep\u00fablica Dominicana",
-    "fr": "R\u00e9publique dominicaine",
-    "ja": "\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd",
+    "es": "República Dominicana",
+    "fr": "République dominicaine",
+    "ja": "ドミニカ共和国",
     "it": "Repubblica Dominicana"
   },
   "wiki": "http://en.wikipedia.org/wiki/dominican_republic",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Santo_Domingo"
+  ]
 }

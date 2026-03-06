@@ -3,7 +3,7 @@
   "altSpellings": [
     "CF",
     "Central African Republic",
-    "R\u00e9publique centrafricaine",
+    "République centrafricaine",
     "CAF"
   ],
   "area": 622984,
@@ -297,7 +297,8 @@
   },
   "ISO": {
     "alpha2": "CF",
-    "alpha3": "CAF"
+    "alpha3": "CAF",
+    "numeric": "140"
   },
   "languages": [
     "fr",
@@ -307,7 +308,7 @@
     7,
     21
   ],
-  "nativeName": "K\u00f6d\u00f6r\u00f6s\u00ease t\u00ee B\u00eaafr\u00eeka",
+  "nativeName": "Ködörösêse tî Bêafrîka",
   "population": 4709000,
   "provinces": [
     "Bamingui-Bangoran",
@@ -338,11 +339,14 @@
   ],
   "translations": {
     "de": "Zentralafrikanische Republik",
-    "es": "Rep\u00fablica Centroafricana",
-    "fr": "R\u00e9publique Centrafricaine",
-    "ja": "\u4e2d\u592e\u30a2\u30d5\u30ea\u30ab\u5171\u548c\u56fd",
+    "es": "República Centroafricana",
+    "fr": "République Centrafricaine",
+    "ja": "中央アフリカ共和国",
     "it": "Repubblica Centrafricana"
   },
   "wiki": "http://en.wikipedia.org/wiki/central_african_republic",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Bangui"
+  ]
 }

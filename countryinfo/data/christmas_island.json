@@ -23,7 +23,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "CX",
-    "alpha3": "CXR"
+    "alpha3": "CXR",
+    "numeric": "162"
   },
   "languages": [
     "en"
@@ -46,10 +47,13 @@
   "translations": {
     "de": "Weihnachtsinsel",
     "es": "Isla de Navidad",
-    "fr": "\u00cele Christmas",
-    "ja": "\u30af\u30ea\u30b9\u30de\u30b9\u5cf6",
+    "fr": "Île Christmas",
+    "ja": "クリスマス島",
     "it": "Isola di Natale"
   },
   "wiki": "http://en.wikipedia.org/wiki/christmas_island",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Indian/Christmas"
+  ]
 }

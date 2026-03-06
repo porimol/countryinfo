@@ -230,7 +230,8 @@
   },
   "ISO": {
     "alpha2": "PL",
-    "alpha3": "POL"
+    "alpha3": "POL",
+    "numeric": "616"
   },
   "languages": [
     "pl"
@@ -271,9 +272,12 @@
     "de": "Polen",
     "es": "Polonia",
     "fr": "Pologne",
-    "ja": "\u30dd\u30fc\u30e9\u30f3\u30c9",
+    "ja": "ポーランド",
     "it": "Polonia"
   },
   "wiki": "http://en.wikipedia.org/wiki/poland",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Warsaw"
+  ]
 }

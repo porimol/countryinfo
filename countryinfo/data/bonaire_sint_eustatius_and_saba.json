@@ -16,7 +16,8 @@
   ],
   "ISO": {
     "alpha2": "BQ",
-    "alpha3": "BES"
+    "alpha3": "BES",
+    "numeric": "535"
   },
   "name": "Bonaire, Sint Eustatius and Saba",
   "altSpellings": [
@@ -25,5 +26,8 @@
   ],
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Kralendijk"
+  ]
 }

@@ -3,7 +3,7 @@
   "altSpellings": [
     "PH",
     "Republic of the Philippines",
-    "Rep\u00fablika ng Pilipinas",
+    "Repúblika ng Pilipinas",
     "PHL"
   ],
   "area": 342353,
@@ -508,7 +508,8 @@
   },
   "ISO": {
     "alpha2": "PH",
-    "alpha3": "PHL"
+    "alpha3": "PHL",
+    "numeric": "608"
   },
   "languages": [
     "en"
@@ -666,9 +667,12 @@
     "de": "Philippinen",
     "es": "Filipinas",
     "fr": "Philippines",
-    "ja": "\u30d5\u30a3\u30ea\u30d4\u30f3",
+    "ja": "フィリピン",
     "it": "Filippine"
   },
   "wiki": "http://en.wikipedia.org/wiki/philippines",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Manila"
+  ]
 }

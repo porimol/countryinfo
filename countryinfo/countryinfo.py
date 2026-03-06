@@ -1,405 +1,311 @@
 # coding=utf-8
-from glob import glob
-from os.path import isfile, realpath, dirname
-import json
-from pprint import pprint
-from typing import Any, Dict, Literal, Optional, overload, Sequence, TypedDict, Union
+from __future__ import annotations
+
+from datetime import datetime, timezone, timedelta
+from typing import Any, Dict, List, Literal, Optional, Sequence, Union, overload
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
+
+from ._cache import load_countries
+from ._lookup import resolve
+from .exceptions import CountryNotFoundError
 
 
-class IsoDict(TypedDict):
-    alpha2: str
-    alpha3: str
+# ---------------------------------------------------------------------------
+# TypedDicts (kept for backward compat with existing type-annotated consumers)
+# ---------------------------------------------------------------------------
+try:
+    from typing import TypedDict
+
+    class IsoDict(TypedDict):
+        alpha2: str
+        alpha3: str
+        numeric: Optional[str]
+
+    class CountryInfoDict(TypedDict):
+        ISO: IsoDict
+        altSpellings: Sequence[str]
+        area: int
+        borders: Sequence[str]
+        callingCodes: Sequence[str]
+        capital: str
+        capital_latlng: Sequence[float]
+        currencies: Sequence[str]
+        demonym: str
+        flag: str
+        geoJSON: Dict[str, Any]
+        languages: Sequence[str]
+        latlng: Sequence[float]
+        name: str
+        nativeName: str
+        population: int
+        provinces: Sequence[str]
+        region: str
+        subregion: str
+        timezones: Sequence[str]
+        timezoneNames: Sequence[str]
+        tld: Sequence[str]
+        translations: Dict[str, str]
+        wiki: str
+
+except ImportError:
+    pass  # Python <3.8 fallback (shouldn't happen with requires-python >=3.9)
 
 
-class CountryInfoDict(TypedDict):
-    ISO: IsoDict
-    altSpellings: Sequence[str]
-    area: int
-    borders: Sequence[str]
-    callingCodes: Sequence[str]
-    capital: str
-    capital_latlng: Sequence[float]
-    currencies: Sequence[str]
-    demonym: str
-    flag: str
-    geoJSON: Dict[str, Any]
-    languages: Sequence[str]
-    latlng: Sequence[float]
-    name: str
-    nativeName: str
-    population: int
-    provinces: Sequence[str]
-    region: str
-    subregion: str
-    timezones: Sequence[str]
-    tld: Sequence[str]
-    translations: Dict[str, str]
-    wiki: str
-
+# ---------------------------------------------------------------------------
+# Main class
+# ---------------------------------------------------------------------------
 
 class CountryInfo:
-    """To access one of the country properties available
+    """Access structured data about a country.
 
-    Example:
-        country = CountryInfo('singapore')
-        pprint(country.info())
+    Example::
+
+        country = CountryInfo("Singapore")
+        print(country.capital())   # Singapore
+        print(country.iso(2))      # SG
+
+    The constructor accepts:
+    - English country name (case-insensitive): ``CountryInfo("singapore")``
+    - ISO alpha-2 code: ``CountryInfo("SG")``
+    - ISO alpha-3 code: ``CountryInfo("SGP")``
+    - Numeric ISO 3166-1: ``CountryInfo("702")`` or ``CountryInfo(702)``
+    - Native name: ``CountryInfo("Singapura")``
+    - Alternate spelling: ``CountryInfo("Republic of Singapore")``
+    - Typo-tolerant (requires ``pip install countryinfo[fuzzy]``)
+
+    Raises:
+        ValueError: If no identifier is provided.
+        CountryNotFoundError: If the identifier cannot be resolved.
     """
 
-    def __init__(self, country_name: Optional[str] = None) -> None:
-        """constructor method
+    def __init__(self, country_name: Optional[Union[str, int]] = None) -> None:
+        if country_name is None or (isinstance(country_name, str) and not country_name.strip()):
+            raise ValueError(
+                "country_name is required. Pass a country name, ISO alpha-2/alpha-3/numeric code, "
+                "or native name. To list all countries use all_countries()."
+            )
 
-        :param country_name: str
-            pass country name
-        """
-        self.__country_name = country_name.lower() if country_name else ''
-        # get the files path
-        __file_dir_path = dirname(realpath(__file__))
-        __country_files = __file_dir_path + '/data/'
-        __files_path = [files for files in glob(__country_files + '*.json')]
-        self.__countries = {}
-        for file_path in __files_path:
-            if isfile(file_path):
-                with open(file_path, encoding='utf-8') as file:
-                    country_info = json.load(file)
-                    # pprint(country_info)
-                    if country_info.get('name', None):
-                        self.__countries[country_info['name'].lower()] = country_info
-                        # Update country name if it is one of alt spellings.
-                        if self.__country_name in map(lambda an: an.lower(), country_info.get('altSpellings', [])):
-                            self.__country_name = country_info['name'].lower()
+        cache = load_countries()
+        self.__countries: dict = cache["countries"]
+        self.__iso_index: dict = cache["iso_index"]
+        # Resolve to canonical lowercase key
+        self.__country_key: str = resolve(country_name, self.__countries, self.__iso_index)
 
-    def info(self) -> Optional[CountryInfoDict]:
-        """Returns all available information for a specified country.
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
 
-        :return: dict
-        """
-        if self.__country_name:
-            _all = self.__countries[self.__country_name]
-            # pprint(_all)
-            _all['google'] = "https://www.google.com/search?q=" + self.__countries[self.__country_name]["name"]
+    def _data(self) -> dict:
+        return self.__countries[self.__country_key]
 
-            return _all
-        return None
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
 
-    def provinces(self) -> Optional[Sequence[str]]:
-        """return provinces list
+    def info(self) -> CountryInfoDict:
+        """Returns all available information for the country."""
+        result = dict(self._data())
+        result["google"] = "https://www.google.com/search?q=" + result["name"]
+        return result  # type: ignore[return-value]
 
-        :return: list
-        """
-        if self.__country_name:
-            _provinces = self.__countries[self.__country_name]['provinces']
-            # pprint(_provinces)
+    def name(self) -> str:
+        """Returns the English country name as registered in the library (proper casing)."""
+        return self._data()["name"]
 
-            return _provinces
-        return None
+    def provinces(self) -> Sequence[str]:
+        """Returns provinces/states list."""
+        return self._data().get("provinces", [])
 
     @overload
-    def iso(self, alpha: Literal[2, 3]) -> str:
-        ...
+    def iso(self, alpha: Literal[2, 3]) -> str: ...
     @overload
-    def iso(self, alpha: None = ...) -> IsoDict:
-        ...
-    def iso(self, alpha: Literal[2, 3, None] = None) -> Union[str, IsoDict, None]:
-        """Returns ISO codes for a specified country
+    def iso(self, alpha: None = ...) -> "IsoDict": ...
 
-        :param alpha: int
+    def iso(self, alpha: Literal[2, 3, None] = None) -> Union[str, "IsoDict", None]:
+        """Returns ISO codes for the country.
 
-        :return: dict or str
-            based on param
+        :param alpha: 2 for alpha-2, 3 for alpha-3, None for full dict (includes numeric).
         """
-        if self.__country_name:
-            _iso = self.__countries[self.__country_name]['ISO']
-            # pprint(_iso)
+        iso_data = self._data().get("ISO", {})
+        if alpha == 2:
+            return iso_data.get("alpha2")
+        if alpha == 3:
+            return iso_data.get("alpha3")
+        return iso_data  # type: ignore[return-value]
 
-            if alpha == 2:
-                return _iso.get('alpha2')
-            elif alpha == 3:
-                return _iso.get('alpha3')
-
-            return _iso
-        return None
-
-    def alt_spellings(self) -> Optional[Sequence[str]]:
-        """Returns alternate spellings for the name of a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            try:
-                _alt_spellings = self.__countries[self.__country_name]['altSpellings']
-                # pprint(_alt_spellings)
-
-                return _alt_spellings
-            except KeyError:
-                return []
-        return None
+    def alt_spellings(self) -> Sequence[str]:
+        """Returns alternate spellings for the country name."""
+        return self._data().get("altSpellings", [])
 
     def area(self) -> Optional[int]:
-        """Returns area (km²) for a specified country
+        """Returns area in km²."""
+        return self._data().get("area")
 
-        :return: int
-        """
-        if self.__country_name:
-            _area = self.__countries[self.__country_name]['area']
-            # pprint(_area)
+    def borders(self) -> Sequence[str]:
+        """Returns bordering countries as ISO alpha-3 codes."""
+        return self._data().get("borders", [])
 
-            return _area
-        return None
-
-    def borders(self) -> Optional[Sequence[str]]:
-        """Returns bordering countries (ISO3) for a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            _borders = self.__countries[self.__country_name]['borders']
-            # pprint(_borders)
-
-            return _borders
-        return None
-
-    def calling_codes(self) -> Optional[Sequence[str]]:
-        """Returns international calling codes for a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            _calling_codes = self.__countries[self.__country_name]['callingCodes']
-            # pprint(_calling_codes)
-
-            return _calling_codes
-        return None
+    def calling_codes(self) -> Sequence[str]:
+        """Returns international calling codes."""
+        return self._data().get("callingCodes", [])
 
     def capital(self) -> Optional[str]:
-        """Returns capital city for a specified country
+        """Returns the capital city name."""
+        return self._data().get("capital")
 
-        :return: str
-        """
-        if self.__country_name:
-            _capital = self.__countries[self.__country_name]['capital']
-            # pprint(_capital)
+    def capital_latlng(self) -> Sequence[float]:
+        """Returns capital city [latitude, longitude]."""
+        return self._data().get("capital_latlng", [])
 
-            return _capital
-        return None
-
-    def capital_latlng(self) -> Optional[Sequence[float]]:
-        """Returns capital city latitude and longitude for a specified country
-
-        :return: str
-        """
-        if self.__country_name:
-            _capital_latlng = self.__countries[self.__country_name]['capital_latlng']
-            # pprint(_capital)
-
-            return _capital_latlng
-        return None
-
-    def currencies(self) -> Optional[Sequence[str]]:
-        """Returns official currencies for a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            _currencies = self.__countries[self.__country_name]['currencies']
-            # pprint(_currencies)
-
-            return _currencies
-        return None
+    def currencies(self) -> Sequence[str]:
+        """Returns official currency codes (ISO 4217)."""
+        return self._data().get("currencies", [])
 
     def demonym(self) -> Optional[str]:
-        """Returns the demonyms for a specified country
-
-        :return: str
-        """
-        if self.__country_name:
-            _demonym = self.__countries[self.__country_name]['demonym']
-            # pprint(_demonym)
-
-            return _demonym
-        return None
+        """Returns the demonym (e.g. 'Singaporean')."""
+        return self._data().get("demonym")
 
     def flag(self) -> Optional[str]:
-        """Returns SVG link of the official flag for a specified country
+        """Returns SVG flag URL (if available)."""
+        return self._data().get("flag")
 
-        :return: str
-            it will return an URL if available
-        """
-        if self.__country_name:
-            _flag = self.__countries[self.__country_name]['flag']
-            # pprint(_flag)
+    def geo_json(self) -> Dict[str, Any]:
+        """Returns GeoJSON data."""
+        return self._data().get("geoJSON", {})
 
-            return _flag
-        return None
+    def languages(self) -> Sequence[str]:
+        """Returns official language codes (ISO 639-1)."""
+        return self._data().get("languages", [])
 
-    def geo_json(self) -> Optional[Dict[str, Any]]:
-        """Returns geoJSON for a specified country
-
-        :return: dict
-        """
-        if self.__country_name:
-            _geo_json = self.__countries[self.__country_name]['geoJSON']
-            # pprint(_geo_json)
-
-            return _geo_json
-        return None
-
-    def languages(self) -> Optional[Sequence[str]]:
-        """Returns official languages for a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            _languages = self.__countries[self.__country_name]['languages']
-            # pprint(_languages)
-
-            return _languages
-        return None
-
-    def latlng(self) -> Optional[Sequence[float]]:
-        """Returns approx latitude and longitude for a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            _latlng = self.__countries[self.__country_name]['latlng']
-            # pprint(_latlng)
-
-            return _latlng
-        return None
-
-    def name(self) -> Optional[str]:
-        """Returns the english name of the country as registered in the library
-
-        :return: str
-        """
-        return self.__country_name
+    def latlng(self) -> Sequence[float]:
+        """Returns country centre [latitude, longitude]."""
+        return self._data().get("latlng", [])
 
     def native_name(self) -> Optional[str]:
-        """Returns the name of the country in its native tongue
-
-        :return: str
-        """
-        if self.__country_name:
-            _native_name = self.__countries[self.__country_name].get('nativeName')
-            # pprint(_native_name)
-
-            return _native_name
-        return None
+        """Returns the country name in its native language."""
+        return self._data().get("nativeName")
 
     def population(self) -> Optional[int]:
-        """Returns approximate population for a specified country
-
-        :return: int
-        """
-        if self.__country_name:
-            _population = self.__countries[self.__country_name]['population']
-            # pprint(_population)
-
-            return _population
-        return None
+        """Returns approximate population."""
+        return self._data().get("population")
 
     def region(self) -> Optional[str]:
-        """Returns general region for a specified country
-
-        :return: str
-        """
-        if self.__country_name:
-            _region = self.__countries[self.__country_name]['region']
-            # pprint(_region)
-
-            return _region
-        return None
+        """Returns the general region (e.g. 'Asia')."""
+        return self._data().get("region")
 
     def subregion(self) -> Optional[str]:
-        """Returns a more specific region for a specified country
+        """Returns the specific subregion (e.g. 'South-eastern Asia')."""
+        return self._data().get("subregion")
 
-        :return: str
+    def timezones(self) -> Sequence[str]:
+        """Returns UTC offset strings (e.g. ['UTC+08:00'])."""
+        return self._data().get("timezones", [])
+
+    def timezone_names(self) -> Sequence[str]:
+        """Returns IANA timezone names (e.g. ['Asia/Singapore'])."""
+        return self._data().get("timezoneNames", [])
+
+    def current_utc_offset(self) -> List[str]:
+        """Returns current UTC offset(s) accounting for DST.
+
+        Uses IANA timezone names from the data. Falls back to the static
+        ``timezones`` field when IANA names are not available.
+
+        Requires Python 3.9+ (uses ``zoneinfo`` from stdlib).
+
+        :return: List of offset strings like ['+08:00', '+11:00'].
         """
-        if self.__country_name:
-            _subregion = self.__countries[self.__country_name]['subregion']
-            # pprint(_subregion)
+        iana_names = self.timezone_names()
+        if not iana_names:
+            # Fall back: strip the "UTC" prefix and return as-is
+            return [tz.replace("UTC", "") for tz in self.timezones()]
 
-            return _subregion
-        return None
-
-    def timezones(self) -> Optional[Sequence[str]]:
-        """Returns all timezones for a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            _timezones = self.__countries[self.__country_name]['timezones']
-            # pprint(_timezones)
-
-            return _timezones
-        return None
-
-    def tld(self) -> Optional[Sequence[str]]:
-        """Returns official top level domains for a specified country
-
-        :return: list
-        """
-        if self.__country_name:
-            _tld = self.__countries[self.__country_name]['tld']
-            # pprint(_tld)
-
-            return _tld
-        return None
-
-    def translations(self) -> Optional[Dict[str, str]]:
-        """Returns translations for a specified country name in popular languages
-
-        :return: dict
-        """
-        if self.__country_name:
+        now = datetime.now(tz=timezone.utc)
+        offsets: list[str] = []
+        seen: set[str] = set()
+        for name in iana_names:
             try:
-                _translations = self.__countries[self.__country_name]['translations']
-                # pprint(_translations)
+                tz = ZoneInfo(name)
+                offset: timedelta = now.astimezone(tz).utcoffset()  # type: ignore[assignment]
+                total_seconds = int(offset.total_seconds())
+                sign = "+" if total_seconds >= 0 else "-"
+                total_seconds = abs(total_seconds)
+                hours, remainder = divmod(total_seconds, 3600)
+                minutes = remainder // 60
+                label = f"{sign}{hours:02d}:{minutes:02d}"
+                if label not in seen:
+                    seen.add(label)
+                    offsets.append(label)
+            except (ZoneInfoNotFoundError, Exception):
+                continue
+        return offsets or [tz.replace("UTC", "") for tz in self.timezones()]
 
-                return _translations
-            except KeyError:
-                return {}
-        return None
+    def tld(self) -> Sequence[str]:
+        """Returns top-level domain(s) (e.g. ['.sg'])."""
+        return self._data().get("tld", [])
+
+    def translations(self) -> Dict[str, str]:
+        """Returns country name translations in popular languages."""
+        return self._data().get("translations", {})
 
     def wiki(self) -> Optional[str]:
-        """Returns link to wikipedia page for a specified country
+        """Returns Wikipedia URL."""
+        return self._data().get("wiki")
 
-        :return: str
-            return wiki url if available
+    def google(self) -> str:
+        """Returns Google search URL for the country."""
+        return "https://www.google.com/search?q=" + self._data()["name"]
+
+    def neighbors(self) -> "List[CountryInfo]":
+        """Returns bordering countries as CountryInfo objects.
+
+        Resolves ISO alpha-3 border codes to full CountryInfo instances.
+        Countries whose ISO code cannot be resolved are silently skipped.
         """
-        if self.__country_name:
-            _wiki = self.__countries[self.__country_name]['wiki']
-            # pprint(_wiki)
+        result = []
+        for iso3 in self.borders():
+            try:
+                result.append(CountryInfo(iso3))
+            except (CountryNotFoundError, ValueError):
+                continue
+        return result
 
-            return _wiki
-        return None
+    def model(self) -> Any:
+        """Returns a Pydantic model for this country.
 
-    def google(self) -> Optional[str]:
-        """Returns link to google page for a specified country
+        Requires ``pip install countryinfo[pydantic]``.
 
-        :return: str
-            return google url if available
+        :raises ImportError: If pydantic is not installed.
         """
-        if self.__country_name:
-            _google = "https://www.google.com/search?q=" + self.__countries[self.__country_name]['name']
-            # pprint(_google)
+        try:
+            from .models import CountryModel
+        except ImportError as exc:
+            raise ImportError(
+                "Pydantic is required for .model(). "
+                "Install it with: pip install countryinfo[pydantic]"
+            ) from exc
+        return CountryModel(**self.info())
 
-            return _google
-        return None
+    # ------------------------------------------------------------------
+    # Class-level helpers
+    # ------------------------------------------------------------------
 
-    def all(self) -> Optional[Dict[str, CountryInfoDict]]:
-        """return all of the countries information
+    @classmethod
+    def all(cls) -> Dict[str, "CountryInfoDict"]:
+        """Returns raw data for all countries as a dict keyed by lowercase name.
 
-        :return: dict
+        For a list of CountryInfo objects use ``all_countries()`` instead.
         """
-        _all = self.__countries
-        for country in _all:
-            _all[country]['google'] = "https://www.google.com/search?q=" + self.__countries[country]['name']
+        cache = load_countries()
+        result = {}
+        for name, data in cache["countries"].items():
+            entry = dict(data)
+            entry["google"] = "https://www.google.com/search?q=" + data["name"]
+            result[name] = entry
+        return result  # type: ignore[return-value]
 
-        return _all
 
-
-if __name__ == '__main__':
-    country = CountryInfo('Singapore')
-    pprint(country.all())
-
+if __name__ == "__main__":
+    from pprint import pprint
+    country = CountryInfo("Singapore")
+    pprint(country.info())

@@ -3,7 +3,7 @@
   "altSpellings": [
     "IQ",
     "Republic of Iraq",
-    "Jumh\u016briyyat al-\u2018Ir\u0101q",
+    "Jumhūriyyat al-‘Irāq",
     "IRQ"
   ],
   "area": 438317,
@@ -169,7 +169,8 @@
   },
   "ISO": {
     "alpha2": "IQ",
-    "alpha3": "IRQ"
+    "alpha3": "IRQ",
+    "numeric": "368"
   },
   "languages": [
     "ar",
@@ -179,7 +180,7 @@
     33,
     44
   ],
-  "nativeName": "\u0627\u0644\u0639\u0631\u0627\u0642",
+  "nativeName": "العراق",
   "population": 36004552,
   "provinces": [
     "Al Anbar",
@@ -213,9 +214,12 @@
     "de": "Irak",
     "es": "Irak",
     "fr": "Irak",
-    "ja": "\u30a4\u30e9\u30af",
+    "ja": "イラク",
     "it": "Iraq"
   },
   "wiki": "http://en.wikipedia.org/wiki/iraq",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Baghdad"
+  ]
 }

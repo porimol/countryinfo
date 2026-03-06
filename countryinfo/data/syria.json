@@ -3,7 +3,7 @@
   "altSpellings": [
     "SY",
     "Syrian Arab Republic",
-    "Al-Jumh\u016br\u012byah Al-\u02bbArab\u012byah As-S\u016br\u012byah",
+    "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah",
     "SYR"
   ],
   "area": 185180,
@@ -156,7 +156,8 @@
   },
   "ISO": {
     "alpha2": "SY",
-    "alpha3": "SYR"
+    "alpha3": "SYR",
+    "numeric": "760"
   },
   "languages": [
     "ar"
@@ -165,7 +166,7 @@
     35,
     38
   ],
-  "nativeName": "\u0633\u0648\u0631\u064a\u0627",
+  "nativeName": "سوريا",
   "population": 22964324,
   "provinces": [
     "Al Hasakah",
@@ -195,9 +196,12 @@
     "de": "Syrien",
     "es": "Siria",
     "fr": "Syrie",
-    "ja": "\u30b7\u30ea\u30a2\u30fb\u30a2\u30e9\u30d6\u5171\u548c\u56fd",
+    "ja": "シリア・アラブ共和国",
     "it": "Siria"
   },
   "wiki": "http://en.wikipedia.org/wiki/syria",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Damascus"
+  ]
 }

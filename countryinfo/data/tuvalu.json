@@ -22,7 +22,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "TV",
-    "alpha3": "TUV"
+    "alpha3": "TUV",
+    "numeric": "798"
   },
   "languages": [
     "en"
@@ -48,9 +49,12 @@
     "de": "Tuvalu",
     "es": "Tuvalu",
     "fr": "Tuvalu",
-    "ja": "\u30c4\u30d0\u30eb",
+    "ja": "ツバル",
     "it": "Tuvalu"
   },
   "wiki": "http://en.wikipedia.org/wiki/tuvalu",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Funafuti"
+  ]
 }

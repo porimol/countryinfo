@@ -244,7 +244,8 @@
   },
   "ISO": {
     "alpha2": "CG",
-    "alpha3": "COG"
+    "alpha3": "COG",
+    "numeric": "178"
   },
   "languages": [
     "fr",
@@ -254,7 +255,7 @@
     -1,
     15
   ],
-  "nativeName": "R\u00e9publique du Congo",
+  "nativeName": "République du Congo",
   "population": 4559000,
   "provinces": [
     "Bandundu",
@@ -279,11 +280,14 @@
   ],
   "translations": {
     "de": "Republik Kongo",
-    "es": "Rep\u00fablica del Congo",
+    "es": "República del Congo",
     "fr": "Congo-Brazzaville",
-    "ja": "\u30b3\u30f3\u30b4\u5171\u548c\u56fd",
+    "ja": "コンゴ共和国",
     "it": "Repubblica del Congo"
   },
   "wiki": "http://en.wikipedia.org/wiki/congo_democratic_republic_of_the",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Brazzaville"
+  ]
 }

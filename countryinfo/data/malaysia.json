@@ -298,7 +298,8 @@
   },
   "ISO": {
     "alpha2": "MY",
-    "alpha3": "MYS"
+    "alpha3": "MYS",
+    "numeric": "458"
   },
   "languages": [],
   "latlng": [
@@ -336,9 +337,13 @@
     "de": "Malaysia",
     "es": "Malasia",
     "fr": "Malaisie",
-    "ja": "\u30de\u30ec\u30fc\u30b7\u30a2",
+    "ja": "マレーシア",
     "it": "Malesia"
   },
   "wiki": "http://en.wikipedia.org/wiki/malaysia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Kuala_Lumpur",
+    "Asia/Kuching"
+  ]
 }

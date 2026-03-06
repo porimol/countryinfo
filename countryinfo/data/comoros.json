@@ -5,7 +5,7 @@
     "Union of the Comoros",
     "Union des Comores",
     "Udzima wa Komori",
-    "al-Itti\u1e25\u0101d al-Qumur\u012b",
+    "al-Ittiḥād al-Qumurī",
     "COM"
   ],
   "area": 1862,
@@ -26,7 +26,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "KM",
-    "alpha3": "COM"
+    "alpha3": "COM",
+    "numeric": "174"
   },
   "languages": [
     "ar",
@@ -36,7 +37,7 @@
     -12.16666666,
     44.25
   ],
-  "nativeName": "Comores Komori \u062c\u0632\u0631 \u0627\u0644\u0642\u0645\u0631",
+  "nativeName": "Comores Komori جزر القمر",
   "population": 763952,
   "provinces": [
     "Anjouan (Nzwani)",
@@ -59,9 +60,12 @@
     "de": "Union der Komoren",
     "es": "Comoras",
     "fr": "Comores",
-    "ja": "\u30b3\u30e2\u30ed",
+    "ja": "コモロ",
     "it": "Comore"
   },
   "wiki": "http://en.wikipedia.org/wiki/comoros",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Indian/Comoro"
+  ]
 }

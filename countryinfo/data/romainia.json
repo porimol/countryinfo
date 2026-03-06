@@ -4,7 +4,7 @@
     "RO",
     "Rumania",
     "Roumania",
-    "Rom\u00e2nia",
+    "România",
     "ROU"
   ],
   "area": 238391,
@@ -225,7 +225,8 @@
   },
   "ISO": {
     "alpha2": "RO",
-    "alpha3": "ROU"
+    "alpha3": "ROU",
+    "numeric": "642"
   },
   "languages": [
     "ro"
@@ -234,7 +235,7 @@
     46,
     25
   ],
-  "nativeName": "Rom\u00e2nia",
+  "nativeName": "România",
   "population": 19942642,
   "provinces": [
     "Alba",
@@ -288,12 +289,15 @@
     ".ro"
   ],
   "translations": {
-    "de": "Rum\u00e4nien",
+    "de": "Rumänien",
     "es": "Rumania",
     "fr": "Roumanie",
-    "ja": "\u30eb\u30fc\u30de\u30cb\u30a2",
+    "ja": "ルーマニア",
     "it": "Romania"
   },
   "wiki": "http://en.wikipedia.org/wiki/romainia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Bucharest"
+  ]
 }

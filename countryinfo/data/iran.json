@@ -3,7 +3,7 @@
   "altSpellings": [
     "IR",
     "Islamic Republic of Iran",
-    "Jomhuri-ye Esl\u0101mi-ye Ir\u0101n",
+    "Jomhuri-ye Eslāmi-ye Irān",
     "IRN",
     "Iran, Islamic Republic of"
   ],
@@ -351,7 +351,8 @@
   },
   "ISO": {
     "alpha2": "IR",
-    "alpha3": "IRN"
+    "alpha3": "IRN",
+    "numeric": "364"
   },
   "languages": [
     "fa"
@@ -360,7 +361,7 @@
     32,
     53
   ],
-  "nativeName": "\u0627\u06cc\u0631\u0627\u0646",
+  "nativeName": "ایران",
   "population": 77966400,
   "provinces": [
     "Ardabil",
@@ -402,11 +403,14 @@
   ],
   "translations": {
     "de": "Iran",
-    "es": "Ir\u00e1n",
+    "es": "Irán",
     "fr": "Iran",
-    "ja": "\u30a4\u30e9\u30f3\u30fb\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd",
+    "ja": "イラン・イスラム共和国",
     "it": "Iran"
   },
   "wiki": "http://en.wikipedia.org/wiki/iran",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Tehran"
+  ]
 }

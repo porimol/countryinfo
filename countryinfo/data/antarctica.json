@@ -2677,16 +2677,17 @@
   },
   "ISO": {
     "alpha2": "AQ",
-    "alpha3": "ATA"
+    "alpha3": "ATA",
+    "numeric": "010"
   },
   "provinces": [
     "British Antarctic Territory",
     "Ross Dependency",
-    "Ad\u00e9lie Land",
+    "Adélie Land",
     "Peter I Island",
     "Australian Antarctic Territory",
     "Queen Maud Land",
-    "Ant\u00e1rtica",
+    "Antártica",
     "Argentine Antarctica",
     "Marie Byrd Land"
   ],
@@ -2699,5 +2700,17 @@
   ],
   "region": "",
   "subregion": "",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Antarctica/McMurdo",
+    "Antarctica/Casey",
+    "Antarctica/Davis",
+    "Antarctica/DumontDUrville",
+    "Antarctica/Mawson",
+    "Antarctica/Palmer",
+    "Antarctica/Rothera",
+    "Antarctica/Syowa",
+    "Antarctica/Troll",
+    "Antarctica/Vostok"
+  ]
 }

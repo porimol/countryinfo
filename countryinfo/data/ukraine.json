@@ -441,7 +441,8 @@
   },
   "ISO": {
     "alpha2": "UA",
-    "alpha3": "UKR"
+    "alpha3": "UKR",
+    "numeric": "804"
   },
   "languages": [
     "uk"
@@ -450,7 +451,7 @@
     49,
     32
   ],
-  "nativeName": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+  "nativeName": "Україна",
   "population": 42973696,
   "provinces": [
     "Avtonomna Respublika Krym (Simferopol')",
@@ -493,9 +494,14 @@
     "de": "Ukraine",
     "es": "Ucrania",
     "fr": "Ukraine",
-    "ja": "\u30a6\u30af\u30e9\u30a4\u30ca",
+    "ja": "ウクライナ",
     "it": "Ucraina"
   },
   "wiki": "http://en.wikipedia.org/wiki/ukraine",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Kiev",
+    "Europe/Uzhgorod",
+    "Europe/Zaporozhye"
+  ]
 }

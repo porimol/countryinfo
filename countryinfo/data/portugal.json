@@ -4,7 +4,7 @@
     "PT",
     "Portuguesa",
     "Portuguese Republic",
-    "Rep\u00fablica Portuguesa",
+    "República Portuguesa",
     "PRT"
   ],
   "area": 92090,
@@ -177,7 +177,8 @@
   },
   "ISO": {
     "alpha2": "PT",
-    "alpha3": "PRT"
+    "alpha3": "PRT",
+    "numeric": "620"
   },
   "languages": [
     "pt"
@@ -213,7 +214,7 @@
   "region": "Europe",
   "subregion": "Southern Europe",
   "timezones": [
-    "UTC\u221201:00",
+    "UTC−01:00",
     "UTC"
   ],
   "tld": [
@@ -223,9 +224,14 @@
     "de": "Portugal",
     "es": "Portugal",
     "fr": "Portugal",
-    "ja": "\u30dd\u30eb\u30c8\u30ac\u30eb",
+    "ja": "ポルトガル",
     "it": "Portogallo"
   },
   "wiki": "http://en.wikipedia.org/wiki/portugal",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Lisbon",
+    "Atlantic/Madeira",
+    "Atlantic/Azores"
+  ]
 }

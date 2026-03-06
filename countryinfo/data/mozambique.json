@@ -3,7 +3,7 @@
   "altSpellings": [
     "MZ",
     "Republic of Mozambique",
-    "Rep\u00fablica de Mo\u00e7ambique",
+    "República de Moçambique",
     "MOZ"
   ],
   "area": 801590,
@@ -357,7 +357,8 @@
   },
   "ISO": {
     "alpha2": "MZ",
-    "alpha3": "MOZ"
+    "alpha3": "MOZ",
+    "numeric": "508"
   },
   "languages": [
     "pt"
@@ -366,7 +367,7 @@
     -18.25,
     35
   ],
-  "nativeName": "Mo\u00e7ambique",
+  "nativeName": "Moçambique",
   "population": 25041922,
   "provinces": [
     "Cabo Delgado",
@@ -392,9 +393,12 @@
     "de": "Mosambik",
     "es": "Mozambique",
     "fr": "Mozambique",
-    "ja": "\u30e2\u30b6\u30f3\u30d3\u30fc\u30af",
+    "ja": "モザンビーク",
     "it": "Mozambico"
   },
   "wiki": "http://en.wikipedia.org/wiki/mozambique",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Maputo"
+  ]
 }

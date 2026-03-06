@@ -4,7 +4,7 @@
     "TR",
     "Turkiye",
     "Republic of Turkey",
-    "T\u00fcrkiye Cumhuriyeti",
+    "Türkiye Cumhuriyeti",
     "TUR"
   ],
   "area": 783562,
@@ -326,7 +326,8 @@
   },
   "ISO": {
     "alpha2": "TR",
-    "alpha3": "TUR"
+    "alpha3": "TUR",
+    "numeric": "792"
   },
   "languages": [
     "tr"
@@ -335,7 +336,7 @@
     39,
     35
   ],
-  "nativeName": "T\u00fcrkiye",
+  "nativeName": "Türkiye",
   "population": 76667864,
   "provinces": [
     "Adana",
@@ -429,12 +430,15 @@
     ".tr"
   ],
   "translations": {
-    "de": "T\u00fcrkei",
-    "es": "Turqu\u00eda",
+    "de": "Türkei",
+    "es": "Turquía",
     "fr": "Turquie",
-    "ja": "\u30c8\u30eb\u30b3",
+    "ja": "トルコ",
     "it": "Turchia"
   },
   "wiki": "http://en.wikipedia.org/wiki/turkey",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Istanbul"
+  ]
 }

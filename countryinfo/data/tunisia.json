@@ -3,7 +3,7 @@
   "altSpellings": [
     "TN",
     "Republic of Tunisia",
-    "al-Jumh\u016briyyah at-T\u016bnisiyyah",
+    "al-Jumhūriyyah at-Tūnisiyyah",
     "TUN"
   ],
   "area": 163610,
@@ -169,7 +169,8 @@
   },
   "ISO": {
     "alpha2": "TN",
-    "alpha3": "TUN"
+    "alpha3": "TUN",
+    "numeric": "788"
   },
   "languages": [
     "ar"
@@ -178,7 +179,7 @@
     34,
     9
   ],
-  "nativeName": "\u062a\u0648\u0646\u0633",
+  "nativeName": "تونس",
   "population": 10982754,
   "provinces": [
     "Ariana",
@@ -215,11 +216,14 @@
   ],
   "translations": {
     "de": "Tunesien",
-    "es": "T\u00fanez",
+    "es": "Túnez",
     "fr": "Tunisie",
-    "ja": "\u30c1\u30e5\u30cb\u30b8\u30a2",
+    "ja": "チュニジア",
     "it": "Tunisia"
   },
   "wiki": "http://en.wikipedia.org/wiki/tunisia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Africa/Tunis"
+  ]
 }

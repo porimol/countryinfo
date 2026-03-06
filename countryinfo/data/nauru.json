@@ -26,7 +26,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "NR",
-    "alpha3": "NRU"
+    "alpha3": "NRU",
+    "numeric": "520"
   },
   "languages": [
     "en",
@@ -66,9 +67,12 @@
     "de": "Nauru",
     "es": "Nauru",
     "fr": "Nauru",
-    "ja": "\u30ca\u30a6\u30eb",
+    "ja": "ナウル",
     "it": "Nauru"
   },
   "wiki": "http://en.wikipedia.org/wiki/nauru",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Nauru"
+  ]
 }

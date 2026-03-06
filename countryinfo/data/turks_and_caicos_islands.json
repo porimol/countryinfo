@@ -6,7 +6,8 @@
   ],
   "ISO": {
     "alpha2": "TC",
-    "alpha3": "TCA"
+    "alpha3": "TCA",
+    "numeric": "796"
   },
   "name": "Turks and Caicos Islands",
   "altSpellings": [
@@ -15,5 +16,8 @@
   ],
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Grand_Turk"
+  ]
 }

@@ -206,7 +206,8 @@
   },
   "ISO": {
     "alpha2": "SB",
-    "alpha3": "SLB"
+    "alpha3": "SLB",
+    "numeric": "090"
   },
   "languages": [
     "en"
@@ -240,11 +241,14 @@
   ],
   "translations": {
     "de": "Salomonen",
-    "es": "Islas Salom\u00f3n",
-    "fr": "\u00celes Salomon",
-    "ja": "\u30bd\u30ed\u30e2\u30f3\u8af8\u5cf6",
+    "es": "Islas Salomón",
+    "fr": "Îles Salomon",
+    "ja": "ソロモン諸島",
     "it": "Isole Salomone"
   },
   "wiki": "http://en.wikipedia.org/wiki/solomon_islands",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Guadalcanal"
+  ]
 }

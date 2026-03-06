@@ -23,7 +23,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "GP",
-    "alpha3": "GLP"
+    "alpha3": "GLP",
+    "numeric": "312"
   },
   "languages": [
     "fr"
@@ -51,9 +52,12 @@
     "de": "Guadeloupe",
     "es": "Guadalupe",
     "fr": "Guadeloupe",
-    "ja": "\u30b0\u30a2\u30c9\u30eb\u30fc\u30d7",
+    "ja": "グアドループ",
     "it": "Guadeloupa"
   },
   "wiki": "http://en.wikipedia.org/wiki/guadeloupe",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Guadeloupe"
+  ]
 }

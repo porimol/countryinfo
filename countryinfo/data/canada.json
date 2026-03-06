@@ -3328,7 +3328,8 @@
   },
   "ISO": {
     "alpha2": "CA",
-    "alpha3": "CAN"
+    "alpha3": "CAN",
+    "numeric": "124"
   },
   "languages": [
     "en",
@@ -3358,23 +3359,51 @@
   "region": "Americas",
   "subregion": "Northern America",
   "timezones": [
-    "UTC\u221208:00",
-    "UTC\u221207:00",
-    "UTC\u221206:00",
-    "UTC\u221205:00",
-    "UTC\u221204:00",
-    "UTC\u221203:30"
+    "UTC−08:00",
+    "UTC−07:00",
+    "UTC−06:00",
+    "UTC−05:00",
+    "UTC−04:00",
+    "UTC−03:30"
   ],
   "tld": [
     ".ca"
   ],
   "translations": {
     "de": "Kanada",
-    "es": "Canad\u00e1",
+    "es": "Canadá",
     "fr": "Canada",
-    "ja": "\u30ab\u30ca\u30c0",
+    "ja": "カナダ",
     "it": "Canada"
   },
   "wiki": "http://en.wikipedia.org/wiki/canada",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "America/St_Johns",
+    "America/Halifax",
+    "America/Glace_Bay",
+    "America/Moncton",
+    "America/Goose_Bay",
+    "America/Toronto",
+    "America/Nipigon",
+    "America/Thunder_Bay",
+    "America/Iqaluit",
+    "America/Pangnirtung",
+    "America/Winnipeg",
+    "America/Rainy_River",
+    "America/Resolute",
+    "America/Rankin_Inlet",
+    "America/Regina",
+    "America/Swift_Current",
+    "America/Edmonton",
+    "America/Cambridge_Bay",
+    "America/Yellowknife",
+    "America/Inuvik",
+    "America/Creston",
+    "America/Dawson_Creek",
+    "America/Fort_Nelson",
+    "America/Whitehorse",
+    "America/Dawson",
+    "America/Vancouver"
+  ]
 }

@@ -3,7 +3,7 @@
   "altSpellings": [
     "CU",
     "Republic of Cuba",
-    "Rep\u00fablica de Cuba",
+    "República de Cuba",
     "CUB"
   ],
   "area": 109884,
@@ -211,7 +211,8 @@
   },
   "ISO": {
     "alpha2": "CU",
-    "alpha3": "CUB"
+    "alpha3": "CUB",
+    "numeric": "192"
   },
   "languages": [
     "es"
@@ -242,7 +243,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221205:00"
+    "UTC−05:00"
   ],
   "tld": [
     ".cu"
@@ -251,9 +252,12 @@
     "de": "Kuba",
     "es": "Cuba",
     "fr": "Cuba",
-    "ja": "\u30ad\u30e5\u30fc\u30d0",
+    "ja": "キューバ",
     "it": "Cuba"
   },
   "wiki": "http://en.wikipedia.org/wiki/cuba",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Havana"
+  ]
 }

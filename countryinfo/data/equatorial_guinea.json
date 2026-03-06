@@ -3,9 +3,9 @@
   "altSpellings": [
     "GQ",
     "Republic of Equatorial Guinea",
-    "Rep\u00fablica de Guinea Ecuatorial",
-    "R\u00e9publique de Guin\u00e9e \u00e9quatoriale",
-    "Rep\u00fablica da Guin\u00e9 Equatorial",
+    "República de Guinea Ecuatorial",
+    "République de Guinée équatoriale",
+    "República da Guiné Equatorial",
     "GNQ"
   ],
   "area": 28051,
@@ -75,7 +75,8 @@
   },
   "ISO": {
     "alpha2": "GQ",
-    "alpha3": "GNQ"
+    "alpha3": "GNQ",
+    "numeric": "226"
   },
   "languages": [
     "es",
@@ -105,12 +106,15 @@
     ".gq"
   ],
   "translations": {
-    "de": "\u00c4quatorial-Guinea",
+    "de": "Äquatorial-Guinea",
     "es": "Guinea Ecuatorial",
-    "fr": "Guin\u00e9e-\u00c9quatoriale",
-    "ja": "\u8d64\u9053\u30ae\u30cb\u30a2",
+    "fr": "Guinée-Équatoriale",
+    "ja": "赤道ギニア",
     "it": "Guinea Equatoriale"
   },
   "wiki": "http://en.wikipedia.org/wiki/equatorial_guinea",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Malabo"
+  ]
 }

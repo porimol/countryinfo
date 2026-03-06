@@ -2,10 +2,10 @@
   "name": "Tajikistan",
   "altSpellings": [
     "TJ",
-    "To\u00e7ikiston",
+    "Toçikiston",
     "Republic of Tajikistan",
-    "\u04b6\u0443\u043c\u04b3\u0443\u0440\u0438\u0438 \u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
-    "\u00c7umhuriyi To\u00e7ikiston",
+    "Ҷумҳурии Тоҷикистон",
+    "Çumhuriyi Toçikiston",
     "TJK"
   ],
   "area": 143100,
@@ -213,7 +213,8 @@
   },
   "ISO": {
     "alpha2": "TJ",
-    "alpha3": "TJK"
+    "alpha3": "TJK",
+    "numeric": "762"
   },
   "languages": [
     "tg",
@@ -223,7 +224,7 @@
     39,
     71
   ],
-  "nativeName": "\u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
+  "nativeName": "Тоҷикистон",
   "population": 8161000,
   "provinces": [
     "Viloyati Khatlon",
@@ -240,11 +241,14 @@
   ],
   "translations": {
     "de": "Tadschikistan",
-    "es": "Tayikist\u00e1n",
+    "es": "Tayikistán",
     "fr": "Tadjikistan",
-    "ja": "\u30bf\u30b8\u30ad\u30b9\u30bf\u30f3",
+    "ja": "タジキスタン",
     "it": "Tagikistan"
   },
   "wiki": "http://en.wikipedia.org/wiki/tajikistan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Dushanbe"
+  ]
 }

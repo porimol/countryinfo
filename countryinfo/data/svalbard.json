@@ -23,7 +23,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "SJ",
-    "alpha3": "SJM"
+    "alpha3": "SJM",
+    "numeric": "744"
   },
   "languages": [
     "no"
@@ -54,9 +55,12 @@
     "de": "Svalbard und Jan Mayen",
     "es": "Islas Svalbard y Jan Mayen",
     "fr": "Svalbard et Jan Mayen",
-    "ja": "\u30b9\u30f4\u30a1\u30fc\u30eb\u30d0\u30eb\u8af8\u5cf6\u304a\u3088\u3073\u30e4\u30f3\u30de\u30a4\u30a8\u30f3\u5cf6",
+    "ja": "スヴァールバル諸島およびヤンマイエン島",
     "it": "Svalbard e Jan Mayen"
   },
   "wiki": "http://en.wikipedia.org/wiki/svalbard",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Arctic/Longyearbyen"
+  ]
 }

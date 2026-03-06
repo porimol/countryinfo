@@ -207,7 +207,8 @@
   },
   "ISO": {
     "alpha2": "BW",
-    "alpha3": "BWA"
+    "alpha3": "BWA",
+    "numeric": "072"
   },
   "languages": [
     "en",
@@ -247,9 +248,12 @@
     "de": "Botswana",
     "es": "Botsuana",
     "fr": "Botswana",
-    "ja": "\u30dc\u30c4\u30ef\u30ca",
+    "ja": "ボツワナ",
     "it": "Botswana"
   },
   "wiki": "http://en.wikipedia.org/wiki/botswana",
-  "intermediateregion": "Southern Africa"
+  "intermediateregion": "Southern Africa",
+  "timezoneNames": [
+    "Africa/Gaborone"
+  ]
 }

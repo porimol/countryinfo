@@ -3,7 +3,7 @@
   "altSpellings": [
     "CM",
     "Republic of Cameroon",
-    "R\u00e9publique du Cameroun",
+    "République du Cameroun",
     "CMR"
   ],
   "area": 475442,
@@ -18,7 +18,7 @@
   "callingCodes": [
     "237"
   ],
-  "capital": "Yaound\u00e9",
+  "capital": "Yaoundé",
   "capital_latlng": [
     3.868987,
     11.521334
@@ -293,7 +293,8 @@
   },
   "ISO": {
     "alpha2": "CM",
-    "alpha3": "CMR"
+    "alpha3": "CMR",
+    "numeric": "120"
   },
   "languages": [
     "en",
@@ -327,11 +328,14 @@
   ],
   "translations": {
     "de": "Kamerun",
-    "es": "Camer\u00fan",
+    "es": "Camerún",
     "fr": "Cameroun",
-    "ja": "\u30ab\u30e1\u30eb\u30fc\u30f3",
+    "ja": "カメルーン",
     "it": "Camerun"
   },
   "wiki": "http://en.wikipedia.org/wiki/cameroon",
-  "intermediateregion": "Middle Africa"
+  "intermediateregion": "Middle Africa",
+  "timezoneNames": [
+    "Africa/Douala"
+  ]
 }

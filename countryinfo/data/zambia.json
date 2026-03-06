@@ -294,7 +294,8 @@
   },
   "ISO": {
     "alpha2": "ZM",
-    "alpha3": "ZMB"
+    "alpha3": "ZMB",
+    "numeric": "894"
   },
   "languages": [
     "en"
@@ -328,9 +329,12 @@
     "de": "Sambia",
     "es": "Zambia",
     "fr": "Zambie",
-    "ja": "\u30b6\u30f3\u30d3\u30a2",
+    "ja": "ザンビア",
     "it": "Zambia"
   },
   "wiki": "http://en.wikipedia.org/wiki/zambia",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Lusaka"
+  ]
 }

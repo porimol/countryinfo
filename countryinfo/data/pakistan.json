@@ -2,9 +2,9 @@
   "name": "Pakistan",
   "altSpellings": [
     "PK",
-    "P\u0101kist\u0101n",
+    "Pākistān",
     "Islamic Republic of Pakistan",
-    "Isl\u0101m\u012b Jumh\u016briya'eh P\u0101kist\u0101n",
+    "Islāmī Jumhūriya'eh Pākistān",
     "PAK"
   ],
   "area": 881912,
@@ -312,7 +312,8 @@
   },
   "ISO": {
     "alpha2": "PK",
-    "alpha3": "PAK"
+    "alpha3": "PAK",
+    "numeric": "586"
   },
   "languages": [
     "en",
@@ -342,11 +343,14 @@
   ],
   "translations": {
     "de": "Pakistan",
-    "es": "Pakist\u00e1n",
+    "es": "Pakistán",
     "fr": "Pakistan",
-    "ja": "\u30d1\u30ad\u30b9\u30bf\u30f3",
+    "ja": "パキスタン",
     "it": "Pakistan"
   },
   "wiki": "http://en.wikipedia.org/wiki/pakistan",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Asia/Karachi"
+  ]
 }

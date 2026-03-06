@@ -273,7 +273,8 @@
   },
   "ISO": {
     "alpha2": "LY",
-    "alpha3": "LBY"
+    "alpha3": "LBY",
+    "numeric": "434"
   },
   "languages": [
     "ar"
@@ -282,7 +283,7 @@
     25,
     17
   ],
-  "nativeName": "\u200f\u0644\u064a\u0628\u064a\u0627",
+  "nativeName": "‏ليبيا",
   "population": 6253000,
   "provinces": [
     "Ajdabiya",
@@ -323,9 +324,12 @@
     "de": "Libyen",
     "es": "Libia",
     "fr": "Libye",
-    "ja": "\u30ea\u30d3\u30a2",
+    "ja": "リビア",
     "it": "Libia"
   },
   "wiki": "http://en.wikipedia.org/wiki/libya",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Africa/Tripoli"
+  ]
 }

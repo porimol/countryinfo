@@ -3,7 +3,7 @@
   "altSpellings": [
     "CV",
     "Republic of Cabo Verde",
-    "Rep\u00fablica de Cabo Verde",
+    "República de Cabo Verde",
     "CPV",
     "Cabo Verde"
   ],
@@ -25,7 +25,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "CV",
-    "alpha3": "CPV"
+    "alpha3": "CPV",
+    "numeric": "132"
   },
   "languages": [
     "pt"
@@ -57,7 +58,7 @@
   "region": "Africa",
   "subregion": "Sub-Saharan Africa",
   "timezones": [
-    "UTC\u221201:00"
+    "UTC−01:00"
   ],
   "tld": [
     ".cv"
@@ -66,9 +67,12 @@
     "de": "Kap Verde",
     "es": "Cabo Verde",
     "fr": "Cap-Vert",
-    "ja": "\u30ab\u30fc\u30dc\u30d9\u30eb\u30c7",
+    "ja": "カーボベルデ",
     "it": "Capo Verde"
   },
   "wiki": "http://en.wikipedia.org/wiki/cape_verde",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Atlantic/Cape_Verde"
+  ]
 }

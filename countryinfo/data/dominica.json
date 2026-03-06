@@ -3,7 +3,7 @@
   "altSpellings": [
     "DM",
     "Dominique",
-    "Wai\u2018tu kubuli",
+    "Wai‘tu kubuli",
     "Commonwealth of Dominica",
     "DMA"
   ],
@@ -25,7 +25,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "DM",
-    "alpha3": "DMA"
+    "alpha3": "DMA",
+    "numeric": "212"
   },
   "languages": [
     "en"
@@ -51,7 +52,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221204:00"
+    "UTC−04:00"
   ],
   "tld": [
     ".dm"
@@ -60,9 +61,12 @@
     "de": "Dominica",
     "es": "Dominica",
     "fr": "Dominique",
-    "ja": "\u30c9\u30df\u30cb\u30ab\u56fd",
+    "ja": "ドミニカ国",
     "it": "Dominica"
   },
   "wiki": "http://en.wikipedia.org/wiki/dominica",
-  "intermediateregion": "Caribbean"
+  "intermediateregion": "Caribbean",
+  "timezoneNames": [
+    "America/Dominica"
+  ]
 }

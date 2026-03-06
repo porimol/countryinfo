@@ -300,7 +300,8 @@
   },
   "ISO": {
     "alpha2": "SS",
-    "alpha3": "SSD"
+    "alpha3": "SSD",
+    "numeric": "728"
   },
   "languages": [
     "en"
@@ -344,12 +345,15 @@
     ".ss"
   ],
   "translations": {
-    "de": "S\u00fcdsudan",
-    "es": "Sud\u00e1n del Sur",
+    "de": "Südsudan",
+    "es": "Sudán del Sur",
     "fr": "Soudan du Sud",
-    "ja": "\u5357\u30b9\u30fc\u30c0\u30f3",
+    "ja": "南スーダン",
     "it": "Sudan del Sud"
   },
   "wiki": "http://en.wikipedia.org/wiki/spain",
-  "intermediateregion": "Eastern Africa"
+  "intermediateregion": "Eastern Africa",
+  "timezoneNames": [
+    "Africa/Juba"
+  ]
 }

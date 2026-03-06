@@ -153,7 +153,8 @@
   },
   "ISO": {
     "alpha2": "LR",
-    "alpha3": "LBR"
+    "alpha3": "LBR",
+    "numeric": "430"
   },
   "languages": [
     "en"
@@ -191,9 +192,12 @@
     "de": "Liberia",
     "es": "Liberia",
     "fr": "Liberia",
-    "ja": "\u30ea\u30d9\u30ea\u30a2",
+    "ja": "リベリア",
     "it": "Liberia"
   },
   "wiki": "http://en.wikipedia.org/wiki/liberia",
-  "intermediateregion": "Western Africa"
+  "intermediateregion": "Western Africa",
+  "timezoneNames": [
+    "Africa/Monrovia"
+  ]
 }

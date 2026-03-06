@@ -23,7 +23,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "TO",
-    "alpha3": "TON"
+    "alpha3": "TON",
+    "numeric": "776"
   },
   "languages": [
     "en",
@@ -52,9 +53,12 @@
     "de": "Tonga",
     "es": "Tonga",
     "fr": "Tonga",
-    "ja": "\u30c8\u30f3\u30ac",
+    "ja": "トンガ",
     "it": "Tonga"
   },
   "wiki": "http://en.wikipedia.org/wiki/tonga",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Tongatapu"
+  ]
 }

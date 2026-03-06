@@ -2,9 +2,9 @@
   "name": "French Polynesia",
   "altSpellings": [
     "PF",
-    "Polyn\u00e9sie fran\u00e7aise",
+    "Polynésie française",
     "French Polynesia",
-    "P\u014dr\u012bnetia Far\u0101ni",
+    "Pōrīnetia Farāni",
     "PYF"
   ],
   "area": 4167,
@@ -12,7 +12,7 @@
   "callingCodes": [
     "689"
   ],
-  "capital": "Papeet\u0113",
+  "capital": "Papeetē",
   "capital_latlng": [
     -17.537384,
     -149.565996
@@ -25,7 +25,8 @@
   "geoJSON": {},
   "ISO": {
     "alpha2": "PF",
-    "alpha3": "PYF"
+    "alpha3": "PYF",
+    "numeric": "258"
   },
   "languages": [
     "fr"
@@ -34,7 +35,7 @@
     -15,
     -140
   ],
-  "nativeName": "Polyn\u00e9sie fran\u00e7aise",
+  "nativeName": "Polynésie française",
   "population": 268270,
   "provinces": [
     "Archipel des Marquises",
@@ -50,12 +51,17 @@
     ".pf"
   ],
   "translations": {
-    "de": "Franz\u00f6sisch-Polynesien",
+    "de": "Französisch-Polynesien",
     "es": "Polinesia Francesa",
-    "fr": "Polyn\u00e9sie fran\u00e7aise",
-    "ja": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
+    "fr": "Polynésie française",
+    "ja": "フランス領ポリネシア",
     "it": "Polinesia Francese"
   },
   "wiki": "http://en.wikipedia.org/wiki/french_polynesia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Pacific/Tahiti",
+    "Pacific/Marquesas",
+    "Pacific/Gambier"
+  ]
 }

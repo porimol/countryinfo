@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "countryinfo"
+version = "1.0.0"
+description = "A Python module for returning data about countries, ISO info, and states/provinces within them."
+readme = "README.md"
+license = "MIT"
+authors = ["Porimol Chandro <porimolchandroroy@gmail.com>"]
+keywords = ["countryinfo", "country", "iso", "geography"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+packages = [{ include = "countryinfo" }]
+include = [
+    "countryinfo/data/*.json",
+    "countryinfo/data_no_iso/*.json",
+    "countryinfo/py.typed",
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/porimol/countryinfo"
+Repository = "https://github.com/porimol/countryinfo"
+"Bug Tracker" = "https://github.com/porimol/countryinfo/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+rapidfuzz = { version = ">=3.0", optional = true }
+pydantic = { version = ">=2.0", optional = true }
+
+[tool.poetry.extras]
+fuzzy   = ["rapidfuzz"]
+pydantic = ["pydantic"]
+all     = ["rapidfuzz", "pydantic"]
+
+[tool.poetry.scripts]
+countryinfo = "countryinfo.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -428,7 +428,8 @@
   },
   "ISO": {
     "alpha2": "ZA",
-    "alpha3": "ZAF"
+    "alpha3": "ZAF",
+    "numeric": "710"
   },
   "languages": [
     "af",
@@ -468,12 +469,15 @@
     ".za"
   ],
   "translations": {
-    "de": "Republik S\u00fcdafrika",
-    "es": "Rep\u00fablica de Sud\u00e1frica",
+    "de": "Republik Südafrika",
+    "es": "República de Sudáfrica",
     "fr": "Afrique du Sud",
-    "ja": "\u5357\u30a2\u30d5\u30ea\u30ab",
+    "ja": "南アフリカ",
     "it": "Sud Africa"
   },
   "wiki": "http://en.wikipedia.org/wiki/south_africa",
-  "intermediateregion": "Southern Africa"
+  "intermediateregion": "Southern Africa",
+  "timezoneNames": [
+    "Africa/Johannesburg"
+  ]
 }

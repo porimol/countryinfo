@@ -114,7 +114,8 @@
   },
   "ISO": {
     "alpha2": "EE",
-    "alpha3": "EST"
+    "alpha3": "EST",
+    "numeric": "233"
   },
   "languages": [
     "et"
@@ -154,9 +155,12 @@
     "de": "Estland",
     "es": "Estonia",
     "fr": "Estonie",
-    "ja": "\u30a8\u30b9\u30c8\u30cb\u30a2",
+    "ja": "エストニア",
     "it": "Estonia"
   },
   "wiki": "http://en.wikipedia.org/wiki/estonia",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Tallinn"
+  ]
 }

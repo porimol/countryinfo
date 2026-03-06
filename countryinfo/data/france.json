@@ -3,7 +3,7 @@
   "altSpellings": [
     "FR",
     "French Republic",
-    "R\u00e9publique fran\u00e7aise",
+    "République française",
     "FRA"
   ],
   "area": 640679,
@@ -277,7 +277,8 @@
   },
   "ISO": {
     "alpha2": "FR",
-    "alpha3": "FRA"
+    "alpha3": "FRA",
+    "numeric": "250"
   },
   "languages": [
     "fr"
@@ -315,12 +316,12 @@
   "region": "Europe",
   "subregion": "Western Europe",
   "timezones": [
-    "UTC\u221210:00",
-    "UTC\u221209:30",
-    "UTC\u221209:00",
-    "UTC\u221208:00",
-    "UTC\u221204:00",
-    "UTC\u221203:00",
+    "UTC−10:00",
+    "UTC−09:30",
+    "UTC−09:00",
+    "UTC−08:00",
+    "UTC−04:00",
+    "UTC−03:00",
     "UTC+01:00",
     "UTC+03:00",
     "UTC+04:00",
@@ -335,9 +336,12 @@
     "de": "Frankreich",
     "es": "Francia",
     "fr": "France",
-    "ja": "\u30d5\u30e9\u30f3\u30b9",
+    "ja": "フランス",
     "it": "Francia"
   },
   "wiki": "http://en.wikipedia.org/wiki/france",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Paris"
+  ]
 }

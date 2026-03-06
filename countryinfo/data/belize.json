@@ -123,7 +123,8 @@
   },
   "ISO": {
     "alpha2": "BZ",
-    "alpha3": "BLZ"
+    "alpha3": "BLZ",
+    "numeric": "084"
   },
   "languages": [
     "en",
@@ -146,7 +147,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221206:00"
+    "UTC−06:00"
   ],
   "tld": [
     ".bz"
@@ -155,9 +156,12 @@
     "de": "Belize",
     "es": "Belice",
     "fr": "Belize",
-    "ja": "\u30d9\u30ea\u30fc\u30ba",
+    "ja": "ベリーズ",
     "it": "Belize"
   },
   "wiki": "http://en.wikipedia.org/wiki/belize",
-  "intermediateregion": "Central America"
+  "intermediateregion": "Central America",
+  "timezoneNames": [
+    "America/Belize"
+  ]
 }

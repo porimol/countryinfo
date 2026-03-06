@@ -284,7 +284,8 @@
   },
   "ISO": {
     "alpha2": "DE",
-    "alpha3": "DEU"
+    "alpha3": "DEU",
+    "numeric": "276"
   },
   "languages": [
     "de"
@@ -325,12 +326,16 @@
     "de": "Deutschland",
     "es": "Alemania",
     "fr": "Allemagne",
-    "ja": "\u30c9\u30a4\u30c4",
+    "ja": "ドイツ",
     "it": "Germania",
     "nl": "Duitsland",
     "pl": "Niemcy",
     "da": "Tyskland"
   },
   "wiki": "http://en.wikipedia.org/wiki/germany",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Berlin",
+    "Europe/Busingen"
+  ]
 }

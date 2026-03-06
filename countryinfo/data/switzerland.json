@@ -149,7 +149,8 @@
   },
   "ISO": {
     "alpha2": "CH",
-    "alpha3": "CHE"
+    "alpha3": "CHE",
+    "numeric": "756"
   },
   "languages": [
     "de",
@@ -202,9 +203,12 @@
     "de": "Schweiz",
     "es": "Suiza",
     "fr": "Suisse",
-    "ja": "\u30b9\u30a4\u30b9",
+    "ja": "スイス",
     "it": "Svizzera"
   },
   "wiki": "http://en.wikipedia.org/wiki/switzerland",
-  "intermediateregion": ""
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Zurich"
+  ]
 }

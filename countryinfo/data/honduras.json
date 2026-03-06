@@ -3,7 +3,7 @@
   "altSpellings": [
     "HN",
     "Republic of Honduras",
-    "Rep\u00fablica de Honduras",
+    "República de Honduras",
     "HND"
   ],
   "area": 112492,
@@ -274,7 +274,8 @@
   },
   "ISO": {
     "alpha2": "HN",
-    "alpha3": "HND"
+    "alpha3": "HND",
+    "numeric": "340"
   },
   "languages": [
     "es"
@@ -308,7 +309,7 @@
   "region": "Americas",
   "subregion": "Latin America and the Caribbean",
   "timezones": [
-    "UTC\u221206:00"
+    "UTC−06:00"
   ],
   "tld": [
     ".hn"
@@ -317,9 +318,12 @@
     "de": "Honduras",
     "es": "Honduras",
     "fr": "Honduras",
-    "ja": "\u30db\u30f3\u30b8\u30e5\u30e9\u30b9",
+    "ja": "ホンジュラス",
     "it": "Honduras"
   },
   "wiki": "http://en.wikipedia.org/wiki/honduras",
-  "intermediateregion": "Central America"
+  "intermediateregion": "Central America",
+  "timezoneNames": [
+    "America/Tegucigalpa"
+  ]
 }
