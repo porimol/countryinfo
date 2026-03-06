@@ -1,0 +1,44 @@
+name: Publish to PyPI
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type 'publish' to confirm release to PyPI"
+        required: true
+
+jobs:
+  publish-pypi:
+    name: Build & publish to PyPI
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.confirm == 'publish' }}
+
+    environment:
+      name: pypi
+      url: https://pypi.org/p/countryinfo
+
+    permissions:
+      id-token: write  # required for OIDC trusted publisher
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
+      - name: Install dependencies
+        run: poetry install --no-dev
+
+      - name: Build package
+        run: poetry build
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1

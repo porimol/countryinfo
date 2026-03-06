@@ -1,4 +1,3 @@
-# coding=utf-8
 """Multi-strategy country name resolution.
 
 Priority (first match wins):
@@ -13,12 +12,19 @@ Priority (first match wins):
 Returns the canonical lowercase country name on success, or raises
 CountryNotFoundError.
 """
+
 from __future__ import annotations
+
+from typing import Any
 
 from .exceptions import CountryNotFoundError
 
 
-def resolve(identifier: str | int, countries: dict, iso_index: dict) -> str:
+def resolve(
+    identifier: str | int,
+    countries: dict[str, Any],
+    iso_index: dict[str, str],
+) -> str:
     """Resolve an identifier to a canonical lowercase country name.
 
     :param identifier: Country name, ISO code, or numeric ISO.
@@ -46,14 +52,15 @@ def resolve(identifier: str | int, countries: dict, iso_index: dict) -> str:
     for name, info in countries.items():
         alt = [s.lower() for s in info.get("altSpellings", [])]
         if lower in alt:
-            return name
+            return str(name)
         native = info.get("nativeName", "")
         if native and native.lower() == lower:
-            return name
+            return str(name)
 
     # 4. Fuzzy match (optional dep)
     try:
-        from rapidfuzz import process, fuzz  # type: ignore[import]
+        from rapidfuzz import fuzz, process
+
         result = process.extractOne(
             lower,
             list(countries.keys()),
@@ -61,7 +68,7 @@ def resolve(identifier: str | int, countries: dict, iso_index: dict) -> str:
             score_cutoff=80,
         )
         if result:
-            return result[0]
+            return str(result[0])
     except ImportError:
         pass
 

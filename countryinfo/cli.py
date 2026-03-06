@@ -1,4 +1,3 @@
-# coding=utf-8
 """CLI entry point for countryinfo.
 
 Usage::
@@ -10,6 +9,7 @@ Usage::
     countryinfo --filter language=ar
     countryinfo --filter currency=EUR region=Europe
 """
+
 from __future__ import annotations
 
 import argparse

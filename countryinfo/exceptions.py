@@ -1,6 +1,3 @@
-# coding=utf-8
-
-
 class CountryNotFoundError(LookupError):
     """Raised when a country cannot be resolved from the given identifier."""
 
