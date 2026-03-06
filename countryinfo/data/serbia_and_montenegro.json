@@ -1,0 +1,77 @@
+{
+  "name": "Serbia and Montenegro",
+  "altSpellings": [
+    "CS",
+    "SCG",
+    "Yugoslavia",
+    "Federal Republic of Yugoslavia",
+    "Union of Serbia and Montenegro"
+  ],
+  "area": 102173,
+  "borders": [
+    "ALB",
+    "BIH",
+    "HRV",
+    "HUN",
+    "MKD",
+    "ROU"
+  ],
+  "callingCodes": [
+    "381",
+    "382"
+  ],
+  "capital": "Belgrade",
+  "capital_latlng": [
+    44.8125,
+    20.4612
+  ],
+  "currencies": [
+    "CSD",
+    "EUR"
+  ],
+  "demonym": "Serbian/Montenegrin",
+  "flag": "",
+  "geoJSON": {},
+  "ISO": {
+    "alpha2": "CS",
+    "alpha3": "SCG",
+    "numeric": "891"
+  },
+  "languages": [
+    "sr",
+    "sq",
+    "bs"
+  ],
+  "latlng": [
+    44.0,
+    21.0
+  ],
+  "nativeName": "Srbija i Crna Gora",
+  "population": 10832545,
+  "provinces": [],
+  "region": "Europe",
+  "subregion": "Southern Europe",
+  "timezones": [
+    "UTC+01:00"
+  ],
+  "timezoneNames": [
+    "Europe/Belgrade",
+    "Europe/Podgorica"
+  ],
+  "tld": [
+    ".cs",
+    ".yu"
+  ],
+  "translations": {
+    "de": "Serbien und Montenegro",
+    "es": "Serbia y Montenegro",
+    "fr": "Serbie-et-Monténégro",
+    "it": "Serbia e Montenegro",
+    "ja": "セルビア・モンテネグロ",
+    "nl": "Servië en Montenegro",
+    "pt": "Sérvia e Montenegro",
+    "ru": "Сербия и Черногория",
+    "zh": "塞尔维亚和黑山"
+  },
+  "wiki": "https://en.wikipedia.org/wiki/Serbia_and_Montenegro"
+}
