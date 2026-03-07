@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "countryinfo"
-version = "1.0.0"
+version = "0.0.0"
 description = "A Python module for returning data about countries, ISO info, and states/provinces within them."
 readme = "README.md"
 license = "MIT"
@@ -23,6 +23,11 @@ include = [
     "countryinfo/data_no_iso/*.json",
     "countryinfo/py.typed",
 ]
+
+[tool.poetry-dynamic-versioning]
+enable = true
+style = "pep440"
+vcs = "git"
 
 [tool.poetry.urls]
 Homepage = "https://github.com/porimol/countryinfo"
@@ -101,5 +106,5 @@ show_missing = true
 skip_covered = false
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry-dynamic-versioning.backend"
