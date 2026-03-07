@@ -21,6 +21,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history needed for dynamic versioning
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,6 +34,9 @@ jobs:
         with:
           virtualenvs-create: true
           virtualenvs-in-project: true
+
+      - name: Install poetry-dynamic-versioning plugin
+        run: poetry self add "poetry-dynamic-versioning[plugin]"
 
       - name: Install dependencies
         run: poetry install --only main
