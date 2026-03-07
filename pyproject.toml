@@ -26,8 +26,9 @@ include = [
 
 [tool.poetry-dynamic-versioning]
 enable = true
-style = "pep440"
 vcs = "git"
+style = "pep440"
+format-jinja = "{% if distance == 0 %}{{ base }}{% else %}{{ base }}.post{{ distance }}.dev0{% endif %}"
 
 [tool.poetry.urls]
 Homepage = "https://github.com/porimol/countryinfo"
