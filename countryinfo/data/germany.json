@@ -288,7 +288,14 @@
     "numeric": "276"
   },
   "languages": [
-    "de"
+    "de",
+    "da",
+    "nds",
+    "dsb",
+    "frr",
+    "rom",
+    "stq",
+    "hsb"
   ],
   "latlng": [
     51,

@@ -387,10 +387,23 @@ country.geo_json()
 
 ### .languages()
 
-ISO 639-1 language codes.
+Returns the language codes recorded for the country. Lists include languages with
+national official status and selected formally recognized spoken languages, including
+regional, minority, and working languages. Recognition may apply only in a particular
+region or context; this flat list does not identify each language's status or
+jurisdiction, and the data is not a complete legal inventory for every country. The
+additions in this update exclude languages included solely through a constitutional
+schedule or official sign-language status.
+
+Codes use ISO 639-1 when it identifies the language accurately. Otherwise, the
+list uses ISO 639-2 terminology or ISO 639-3 codes, so codes can contain two or
+three letters. For example, the Philippines list includes `fil` for Filipino,
+alongside the two-letter code `en` for English. See [the language audit](LANGUAGE_AUDIT.md)
+for the scope and qualifications behind the additions.
 
 ```python
 CountryInfo("Singapore").languages()  # ['en', 'ms', 'ta', 'zh']
+CountryInfo("Philippines").languages()  # ['en', 'fil']
 
 # or
 country = CountryInfo("Singapore")

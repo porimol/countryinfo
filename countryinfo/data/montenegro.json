@@ -33,7 +33,12 @@
     "numeric": "499"
   },
   "languages": [
-    "cnr"
+    "cnr",
+    "sr",
+    "bs",
+    "sq",
+    "hr",
+    "rom"
   ],
   "latlng": [
     42.7044223,

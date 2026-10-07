@@ -107,7 +107,12 @@
     "numeric": "528"
   },
   "languages": [
-    "nl"
+    "nl",
+    "fy",
+    "li",
+    "nds",
+    "rom",
+    "yi"
   ],
   "latlng": [
     52.5,

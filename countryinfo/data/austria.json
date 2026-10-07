@@ -205,7 +205,13 @@
     "numeric": "040"
   },
   "languages": [
-    "de"
+    "de",
+    "hr",
+    "cs",
+    "hu",
+    "rom",
+    "sk",
+    "sl"
   ],
   "latlng": [
     47.33333333,

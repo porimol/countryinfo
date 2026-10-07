@@ -290,7 +290,11 @@
     "numeric": "231"
   },
   "languages": [
-    "am"
+    "am",
+    "aa",
+    "om",
+    "so",
+    "ti"
   ],
   "latlng": [
     8,

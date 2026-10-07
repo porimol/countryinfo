@@ -256,7 +256,16 @@
     "numeric": "724"
   },
   "languages": [
-    "es"
+    "es",
+    "an",
+    "ast",
+    "eu",
+    "ca",
+    "ext",
+    "fax",
+    "gl",
+    "oc",
+    "pt"
   ],
   "latlng": [
     40,
