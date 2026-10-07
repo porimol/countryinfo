@@ -1,0 +1,82 @@
+{
+  "name": "Kosovo",
+  "altSpellings": [
+    "Kosova",
+    "Kosovë",
+    "Republic of Kosovo",
+    "Косово",
+    "Metohija",
+    "Dardania"
+  ],
+  "area": 10887,
+  "borders": [
+    "ALB",
+    "MNE",
+    "MKD",
+    "SRB"
+  ],
+  "callingCodes": [
+    "383"
+  ],
+  "capital": "Pristina",
+  "capital_latlng": [
+    42.666667,
+    21.166667
+  ],
+  "currencies": [
+    "EUR"
+  ],
+  "demonym": "Kosovar",
+  "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Kosovo.png",
+  "ISO": {
+    "alpha2": "XK",
+    "alpha3": "XKX",
+    "numeric": ""
+  },
+  "languages": [
+    "sq",
+    "sr"
+  ],
+  "latlng": [
+    42.583333,
+    21.000000
+  ],
+  "nativeName": "Косово",
+  "population": 1585566,
+  "provinces": [
+    "District of Ferizaj (Rajoni i Ferizajit/Uroševački okrug)",
+    "District of Gjakova (Rajoni i Gjakovës/Đakovički okrug)",
+    "District of Gjilan (Rajoni i Gjilanit/Gnjilanski okrug)",
+    "District of Mitrovica (Rajoni i Mitrovicës/Kosovskomitrovački okrug)",
+    "District of Peja (Rajoni i Pejës/Pećki okrug)",
+    "District of Pristina (Rajoni i Prishtinës/Prištinski okrug)",
+    "District of Prizren (Rajoni i Prizrenit/Prizrenski okrug)"
+  ],
+  "region": "Europe",
+  "subregion": "Southeastern Europe",
+  "timezones": [
+    "UTC+01:00",
+    "UTC+02:00"
+  ],
+  "tld": [
+    ".xk"
+  ],
+  "translations": {
+    "de": "Kosovo",
+    "es": "Kosovo",
+    "fr": "Kosovo",
+    "ja": "コソボ",
+    "it": "Kosovo",
+    "nl": "Kosovo",
+    "pl": "Kosowo",
+    "da": "Kosovo",
+    "sq": "Kosova/Kosovë",
+    "sr": "Косово",
+    "tr": "Kosova"
+  },
+  "wiki": "https://en.wikipedia.org/wiki/Kosovo",
+  "intermediateregion": "",
+  "timezoneNames": [
+    "Europe/Belgrade"
+  ]
+}
