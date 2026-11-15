@@ -301,7 +301,10 @@
     "alpha3": "MYS",
     "numeric": "458"
   },
-  "languages": [],
+  "languages": [
+    "ms",
+    "en"
+  ],
   "latlng": [
     2.5,
     112.5

@@ -172,7 +172,7 @@ class CountryInfo:
         return cast(dict[str, Any], self._data().get("geoJSON", {}))
 
     def languages(self) -> list[str]:
-        """Returns official language codes (ISO 639-1)."""
+        """Returns codes for official and formally recognized languages."""
         return cast(list[str], self._data().get("languages", []))
 
     def latlng(self) -> list[float]:

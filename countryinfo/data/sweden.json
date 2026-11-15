@@ -345,7 +345,14 @@
     "numeric": "752"
   },
   "languages": [
-    "sv"
+    "sv",
+    "fi",
+    "smj",
+    "fit",
+    "se",
+    "rom",
+    "sma",
+    "yi"
   ],
   "latlng": [
     62,

@@ -279,7 +279,12 @@
     "numeric": "826"
   },
   "languages": [
-    "en"
+    "en",
+    "kw",
+    "ga",
+    "sco",
+    "gd",
+    "cy"
   ],
   "latlng": [
     54,
