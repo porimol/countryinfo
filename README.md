@@ -398,8 +398,9 @@ schedule or official sign-language status.
 Codes use ISO 639-1 when it identifies the language accurately. Otherwise, the
 list uses ISO 639-2 terminology or ISO 639-3 codes, so codes can contain two or
 three letters. For example, the Philippines list includes `fil` for Filipino,
-alongside the two-letter code `en` for English. See [the language audit](LANGUAGE_AUDIT.md)
-for the scope and qualifications behind the additions.
+alongside the two-letter code `en` for English. See
+[#92](https://github.com/porimol/countryinfo/pull/92) for the scope and qualifications
+behind the additions.
 
 ```python
 CountryInfo("Singapore").languages()  # ['en', 'ms', 'ta', 'zh']

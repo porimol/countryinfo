@@ -36,7 +36,8 @@ def filter_countries(**kwargs: str) -> list[CountryInfo]:
 
     - ``region`` — e.g. ``"Asia"``, ``"Europe"``
     - ``subregion`` — e.g. ``"South-eastern Asia"``
-    - ``language`` — ISO 639-1 code, e.g. ``"ar"`` (checks languages list)
+    - ``language`` — ISO 639 code (2 or 3 letters), e.g. ``"ar"`` or ``"fil"``
+      (checks languages list)
     - ``currency`` — ISO 4217 code, e.g. ``"EUR"`` (checks currencies list)
     - ``border`` — ISO alpha-3 code, e.g. ``"FRA"`` (countries that border it)
     - ``calling_code`` — e.g. ``"65"``
