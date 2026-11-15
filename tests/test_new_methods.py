@@ -1,5 +1,7 @@
 # coding=utf-8
 """Tests for new v1.0.0 methods: neighbors, timezone DST, numeric ISO, CLI."""
+from urllib.parse import parse_qs, urlparse
+
 import pytest
 from countryinfo import CountryInfo
 
@@ -65,4 +67,7 @@ def test_info_has_google():
     assert "Singapore" in info["google"]
 
 def test_google_method():
-    assert "google.com" in CountryInfo("Singapore").google()
+    url = urlparse(CountryInfo("Singapore").google())
+    assert url.scheme == "https"
+    assert url.hostname == "www.google.com"
+    assert parse_qs(url.query) == {"q": ["Singapore"]}
