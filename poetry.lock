@@ -7,7 +7,7 @@ description = "Reusable constraint types to use with typing.Annotated"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"pydantic\" or extra == \"all\""
+markers = "extra == \"all\" or extra == \"pydantic\""
 files = [
     {file = "annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53"},
     {file = "annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"},
@@ -373,14 +373,14 @@ pyflakes = ">=4.1.0,<4.2.0"
 
 [[package]]
 name = "flake8-bugbear"
-version = "26.11.9"
+version = "26.11.16"
 description = "A plugin for flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle."
 optional = false
 python-versions = ">=3.11"
 groups = ["lint"]
 files = [
-    {file = "flake8_bugbear-26.11.9-py3-none-any.whl", hash = "sha256:4befd940ee978f654e6eb621292adfe05e7c3ae9756141feb0a5894d3d0bc2bc"},
-    {file = "flake8_bugbear-26.11.9.tar.gz", hash = "sha256:83e0aa29f57925b25f20cf6e675d822f0558f775f529858eb92a4ac63281f741"},
+    {file = "flake8_bugbear-26.11.16-py3-none-any.whl", hash = "sha256:7259ebf6fcd7ec78e0e997325ee0922952468f190e2f284dfec6e915bcc45c2e"},
+    {file = "flake8_bugbear-26.11.16.tar.gz", hash = "sha256:a9c141dfad5f1b97e41d2d76360ebfc41072f1c7005e97db53ed700e0c292f82"},
 ]
 
 [package.dependencies]
@@ -829,7 +829,7 @@ description = "Data validation using Python type hints"
 optional = true
 python-versions = ">=3.10"
 groups = ["main"]
-markers = "extra == \"pydantic\" or extra == \"all\""
+markers = "extra == \"all\" or extra == \"pydantic\""
 files = [
     {file = "pydantic-2.14.3-py3-none-any.whl", hash = "sha256:3f7b347782ab7e4cf4c798496ae3a82787d9f21ec12676a9c564355eeef8daa8"},
     {file = "pydantic-2.14.3.tar.gz", hash = "sha256:1054f237f4d4733e5a30e1e2333bd33a2004ab9ab1510bd053a9a31bb48e232d"},
@@ -852,7 +852,7 @@ description = "Core functionality for Pydantic validation and serialization"
 optional = true
 python-versions = ">=3.10"
 groups = ["main"]
-markers = "extra == \"pydantic\" or extra == \"all\""
+markers = "extra == \"all\" or extra == \"pydantic\""
 files = [
     {file = "pydantic_core-2.50.4-cp310-cp310-macosx_10_12_x86_64.whl", hash = "sha256:83d2beac85b757bfc404c5c0612df51c4ef33bbb7be65cf4a96b4da7cbc4ff4f"},
     {file = "pydantic_core-2.50.4-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:76e0065998159244ff4c097a6c05ff08019c6fbb6e597a85846e73044f0215b3"},
@@ -1028,14 +1028,14 @@ windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
 name = "pylint"
-version = "4.1.3"
+version = "4.1.4"
 description = "python code static checker"
 optional = false
 python-versions = ">=3.10.0"
 groups = ["lint"]
 files = [
-    {file = "pylint-4.1.3-py3-none-any.whl", hash = "sha256:a85357cae24f33ad8d86c8f3daaa92c600ae4012b54a57299cee76000e9364cf"},
-    {file = "pylint-4.1.3.tar.gz", hash = "sha256:9928603068edfa0d1a3c167f174b099d4b97c3db75d32d0fcdd029770b4713a9"},
+    {file = "pylint-4.1.4-py3-none-any.whl", hash = "sha256:b39fcc762ec4a7fe385d01b8e170fd996847297cdc0e3850bdda1435c74cfd95"},
+    {file = "pylint-4.1.4.tar.gz", hash = "sha256:4c9176dc6c9f1b98b742195f01899b290369d5a27b4b41d1014c17f2f96b26f1"},
 ]
 
 [package.dependencies]
@@ -1256,7 +1256,7 @@ description = "rapid fuzzy string matching"
 optional = true
 python-versions = ">=3.11"
 groups = ["main"]
-markers = "extra == \"fuzzy\" or extra == \"all\""
+markers = "extra == \"all\" or extra == \"fuzzy\""
 files = [
     {file = "rapidfuzz-3.14.6-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:1c0dd0d765184366b6e213a8af3b0b3bb39dad27943bbfb193515d4ff96ac82a"},
     {file = "rapidfuzz-3.14.6-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:0c61cade182f130c9903231946bd1074539121721693a918e7b70382ae802bd8"},
@@ -1417,7 +1417,7 @@ files = [
     {file = "typing_extensions-4.16.0-py3-none-any.whl", hash = "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"},
     {file = "typing_extensions-4.16.0.tar.gz", hash = "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"},
 ]
-markers = {main = "extra == \"pydantic\" or extra == \"all\""}
+markers = {main = "extra == \"all\" or extra == \"pydantic\""}
 
 [[package]]
 name = "typing-inspection"
@@ -1426,7 +1426,7 @@ description = "Runtime typing introspection tools"
 optional = true
 python-versions = ">=3.10"
 groups = ["main"]
-markers = "extra == \"pydantic\" or extra == \"all\""
+markers = "extra == \"all\" or extra == \"pydantic\""
 files = [
     {file = "typing_inspection-0.4.5-py3-none-any.whl", hash = "sha256:bc210535442b39e1bf2805e0c7a17dfd6a4ace760c84c7f7d16245d23a6b1c39"},
     {file = "typing_inspection-0.4.5.tar.gz", hash = "sha256:7f16c411e7930dc79596d42ab44672a3fe5f60eb34b781a1647e7872363120c7"},
